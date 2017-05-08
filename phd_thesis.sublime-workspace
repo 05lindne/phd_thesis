@@ -1,0 +1,438 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"input",
+				"input{file}\tlatex-document"
+			],
+			[
+				"new",
+				"newcommand{cmd}[args]{def}\tlatex-document"
+			],
+			[
+				"usepacka",
+				"usepackage{package}\tlatex-document"
+			],
+			[
+				"texti",
+				"textit{text}\tlatex-document"
+			],
+			[
+				"sc",
+				"scan_z"
+			],
+			[
+				"scan",
+				"scan_xy"
+			],
+			[
+				"plot",
+				"plot_spectrum.py\t(plot_spectrum.py)"
+			],
+			[
+				"con",
+				"convert_spe.py"
+			],
+			[
+				"out",
+				"outfile2"
+			],
+			[
+				"convert",
+				"convert_countrate\t(plot_from_clicklist.sh)"
+			],
+			[
+				"my",
+				"my_filestub"
+			],
+			[
+				"c",
+				"countrate"
+			],
+			[
+				"df",
+				"df_range2"
+			],
+			[
+				"D",
+				"Documents\t(fit_spectrum.py)"
+			],
+			[
+				"cit",
+				"cite{keylist}\tlatex-document"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"Build: ",
+				"Build: Custom Quick Build"
+			],
+			[
+				"packsi",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"pdflatex",
+			"latexmk -pdf",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sarah/Dropbox/work/phd_thesis",
+		"/home/sarah/Dropbox/work/phd_thesis/appendices",
+		"/home/sarah/Dropbox/work/phd_thesis/conclusion",
+		"/home/sarah/Dropbox/work/phd_thesis/discussion",
+		"/home/sarah/Dropbox/work/phd_thesis/introduction",
+		"/home/sarah/Dropbox/work/phd_thesis/methods",
+		"/home/sarah/Dropbox/work/phd_thesis/results",
+		"/home/sarah/Dropbox/work/phd_thesis/theory",
+		"/home/sarah/Dropbox/work/phd_thesis/title"
+	],
+	"file_history":
+	[
+		"/home/sarah/internet_addr_sublime.txt",
+		"/home/sarah/Dropbox/work/phd_thesis/results/sideband.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/emission_spectra.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/results.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/theory/theory.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/methods/methods.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/raman.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/tem.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/main.tex",
+		"/home/sarah/sticky@scollins/applet.js",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/emission_spectra.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/g2.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/results/blinking.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/introduction/introduction.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/appendices/appendices.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/appendices/appendixA.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/methods/methods.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/preamble/preamble.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/title/title.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/preamble/preamble_thesis.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/discussion/discussion.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/conclusion/conclusion.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/commands/commands.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/introduction/introduction.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/commands/commands_physics.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/bibliography/bibliography.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/maintext/methods/methods.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/abstract/abstract.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/acknowledgements/acknowledgements.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/maintext/maintext.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/preamble/preamble.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/maintext/results/results.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/results.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/main.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/commands/commands_custom.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/commands/commands_physics.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/make_main",
+		"/home/sarah/Documents/my_programs/plot/countrate/convert_countrate.py",
+		"/home/sarah/Documents/my_programs/plot/countrate/plot_countrate.py",
+		"/home/sarah/Documents/my_programs/plot/g2/plot_g2.py",
+		"/home/sarah/.bin/plot_g2.py",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/raman.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/tem.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/sideband.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/conclusion/conclusion.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/blinking.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/g2.tex",
+		"/home/sarah/.bin/plot_",
+		"/home/sarah/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/commands/commands.tex",
+		"/home/sarah/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/bibliography/library.bib",
+		"/home/sarah/Dropbox/korea/internetadressen_visa.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/spectra/spectrum10_1.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/raman/spectrum10_raman_1200_3min_1_wavenumber_fitparam.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/raman/spectrum08_2_5mW_raman1200_5min_1_wavenumber_fitparam.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/raman/spectrum04_6mW_raman1200_1_wavenumber_fitparam.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/raman/spectrum02_raman_1.txt",
+		"/run/user/1000/gvfs/smb-share:server=agbecher022,share=daten/Sarah/VCSEL/A11/161207/spe_1.SPE",
+		"/home/sarah/Documents/my_programs/plot/spectrum/fit_raman.py",
+		"/home/sarah/Documents/my_programs/plot/latexplot/example_usage_latex_plot_sheet.tex",
+		"/home/sarah/Documents/tmp_print/compilation.tex",
+		"/home/sarah/Dropbox/work/tex/preamble.tex",
+		"/home/sarah/Documents/my_programs/plot/latexplot/example_usage_latex_plot_sheet.log",
+		"/home/sarah/Documents/tmp_print/example_usage_latex_plot_sheet.tex",
+		"/home/sarah/Dropbox/work/tex/commands_physics.tex",
+		"/home/sarah/Dropbox/work/tex/commands.tex",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161213/scan_xy/scan_xy-07.log",
+		"/home/sarah/Documents/measurements/SiV/milled/M02-16/160713/countrate/g2_sat113_5mW_countrate_0_03",
+		"/home/sarah/.remmina/remmina.pref",
+		"/home/sarah/Documents/measurements/VCSEL/A11/161207/scan_xy/scan_xy-02.log",
+		"/home/sarah/Dropbox/documents/cv2013.tex",
+		"/home/sarah/Dropbox/documents/cv/cv2016.tex",
+		"/home/sarah/Dropbox/work/korea/invitation_sang-yun_lee.txt",
+		"/home/sarah/Desktop/e_mail_korea.txt",
+		"/tmp/mozilla_sarah0/yue_resume.tex",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161202/spectra/spe_19_1.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161202/spectra/spe_18_1.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir02-16/161202/spectra/spe_8_1_fitparam.txt",
+		"/home/sarah/Documents/my_programs/plot/scan_xy/plot_scan_xy.py",
+		"/home/sarah/.bin/plot_spectrum.py",
+		"/home/sarah/Documents/my_programs/plot/countrate/plot_from_clicklist.sh",
+		"/home/sarah/.bin/convert_spe.py",
+		"/home/sarah/Documents/my_programs/plot/plot_all/plot_all.sh",
+		"/home/sarah/Documents/my_programs/plot/scan_z/plot_scan_z.py",
+		"/home/sarah/Documents/my_programs/plot/saturation/plot_saturation.py",
+		"/home/sarah/Documents/my_programs/plot/scan_xy/plot_xyscan.py",
+		"/home/sarah/Documents/my_programs/plot/spectrum/plot_spectrum.py",
+		"/run/user/1000/gvfs/smb-share:server=agbecherserver,share=backup/Benutzer/backup_sarah/my_programs/plot/plot_all.sh",
+		"/home/sarah/.config/freerdp/known_hosts",
+		"/home/sarah/Desktop/tmp",
+		"/home/sarah/Desktop/bommer1_conv.txt",
+		"/home/sarah/Desktop/g2_zu_EmitterNEU_2_0,05mW_FES700_Click_List1.txt",
+		"/home/sarah/Documents/mail/Würzburg/mail_andreas_muzha_12102015/mail_andreas_muzha_16092015.tex",
+		"/home/sarah/Documents/mail/WienTU/mail_sarah_skoff_09032016.tex",
+		"/home/sarah/Documents/measurements/NV/BASD/SIQ-BASD-NV-M-GL/140311/SIQ-BASD-NV-M_140311_scan_10_t60_1.txt",
+		"/home/sarah/Documents/projects/WASPS/D1.5/pics/Ir04-16_spectrum06_fitparam.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir8/141203/sat/sat_scan_xy-05_last3pointsdel_parameters_bkg.txt",
+		"/home/sarah/Documents/projects/WASPS/D1.5/pics/sat_scan_xy-05_last3pointsdel_parameters_bkg.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04_parameters.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04.txt",
+		"/home/sarah/.bashrc",
+		"/home/sarah/Documents/measurements/substrate/sapphire/161108/scan_z-09.log",
+		"/home/sarah/Documents/measurements/substrate/sapphire/161108/scan_z-10.log",
+		"/run/user/1000/gvfs/smb-share:server=agbecher022,share=d$/Sarah/sapphire/161108-01_2APD.txt",
+		"/home/sarah/Documents/projects/WASPS/D1.5/104-03_X22Y53_sat_2V_parameters_bkg.txt",
+		"/home/sarah/Documents/measurements/SiV/CVD/M05-13/analysis/emitter_104-13_X22Y53/sat_104-03_X22Y53_sat_5V_new_parameters.txt",
+		"/home/sarah/Documents/measurements/SiV/CVD/M05-13/analysis/emitter_104-13_X22Y53/sat_104-03_X22Y53_sat_5V_parameters.txt",
+		"/home/sarah/Documents/my_programs/plot/spectrum/plot_spectrum_spe.py",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04_edit.txt",
+		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04 (copy).txt",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/maintext.tex",
+		"/home/sarah/Documents/my_programs/plot/spectrum/convert_raman.py",
+		"/home/sarah/Documents/my_programs/plot/spectrum/convert_spe.py",
+		"/home/sarah/Downloads/linux-brprinter-installer-2.0.0-1",
+		"/home/sarah/.cache/.fr-9AXX2J/linux-brprinter-installer-2.0.0-1",
+		"/home/sarah/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/sarah/.config/sublime-text-3/Packages/Fold Comments/Default (Linux).sublime-keymap",
+		"/home/sarah/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
+		"/home/sarah/Downloads/framework.sh",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/bibliography/bibliography.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/discussion/discussion.tex",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/theory/theory.tex",
+		"/home/sarah/Documents/my_programs/plot/statistics/line_statistics_regression.py",
+		"/home/sarah/.config/sublime-text-3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/home/sarah/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/pics/best/paper_statistics_inlet.svg",
+		"/home/sarah/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"maintext/",
+			"linewidths",
+			"linewidth ",
+			"silicon",
+			"\\si ",
+			"\\si",
+			"mendeley",
+			"local_bib",
+			"remote_bib",
+			"among",
+			"}}",
+			"\\testbox{",
+			"shift",
+			",",
+			"indent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\lw{}s",
+			"\\lw ",
+			"\\Si",
+			"\\Si ",
+			"}",
+			"",
+			"."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 193.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
+	"project": "phd_thesis.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/work/phd_thesis/phd_thesis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

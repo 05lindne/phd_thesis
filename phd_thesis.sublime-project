@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_exclude_patterns": ["*.aux", ".directory", "*.bbl", "*.blg", "*.brf", "*.fdb_latexmk", "*.fls", "*.idx", "*.ilg", "*.ind", "*.lof", "*.lot", "*.out", "*.synctex.gz", "*.toc"]
+		}
+	]
+}

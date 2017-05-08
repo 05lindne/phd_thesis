@@ -1,0 +1,165 @@
+
+titlepage
+abstract/zusammenfassung
+danke schatz
+
+inhaltsverzeichnis
+
+* Chapter: 	Introduction:
+
+			Abstract: Generelle Einfuehrung. Key concepts fuer Diss. Motivation und Inhalt.
+			
+			Motivation aus der Quantenoptik.
+				Historischer Background + generelle introduction
+				Was isn Quantenoptik ueberhaupt?
+				Was sind Fabzentren ueberhaupt?
+				Warum interessiert sich irgendeiner dafuer?
+
+			Was sind Farbzentren in Diamanten?
+				Es gibt Farbzentren mit verschiedensten Atomen.
+				Relevant fuer diese Diss: Silizium.
+				interessant fuer anwendugen Kryptographie, ect.
+			Warum sind SiVs interessant?
+				Haben besondere spektrale eigenschaften, vielversprechend fuer quantum computing, ect.
+			
+			Gebrauch von fabzentren im Experiment
+				bulk
+					erklaerung
+					vorteile
+					nachteile
+
+				nanodiamanten
+					erklaerung
+					klassifizierung nach herstellung oder dotierungverfahren
+					vorteile
+						leicht an systeme zu koppeln
+						hohe emmision von floureszenzlicht
+						andere angenehme eigenschaften
+					nachteile
+
+			Motivation und Inhalt fuer die Diss:
+
+				Motivation:
+
+					Thema: sivs in nanodiamaten
+					forschungsfragen:
+						a) Eigenschaften von nanodiamanten
+						b) Kopplung an strukturen
+					warum is das interessant?
+					outlook
+
+				Ueberblick:
+
+					herstellung von nanodiamanten 
+					experimenteller aufbau fuer forschungsfragen
+					Details fuer a)
+					Details fuer b)
+					Discussion/Summary/Outlook
+				
+
+* Chapter: Herstellung von nanodiamanten
+
+			Abstract: Wir reden ueber verschiedene herstellungsverfahren und produkte in absteigender naturnaehe.
+
+			Detonation diamonds
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				vefahren
+				vorteile
+				nachteile
+
+			HPHT diamonds
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				vefahren
+				vorteile
+				nachteile	
+
+			CVD nanodiamaten
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				vefahren
+				vorteile
+				nachteile
+
+			Wetmilled diamonds
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				vefahren
+				vorteile
+				nachteile
+				
+
+* Chapter: Experimenteller Aufbau von Zeugs
+
+			Abstract: Zweck des Aufbaus, Aufbau fuer Floureszensmessungen. Details und Komponenten.
+
+			Was soll der Aufbau messen im hinblick auf forschungsfragen	
+				1) Spektrale eigenschaften von SiVs
+				2) Einzelphotonencharakter
+				3) Zaehlraten/Saettigungszaehlrate
+				4) Lokalisierung von Sivs
+				(5) Ramanmessungen)
+
+			Wie erreicht man das Ziel
+
+				confokalaufbau + komponenten
+				komponenten: 
+					Spektrometer --> 1) (5))
+					photodiode --> 3), 4)
+					HBT --> 2)
+
+			Finale Aufbau + Details zu Komponenten
+
+		
+* Chapter: SiV in nanodiamanten (spektrale verteilung)
+
+			Abstract vom papier: Welche eigenschaften haben SiVs die untersuchten dinger (verteilung)
+
+			kurz einleitung
+			motivation
+			zusaetzliche experimentelle details
+			einfuehrung theory
+
+			eigenschaft 1
+				theory
+				resultate
+				diskussion
+
+			eigentschaft n
+				theory
+				resultate
+				diskussion
+
+			gesamtdiskussion/outlook + ueberleitung zur Anwendung = Kopplung
+
+
+* Chapter: SiV + Structure (Koppeln)
+
+			Abstract: Kopplung von SiVs an optische Strukturen: Antennen + Vcsel
+
+			Antennen
+
+				kurze einleitung
+				motivation
+				zusaetzliche experimentelle details (nanomanipulator)
+				einfuehrung theory
+				resultate
+				diskussion/outlook
+
+			Vcsel
+
+				kurze einleitung
+				motivation
+				zusaetzliche experimentelle details
+				einfuehrung theory
+				resultate
+				diskussion/outlook
+
+* Chapter: Conclusions
+
+			Conculsion
+			Summary/Outlook
+			...
+
+Literaturverzeichnis
+
+Appendices
+
+

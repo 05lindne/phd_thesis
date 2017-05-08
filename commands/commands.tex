@@ -1,0 +1,36 @@
+%!TEX root = ../main.tex
+
+% a * after \newcommand oppresses linebreaks within command
+
+%editing commands---------------------------------------------------------------------------
+
+%switch personal comments on and off in output text
+\newcommand{\comments}[1]{ {\scriptsize #1 } } %on
+% \newcommand*{\comments}[1]{} %off
+
+%switch highlighting of passages that need revision on and off.
+% \newcommand{\verify}[1]{\colorbox{yellow}{#1}} %on
+\newcommand*{\verify}[1]{#1} %off
+
+% to switch on testboxes with solid lines, uncomment 2nd line and comment 1st ATTENTION: messes up placement of subfigures!
+% \newcommand{\testbox}[1]{\framebox{#1}} %on
+\newcommand{\testbox}[1]{#1} %off
+
+
+
+%Index entry and highlight the word.
+\newcommand*{\keyword}[1]{\emph{#1}\index{#1}\xspace}
+
+\newcommand{\boldindex}[1]{\textbf{\hyperpage{#1}}}%needed by command majorkeyword
+\newcommand*{\majorkeyword}[1]{\emph{#1}\index{#1|boldindex }\xspace}%Print the page number of the most important appearence of a keyword in bold face.
+
+\newcommand*{\majorindex}[1]{\index{#1|boldindex }\xspace}
+
+
+%------------math environment commands----------------------
+\newcommand*{\abs}[1]{\ensuremath{\lvert #1 \rvert } }
+
+
+
+
+

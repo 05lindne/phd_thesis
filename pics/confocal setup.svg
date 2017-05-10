@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-7 -24.9 595.3 841.9" enable-background="new -7 -24.9 595.3 841.9" xml:space="preserve">
+<g id="svg2" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" sodipodi:docname="confocal setup.svg" inkscape:version="0.91 r13725">
+	
+		<sodipodi:namedview  id="base" pagecolor="#ffffff" bordercolor="#666666" showgrid="true" inkscape:cy="229.6706" borderopacity="1.0" inkscape:zoom="11.313709" inkscape:cx="376.08052" inkscape:window-maximized="0" inkscape:window-y="0" inkscape:current-layer="layer1" inkscape:document-units="px" inkscape:pageopacity="0.0" inkscape:window-x="-2" inkscape:window-height="704" inkscape:window-width="1280" inkscape:pageshadow="2">
+		<inkscape:grid  type="xygrid" id="grid4150"></inkscape:grid>
+	</sodipodi:namedview>
+	<g>
+		<rect x="153.2" y="177.9" fill="#919191" width="15.5" height="28.9"/>
+		<g>
+			<path id="path4164" inkscape:connector-curvature="0" fill="none" stroke="#000000" d="M161.1,206.7c-3,12.5,0.2,22.6,16,16"/>
+			<rect id="rect4166" x="176.8" y="221.1" width="4" height="3.2"/>
+		</g>
+	</g>
+	<g>
+		<path id="path4164_2_" inkscape:connector-curvature="0" fill="none" stroke="#000000" d="M150.8,284.6c-3,12.5,0.2,22.6,16,16"/>
+		<rect id="rect4166_2_" x="166.4" y="299.1" width="4" height="3.2"/>
+	</g>
+	
+		<radialGradient id="path4202_6_" cx="155.7918" cy="-21.4629" r="2.5" gradientTransform="matrix(-9.277160e-03 5.467 2.4128 1.164382e-02 240.8082 -628.5515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202" fill="url(#path4202_6_)" cx="187.6" cy="222.8" rx="2.4" ry="12"/>
+	
+		<radialGradient id="rect4224_1_" cx="136.1414" cy="-19.8944" r="3.05" gradientTransform="matrix(-2.907086e-06 3.9239 9.0492 1.511496e-05 375.8636 -311.4166)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.5" style="stop-color:#AC5959;stop-opacity:0.6471"/>
+		<stop  offset="0.8" style="stop-color:#8A1515;stop-opacity:0.9098"/>
+		<stop  offset="1" style="stop-color:#800000"/>
+	</radialGradient>
+	
+		<rect id="rect4224" x="193.4" y="210.8" fill="url(#rect4224_1_)" stroke="#219A4B" stroke-width="0.1221" stroke-miterlimit="1" width="4.8" height="23.9"/>
+	
+		<radialGradient id="rect4292_3_" cx="324.6789" cy="-59.3157" r="3.05" gradientTransform="matrix(-2.8242 -2.9065 -15.5809 14.5409 355.5746 1903.4541)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4292" fill="url(#rect4292_3_)" points="373.2,104.5 369.7,107.8 352.4,90 355.9,86.8 	"/>
+	
+		<radialGradient id="rect4306_1_" cx="164.4958" cy="-58.0235" r="3.05" gradientTransform="matrix(-2.9065 2.8242 13.086 14.0219 1516.3635 446.3009)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4306" fill="url(#rect4306_1_)" points="286.2,86.9 289.5,90.4 271.7,107.6 268.5,104.1 	"/>
+	
+		<radialGradient id="rect4308_4_" cx="167.9032" cy="16.9262" r="3.05" gradientTransform="matrix(2.8242 2.9065 15.5809 -14.5409 -378.4975 -44.2791)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4308" fill="url(#rect4308_4_)" points="349.1,190.4 352.6,187.1 369.8,204.8 366.3,208.1 	"/>
+	
+		<radialGradient id="rect4310_1_" cx="168.2801" cy="-55.8615" r="3.05" gradientTransform="matrix(-2.9065 2.8242 13.086 14.0219 1445.7838 473.4702)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4310" fill="url(#rect4310_1_)" points="232.9,155.1 236.2,158.6 218.4,175.8 215.2,172.3 	"/>
+	
+		<radialGradient id="rect4312_1_" cx="172.5502" cy="-53.6614" r="3.05" gradientTransform="matrix(-2.9065 2.8242 13.086 14.0219 1433.3365 489.9158)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4312" fill="url(#rect4312_1_)" points="236.8,214.4 240.1,217.9 222.4,235.2 219.1,231.7 	"/>
+	
+		<radialGradient id="rect4346_3_" cx="130.366" cy="-18.1262" r="3.05" gradientTransform="matrix(-2.906829e-06 3.9583 47.2817 7.967408e-05 1241.9729 -319.8349)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.5" style="stop-color:#AC5959;stop-opacity:0.6471"/>
+		<stop  offset="0.8" style="stop-color:#8A1515;stop-opacity:0.9098"/>
+		<stop  offset="1" style="stop-color:#800000"/>
+	</radialGradient>
+	<rect id="rect4346" x="382.5" y="184.1" fill="url(#rect4346_3_)" width="4.8" height="24.1"/>
+	
+		<radialGradient id="rect4350_1_" cx="161.0359" cy="39.0617" r="3.05" gradientTransform="matrix(2.6901 2.6901 5.2411 -5.2411 -355.2673 -61.858)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4865" style="stop-color:#6B6BB5;stop-opacity:0.5765"/>
+		<stop  offset="1" style="stop-color:#000080"/>
+	</radialGradient>
+	<polygon id="rect4350" fill="url(#rect4350_1_)" points="273.5,159.4 275.4,157.4 291.9,173.8 289.9,175.8 	"/>
+	<g>
+		
+			<radialGradient id="rect4366_1_" cx="354.695" cy="68.0155" r="10.0503" gradientTransform="matrix(0.796 0 0 -5.1741 -1.3826 567.0844)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#4D4D4D;stop-opacity:0"/>
+			<stop  offset="1" style="stop-color:#4D4D4D"/>
+		</radialGradient>
+		<rect id="rect4366" x="273" y="203.2" fill="url(#rect4366_1_)" width="16" height="24"/>
+		
+			<radialGradient id="rect4384_1_" cx="357.4485" cy="-279.6079" r="10.0427" gradientTransform="matrix(-0.7169 -1.006175e-05 0 1.7525 537.355 719.4594)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#CCCCCC"/>
+			<stop  offset="1" style="stop-color:#333333"/>
+		</radialGradient>
+		<path id="rect4384" sodipodi:nodetypes="ccccccccc" inkscape:connector-curvature="0" fill="url(#rect4384_1_)" d="M273,227.1h16
+			h0l-3.5,4.3l-0.2-0.1h-8.2l-0.1,0L273,227.1L273,227.1z"/>
+	</g>
+	<g>
+		<polygon id="rect4405" points="275.4,235.1 291.4,235.1 291.4,235.1 286.5,239.1 286.5,239.1 270.5,239.1 270.5,239.1 
+			275.4,235.1 		"/>
+		<polygon id="rect4431" points="270.5,239.1 286.5,239.1 286.5,239.1 286.5,240 286.5,240 270.5,240 270.5,240 270.5,239.1 		"/>
+		<polygon id="rect4433" points="286.5,239 291.5,235.1 291.5,235.1 291.5,236.1 291.5,236.1 286.5,240 286.5,240 286.5,239 		"/>
+	</g>
+	<g>
+		<path id="path4164_1_" inkscape:connector-curvature="0" fill="none" stroke="#000000" d="M434.7,212.3c3-12.5-0.2-22.6-16-16"/>
+		<rect id="rect4166_1_" x="415.1" y="194.6" width="4" height="3.2"/>
+	</g>
+	
+		<radialGradient id="path4202_7_" cx="150.7334" cy="68.9279" r="2.5" gradientTransform="matrix(-9.277160e-03 5.467 2.4128 1.164382e-02 240.8082 -628.5515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202_1_" fill="url(#path4202_7_)" cx="405.7" cy="196.2" rx="2.4" ry="12"/>
+	
+		<radialGradient id="rect4292_4_" cx="267.2445" cy="133.5182" r="10.4298" gradientTransform="matrix(1 0 0 1 15.1633 -5.83)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="2.777398e-02" style="stop-color:#FCFCFC;stop-opacity:1.470387e-02"/>
+		<stop  offset="0.6931" style="stop-color:#B0B0B0;stop-opacity:0.367"/>
+		<stop  offset="1" style="stop-color:#929292;stop-opacity:0.5294"/>
+	</radialGradient>
+	<polygon id="rect4292_1_" fill="url(#rect4292_4_)" points="292.8,134.9 289.3,138.2 272,120.5 275.5,117.2 	"/>
+	<rect x="220" y="119.9" fill="#6767A5" width="26.3" height="19.3"/>
+	<g>
+		<g>
+			
+				<radialGradient id="SVGID_1_" cx="286.9948" cy="232.596" r="5.9885" gradientTransform="matrix(1 0 0 1 23.3333 0)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#AFA43F;stop-opacity:0.3"/>
+				<stop  offset="0.742" style="stop-color:#AFA43F"/>
+			</radialGradient>
+			<circle fill="url(#SVGID_1_)" cx="313.5" cy="231.7" r="6"/>
+			<polygon fill="#AFA43F" points="325.1,224.6 313.8,226.6 317,235.3 327,229.6 			"/>
+		</g>
+		<line fill="none" stroke="#AFA43F" stroke-miterlimit="10" x1="305.6" y1="234.1" x2="301.9" y2="235.3"/>
+		<line fill="none" stroke="#AFA43F" stroke-miterlimit="10" x1="307.2" y1="236.6" x2="303.8" y2="238.4"/>
+		<line fill="none" stroke="#AFA43F" stroke-miterlimit="10" x1="305" y1="231.5" x2="301.2" y2="231.9"/>
+	</g>
+	
+		<radialGradient id="rect4292_5_" cx="189.3832" cy="306.5652" r="10.4298" gradientTransform="matrix(1 0 0 1 15.1633 -5.83)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="2.777398e-02" style="stop-color:#FCFCFC;stop-opacity:1.470387e-02"/>
+		<stop  offset="0.6931" style="stop-color:#B0B0B0;stop-opacity:0.367"/>
+		<stop  offset="1" style="stop-color:#929292;stop-opacity:0.5294"/>
+	</radialGradient>
+	<polygon id="rect4292_2_" fill="url(#rect4292_5_)" points="214.9,308 211.4,311.2 194.2,293.5 197.7,290.2 	"/>
+	
+		<radialGradient id="rect4308_5_" cx="189.9455" cy="-1.0455" r="3.05" gradientTransform="matrix(2.8242 2.9065 15.5809 -14.5409 -217.4116 -194.6125)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4308_1_" fill="url(#rect4308_5_)" points="292.4,365.4 295.9,362.2 313.1,379.9 309.6,383.2 	"/>
+	
+		<radialGradient id="rect4308_6_" cx="173.6642" cy="-9.2403" r="3.05" gradientTransform="matrix(2.8242 2.9065 15.5809 -14.5409 -143.9599 -263.1613)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4308_2_" fill="url(#rect4308_6_)" points="192.2,368.7 195.7,365.5 212.9,383.2 209.4,386.4 	"/>
+	
+		<radialGradient id="rect4346_4_" cx="156.7773" cy="-26.7951" r="3.05" gradientTransform="matrix(-2.906829e-06 3.9583 47.2817 7.967408e-05 1573.416 -319.8344)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.5" style="stop-color:#AC5959;stop-opacity:0.6471"/>
+		<stop  offset="0.8" style="stop-color:#8A1515;stop-opacity:0.9098"/>
+		<stop  offset="1" style="stop-color:#800000"/>
+	</radialGradient>
+	<rect id="rect4346_1_" x="304.1" y="288.7" fill="url(#rect4346_4_)" width="4.8" height="24.1"/>
+	
+		<radialGradient id="rect4346_5_" cx="165.2294" cy="-26.7602" r="3.05" gradientTransform="matrix(-2.906829e-06 3.9583 47.2817 7.967408e-05 1572.0812 -319.8344)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.5" style="stop-color:#AC5959;stop-opacity:0.6471"/>
+		<stop  offset="0.8" style="stop-color:#8A1515;stop-opacity:0.9098"/>
+		<stop  offset="1" style="stop-color:#800000"/>
+	</radialGradient>
+	<rect id="rect4346_2_" x="304.4" y="322.1" fill="url(#rect4346_5_)" width="4.8" height="24.1"/>
+	
+		<radialGradient id="path4202_8_" cx="176.0513" cy="33.4766" r="2.5" gradientTransform="matrix(-9.277160e-03 5.467 2.4128 1.164382e-02 240.8082 -628.5515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202_2_" fill="url(#path4202_8_)" cx="320" cy="334.2" rx="2.4" ry="12"/>
+	
+		<radialGradient id="path4202_9_" cx="169.9317" cy="33.453" r="2.5" gradientTransform="matrix(-9.277160e-03 5.467 2.4128 1.164382e-02 240.8082 -628.5515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202_3_" fill="url(#path4202_9_)" cx="320" cy="300.7" rx="2.4" ry="12"/>
+	<rect x="344.5" y="291" fill="#919191" width="35.5" height="19.5"/>
+	<rect x="343.8" y="324.4" fill="#919191" width="35.5" height="19.5"/>
+	<rect x="286.3" y="405.1" fill="#919191" width="57.5" height="41"/>
+	
+		<radialGradient id="path4202_10_" cx="170.0514" cy="-22.7745" r="2.5" gradientTransform="matrix(-9.277160e-03 5.467 2.4128 1.164382e-02 240.8082 -628.5515)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202_4_" fill="url(#path4202_10_)" cx="184.3" cy="300.7" rx="2.4" ry="12"/>
+	<g>
+		<rect x="256.6" y="290.5" fill="#686868" width="19.7" height="19.7"/>
+		<polygon fill="#686868" points="281.1,315 261.4,315 256.6,310.2 276.2,310.2 		"/>
+		<polygon fill="#686868" points="276.2,290.5 276.2,310.2 281.1,315 281.1,295.3 		"/>
+	</g>
+	
+		<radialGradient id="path4202_11_" cx="173.2044" cy="55.609" r="2.5" gradientTransform="matrix(-5.467 -9.277159e-03 -1.164382e-02 2.4128 1247.2628 263.5674)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#2B9E66;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#219A4B"/>
+	</radialGradient>
+	<ellipse id="path4202_5_" fill="url(#path4202_11_)" cx="299.8" cy="396.2" rx="12" ry="2.4"/>
+	
+		<radialGradient id="rect4308_7_" cx="176.7307" cy="-1.2903" r="3.05" gradientTransform="matrix(2.8242 2.9065 15.5809 -14.5409 -215.2179 -196.6598)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="0.4" style="stop-color:#929292;stop-opacity:0.5294"/>
+		<stop  offset="1" style="stop-color:#333333"/>
+	</radialGradient>
+	<polygon id="rect4308_3_" fill="url(#rect4308_7_)" points="253.4,328.5 256.9,325.3 274.2,343 270.7,346.3 	"/>
+</g>
+<g id="Layer_2">
+	
+		<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="281" y1="237.6" x2="281" y2="98.1"/>
+	
+		<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="281" y1="98.2" x2="361.3" y2="98.2"/>
+	
+		<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="361.3" y1="98.2" x2="361.3" y2="196.1"/>
+	
+		<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="361.3" y1="196.1" x2="415.1" y2="196.1"/>
+	<line fill="none" stroke="#AFA43F" stroke-miterlimit="1" x1="280.7" y1="129.4" x2="246.4" y2="129.4"/>
+	<g>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="170.4" y1="300.7" x2="344.5" y2="300.7"/>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="266.4" y1="300.7" x2="266.4" y2="334.2"/>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="266.4" y1="334.2" x2="343.8" y2="334.2"/>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="204.5" y1="300.7" x2="204.5" y2="374.1"/>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="204.5" y1="374.2" x2="299.8" y2="374.2"/>
+		
+			<line fill="none" stroke="#932B2B" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="10" x1="299.8" y1="374.2" x2="299.8" y2="405.1"/>
+	</g>
+	
+		<line fill="none" stroke="#ED1C24" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="1" x1="180.8" y1="222.9" x2="227.5" y2="222.9"/>
+	
+		<line fill="none" stroke="#ED1C24" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="1" x1="227.5" y1="222.9" x2="227.5" y2="167.4"/>
+	
+		<line fill="none" stroke="#ED1C24" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="1" x1="227.5" y1="167.4" x2="280.8" y2="167.4"/>
+	
+		<line fill="none" stroke="#ED1C24" stroke-linecap="round" stroke-linejoin="bevel" stroke-miterlimit="1" x1="280.8" y1="167.4" x2="280.8" y2="236.6"/>
+</g>
+<g id="Layer_3">
+	<text transform="matrix(1 0 0 1 222.25 114.6102)" font-family="'MyriadPro-Regular'" font-size="12">CCD</text>
+	<text transform="matrix(1 0 0 1 142.23 155.7769)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">cw Laser</tspan><tspan x="3.9" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">660nm</tspan></text>
+	<text transform="matrix(1 0 0 1 280.7906 459.7769)" font-family="'MyriadPro-Regular'" font-size="12">Spectrometer</text>
+	<text transform="matrix(1 0 0 1 385.5625 304.2572)" font-family="'MyriadPro-Regular'" font-size="12">APD1</text>
+	<text transform="matrix(1 0 0 1 385.5625 337.7132)" font-family="'MyriadPro-Regular'" font-size="12">APD2</text>
+	<text transform="matrix(1 0 0 1 261.7902 283.4436)" font-family="'MyriadPro-Regular'" font-size="12">BS</text>
+	<text transform="matrix(1 0 0 1 194.0441 271.4436)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">flip</tspan><tspan x="-7.6" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">mirror</tspan></text>
+	<text transform="matrix(1 0 0 1 302.3032 125.1102)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">flip</tspan><tspan x="-7.6" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">mirror</tspan></text>
+	<text transform="matrix(1 0 0 1 328 240.1102)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">white light</tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">source</tspan></text>
+	<text transform="matrix(1 0 0 1 296.5742 165.1102)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="12">glass </tspan><tspan x="0" y="14.4" font-family="'MyriadPro-Regular'" font-size="12">plate</tspan></text>
+	<text transform="matrix(1 0 0 1 291.75 210.3602)" font-family="'MyriadPro-Regular'" font-size="12">objective</text>
+	<text transform="matrix(1 0 0 1 368 180.1102)" font-family="'MyriadPro-Regular'" font-size="12">LP filter</text>
+</g>
+</svg>

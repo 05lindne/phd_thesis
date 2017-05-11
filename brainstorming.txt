@@ -17,10 +17,11 @@ inhaltsverzeichnis
 
 			Was sind Farbzentren in Diamanten?
 				Es gibt Farbzentren mit verschiedensten Atomen.
-				Relevant fuer diese Diss: Silizium.
 				interessant fuer anwendugen Kryptographie, ect.
+				Relevant fuer diese Diss: Silizium.
 			Warum sind SiVs interessant?
-				Haben besondere spektrale eigenschaften, vielversprechend fuer quantum computing, ect.
+				Haben besondere spektrale eigenschaften 
+				vielversprechend fuer quantum computing (spin-selective optical system), ect.
 			
 			Gebrauch von fabzentren im Experiment
 				bulk

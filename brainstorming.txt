@@ -107,6 +107,16 @@ inhaltsverzeichnis
 
 			Finale Aufbau + Details zu Komponenten
 
+				vertikaler aufbau
+				general setup
+					sample stage
+					excitation path
+					detection path
+						glass plate 
+				variant
+					white light
+					green light -> Raman
+
 		
 * Chapter: SiV in nanodiamanten (spektrale verteilung)
 

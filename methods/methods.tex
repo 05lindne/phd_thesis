@@ -7,11 +7,12 @@
 	For this aim, a home-built confocal setup is used, which is described in this chapter.
 
 	The confocal setup serves to perform a series of measurements on \fl: scanning the sample to find \sivs, recording luminescence spectra of the aforementioned, determine the saturation count rate \todo{saturation already introduced?}, and determine whether the emitter in question is a single emitter by performing photon autocorrelation measurements.
-	The two key components for these measurements are 
+	The key components for these measurements are 
 
 	\begin{itemize}
-		\item A Hanbury-Brown and Twiss setup to investigate the single photon character. It is built up of two avalanche photo diodes (APDs) which also serve to scan the sample in order to find emitters on the sample surface; and to perform saturation measurements.
-		\item A grating spectrometer to investigate the spectral properties.
+		\item The confocal unit which serves to excite the emitters and collect the \fl and move the sample while scanning.
+		\item A grating spectrometer to investigate the spectral properties of the emitters. This is crucial to distinguish between \sivs, other \ccs and "dirt".
+		\item A \keyword{\HBT} (\hbt) setup to investigate the single photon character. It is built up of two avalanche photo diodes (APDs) which also serve to scan the sample in order to find emitters on the sample surface; and to perform saturation measurements.
 	\end{itemize}
 
 
@@ -29,43 +30,78 @@
 		\label{fig::hbt_spectrometer}
 	\end{figure}
 
-	\autoref{fig::confocal_setup} depicts a sketch of the confocal setup. 
-	Except for the laser and the sample stage, the whole setup is fixed to a vertical breadboard. 
-	This design allows for easy exchanging of the samples, without the need of gluing them to a vertical stage.
+	\section[Confocal Unit]{Confocal Unit}
 
-	The friction between the sample and the aluminum surface of the stage is sufficient that the sample does not move during scanning.
-	If it is important that the sample has a a defined orientation, it is put inside of an aluminum angle.
-	The stage is powered with two stepper motors (\todo{type}) in the horizontal x and y directions.
-	The objective is fixed to another stage which in turn is fixed to the vertical breadboard.
-	In this way, the vertical z direction is implemented for focusing the laser light on the sample.
+		\autoref{fig::confocal_setup} depicts a sketch of the confocal setup. 
+		Except for the laser and the sample stage, the whole setup is fixed to a vertical breadboard. 
+		This design allows for easy scanning and exchanging of the samples, without the need of gluing them to a vertical stage.
+		The friction between the sample and the aluminum surface of the stage is sufficient that the sample does not move during scanning.
+		If it is important that the sample has a a defined orientation, it is put inside of an aluminum angle.
+		The stage is powered with two stepper motors (\todo{type}) in the horizontal x and y directions.
+		The objective is fixed to another stage which in turn is fixed to the vertical breadboard.
+		In this way, the vertical z direction is implemented for focusing the laser light on the sample.
+		Therefore, a three-axis scanning of the sample is implemented.
 
-	The bright red color at the left-hand side of the sketch represents the excitation beam path.
-	The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) which emits at a wavelength of \SI{660}{\nano\meter}.
-	The outlet of the light is through a pigtail fiber, the light is outcoupled and collimated exploiting an aspheric lens.
-	To suppress sideband emission from the laser, a bandpass filter with a window of  \SI{10}{\nm} around a center of \SI{660}{\nm} is used.
-	The excitation beam then hits a glass plate (fabricator Halle Germany \todo{thickness}) to be guided through a microscope objective and focused on the sample.
-	The microscope objective is of the type Olympus, LMPlanFLN 100x and has a numerical aperture of 0.8.
-	As the luminescence light from the emitter is in the same focus as the excitation laser light, it is effectively collected by the objective.
-	Hence also the name confocal setup.
+		The bright red color at the left-hand side of the sketch represents the excitation beam path.
+		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) which emits at a \wl of \SI{660}{\nano\meter}.
+		The outlet of the light is through a pigtail fiber, the light is outcoupled and collimated exploiting an aspheric lens.
+		To suppress sideband emission from the laser, a bandpass filter with a window of  \SI{10}{\nm} around a center of \SI{660}{\nm} is used.
+		The excitation beam then hits a glass plate (fabricator Halle Germany \todo{thickness}) to be guided through a microscope objective and focused on the sample.
+		The microscope objective is of the type Olympus, LMPlanFLN 100x and has a numerical aperture of 0.8.
+		As the luminescence light from the emitter is in the same focus as the excitation laser light, it is effectively collected by the objective (hence "confocal setup").
 
-	The collected light then follows the detection beam path depicted in a dark red color in \autoref{fig::confocal_setup}.
-	Both the excitation light reflected from the sample surface and the \fl pass through the glass plate.
-	In the usual useage, the flip mirror just after the beamsplitter is lowered, allowing the light coming from the sample to move on towards a single mode fiber. 
-	In front of the \smf there is a longpass filter to filter out the residual excitation light and also ambient light.
-	The \fl is fed into a single-mode fiber (Thorlabs SM600) with an aspheric lens.
-	The single-mode fiber serves two purpuses: First, to connect the confocal microscope with the \hbt setup and the spectrometer.
-	Second, its about \SI{4.3}{\micro\meter} diameter serves as a pinhole to ensure to collect only \fl in the focal spot \todo(besser erklären).
+		The collected light then follows the detection beam path depicted in a dark red color in \autoref{fig::confocal_setup}.
+		Both the excitation light reflected from the sample surface and the \fl pass through the glass plate.
+		In the usual useage, the flip mirror just after the beamsplitter is lowered, allowing the light coming from the sample to move on towards a single mode fiber. 
+		In front of the \smf there is a longpass filter of a cutoff \wl of \SI{710}{\nm} or \SI{720}{\nm} to filter out the residual excitation light and also ambient light.
+		The \fl is fed into a single-mode fiber (Thorlabs SM600) with an aspheric lens.
+		The single-mode fiber serves two purpuses: First, to connect the confocal microscope with the \hbt setup and the spectrometer.
+		Second, its about \SI{4.3}{\micro\meter} diameter serves as a pinhole to ensure optimal resolution. 
+		In the direction of the optical axis the resolution amounts to \todo{value}, in the plane of the sample it is \todo{value}.
+		\todo{short discussion if resolution is enough}
 
-	According to the experimental necessities, instead of the mentioned glass plate a dichroic mirror (\todo{which?}) can be employed.
-	The glass plate features a high transmission of 90\%  and therefore a high collection efficiency of \fl, the dichroic mirror allows for a higher excitation intensity using the same excitation laser. 
-	However, a high excitation intensity may cause permanent fluorescence intermittence of the \sivs (for further detail, refer to \todo{insert chapter}).
-	In general, if a high excitation is necessary, for instance for saturation measurements \todo{saturation already introduced?}, the dichroic mirror is used; otherwise, the glass plate is used to collect as much \fl as possible.
+		According to the experimental necessities, instead of the mentioned glass plate a dichroic mirror (\todo{which?}) can be employed.
+		The glass plate features a high transmission of 90\%  and therefore a high collection efficiency of \fl, the dichroic mirror allows for a higher excitation intensity using the same excitation laser. 
+		However, a high excitation intensity may cause permanent fluorescence intermittence of the \sivs (for further detail, refer to \todo{insert chapter}).
+		In general, if a high excitation is necessary, for instance for saturation measurements \todo{saturation already introduced?}, the dichroic mirror is used; otherwise, the glass plate is used to collect as much \fl as possible.
 
-	Another feature of the setup is that it is possible to have a look at the sample surface before starting the fluorescence measurements.
-	For this purpose, the sample is illuminated with white light from a halogen lamp and the flip mirror after the glass plate is brought into an upright position to guide the light onto a CCD camera (\todo{specs}).
+	\section[Sample Surface]{Optical Imaging of The Sample Surface}
 
-	As mentioned before, the \fl is either investigated with a grating spectrometer or an \hbt setup.
-	The spectrometer is a Princeton Instruments Acton2500i \todo{?} spectrometer and features three gratings: 600 grooves/mm, 1200g/mm, 1800 g/mm \todo{right dimension?}.
+		Another feature of the setup is that it is possible to have a look at the sample surface before starting the fluorescence measurements.
+		For this purpose, the sample is illuminated with white light from a halogen lamp and the flip mirror after the glass plate is brought into an upright position to guide the light onto a CCD camera (\todo{specs}).
+		The scattered light from the sample surface is collected by the objective and the surface is shown on the CCD image.
+		Nanodiamonds and other features on the substrate are visible, the resolution of this setup is limited by \todo{optical diffraction, shadows}.
+		However, it suffices to find the markers of a dimension of \SI{10}{\micro\meter} which were milled into some substrates and to recognize characteristic patterns of the coated \nds.
+
+	\section[Spectrometer]{Spectrometer}
+
+		As mentioned before, the \fl from the \sivs is investigated with a grating spectrometer to evaluate the source of the \fl by comparing the measured spectrum to typical spectra from known sources.
+		The spectrometer is a Princeton Instruments Acton2500i \todo{?} spectrometer and features three gratings: \SI[per-mode=symbol]{600}{\lines\per\mm}, \SI[per-mode=symbol]{1200}{\lines\per\mm}, and \SI[per-mode=symbol]{1800}{\lines\per\mm} \todo{right dimension?}.
+		With a step-and-glue function of the spectrometer software (WinSpec) it is possible, to record several spectra over a wide \wl range which are then stiched together.
+		It is therefore possible to combine a larger \wl range with a higher resolution.
+		For most measurements the grating with \SI[per-mode=symbol]{600}{\lines\per\mm} was used. 
+
+	\section[HBT]{\HBT Setup}
+
+		An \majorkeyword{\HBT setup} serves to record the \keyword{photon autocorrelation function} (\keyword{\gt function}) of an emitter.
+		In the photon number representation, it is defined as follows:
+		\[
+		\gtz = \frac{ \mean{ N(t) N(t+\tau) } }{\mean{N(t)}^2}.
+		\]
+		Here, $N(t)$ denotes the photon at a certain time $t$, $N(t+\tau)$ denotes the photon at a timeintervall $\tau$ later than $t$.
+		The angular brackets $\mean{}$ denote the temporal averaging.
+		In this work, the \gtf is used to make statements about whether the emitter emits single photon and is therefore one single emitter.
+		The physical explanation is \todo{fox nachlesen} that if the emitter is a single emitter and emits at a time $t$, the next time any photon is recorded is at time $t+\tau$.
+		For a time interval close to zero, the value of the \gtf must ideally approach zero or at least be smaller than \num{0.5} if only a single emitter is present:
+		The denominator is zero, because $N(t + \tau) (\tau = 0)=0$ due to only one photon, namely $N(t)$ being present.
+		If two photons are emitted at the same time (time delay zero), the \gtf yields $\gtz=0.5$. 
+		(For a detailed explanation of the \gtf read \cite{fox})
+
+		The principle of the \hbt setup is to evaluate the time delay between two consecutive photons. 
+		The \hbt setup measures the \gt function as follows:
+		
+		components
+
 
 
 

@@ -19,10 +19,10 @@
 
 
 %Index entry and highlight the word.
-\newcommand*{\keyword}[1]{\emph{#1}\index{#1}\xspace}
+\newcommand*{\keyword}[1]{{#1}\index{#1}\xspace}
 
 \newcommand{\boldindex}[1]{\textbf{\hyperpage{#1}}}%needed by command majorkeyword
-\newcommand*{\majorkeyword}[1]{\emph{#1}\index{#1|boldindex }\xspace}%Print the page number of the most important appearence of a keyword in bold face.
+\newcommand*{\majorkeyword}[1]{{#1}\index{#1|boldindex }\xspace}%Print the page number of the most important appearence of a keyword in bold face.
 
 \newcommand*{\majorindex}[1]{\index{#1|boldindex }\xspace}
 

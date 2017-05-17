@@ -15,20 +15,22 @@
 		\item A \keyword{\HBT} (\hbt) setup to investigate the single photon character. It is built up of two avalanche photo diodes (APDs) which also serve to scan the sample in order to find emitters on the sample surface; and to perform saturation measurements.
 	\end{itemize}
 
-
 	\begin{figure}[t] %fig::confocal_setup
-		\centering
-		\includegraphics[width=\linewidth]{./pics/confocal_setup.eps}
-		\caption{Confocal setup}
-		\label{fig::confocal_setup}
-	\end{figure}
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\testbox{\includegraphics{./pics/confocal_setup_small.eps}}
+			\caption{Confocal setup}
+			\label{fig::confocal_setup}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\testbox{\includegraphics{./pics/hbt_spectrometer.eps}}
+			\caption{HBT, spectrometer}
+			\label{fig::hbt_spectrometer}
+		\end{minipage}
+	\end{figure}	
 
-	\begin{figure}[t] %fig::hbt_spectrometer
-		\centering
-		\includegraphics[width=\linewidth]{./pics/hbt_spectrometer.eps}
-		\caption{HBT, spectrometer}
-		\label{fig::hbt_spectrometer}
-	\end{figure}
 
 	\section[Confocal Unit]{Confocal Unit}
 
@@ -61,7 +63,9 @@
 		\todo{short discussion if resolution is enough}
 
 		According to the experimental necessities, instead of the mentioned glass plate a dichroic mirror (\todo{which?}) can be employed.
-		The glass plate features a high transmission of 90\%  and therefore a high collection efficiency of \fl, the dichroic mirror allows for a higher excitation intensity using the same excitation laser. 
+		A dichroic mirror spectrally separates the incident light by transmitting and reflecting it as a function of the wavelength. 
+		Hence, excitation light is separated from \fl.
+		The glass plate features a high transmission of 90\%\todo{check number} and therefore a high collection efficiency of \fl, whereas the dichroic mirror allows for a higher excitation intensity using the same excitation laser. 
 		However, a high excitation intensity may cause permanent fluorescence intermittence of the \sivs (for further detail, refer to \todo{insert chapter}).
 		In general, if a high excitation is necessary, for instance for saturation measurements \todo{saturation already introduced?}, the dichroic mirror is used; otherwise, the glass plate is used to collect as much \fl as possible.
 
@@ -75,11 +79,21 @@
 
 	\section[Spectrometer]{Spectrometer}
 
-		As mentioned before, the \fl from the \sivs is investigated with a grating spectrometer to evaluate the source of the \fl by comparing the measured spectrum to typical spectra from known sources.
-		The spectrometer is a Princeton Instruments Acton2500i \todo{?} spectrometer and features three gratings: \SI[per-mode=symbol]{600}{\lines\per\mm}, \SI[per-mode=symbol]{1200}{\lines\per\mm}, and \SI[per-mode=symbol]{1800}{\lines\per\mm} \todo{right dimension?}.
+		\autoref{fig::hbt_spectrometer} displays the detector part of the setup.
+		The \fl in the fiber coming from the confocal unit is outcoupled with an aspheric lens. 
+		A flip mirror is employed to direct the light either to a grating spectrometer or the \hbt setup.
+
+		As mentioned before, the \fl from the \sivs is investigated with the grating spectrometer to evaluate the source of the \fl by comparing the measured spectrum to typical spectra from known sources.
+		The spectrometer is a Princeton Instruments Acton2500i \todo{?} spectrometer.
+		The incident beam passes through an entrance slit, is then scattered on the grating where the light is spectrally divided and finally hits a detector, imaging the entrance slit on the detector surface.
+		The employed detector is a CCD camera ()\todo{type} which is cooled with liquid nitrogen for noise reduction.
+		It enables detection of light up to a \wl of \SI{1000}{nm}.
+		The spectrometer features three gratings: \SI[per-mode=symbol]{600}{\lines\per\mm}, \SI[per-mode=symbol]{1200}{\lines\per\mm}, and \SI[per-mode=symbol]{1800}{\lines\per\mm}.
 		With a step-and-glue function of the spectrometer software (WinSpec) it is possible, to record several spectra over a wide \wl range which are then stiched together.
 		It is therefore possible to combine a larger \wl range with a higher resolution.
 		For most measurements the grating with \SI[per-mode=symbol]{600}{\lines\per\mm} was used. 
+		The resolution of the spectrometer using the \SI{600}{\lines\per\mm} is \verify{xx} as stated by the manufacturer.
+		This resolution suffices for most of the measurements mentioned in this work.
 
 	\section[HBT]{\HBT Setup}
 
@@ -88,7 +102,7 @@
 		\[
 		\gtz = \frac{ \mean{ N(t) N(t+\tau) } }{\mean{N(t)}^2}.
 		\]
-		Here, $N(t)$ denotes the photon at a certain time $t$, $N(t+\tau)$ denotes the photon at a timeintervall $\tau$ later than $t$.
+		Here, $N(t)$ denotes the photon at a certain time $t$, $N(t+\tau)$ denotes the photon at a time interval $\tau$ later than $t$.
 		The angular brackets $\mean{}$ denote the temporal averaging.
 		In this work, the \gtf is used to make statements about whether the emitter emits single photon and is therefore one single emitter.
 		The physical explanation is \todo{fox nachlesen} that if the emitter is a single emitter and emits at a time $t$, the next time any photon is recorded is at time $t+\tau$.
@@ -98,9 +112,21 @@
 		(For a detailed explanation of the \gtf read \cite{fox})
 
 		The principle of the \hbt setup is to evaluate the time delay between two consecutive photons. 
-		The \hbt setup measures the \gt function as follows:
-		
-		components
+		The photons are detected with \apds of the type PicoQuant $\tau${}-SPAD 100 \todo{100?}.
+		These \apds have a nominal detection efficiency of up to 70\% at the optimal wavelength of about \SI{670}{\nm}, a dark count rate of under \SI{100}{\cps}, and a dead time to avoid afterpulsing of about \SI{70}{\ns}.
+		In the ideal case, one \APD would be enough to measure the time delay between two consecutive photons. 
+		However, the second of two consecutive photons could hit the detector during its dead time.
+		To circumvent this problem, two \APDs are employed and the detection beam is split with a non-polarizing 50:50 beamsplitter cube (\todo{type}).
+		Each beam then passes through a bandpass filter and is focused on the \apd with a lens \todo{welche?}.
+		The bandpass filters serve two \verify{reasons}:
+		First, they limit optical crosstalk between the \apds. 
+		The process of detection of an \apd produces light due to recombination of charge carriers. 
+		Crosstalk between two \apds occurs, if one of the photons produced by one \apd escapes and is detected in the other one \cite{Younger2009}.  
+		Secondly the bandpass filters serve to reduce \bkg during the \gt measurement process or to spectrally divide emission from several emitters.
+		Therefore, it is possible to find single emitters, which are not spatially seperated enough to be seperated with the spatial resolution of the setup, but can be spectrally seperated if their \ZPLs are apart enough that respective bandpass filters can be used to only investigate light from one \ZPL.
+
+
+		timing jitter, ttl pulses, time tagging module, algorithmus
 
 
 

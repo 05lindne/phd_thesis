@@ -75,7 +75,7 @@
 		For this purpose, the sample is illuminated with white light from a halogen lamp and the flip mirror after the glass plate is brought into an upright position to guide the light onto a CCD camera (\todo{specs}).
 		The scattered light from the sample surface is collected by the objective and the surface is shown on the CCD image.
 		Nanodiamonds and other features on the substrate are visible, the resolution of this setup is limited by \todo{optical diffraction, shadows}.
-		However, it suffices to find the markers of a dimension of \SI{10}{\micro\meter} which were milled into some substrates and to recognize characteristic patterns of the coated \nds.
+		However, it suffices to find the markers of a dimension of \SI{10}{\micro\meter} which are milled into some substrates and to recognize characteristic patterns of the coated \nds.
 
 	\section[Spectrometer]{Spectrometer}
 
@@ -118,6 +118,7 @@
 		However, the second of two consecutive photons could hit the detector during its dead time.
 		To circumvent this problem, two \APDs are employed and the detection beam is split with a non-polarizing 50:50 beamsplitter cube (\todo{type}).
 		Each beam then passes through a bandpass filter and is focused on the \apd with a lens \todo{welche?}.
+		As the beam path is slightly different for each \APD, a small optical path difference is introduced, however, this difference only results in an offset of the \gtf and does not alter the physical nature of the result.
 		The bandpass filters serve two \verify{reasons}:
 		First, they limit optical crosstalk between the \apds. 
 		The process of detection of an \apd produces light due to recombination of charge carriers. 
@@ -125,8 +126,16 @@
 		Secondly the bandpass filters serve to reduce \bkg during the \gt measurement process or to spectrally divide emission from several emitters.
 		Therefore, it is possible to find single emitters, which are not spatially seperated enough to be seperated with the spatial resolution of the setup, but can be spectrally seperated if their \ZPLs are apart enough that respective bandpass filters can be used to only investigate light from one \ZPL.
 
+		When the \APD fires, it outputs a digital TTL (transistor-transisor logic) signal. 
+		The arrival times of the signals are recorded with a time tagging module (\todo{specs}).
+		One list of arrival times (so-called time tags) is recorded for each \APD and stored as raw data.
+		The time uncertainty of the photon detection process introduces variations of the digital signal's instant from its ideal position in time and therefore introduces affects the time tags and with them the \gtf.
+		A discussion of the impact of timing jitter will be given in \autoref{ch::g2}. \todo{put in reference}
+		Those lists are to determine the \gtf and therefore determine whether the detected light stems from a single photon source.
+		To get a single array of arrival times of the photons, which can then be binned to obtain the \gtf, the arrays of the two \APDs have to be correlated.
+		For that, the time difference between each entry in one array and all consecutive time tags in the other array are determined and stored according a binning defined by the user.
+		After normalizing and fitting these data, statements about whether the emitter was a single one can be made.
 
-		timing jitter, ttl pulses, time tagging module, algorithmus
 
 
 

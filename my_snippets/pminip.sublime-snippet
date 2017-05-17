@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[${1:t}]
+	\begin{minipage}[t]{ 0.49\linewidth}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics${2:<path>}}}
+		\caption{${3:<caption>}}
+		\label{fig::${4:<fig>}}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{ 0.49\linewidth}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics${5:<path>}}}
+		\caption{${6:<caption>}}
+		\label{fig::${7:<fig>}}
+	\end{minipage}
+\end{figure}
+]]></content>
+	<tabTrigger>pmini</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

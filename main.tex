@@ -14,6 +14,9 @@
 
 
 \begin{document}
+
+\listoftodos		
+
 		\pagestyle{empty}
 		\pagenumbering{Alph}%trick to get some style issues with hyperref right
     \include{./title/title}		\label{title}
@@ -54,7 +57,8 @@
 	\cleardoublepage
   	\include{./introduction/introduction}
   	\input{./theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
-  	\input{./methods/methods}
+  	\input{./methods/nanodiamonds}
+  	\input{./methods/setup}
   	\input{./results/results}
   	\input{./discussion/discussion}
   	\input{./conclusion/conclusion}

@@ -122,8 +122,6 @@ inhaltsverzeichnis
 					principle
 					components
 
-				Raman
-					variant of confocal setup with green laser
 
 		
 * Chapter: SiV in nanodiamanten (spektrale verteilung)
@@ -137,6 +135,13 @@ inhaltsverzeichnis
 
 			eigenschaft 1
 				theory
+				resultate
+				diskussion
+
+			eigentschaft Raman
+				theory
+				setup
+					variant of confocal setup with green laser
 				resultate
 				diskussion
 

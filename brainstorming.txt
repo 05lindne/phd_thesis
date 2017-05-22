@@ -17,13 +17,38 @@ inhaltsverzeichnis
 
 			Was sind Farbzentren in Diamanten?
 				Es gibt Farbzentren mit verschiedensten Atomen.
+				kommen natürlich vor, geben farbe
 				interessant fuer anwendugen Kryptographie, ect.
 				Relevant fuer diese Diss: Silizium.
 			Warum sind SiVs interessant?
 				Haben besondere spektrale eigenschaften 
 				vielversprechend fuer quantum computing (spin-selective optical system), ect.
 			
-			Gebrauch von fabzentren im Experiment
+			Motivation und Inhalt fuer die Diss:
+
+				Motivation:
+
+					Thema: sivs in nanodiamaten
+					forschungsfragen:
+						a) Eigenschaften von nanodiamanten
+						b) Kopplung an strukturen
+					warum is das interessant?
+					outlook
+
+				Ueberblick:
+
+					Farbzentren in Diamant
+					herstellung von nanodiamanten 
+					experimenteller aufbau fuer forschungsfragen
+					Details fuer a)
+					Details fuer b)
+					Discussion/Summary/Outlook
+
+* Chapter: SiV 
+				HIntergrund, Phänomenologie
+				Diamant als Host
+				optische Eigenschaften SiV
+
 				bulk
 					erklaerung
 					vorteile
@@ -38,24 +63,6 @@ inhaltsverzeichnis
 						andere angenehme eigenschaften
 					nachteile
 
-			Motivation und Inhalt fuer die Diss:
-
-				Motivation:
-
-					Thema: sivs in nanodiamaten
-					forschungsfragen:
-						a) Eigenschaften von nanodiamanten
-						b) Kopplung an strukturen
-					warum is das interessant?
-					outlook
-
-				Ueberblick:
-
-					herstellung von nanodiamanten 
-					experimenteller aufbau fuer forschungsfragen
-					Details fuer a)
-					Details fuer b)
-					Discussion/Summary/Outlook
 				
 
 * Chapter: Herstellung von nanodiamanten

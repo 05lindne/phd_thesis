@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"wet",
+				"wet-milling"
+			],
+			[
+				"this",
+				"thesis"
+			],
+			[
+				"veri",
+				"\\verify{arg}                                      	local"
+			],
+			[
+				"dia",
+				"diamond	(methods.tex)"
+			],
+			[
+				"ex",
+				"excitation	(methods.tex)"
+			],
+			[
+				"ch:",
+				"ch::confocal_setup"
+			],
+			[
+				"auto",
+				"autoref	(methods.tex)"
+			],
+			[
+				"desc",
+				"described	(methods.tex)"
+			],
+			[
+				"Nano",
+				"Nanodiamonds	(methods.tex)"
+			],
+			[
+				"autoref",
+				"\\autoref{label}                                   	hyperref"
+			],
+			[
+				"tes",
+				"\\testbox{arg}                                     	local"
+			],
+			[
+				"confocal_setup_small",
+				"pics/confocal_setup_small.pdf"
+			],
+			[
+				"sub",
+				"subfigure"
+			],
+			[
+				"ZPL",
+				"ZPL"
+			],
+			[
+				"focus",
+				"focused"
+			],
+			[
+				"as",
+				"aspheric"
+			],
+			[
+				"fig",
+				"fig::hbt_spectrometer"
+			],
+			[
+				"mea",
+				"measurements"
+			],
+			[
+				"num",
+				"\\num{number}                                      	siunitx"
+			],
+			[
+				"lan",
+				"\\langle                                           	latex-mathsymbols"
+			],
+			[
+				"section",
+				"\\subsection[short]{title}                         	latex-document"
+			],
+			[
+				"sivs",
+				"sivs"
+			],
+			[
+				"color",
+				"color	(preamble.tex)"
+			],
+			[
+				"colle",
+				"collected"
+			],
+			[
 				"SI",
 				"\\SI{value}{unit commands}                         	siunitx"
 			],
@@ -14,10 +110,6 @@
 			[
 				"beam",
 				"beamsplitter"
-			],
-			[
-				"fig",
-				"fig::confocal_setup"
 			],
 			[
 				"con",
@@ -88,10 +180,18 @@
 	"buffers":
 	[
 		{
+			"file": "main.tex",
+			"settings":
+			{
+				"buffer_size": 1846,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "preamble/preamble.tex",
 			"settings":
 			{
-				"buffer_size": 2240,
+				"buffer_size": 2237,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,15 +207,15 @@
 			"file": "commands/commands_physics.tex",
 			"settings":
 			{
-				"buffer_size": 2330,
+				"buffer_size": 2972,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "methods/methods.tex",
+			"file": "methods/setup.tex",
 			"settings":
 			{
-				"buffer_size": 5472,
+				"buffer_size": 12541,
 				"line_ending": "Unix"
 			}
 		},
@@ -124,6 +224,17 @@
 			"settings":
 			{
 				"buffer_size": 3879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "%!TEX root = ../main.tex\n\n\\chapter{Fabrication of Nanodiamonds}	\\label{ch::fabrication_nanodiamonds}\n\\chaptermark{Fabrication of Nanodiamonds}\n\n	\"Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth’s surface.\" (Homepage of the Gemological Institute of America Inc.)\n	While this statement is true for natural gem diamonds, various methods exist to synthetically produce diamond for applications in industry and research. \n	In this chapter, different fabrication methods of nanodiamonds are explained.\n	The first two procedures described are the \\hpht method and the \\cvd are described.\n	These are the most commonly used fabrication methods for laboratory-produced diamonds. \n	The \\hpht (\\HPHT) process is similar to the natural growth process within earth and is widly used to synthetically produce diamonds for industry.\n	Many measurements which are subject in this thesis are carried out on nanodiamonds produced with a \\CVD process. \n	This process is also the prerequisite for the third method mentioned, the wet-milling in a vibrational mill.\n	The main focus of this thesis is on wet-milling nanodiamonds, which is a novel technique using \\cvd diamond as starting material. \n	It has to be stressed, that in contrast to the other methods described in this chapter, the wet-milling process is not a process to produce diamond itself, rather it serves to crush a bigger diamond into pieces of  a desired size.\n	At the end, the methods of producing diamonds via detonation processes and sonicating graphite powders are briefly described.\n	As diamonds produced with this process is not scope of this thesis, they will only be shortly introduced to complete the list.\n\n	\n\n	\\section{High-Pressure High-Temperature Diamond}\n\n	The \\HPHT process was the first process with which diamond was sucessfully synthesiced (in 1879).\n	Today, it is still widely used due to the relativly cheap production costs\\cite{wikiSyntheticDiamond}.\n	The machine used for this kind of synthetisation is a press.\n	There exist several press designs, but the can all provide a high temperature and a high pressure in their core.\n\n	\\section{Chemical Vapor Deposition Diamond}\n\n	In constrast to 	\n\n	\\section{Wet-Milled Nanodiamonds}\n	\\section{Detonation and Sonification Processes}",
+			"file": "methods/nanodiamonds.tex",
+			"file_size": 2135,
+			"file_write_time": 1495440900000000,
+			"settings":
+			{
+				"buffer_size": 2308,
 				"line_ending": "Unix"
 			}
 		},
@@ -144,6 +255,30 @@
 			}
 		},
 		{
+			"file": "results/raman.tex",
+			"settings":
+			{
+				"buffer_size": 1055,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 675,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "results/tem.tex",
 			"settings":
 			{
@@ -152,36 +287,10 @@
 			}
 		},
 		{
-			"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+			"file": "results/results.tex",
 			"settings":
 			{
-				"buffer_size": 25957,
-				"line_ending": "Unix",
-				"read_only": true
-			}
-		},
-		{
-			"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 494,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/builders/latex_bib_index.sublime-build",
-			"settings":
-			{
-				"buffer_size": 560,
-				"line_ending": "Unix",
-				"name": "untitled.sublime-build"
-			}
-		},
-		{
-			"file": "make_main",
-			"settings":
-			{
-				"buffer_size": 98,
+				"buffer_size": 806,
 				"line_ending": "Unix"
 			}
 		}
@@ -189,9 +298,25 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 313.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"sni",
+				"Snippet: figure"
+			],
+			[
+				"snip",
+				"Snippet: Figure"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Enumerate"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
 			[
 				"Snippet: fi",
 				"Snippet: Figure"
@@ -238,6 +363,21 @@
 	},
 	"file_history":
 	[
+		"/Users/sahara/Desktop/vertragsverlaengerung.txt",
+		"/Users/sahara/Dropbox/work/phd_thesis/methods/methods.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/make_main",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/builders/latex_bib_index.sublime-build",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/Users/sahara/Dropbox/work/phd_thesis/my_snippets/pminip.sublime-snippet",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/my_snippets/pminip.sublime-snippet",
+		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/pfig.sublime-snippet",
+		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/psubfig2.sublime-snippet",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/Insert environment.sublime-snippet",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/snippets/thesis.biblatex-snippet",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeX Snippets/README.md",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/0_package_control_loader/01-bz2.py",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/0_package_control_loader/00-package_control.py",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/builders/basicBuilder.py",
 		"/Users/sahara/Dropbox/work/phd_thesis/phd_thesis.sublime-project",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/preamble/preamble.tex",
@@ -350,22 +490,7 @@
 		"/run/user/1000/gvfs/smb-share:server=agbecher022,share=d$/Sarah/sapphire/161108-01_2APD.txt",
 		"/home/sarah/Documents/projects/WASPS/D1.5/104-03_X22Y53_sat_2V_parameters_bkg.txt",
 		"/home/sarah/Documents/measurements/SiV/CVD/M05-13/analysis/emitter_104-13_X22Y53/sat_104-03_X22Y53_sat_5V_new_parameters.txt",
-		"/home/sarah/Documents/measurements/SiV/CVD/M05-13/analysis/emitter_104-13_X22Y53/sat_104-03_X22Y53_sat_5V_parameters.txt",
-		"/home/sarah/Documents/my_programs/plot/spectrum/plot_spectrum_spe.py",
-		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04_edit.txt",
-		"/home/sarah/Documents/measurements/SiV/milled/Ir01-16/160624/sat/sat_spectrum04 (copy).txt",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/maintext.tex",
-		"/home/sarah/Documents/my_programs/plot/spectrum/convert_raman.py",
-		"/home/sarah/Documents/my_programs/plot/spectrum/convert_spe.py",
-		"/home/sarah/Downloads/linux-brprinter-installer-2.0.0-1",
-		"/home/sarah/.cache/.fr-9AXX2J/linux-brprinter-installer-2.0.0-1",
-		"/home/sarah/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/sarah/.config/sublime-text-3/Packages/Fold Comments/Default (Linux).sublime-keymap",
-		"/home/sarah/.config/sublime-text-3/Packages/SublimeCodeIntel/Default (Linux).sublime-keymap",
-		"/home/sarah/Downloads/framework.sh",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/bibliography/bibliography.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/discussion/discussion.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/theory/theory.tex"
+		"/home/sarah/Documents/measurements/SiV/CVD/M05-13/analysis/emitter_104-13_X22Y53/sat_104-03_X22Y53_sat_5V_parameters.txt"
 	],
 	"find":
 	{
@@ -381,9 +506,26 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Diamonds",
+			"\\verify",
+			"}. ",
+			"subfigure",
+			"pdf",
+			"minipage",
+			"\\APD",
+			"\\APD\n",
+			"\\APD",
+			",..\n",
+			"i",
+			"I",
+			"i",
+			"I",
+			"i",
+			"I",
+			"wavelength",
 			"build",
 			"fluorescence light",
 			"fref",
@@ -412,6 +554,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\\apd",
 			"\\fl",
 			"\\lw{}s",
 			"\\lw ",
@@ -430,23 +573,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "preamble/preamble.tex",
+					"file": "main.tex",
 					"settings":
 					{
-						"buffer_size": 2240,
+						"buffer_size": 1846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1565,
-								1565
+								1498,
+								1498
 							]
 						],
 						"settings":
@@ -503,25 +646,25 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 815.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "commands/commands.tex",
+					"file": "preamble/preamble.tex",
 					"settings":
 					{
-						"buffer_size": 1180,
+						"buffer_size": 2237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								881,
-								881
+								577,
+								577
 							]
 						],
 						"settings":
@@ -585,18 +728,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "commands/commands_physics.tex",
+					"file": "commands/commands.tex",
 					"settings":
 					{
-						"buffer_size": 2330,
+						"buffer_size": 1180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1305,
-								1305
+								1058,
+								1058
 							]
 						],
 						"settings":
@@ -660,18 +803,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "methods/methods.tex",
+					"file": "commands/commands_physics.tex",
 					"settings":
 					{
-						"buffer_size": 5472,
+						"buffer_size": 2972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								736,
-								736
+								2168,
+								2168
 							]
 						],
 						"settings":
@@ -725,18 +868,92 @@
 								"bh_single_quote_close"
 							],
 							"git_gutter_is_enabled": true,
-							"spell_check": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1023.0,
+						"translation.y": 749.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "methods/setup.tex",
+					"settings":
+					{
+						"buffer_size": 12541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5576,
+								5576
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1392.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/maintext/methods/methods.tex",
 					"settings":
 					{
@@ -812,7 +1029,83 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "methods/nanodiamonds.tex",
+					"settings":
+					{
+						"buffer_size": 2308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2157,
+								2157
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "results/g2.tex",
 					"settings":
 					{
@@ -887,7 +1180,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "results/emission_spectra.tex",
 					"settings":
 					{
@@ -962,7 +1255,233 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
+					"file": "results/raman.tex",
+					"settings":
+					{
+						"buffer_size": 1055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								826,
+								826
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								1046
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "results/tem.tex",
 					"settings":
 					{
@@ -1037,242 +1556,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+					"buffer": 13,
+					"file": "results/results.tex",
 					"settings":
 					{
-						"buffer_size": 25957,
+						"buffer_size": 806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16707,
-								16722
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7091.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 494,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								463,
-								463
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/builders/latex_bib_index.sublime-build",
-					"settings":
-					{
-						"buffer_size": 560,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "make_main",
-					"settings":
-					{
-						"buffer_size": 98,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								61,
-								43
+								668,
+								668
 							]
 						],
 						"settings":
@@ -1326,7 +1622,8 @@
 								"bh_single_quote_close"
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

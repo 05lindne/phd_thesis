@@ -1,9 +1,9 @@
 
-titlepage
-abstract/zusammenfassung
-danke schatz
+Titelseite
+Abstract/Zusammenfassung
+Danke 
 
-inhaltsverzeichnis
+Inhaltsverzeichnis
 
 * Chapter: 	Introduction:
 
@@ -11,7 +11,7 @@ inhaltsverzeichnis
 			
 			Motivation aus der Quantenoptik.
 				Historischer Background + generelle introduction
-				Was isn Quantenoptik ueberhaupt?
+				Was ist Quantenoptik ueberhaupt?
 				Was sind Fabzentren ueberhaupt?
 				Warum interessiert sich irgendeiner dafuer?
 
@@ -67,13 +67,8 @@ inhaltsverzeichnis
 
 * Chapter: Herstellung von nanodiamanten
 
-			Abstract: Wir reden ueber verschiedene herstellungsverfahren und produkte in absteigender naturnaehe.
+			Abstract: Wir reden ueber verschiedene herstellungsverfahren
 
-			Detonation diamonds
-				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				vefahren
-				vorteile
-				nachteile
 
 			HPHT diamonds
 				eigenschaften/besonderheiten von erzeugten nanodiamnten
@@ -94,11 +89,11 @@ inhaltsverzeichnis
 				nachteile
 				
 
-* Chapter: Experimenteller Aufbau von Zeugs
+* Chapter: Experimenteller Aufbau
 
-			Abstract: Zweck des Aufbaus, Aufbau fuer Floureszensmessungen. Details und Komponenten.
+			Abstract: Zweck des Aufbaus, Aufbau fuer Fluoreszensmessungen. Details und Komponenten.
 
-			Was soll der Aufbau messen im hinblick auf forschungsfragen	
+			Was soll der Aufbau messen im Hinblick auf Forschungsfragen	
 				1) Spektrale eigenschaften von SiVs
 				2) Einzelphotonencharakter
 				3) Zaehlraten/Saettigungszaehlrate
@@ -107,15 +102,15 @@ inhaltsverzeichnis
 
 			Wie erreicht man das Ziel
 
-				confokalaufbau + komponenten
-				komponenten: 
+				Konfokalaufbau + Komponenten
+				Komponenten: 
 					Spektrometer --> 1) (5))
-					photodiode --> 3), 4)
+					APDs --> 3), 4)
 					HBT --> 2)
 
 			Finale Aufbau + Details zu Komponenten
 
-				vertikaler aufbau
+				vertikaler Aufbau
 				general setup
 					sample stage
 					excitation path
@@ -131,24 +126,34 @@ inhaltsverzeichnis
 
 
 		
-* Chapter: SiV in nanodiamanten (spektrale verteilung)
+* Chapter: SiV in Nanodiamanten (spektrale Verteilung)
 
-			Abstract vom papier: Welche eigenschaften haben SiVs die untersuchten dinger (verteilung)
+			Abstract vom Paper: Welche Eigenschaften haben die untersuchten SiVs (Verteilung)
 
-			kurz einleitung
-			motivation
-			zusaetzliche experimentelle details
-			einfuehrung theory
+			kurze Einleitung
+			Motivation
+			zusaetzliche experimentelle Details (welche Typen von Diamanten)
+			Einfuehrung Theorie
 
-			eigenschaft 1
+			eigenschaft Diamond Characteristics (Raman, TEM)
+				theory
+				setup
+					variant of confocal setup with green laser
+				resultate
+				diskussion
+
+			eigentschaft Verteilung + Einzelemitter
 				theory
 				resultate
 				diskussion
 
-			eigentschaft Raman
+			eigentschaft Sidebands
 				theory
-				setup
-					variant of confocal setup with green laser
+				resultate
+				diskussion
+
+			eigentschaft Blinking
+				theory
 				resultate
 				diskussion
 
@@ -157,7 +162,7 @@ inhaltsverzeichnis
 				resultate
 				diskussion
 
-			gesamtdiskussion/outlook + ueberleitung zur Anwendung = Kopplung
+			Gesamtdiskussion/Outlook + Überleitung zur Anwendung = Kopplung
 
 
 * Chapter: SiV + Structure (Koppeln)
@@ -166,21 +171,21 @@ inhaltsverzeichnis
 
 			Antennen
 
-				kurze einleitung
-				motivation
-				zusaetzliche experimentelle details (nanomanipulator)
-				einfuehrung theory
-				resultate
-				diskussion/outlook
+				kurze Einleitung
+				Motivation
+				zusaetzliche experimentelle Details (Nanomanipulator)
+				einfuehrung Theorie
+				Resultate
+				Diskussion/Outlook
 
-			Vcsel
+			(Vcsel???
 
-				kurze einleitung
-				motivation
-				zusaetzliche experimentelle details
-				einfuehrung theory
-				resultate
-				diskussion/outlook
+				kurze Einleitung
+				Eotivation
+				zusaetzliche experimentelle Details
+				einfuehrung Theorie
+				Resultate
+				Diskussion/Outlook
 
 * Chapter: Conclusions
 

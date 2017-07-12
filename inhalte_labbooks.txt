@@ -1,0 +1,41 @@
+Inhalte aus Laborbüchern für Diss
+
+- Schreck'sche CVD-Diamanten (LI, S13, S17)
+- Marker schreiben
+- erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weißlichtlaserscan
+- Probleme mit NDs auf Si -> versinken (Sublimation & Renuklenation)
+- Ablösen von Diamanten (BASD & CVD) von Substrat im Ultraschallbad
+	kann dazu führen, dass Substrat mitabgelöst wird)
+	-> in Kalilauge auflösen LII, S96
+- ? NVs z.B. SIQ-BASD-NV-M-GL: NDs von A. Fuchs
+- Mikrodiamanten BASD SiV (Implantation Bochum)
+- BASD SiV poykristalliner Diamant (Matthias Schreck)
+	zermahlen von A. Krüger 
+	-> keine SiVs in NDs
+- BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger)
+	-> keine SiVs in NDs 
+- ? NV Jan Strusa
+- polykrisalliner Film von Olli Williams
+- Hydrophilität von Ir-Substrat (LI, S.152ff)
+- Probleme mit Ir:Löcher, Ablösen
+- Zusammenhang Annealen, Oxidieren mit ZPL, Linienbreite, single SiV (LII, S.35, S.52ff)
+- ? Lebensdauermessung mittels g2 (LII, S.8)
+- Raman-Messungen vor/nach Oxidation (LII, S.19)
+- VCSEL (LII, S. 26, S. 50, S.56)
+- Messungen in ERlangen (Lebensdauer, gepulste g2)
+- TEM -> NDs sind polykristallin
+- Kryo Messungen an milled NDs
+- Ramanmessungen an Diamantfilm O. Williams (vor Zerkleinern), SEM images
+- Antenne gespincoatet
+- Ir slurry (milled NDs aus Cardiff)
+- gepulste g2 & Lebensdauermessung mit Weißlichtlaser, aber nicht viel dabei herausgekommen
+- Raman-Messung an Ir25M (LIII S. 7)
+- Oberflächenbehandelte Proben aus Cardiff (O2, O3, H2, Plasma)(LIII, S19ff)
+- Diamantoide (LIII, S.29ff)
+- HPHT Davidov
+- alte, deagglomerierte BASD, z.B. M02-16 (LIII, S49)
+	Spektrum, Sättigung, g2 (kleiner Einbruch)
+- C-Schalen
+	-> Plasmabehandlung Schmauch
+	-> Ozonierung Krüger LIII, S.73
+- Raman auf einzelnen Nanodiamanten (implantierten 2x MD)

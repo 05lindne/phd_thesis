@@ -22,7 +22,7 @@ Inhaltsverzeichnis
 				Relevant fuer diese Diss: Silizium.
 			Warum sind SiVs interessant?
 				Haben besondere spektrale eigenschaften 
-				vielversprechend fuer quantum computing (spin-selective optical system), ect.
+				Metrologie -> SIQUTE, WASPS
 			
 			Motivation und Inhalt fuer die Diss:
 

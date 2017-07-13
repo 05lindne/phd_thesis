@@ -72,21 +72,39 @@ Inhaltsverzeichnis
 
 			HPHT diamonds
 				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				vefahren
+				verfahren
 				vorteile
-				nachteile	
+				nachteile
 
 			CVD nanodiamaten
 				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				vefahren
+				verfahren
 				vorteile
 				nachteile
+				Vorgehen im Rahmen der Diss
+					- Schreck'sche CVD-Diamanten (LI, S13, S17)
+					- CVD microwave (Schreck) vs. hot filament
+					- Diamantoide (LIII, S.29ff)
 
 			Wetmilled diamonds
 				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				vefahren
+				verfahren
 				vorteile
 				nachteile
+				Vorgehen im Rahmen der Diss
+					- HPHT Davidov	
+					- BASD SiV polykristalliner Diamant (Matthias Schreck) zermahlen von A. Krüger -> keine SiVs in NDs
+					BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
+					- milled CVD diamond film (in-situ SiV)
+						- polycristalliner Film von O. Williams (ev. Messungen)
+					- 2x vermahlene, implantierte NDs (E6->MDs->NDs)
+						- in Bochum implantiert
+						- Probleme mit MDs auf Si -> versinken nach annealing (Sublimation & Renuklenation) 
+					- Oberflächenbehandelte Proben aus Cardiff (O2, O3, H2, Plasma)(LIII, S19ff)
+					-Ir als Substrat 
+						- wirkt als Antenne & Spiegel
+						- Hydrophilität von Ir-Substrat (LI, S.152ff)
+						- Probleme mit Ir:Löcher, Ablösen
 				
 
 * Chapter: Experimenteller Aufbau
@@ -135,11 +153,25 @@ Inhaltsverzeichnis
 			zusaetzliche experimentelle Details (welche Typen von Diamanten)
 			Einfuehrung Theorie
 
+			eigenschaft annealing, oxidation
+				theory
+				vorgangsweise
+					- C-Schalen
+						- Plasmabehandlung Schmauch
+						- Ozonierung Krüger LIII, S.73
+				resultate
+				diskussion
+
 			eigenschaft Diamond Characteristics (Raman, TEM)
 				theory
 				setup
 					variant of confocal setup with green laser
 				resultate
+					- Ramanmessungen an Diamantfilm O. Williams (vor Zerkleinern), SEM images
+					- Raman-Messungen vor/nach Oxidation (LII, S.19)
+					- Raman-Messung an Ir25M (LIII S. 7)
+					- Raman auf einzelnen Nanodiamanten (implantierten 2x MD)
+					- TEM -> NDs sind polykristallin
 				diskussion
 
 			eigentschaft Verteilung + Einzelemitter
@@ -150,11 +182,25 @@ Inhaltsverzeichnis
 			eigentschaft Sidebands
 				theory
 				resultate
+					- Debeye-Waller-Faktor
+					- Zusammenhang ZPL
+				diskussion
+
+			eigentschaft g2
+				theory
+				resultate
+					- g2-Fktn, die irre bunchen, aber keinen Dip zeigen
 				diskussion
 
 			eigentschaft Blinking
 				theory
 				resultate
+				diskussion
+
+			eigentschaft Kryo
+				theory
+				resultate
+					- milled NDs Linienwälder
 				diskussion
 
 			eigentschaft n
@@ -173,15 +219,22 @@ Inhaltsverzeichnis
 
 				kurze Einleitung
 				Motivation
-				zusaetzliche experimentelle Details (Nanomanipulator)
+				zusaetzliche experimentelle Details 
+					- Marker schreiben
+					- erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weißlichtlaserscan
+					- NDs mit AFM transferieren
+					-Nanomanipulator
+					- Ablösen von Diamanten (BASD & CVD) von Substrat im Ultraschallbad kann dazu führen, dass Substrat mitabgelöst wird) -> in Kalilauge auflösen LII, S96
+					- Antenne gespincoatet
 				einfuehrung Theorie
 				Resultate
+					- Emitter sterben im SEM
 				Diskussion/Outlook
 
-			(Vcsel???
+			(Vcsel??? (LII, S. 26, S. 50, S.56)
 
 				kurze Einleitung
-				Eotivation
+				Motivation
 				zusaetzliche experimentelle Details
 				einfuehrung Theorie
 				Resultate

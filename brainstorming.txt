@@ -79,11 +79,14 @@ Inhaltsverzeichnis
 			CVD nanodiamaten
 				eigenschaften/besonderheiten von erzeugten nanodiamnten
 				verfahren
+					CVD Diamant
+					Nanodiamanten
+					SiV reinkriegen
+					CVD microwave (Schreck) vs. hot filament
 				vorteile
 				nachteile
 				Vorgehen im Rahmen der Diss
 					- Schreck'sche CVD-Diamanten (LI, S13, S17)
-					- CVD microwave (Schreck) vs. hot filament
 					- Diamantoide (LIII, S.29ff)
 
 			Wetmilled diamonds
@@ -92,9 +95,10 @@ Inhaltsverzeichnis
 				vorteile
 				nachteile
 				Vorgehen im Rahmen der Diss
-					- HPHT Davidov	
+					- HPHT Davidov
+					- implantierte HPHT Diamanten	
 					- BASD SiV polykristalliner Diamant (Matthias Schreck) zermahlen von A. Krüger -> keine SiVs in NDs
-					BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
+					- BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
 					- milled CVD diamond film (in-situ SiV)
 						- polycristalliner Film von O. Williams (ev. Messungen)
 					- 2x vermahlene, implantierte NDs (E6->MDs->NDs)

@@ -5,15 +5,16 @@
 
 	"Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth’s surface." (Homepage of the Gemological Institute of America Inc.)
 	While this statement is true for natural gem diamonds, various methods exist to synthetically produce diamond for applications in industry and research. 
-	In this chapter, different fabrication methods of nanodiamonds are explained.
+	In this chapter, different fabrication methods of \nds are explained.
 	The first two procedures described are the \hpht method and the \cvd are described.
 	These are the most commonly used fabrication methods for laboratory-produced diamonds. 
 	The \hpht (\HPHT) process is similar to the natural growth process within earth and is widly used to synthetically produce diamonds for industry.
-	Many measurements which are subject in this thesis are carried out on nanodiamonds produced with a \CVD process. 
-	This process is also the prerequisite for the third method mentioned, the wet-milling in a vibrational mill.
-	The main focus of this thesis is on wet-milling nanodiamonds, which is a novel technique using \cvd diamond as starting material. 
+	Many measurements which are subject in this thesis are carried out on diamond produced with a \CVD process. 
+	The third method mentioned is the wet-milling in a vibrational mill.
+	The main focus of this thesis is on wet-milling \nds, which is a technique using \cvd or \HPHT diamond as starting material. 
 	It has to be stressed, that in contrast to the other methods described in this chapter, the wet-milling process is not a process to produce diamond itself, rather it serves to crush a bigger diamond into pieces of  a desired size.
 	For a more extensive list of diamond production processes refer for example to \cite{davis1993diamond}.
+	Aside from the diamond production processes, the technical details of the \nds used for this thesis will be mentioned.
 	% At the end, the methods of producing diamonds via detonation processes and sonicating graphite powders are briefly described.
 	% As diamonds produced with this process is not scope of this thesis, they will only be shortly introduced to complete the list.
 
@@ -21,18 +22,50 @@
 
 	\section{High-Pressure High-Temperature Diamond}
 
-	The \HPHT process was the first process with which diamond was sucessfully synthesiced (in 1879).
-	Depending on the exact process, temperatures and preassures are needed of a few thousand degrees Celsius and  \num{50000} to a few \num{100000}, respectively \cite{davis1993diamond}.
-	Today, it is still widely used due to the relativly cheap production costs\cite{wikiSyntheticDiamond}.
-	In this process, diamond is synthesiced from graphite.
+	The \HPHT process was the first process with which diamond was successfully synthesized (in 1879).
+	Depending on the exact process, temperatures and pressures are needed of a few thousand degrees Celsius and  \num{50000} to a few \num{100000}, respectively \cite{davis1993diamond}.
+	Today, it is still widely used due to the relatively cheap production costs\cite{wikiSyntheticDiamond}.
+	In this process, diamond is synthesized from graphite.
 	For some forms of this method, a metallic solvent is added which lowers the needed pressures; the solvent causes the graphite to reach dissolve at lower pressures and temperatures, at the same time it causes the diamond to crystallize.
-	The machine used for this kind of synthetisation is a press.
+	The machine used for this kind of synthesis is a press.
 	There exist several press designs, but they all provide a high temperature and a high pressure in their core.
+	\todo{vorteile, nachteile}
+	\todo{mention implanted NDs and Davidoff NDs}
 
 
-	\section{Chemical Vapor Deposition Diamond}
+	\section[CVD]{Chemical Vapor Deposition Diamond}
 
-	In constrast to the \HPHT process, the during the \cvd process, diamond is grown from the gas phase. 
+	In contrast to the \HPHT process,  during the \cvd process, diamond is grown from a methane-hydrogen plasma.
+	For crystals to form, initially seed crystals are necessary.
+	There are several ways to coat a substrate with seed crystals. 
+	The easiest method is to spin-coat a substrate with small diamond crystals, of a size of a few nanometers, which is also the method exploited for the production processes described in this section.
+	Growth on a substrate is easier, if the lattice constant of the substrate and the crystal to be grown are very similar.
+	The lattice constant of \ir (\SI{0.384}{nm}\cite{Arblaster2010}) is very similar to the lattice constant of diamond (\SI{0.356}{nm}\cite{Davis1993}).
+	Therefore, the diamonds were grown on a stratified substrate, consisting of \ir layers of \SIrange{60}{150}{nm} thickness grown onto an yttria-stabilized zirconium (YSZ) buffer layer, which in turn was grown on a silicon wafer.
+
+	There are two major different ways to make a plasma from the gas in the chamber: microwaves or a hot filament.
+	While the hot filament is easy to be technically implemented, it has the disadvantage that atoms which are etched from the filament during the growth process is likely to contaminate the diamond.
+	This circumstance can mess up a clean signal from \sivs.
+	Therefore, we preferred diamonds grown with in a microwave plasma.
+
+	To produce \nds, the growth process is stopped when the diamond grown on the seed crystals reaches the desired size. 
+
+	One of the advantages of the \CVD process is that \si can be incorporated \textit{in-situ}.
+	This is achieved by the following process: \si from the substrate edges is etched by the \verify{plasma} and \si atoms diffuse into the methane gas. 
+	These atoms are then build into the diamond lattice while growth.
+
+	In this thesis, two types of samples which were directly produced as nanodiamonds were investigated.
+	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF)\todo{explain detonation diamond} of a size smaller than \SI{3}{nm}.
+	For the growth process, 1\% of methane was added to the hydrogen environment in the growth chamber.
+	The growth process was performed with a pressure of \SI{30}{hPa} for \SIrange{30}{60}{min}, yielding \nds of a diameter of about \SIrange{100}{200}{nm}.
+
+	The other samples solely produced by a \CVD process are nanodiamonds grown onto molecular diamond seed crystals\todo{nachschauen, ob das so stimmt}.
+	These a subgroup of these molecular diamonds are called diamondoids and are carbon crystals based on the carbon cage molecule adamantane ($\text{C}_{10}\text{H}_{16}$).
+	The exploited molecular diamonds in the scope of this thesis are adamantane in cyclohexane, mercapto adamantane in cyclohexane, and cyclohexane.
+	During two different growth processes, 3\% and 1\% methane was added to the hydrogen plasma.
+
+
+
 
 	\section{Wet-Milled Nanodiamonds}
 	% \section{Detonation and Sonification Processes}

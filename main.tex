@@ -6,9 +6,9 @@
     twoside,     % oneside, twoside
 ]{report}
 
-\input{./preamble/preamble}
-\input{./commands/commands_physics}
-\input{./commands/commands}
+\input{./frontbackstuff/preamble/preamble}
+\input{./frontbackstuff/commands/commands_physics}
+\input{./frontbackstuff/commands/commands}
 
 \makeindex
 
@@ -19,10 +19,10 @@
 
 		\pagestyle{empty}
 		\pagenumbering{Alph}%trick to get some style issues with hyperref right
-    \include{./title/title}		\label{title}
+    \include{./frontbackstuff/title/title}		\label{title}
 
 	\cleardoublepage
-    \include{./abstract/abstract}	\label{abstract}
+    \include{./chapters/abstract/abstract}	\label{abstract}
    
 	\cleardoublepage
 		\pagestyle{fancy}
@@ -46,7 +46,7 @@
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{Acknowledgements}
-	\include{./acknowledgements/acknowledgements}	\label{acknowledgements}
+	\include{./frontbackstuff/acknowledgements/acknowledgements}	\label{acknowledgements}
 
 	\cleardoublepage
     \pagenumbering{arabic}
@@ -55,15 +55,15 @@
 % 		\doublespacing
 
 	\cleardoublepage
-  	\include{./introduction/introduction}
-  	\input{./theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
-  	\input{./methods/nanodiamonds}
-  	\input{./methods/setup}
-  	\input{./results/results}
-  	\input{./discussion/discussion}
-  	\input{./conclusion/conclusion}
-	\input{./appendices/appendices}			\label{appendices}	
-	\include{./bibliography/bibliography}		\label{bibliography}	
+  	\include{./chapters/introduction/introduction}
+  	\input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
+  	\input{./chapters/nanodiamonds/nanodiamonds}
+  	\input{./chapters/setup/setup}
+  	% \input{./chapters/results/results}
+  	\input{./chapters/discussion/discussion}
+  	\input{./chapters/conclusion/conclusion}
+	\input{./chapters/appendices/appendices}			\label{appendices}	
+	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}	
 	
 % 	\cleardoublepage
 	\phantomsection

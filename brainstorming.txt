@@ -229,6 +229,7 @@ Inhaltsverzeichnis
 					- erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weißlichtlaserscan
 					- NDs mit AFM transferieren
 					-Nanomanipulator
+						Probleme mit Spitze
 					- Ablösen von Diamanten (BASD & CVD) von Substrat im Ultraschallbad kann dazu führen, dass Substrat mitabgelöst wird) -> in Kalilauge auflösen LII, S96
 					- Antenne gespincoatet
 				einfuehrung Theorie

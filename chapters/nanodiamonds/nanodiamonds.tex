@@ -36,11 +36,35 @@
 
 	\section[CVD]{Chemical Vapor Deposition Diamond}
 
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::cvd_large}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/M05-13_191_131209_06.png}}
+			% \caption{SEM picture of the milled nanodiamonds of a mean diameter of \SI{100}{\nano\meter}}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::cvd_detail}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/M05-13_191_131209_05.png}}
+			% \caption{TEM picture of a \SI{100}{\nano\meter} diamond crystal.}
+		\end{subfigure}
+		\caption{}
+		\label{fig::sem_cvd}
+	\end{figure}
+
 	In contrast to the \HPHT process,  during the \cvd process, diamond is grown from a vapor phase.
-	The vapor is a mixture of hydrogen and methane, which acts as a carbon source.
-	The vapor is energized to form a plasma by e.g. a microwaves.
+	This process happens at moderate temperatures (\SIrange{700}{1300}{\degrees\celsius}) but very low pressures of less than 1 atmosphere in a vacuum chamber \cite{}
+	The diamond grows outside its stability zone and atomic hydrogen is necessary to suppress the simultaneous growth of graphite.
+	The vapor phase within the growth chamber is a mixture of hydrogen and methane, the latter of which acts as a carbon source.
+	Within the vacuum chamber, activation of the gas by an energy source (e.g. microwave plasma) breaks apart the gas molecules to release carbon atoms. 
+	These atoms are drawn down toward the cooler substrate.
 	On the substrate surface, various processes occur, such as adsorption, desorption and diffusion.
+	\\
 	For crystals to form, initially seed crystals are necessary \todo{not entirely true}.
+	Seed crystals are commercially available, e.g. diamond particles produced by a detonation process.
+	For these detonation diamond seeds, the high pressure produced by shockwaves due to a detonation is used to form very small diamond particles of a size domn to a few nanometers.
 	There are several ways to coat a substrate with seed crystals. 
 	The easiest method is to spin-coat a substrate with small diamond crystals, of a size of a few nanometers, which is also the method exploited for the production processes described in this section.
 	Growth on a substrate is easier, if the lattice constant of the substrate and the crystal to be grown are very similar.
@@ -57,19 +81,90 @@
 	One of the advantages of the \CVD process is that \si can be incorporated \textit{in-situ}.
 	This is achieved by the following process: \si from the substrate edges is etched by the \verify{plasma} and \si atoms diffuse into the methane gas. 
 	These atoms are then build into the diamond lattice while growth.
-
+	\\
 	In this thesis, two types of samples which were directly produced as nanodiamonds were investigated.
-	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF)\todo{explain detonation diamond} of a size smaller than \SI{3}{nm}.
+	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF) of a size smaller than \SI{3}{nm}.
 	For the growth process, 1\% of methane was added to the hydrogen environment in the growth chamber.
 	The growth process was performed with a pressure of \SI{30}{hPa} for \SIrange{30}{60}{min}, yielding \nds of a diameter of about \SIrange{100}{200}{nm}.
-
+	\todo{put in figure}
+	\\
 	The other samples solely produced by a \CVD process are nanodiamonds grown onto molecular analogs of diamond crystals.
 	A subgroup of these molecular diamonds are called diamondoids and are carbon crystals based on the carbon cage molecule adamantane \ch{C10H16}.
 	The molecular diamonds used for this work are adamantane in cyclohexane, mercapto adamantane in cyclohexane, and cyclohexane.
-	Each of these seed crystals was used in four different growth processes adding either 3\% or 1\% methane during growth to the hydrogen plasma and adding either \si or \si dioxide to form \textit{in-situ} incorporated \sivs.
+	Each of these seed crystals was used in different growth processes.
+	During the growth process, either 3\% or 1\% methane was added to the hydrogen plasma and either \si or \si dioxide was exploited to form \textit{in-situ} incorporated \sivs (see \autoref{tab::diamondiods}).
+
+
+	\begin{table}[tp] 
+		\centering 
+		\caption{Summary of the samples grown on diamondoid seed crystals.} \label{tab::diamondiods} 
+			\begin{tabular}{llll} 
+			\toprule
+			Sample name & Seed crystals & Methane conc. & \Si source \\ 
+			\midrule
+			160211\_E & Mercapto adamentane in cyclohexane & 1\% & \ch\{SiO2\} \\
+			160211\_F & Cyclohexane                        & 1\% & \ch\{SiO2\} \\
+			160212\_C & Cyclohexane                        & 3\% & \si         \\
+			160212\_D & Adamentane in cyclohexane          & 3\% & \ch\{SiO2\} \\
+			160212\_E & Mercapto adamentane in cyclohexane & 3\% & \ch\{SiOs\} \\
+			160212\_F & Cyclohexane                        & 3\% & \ch\{SiO2\}\\
+			\bottomrule
+			\end{tabular} 
+	\end{table}
+
+
 
 
 
 
 	\section{Wet-Milled Nanodiamonds}
 	% \section{Detonation and Sonification Processes}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::sem_milled}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/Ir27M_mitte_213_151111_22_crop.jpg}}
+			% \caption{SEM picture of the milled nanodiamonds of a mean diameter of \SI{100}{\nano\meter}}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::tem_milled}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/AM060-II-k4-2.png}}
+			% \caption{TEM picture of a \SI{100}{\nano\meter} diamond crystal.}
+		\end{subfigure}
+		\caption{Pictures of the milled \nds (sample \insituH). (a) SEM picture showing the distribution of the \nd crystals on the \ir substrate. (b) TEM picture of a \nd particle.}
+		\label{fig::semtem_millled}
+	\end{figure}
+
+	In the following paragraphs, the production processes or the investigated samples is described. 
+	For an overview of the samples refer to \autoref{tab::samplenames}.
+	The starting material for the wet-milled \nds was a nanocristalline diamond film \cite{Williams2006a} directly grown on a silicon wafer by chemical vapor deposition (CVD). 
+	A microwave hydrogen plasma containing 1\% methane was used to grow on purified \SI{5}{\nano\meter} nanodiamond seeds (produced by PlasmaChem).
+	To induce \textit{in-situ} \siv creation, sacrificial \Si pieces are situated in the growth chamber.
+	During diamond growth the \Si pieces are etched by the plasma and individual atoms are incorporated into the diamond lattice.
+	The diamond film is then milled by a wet-milling process in a vibrational mill with steel beads to crystals of average diameters of \SIlist{50; 70; 100}{\nano\meter} (\autoref{subfig::sem}).
+	The particle size was determined with laser diffraction spectroscopy.
+	Transmission Electron Microscopy (TEM) pictures of the diamond crystals show that the milled \nds are polycristalline, exhibiting a typical size of single crystals of a few tens of nanometers.
+	In \autoref{subfig::tem} a TEM image of a typical \nd is shown.
+	Crystal boundaries have effects on the formation of color centers:
+	\sivs are more prone to form at crystal boundaries \cite{Zapol2001}.
+	The high amount of steel containment due to the steel beads is removed by extensive acid treatment.
+	We also investigated \nds milled with silicon nitride beads, and found that the choice of material of the beads did not cause any spectroscopic difference.
+	The aqueous solution containing the \nds is drop cast onto an \ir film on a \Si substrate.
+	The \ir film of a thickness of \SI{130}{nm} is grown onto a buffer layer of yttria-stabilized zirconia (YSL) whith in turn is grown onto a \Si wafer.
+	The \ir surface has the advantage that it acts as an antenna and therefore enhances the collection efficiency of fluorescence light \cite{Neu2012a}.
+	Prior to drop casting, the substrate was cleaned in Piranha solution (50\% sulfuric acid H$_2$SO$_4$, 50\% hydrogen peroxide H$_2$O$_2$) to enhance the surface hydrophilicity and therefore obtain a homogeneous distribution of diamonds on the surface.
+	Post-procession treatment comprises either both annealing in vacuum at \SI{900}{\degreeCelsius} and consecutive \ox in air at a temperature of \SI{450}{\degreeCelsius}, or only one of the two methods.
+	The duration for either treatment method was 3-6 hours.
+	\\
+	For comparative measurements, we also investigated \nds with \sivs implanted after diamond growth. 
+	For those \nds starting material was a polycristalline Element Six diamond film (electronic grade).
+	In bulk material, the implantation causes the \sivs to form in a specific depth dependent on the implantation energy, leaving most of the diamond vacant of \sivs.
+	As a consequence, a big portion of  \nds milled from such a bulk material would not host any \sivs.
+	To obtain diamond particles with a homogeneous distribution of \sivs, the implanted \nds are produced in several steps. 
+	First, the diamond film was milled to diamond particles of sizes of a few micrometers.
+	In the second step, these microdiamonds were then densely spin-coated onto \ir substrates and implanted with \si (implantation energy \SI{900}{keV}, fluence \SI{e11}{\per\centi\meter\squared}).
+	To eliminate damage from the implantation process, the diamonds were annealed in vacuum at \SI{900}{\degreeCelsius} for 3 hours and subsequently oxidized in air at \SI{450}{\degreeCelsius} also for 3 hours.
+	At last, the micrometer sized diamond particles were milled to a size of \SI{250}{\nano\meter}.

@@ -20,7 +20,7 @@
 
 	
 
-	\section{High-Pressure High-Temperature Diamond}
+	\section[HPHT]{High-Pressure High-Temperature Diamond}\label{sec::hpht}
 
 	The \HPHT process was the first process with which diamond was successfully synthesized (in 1879).
 	Depending on the exact process, temperatures and pressures are needed of a few thousand degrees Celsius and  \num{50000} to a few \num{100000}, respectively \cite{davis1993diamond}.
@@ -34,7 +34,7 @@
 	\todo{mention implanted NDs and Davidoff NDs}
 
 
-	\section[CVD]{Chemical Vapor Deposition Diamond}
+	\section[CVD]{Chemical Vapor Deposition Diamond}\label{sec::cvd}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -62,35 +62,42 @@
 	\end{figure}
 
 	In contrast to the \HPHT process,  during the \cvd process, diamond is grown from a vapor phase.
-	This process happens at moderate temperatures (\SIrange{700}{1300}{\celsius}) but very low pressures of less than 1 atmosphere in a vacuum chamber \cite{}
+	This process happens at moderate temperatures (\SIrange{700}{1300}{\celsius}) but very low pressures of less than \SI{1}{\bar} in a vacuum chamber \cite{}
 	The diamond grows outside its stability zone and atomic hydrogen is necessary to suppress the simultaneous growth of graphite.
 	The vapor phase within the growth chamber is a mixture of hydrogen and methane, the latter of which acts as a carbon source.
 	Within the vacuum chamber, activation of the gas by an energy source (e.g. microwave plasma) breaks apart the gas molecules to release carbon atoms. 
 	These atoms are drawn down toward the cooler substrate.
-	On the substrate surface, various processes occur, such as adsorption, desorption and diffusion.
+	On the substrate surface, various processes occur, such as adsorption, desorption and diffusion\todo{absatz zu ende bringen}.
 	\\
-	For crystals to form, initially diamond nuclei are necessary.
-	The easiest method to obtain nuclei is to spin-coat a substrate with small diamond seed crystals of a size of a few nanometers. 
-	This method is exploited for the production processes described in this section.
-	Such small dimaond crystals are commercially available, and are usually diamond particles produced by a detonation process.
-	For these detonation diamond seeds, the high pressure produced by shockwaves due to a detonation is used to form very small diamond particles of a size domn to a few nanometers.
 	Growth on a substrate is easier, if the lattice constant of the substrate and the crystal to be grown are very similar.
 	The lattice constant of \ir (\SI{0.384}{nm}\cite{Arblaster2010}) is very similar to the lattice constant of diamond (\SI{0.356}{nm}\cite{Davis1993}).
 	Therefore, the diamonds were grown on a stratified substrate, consisting of \ir layers of \SIrange{60}{150}{nm} thickness grown onto an yttria-stabilized zirconia (YSZ) buffer layer, which in turn was grown on a silicon wafer.
+	If the lattice constant of the substrate and the diamond are not matched, stress in the diamond lattice is induced.
+	Therefore, the \ir substrate not only facilitates diamond growth, but also is a means to reduce unfavorable stress in the \nds (more on the effect of stress in \autoref{}).
+	\\
+	For crystals to form, initially diamond nuclei are necessary.
+	The easiest method to obtain nuclei on a substrate is to spin-coat the substrate with small diamond seed crystals of a size of a few nanometers. 
+	This method is exploited for the production processes described in this section.
+	Such small diamond crystals are commercially available, and are usually diamond particles produced by a detonation process.
+	For the formation of these detonation diamond seeds, the high pressure produced by shockwaves of a detonation is used to create very small diamond particles of a size down to a few nanometers.
+	During the \CVD growth process, carbon from the methane gas is adsorped\todo{is this correct?} to the seed crystals.
+	To produce \nds of a desired size, the growth process is stopped when the diamond grown on the seed crystals reaches the desired size. 
+	Otherwise, the individual crystals grow together to form diamond films, which is one possible of the starting material for the process descirbed in the next section (\autoref{sec::wet_milled_nds})
+	\\
 
 	% There are two major different ways to make a plasma from the gas in the chamber: microwaves or a hot filament.
-	% While the hot filament is easy to be technically implemented, it has the disadvantage that atoms which are etched from the filament during the growth process is likely to contaminate the diamond.
+	% While the hot filament is easy to be technically implemented, it has th{}e disadvantage that atoms which are etched from the filament during the growth process is likely to contaminate the diamond.
 	% This circumstance can mess up a clean signal from \sivs.
 	% Therefore, we preferred diamonds grown with in a microwave plasma.
 
-	To produce \nds, the growth process is stopped when the diamond grown on the seed crystals reaches the desired size. 
 
 	One of the advantages of the \CVD process is that \si can be incorporated \textit{in-situ}.
 	This is achieved by the following process: \si from the substrate edges is etched by the \verify{plasma} and \si atoms diffuse into the methane gas. 
 	These atoms are then build into the diamond lattice while growth.
+	After \nd growth, the \nds can be either investigated directly on the growth substrate or they can be shaken off in an ultrasonic bath to obtain a solution which can then be coated onto other substrates\todo{irgendwo einfuegen, was ich diesbezgl. gemacht hab}.
 	\\
 	In this thesis, two types of samples which were directly produced as nanodiamonds were investigated.
-	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company Microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF) of a size smaller than \SI{3}{nm}.
+	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company Microdiamant, product Liquid Diamond monocrystalline, MSY {0-0.03} micron GAF) of a size smaller than \SI{3}{nm}.
 	For the growth process, 1\% of methane was added to the hydrogen environment in the growth chamber.
 	The growth process was performed with a pressure of \SI{30}{hPa} for \SIrange{30}{60}{min}, yielding \nds of a diameter of about \SIrange{100}{200}{nm}.
 	\todo{put in figure}
@@ -124,8 +131,7 @@
 
 
 
-	\section{Wet-Milled Nanodiamonds}
-	% \section{Detonation and Sonification Processes}
+	\section[Wet-Milling]{Wet-Milled Nanodiamonds}\label{sec::wet_milled_nds}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -153,15 +159,30 @@
 	\end{figure}
 
 	Apart from growing \nds of a specific size directly via a \CVD process, macroscopic diamond starting material can be crushed to obtain small diamond particles.
-	As starting material, both \HPHT diamond and \CVD grown diamond films are used.
+	In contrast to \nds directly grown by a \CVD process, the process is divided into two sub-processes:
+
+	\begin{enumerate}
+		\item A macroscopic diamond has to be produced, for examplt by a \HPHT process or by \CVD growth.
+		\item The macroscopic is milled to smaller diamond particles.
+	\end{enumerate}
+
 	There are two major milling procedures: \basd (\BASD) and wet-milling in a vibrational mill.
 	Both techniques use small beads to crush the diamond material. 
 	The beads are either driven by ultrasonic waves (in the \BASD process) or by vibrations of the vibrational mill\todo{info about vibrational mill}.
-	A sketch of the process is shown in \autoref{fig::sketch_basd}.
+	A sketch of the process is shown in \autoref{fig::sketch_basd}\todo{more info}.
+	\\
+	The big advantage of the milling process is that diamond nanoparticles can be produced in a very large quantity.
+	When producing \nds directly via a \CVD process, the number of the produced \nds in one process scales with the surface of the substrate on which the \nds are grown.
+	In contrast, the quantity of milled \nds scales with the volume of the starting material, therefore in one and the same process the limit for the obtainable amount of diamond nanoparticles is much higher.
+	Another advantage of the milling process is that the \nds are in a aqueous solution after the milling process.
+	Therefore, they can be used to spin-coat as-is onto any substrate to the liking of the experimentor without further treatment.
+	\\
+	The disadvantage of the wet-milled \nds is that while as-grown \CVD \nds are technically single crystals, the milled \nds may contain grain boundaries \autoref{subfig::tem_milled}.
+	While the polycristalline diamond film is more likely to break apart at grain boundaries, this fact is no guarantee that the resulting \nds do not contain grain boundaries, which is a reason for reduced crystal quality.
 	\\
 	In the following paragraphs, details of the production processes of the investigated wet-milled samples are described. 
 	For an overview of the samples refer to \autoref{tab::samplenames}.
-	The starting material for the wet-milled \nds was a nanocristalline diamond film \cite{Williams2006a} directly grown on a silicon wafer by chemical vapor deposition (CVD). 
+	The starting material for the wet-milled \nds was a nanocristalline diamond film \cite{Williams2006a} directly grown on a silicon wafer by chemical vapor deposition (\CVD). 
 	A microwave hydrogen plasma containing 1\% methane was used to grow on purified \SI{5}{\nano\meter} nanodiamond seeds (produced by PlasmaChem).
 	To induce \textit{in-situ} \siv creation, sacrificial \Si pieces are situated in the growth chamber.
 	During diamond growth the \Si pieces are etched by the plasma and individual atoms are incorporated into the diamond lattice.
@@ -174,7 +195,7 @@
 	The high amount of steel containment due to the steel beads is removed by extensive acid treatment.
 	We also investigated \nds milled with silicon nitride beads, and found that the choice of material of the beads did not cause any spectroscopic difference.
 	The aqueous solution containing the \nds is drop cast onto an \ir film on a \Si substrate.
-	The \ir film of a thickness of \SI{130}{nm} is grown onto a buffer layer of yttria-stabilized zirconia (YSL) whith in turn is grown onto a \Si wafer.
+	The \ir film of a thickness of \SI{130}{nm} is grown onto a buffer layer of yttria-stabilized zirconia (YSZ) whith in turn is grown onto a \Si wafer.
 	The \ir surface has the advantage that it acts as an antenna and therefore enhances the collection efficiency of fluorescence light \cite{Neu2012a}.
 	Prior to drop casting, the substrate was cleaned in Piranha solution (50\% sulfuric acid H$_2$SO$_4$, 50\% hydrogen peroxide H$_2$O$_2$) to enhance the surface hydrophilicity and therefore obtain a homogeneous distribution of diamonds on the surface.
 	Post-procession treatment comprises either both annealing in vacuum at \SI{900}{\degreeCelsius} and consecutive \ox in air at a temperature of \SI{450}{\degreeCelsius}, or only one of the two methods.

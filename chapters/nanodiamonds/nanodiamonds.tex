@@ -54,19 +54,26 @@
 		\label{fig::sem_cvd}
 	\end{figure}
 
+	\begin{figure}[tp]
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/cvd_sketch.pdf}}
+		\caption{Sketch showing the production of \CVD nanodiamonds in the growth chamber with a methane gas environment.}
+		\label{fig::cvd_sketch}
+	\end{figure}
+
 	In contrast to the \HPHT process,  during the \cvd process, diamond is grown from a vapor phase.
-	This process happens at moderate temperatures (\SIrange{700}{1300}{\degrees\celsius}) but very low pressures of less than 1 atmosphere in a vacuum chamber \cite{}
+	This process happens at moderate temperatures (\SIrange{700}{1300}{\celsius}) but very low pressures of less than 1 atmosphere in a vacuum chamber \cite{}
 	The diamond grows outside its stability zone and atomic hydrogen is necessary to suppress the simultaneous growth of graphite.
 	The vapor phase within the growth chamber is a mixture of hydrogen and methane, the latter of which acts as a carbon source.
 	Within the vacuum chamber, activation of the gas by an energy source (e.g. microwave plasma) breaks apart the gas molecules to release carbon atoms. 
 	These atoms are drawn down toward the cooler substrate.
 	On the substrate surface, various processes occur, such as adsorption, desorption and diffusion.
 	\\
-	For crystals to form, initially seed crystals are necessary \todo{not entirely true}.
-	Seed crystals are commercially available, e.g. diamond particles produced by a detonation process.
+	For crystals to form, initially diamond nuclei are necessary.
+	The easiest method to obtain nuclei is to spin-coat a substrate with small diamond seed crystals of a size of a few nanometers. 
+	This method is exploited for the production processes described in this section.
+	Such small dimaond crystals are commercially available, and are usually diamond particles produced by a detonation process.
 	For these detonation diamond seeds, the high pressure produced by shockwaves due to a detonation is used to form very small diamond particles of a size domn to a few nanometers.
-	There are several ways to coat a substrate with seed crystals. 
-	The easiest method is to spin-coat a substrate with small diamond crystals, of a size of a few nanometers, which is also the method exploited for the production processes described in this section.
 	Growth on a substrate is easier, if the lattice constant of the substrate and the crystal to be grown are very similar.
 	The lattice constant of \ir (\SI{0.384}{nm}\cite{Arblaster2010}) is very similar to the lattice constant of diamond (\SI{0.356}{nm}\cite{Davis1993}).
 	Therefore, the diamonds were grown on a stratified substrate, consisting of \ir layers of \SIrange{60}{150}{nm} thickness grown onto an yttria-stabilized zirconia (YSZ) buffer layer, which in turn was grown on a silicon wafer.
@@ -83,7 +90,7 @@
 	These atoms are then build into the diamond lattice while growth.
 	\\
 	In this thesis, two types of samples which were directly produced as nanodiamonds were investigated.
-	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF) of a size smaller than \SI{3}{nm}.
+	The first batch (henceforth called \CVD samples) were grown on detonation diamond seeds (produced by the company Microdiamant, product Liquid Diamond monocrystalline, MSY 0-0.03 micron GAF) of a size smaller than \SI{3}{nm}.
 	For the growth process, 1\% of methane was added to the hydrogen environment in the growth chamber.
 	The growth process was performed with a pressure of \SI{30}{hPa} for \SIrange{30}{60}{min}, yielding \nds of a diameter of about \SIrange{100}{200}{nm}.
 	\todo{put in figure}
@@ -138,7 +145,21 @@
 		\label{fig::semtem_millled}
 	\end{figure}
 
-	In the following paragraphs, the production processes or the investigated samples is described. 
+	\begin{figure}[tp]
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/basd_sketch.pdf}}
+		\caption{Sketch showing the \basd process. In a vibrational mill, vibrations from the mill drive the beads instead of the ultrasonic waves.}
+		\label{fig::sketch_basd}
+	\end{figure}
+
+	Apart from growing \nds of a specific size directly via a \CVD process, macroscopic diamond starting material can be crushed to obtain small diamond particles.
+	As starting material, both \HPHT diamond and \CVD grown diamond films are used.
+	There are two major milling procedures: \basd (\BASD) and wet-milling in a vibrational mill.
+	Both techniques use small beads to crush the diamond material. 
+	The beads are either driven by ultrasonic waves (in the \BASD process) or by vibrations of the vibrational mill\todo{info about vibrational mill}.
+	A sketch of the process is shown in \autoref{fig::sketch_basd}.
+	\\
+	In the following paragraphs, details of the production processes of the investigated wet-milled samples are described. 
 	For an overview of the samples refer to \autoref{tab::samplenames}.
 	The starting material for the wet-milled \nds was a nanocristalline diamond film \cite{Williams2006a} directly grown on a silicon wafer by chemical vapor deposition (CVD). 
 	A microwave hydrogen plasma containing 1\% methane was used to grow on purified \SI{5}{\nano\meter} nanodiamond seeds (produced by PlasmaChem).
@@ -168,3 +189,23 @@
 	In the second step, these microdiamonds were then densely spin-coated onto \ir substrates and implanted with \si (implantation energy \SI{900}{keV}, fluence \SI{e11}{\per\centi\meter\squared}).
 	To eliminate damage from the implantation process, the diamonds were annealed in vacuum at \SI{900}{\degreeCelsius} for 3 hours and subsequently oxidized in air at \SI{450}{\degreeCelsius} also for 3 hours.
 	At last, the micrometer sized diamond particles were milled to a size of \SI{250}{\nano\meter}.
+
+
+	\begin{table}[tp] 
+		\centering 
+		\caption{Summary of the wet-milled samples. The first column indicates the names of the samples, the second the mean diameter of the \nds, and the third describes how the \si was incorporated into the diamond.} \label{tab::samplenames} 
+			\begin{tabular}{llll} 
+			\toprule
+			Sample name & Size & Si incorporation & Post-processing \\ 
+			\midrule
+			\insituF & \SI{50}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
+			\insituS & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
+			\insituSn & \SI{70}{nm} & \textit{in-situ} &  \begin{tabular}[c]{@{}l@{}}no post-processing \\ subset of \insituS \end{tabular}\\ \hline 
+			\insituSo & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}oxidized in air at 450\textdegree C \\ subset of \insituS \end{tabular}\\ \hline 
+			\insituH & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
+			\insituHao & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at 900\textdegree C, \\ consecutively oxidized in air at 450\textdegree C \\ subset of \insituH \end{tabular}\\ \hline 
+			\implantedTao & \SI{250}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at 900\textdegree C, \\ consecutively oxidized in air at 450\textdegree C\end{tabular}\\ 
+			\bottomrule
+			\end{tabular} 
+	\end{table}
+

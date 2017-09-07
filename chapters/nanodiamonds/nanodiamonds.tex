@@ -3,7 +3,7 @@
 \chapter{Fabrication of Nanodiamonds}	\label{ch::fabrication_nanodiamonds}
 \chaptermark{Fabrication of Nanodiamonds}
 
-	"Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth’s surface." (Homepage of the Gemological Institute of America Inc.)
+"Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth’s surface." (Homepage of the Gemological Institute of America Inc.)
 	While this statement is true for natural gem diamonds, various methods exist to synthetically produce diamond for applications in industry and research. 
 	In this chapter, different fabrication methods of \nds are explained.
 	The first two procedures described are the \hpht method and the \cvd are described.
@@ -20,7 +20,7 @@
 
 	
 
-	\section[HPHT]{High-Pressure High-Temperature Diamond}\label{sec::hpht}
+\section[HPHT]{High-Pressure High-Temperature Diamond}\label{sec::hpht}
 
 	The \HPHT process was the first process with which diamond was successfully synthesized (in 1879).
 	Depending on the exact process, temperatures and pressures are needed of a few thousand degrees Celsius and  \num{50000} to a few \num{100000}, respectively \cite{davis1993diamond}.
@@ -34,7 +34,7 @@
 	\todo{mention implanted NDs and Davidoff NDs}
 
 
-	\section[CVD]{Chemical Vapor Deposition Diamond}\label{sec::cvd}
+\section[CVD]{Chemical Vapor Deposition Diamond}\label{sec::cvd}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -71,11 +71,11 @@
 	\\
 	Growth on a substrate is easier, if the lattice constant of the substrate and the crystal to be grown are very similar.
 	The lattice constant of \ir (\SI{0.384}{nm}\cite{Arblaster2010}) is very similar to the lattice constant of diamond (\SI{0.356}{nm}\cite{Davis1993}).
-	Therefore, the diamonds were grown on a stratified substrate, consisting of \ir layers of \SIrange{60}{150}{nm} thickness grown onto an yttria-stabilized zirconia (YSZ) buffer layer, which in turn was grown on a silicon wafer.
+	Therefore, the diamonds were grown on a stratified substrate, consisting of \ir layers of \SIrange{60}{150}{nm} thickness grown onto an yttria-stabilized zirconia (YSZ) buffer layer, which in turn was grown on a silicon wafer \cite{Gsell2004a}.
 	If the lattice constant of the substrate and the diamond are not matched, stress in the diamond lattice is induced.
 	Therefore, the \ir substrate not only facilitates diamond growth, but also is a means to reduce unfavorable stress in the \nds (more on the effect of stress in \autoref{}).
 	\\
-	For crystals to form, initially diamond nuclei are necessary.
+	For crystals to form in a heteroepitactic growth (i.e. the substrate is another material than the grown crystal), a nucleation step is necessary \cite{Schreck2014a}.
 	The easiest method to obtain nuclei on a substrate is to spin-coat the substrate with small diamond seed crystals of a size of a few nanometers. 
 	This method is exploited for the production processes described in this section.
 	Such small diamond crystals are commercially available, and are usually diamond particles produced by a detonation process.
@@ -92,7 +92,7 @@
 
 
 	One of the advantages of the \CVD process is that \si can be incorporated \textit{in-situ}.
-	This is achieved by the following process: \si from the substrate edges is etched by the \verify{plasma} and \si atoms diffuse into the methane gas. 
+	This is achieved by the following process: \si from the substrate edges or sacrificial \si in the growth chamber is etched by the \verify{plasma} and \si atoms diffuse into the methane gas. 
 	These atoms are then build into the diamond lattice while growth.
 	After \nd growth, the \nds can be either investigated directly on the growth substrate or they can be shaken off in an ultrasonic bath to obtain a solution which can then be coated onto other substrates\todo{irgendwo einfuegen, was ich diesbezgl. gemacht hab}.
 	\\
@@ -127,11 +127,7 @@
 	\end{table}
 
 
-
-
-
-
-	\section[Wet-Milling]{Wet-Milled Nanodiamonds}\label{sec::wet_milled_nds}
+\section[Wet-Milling]{Wet-Milled Nanodiamonds}\label{sec::wet_milled_nds}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -182,13 +178,16 @@
 	\\
 	For this thesis, two different batches of \BASD \nds were used.
 	% - BASD SiV polykristalliner Diamant (Matthias Schreck) zermahlen von A. Krüger -> keine SiVs in NDs
-	One of the samples was produced from 
-	%- BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
-	The other sample was produced from a commercially available diamond film, produced by the company Element Six.
-	This specific diamond film already contained \si impurities\todo{was wurde weiter damit gemacht?}.
+	For one of the samples (\basdes), a polycristalline diamond film was used as starting material.
+	The diamond film was produced by the group of M. Schreck \cite{}.
+	\Si was \textit{in-situ} incorporated during diamond growth, as described in \autoref{sec::cvd}.
 	After milling, the \nds did not show any \pl from \sivs (see \autoref{}).
 	We suspect that the reason for this is that \sivs are natural weak points of the diamond lattice which leads to a higher probablility for the diamond to break apart at areas where there are \sivs present.
 	Hence a portion of the \sivs are destroyed by the milling process, especially if the target \nd size is of the same order as the individual crystals in the initial diamond film.
+	%- BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
+	The other sample was produced from a commercially available diamond film, produced by the company Element Six.
+	This specific diamond film already contained \si impurities\todo{was wurde weiter damit gemacht?}.
+	Similar to sample \basds, the sample did not exhibit \siv luminescence.
 	% - milled CVD diamond film (in-situ SiV)
 	In the following paragraphs, details of the production processes of the investigated samples produced by a wet-milling process in a vibrational mill are described. 
 	For an overview of the samples refer to \autoref{tab::samplenames}.
@@ -221,6 +220,22 @@
 	In the second step, these microdiamonds were then densely spin-coated onto \ir substrates and implanted with \si (implantation energy \SI{900}{keV}, fluence \SI{e11}{\per\centi\meter\squared}).
 	To eliminate damage from the implantation process, the diamonds were annealed in vacuum at \SI{900}{\degreeCelsius} for 3 hours and subsequently oxidized in air at \SI{450}{\degreeCelsius} also for 3 hours.
 	At last, the micrometer sized diamond particles were milled to a size of \SI{250}{\nano\meter}.
+
+
+
+	\begin{table}[tp] 
+		\centering 
+		\caption{Summary of the \BASD samples. The first column indicates the names of the samples, the second the starting material from which the \nds were milled by \basd.} \label{tab::samplenames} 
+			\begin{tabular}{llll} 
+			\toprule
+			Sample name & Starting material \\ 
+			\midrule
+			\basds & polycristalline diamond film (M. Schreck) \\ \hline 
+			\basdes & polycristalline diamond film (Element Six) \\ 
+			\bottomrule
+			\end{tabular} 
+	\end{table}
+
 
 
 	\begin{table}[tp] 

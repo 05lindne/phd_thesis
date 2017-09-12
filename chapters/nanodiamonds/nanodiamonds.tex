@@ -256,3 +256,45 @@
 			\end{tabular} 
 	\end{table}
 
+\section{\Ir Substrate}
+
+
+\begin{figure}[tp]
+	\begin{subfigure}[t]{ 0.49\linewidth}
+		\caption{}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/am21-sc-7-x20000-1.png}}
+		\label{subfig::sunken_nd}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{ 0.49\linewidth}
+		\caption{}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/siq-basd-siv2-tilt45-x10000-1.png}}
+		\label{subfig::peeled_ir}
+	\end{subfigure}
+	\caption{(a) SEM picture of \nds sunken into a \si substrate after annealing at \SI{900}{\celsius} for \SI{3}{h}. Magnification \num{20000} (b) SEM picture of an \SI{60}{nm} \ir layer that peeled off the substrate after an ultrasonic bath.}
+	\label{fig::sem_substrates}
+\end{figure}
+
+	In \autoref{sec::cvd} it was already mentioned, that we used a \si substrate with an \ir layer on top in order to match the lattice constant of diamond.
+	We also use the same substrates for the experiments with wet-milled diamonds, as the \ir has further advantages:
+	\begin{itemize}
+		\item The high hydrophility of \ir \todo{check numbers} enhances the homogenuity of the nanodiamonds on the substrate after spin-coating or drop-casting. 
+		The hydrophility is further improved by treating the substrate in a Piranha etch (\todo{chem. Formel einfuegen}) by removing oxide layers on the surface. 
+		The treatment with Piranha etch also has the advantage that all organic contamination is removed.
+		Measurements after applying the Piranha cleaning yielded an estimation of the contact angle of slightly more than one degree.
+		To find the contact angle, the volume of a water drop was compared to the surface it covered and an estimation of the contact angle deduced.
+		\item During our post-processing steps, it is of major importance, that the substrate can withstand high temperatures.
+		During one of our experiments with implanted nanodiamonds on a \si substrate, we encountered the problem that the \si sublimated and re-nucleated during annealing at \SI{1200}{\celsius}, causing the diamonds to sink into the \si surface \ref{fig::sunken_nd}.
+		\Ir has a high melting point of \SI{2446}{\celsius}, compared to the melting point of \SI{1414}{\celsius}.
+		Therefore, \ir is less prone to damage by high temperatures and withstands annealing procedures up to our standard annealing temperature of \SI{1200}{\celsius} without problems.
+		\item Additionally to the mentioned technical advantages, the \ir surface has advantages for the following spectroscopic measurements: 
+		It acts both as a mirror and as an antenna for the \fl light emitted by the \siv \cite{}.
+		Therefore, the collection efficiency of the \fl light is enhanced.
+	\end{itemize}
+	These advantages of the \ir surface is only countered by one minor disadvantage:
+	If the \ir layer is too thin, it tends to peel off the substrate \autoref{subfig::peeled_ir}.
+	We encountered this problem during a cleaning procedure in the ultrasonic bath.
+	However, this disadvantage is circumvented by using a thicker \ir layer.
+	For our measurements, we used an \Ir layer of a thickness of \SI{120}{nm}, with which we did not encounter any mechanical problems.

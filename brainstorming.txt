@@ -110,6 +110,7 @@ Inhaltsverzeichnis
 						- wirkt als Antenne & Spiegel
 						- Hydrophilität von Ir-Substrat (LI, S.152ff)
 						- Probleme mit Ir:Löcher, Ablösen
+						- PRobleme mit Si: Einsinken der Diamanten
 				
 
 * Chapter: Experimenteller Aufbau

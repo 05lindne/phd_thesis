@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[${1:t}]
+	\begin{subfigure}[t]{ 0.49\linewidth}
+		\caption{${2:<caption>}}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics${3:<path>}}}
+		\label{subfig::${4:<fig>}}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{ 0.49\linewidth}
+		\caption{${5:<caption>}}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics${6:<path>}}}
+		\label{subfig::${7:<fig>}}
+	\end{subfigure}
+	\caption{${8:<caption>}}
+	\label{fig::${9:<fig>}}
+\end{figure}
+]]></content>
+	<tabTrigger>psubfig2</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

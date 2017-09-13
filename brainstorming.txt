@@ -65,54 +65,6 @@ Inhaltsverzeichnis
 
 				
 
-* Chapter: Herstellung von nanodiamanten
-
-			Abstract: Wir reden ueber verschiedene herstellungsverfahren
-
-
-			HPHT diamonds
-				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				verfahren
-				vorteile
-				nachteile
-
-			CVD nanodiamaten
-				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				verfahren
-					CVD Diamant
-						wachstumsprozess
-					Nanodiamanten
-					SiV reinkriegen
-					CVD microwave (Schreck) vs. hot filament
-				vorteile
-				nachteile
-				Vorgehen im Rahmen der Diss
-					- Schreck'sche CVD-Diamanten (LI, S13, S17)
-					- Diamantoide (LIII, S.29ff)
-
-			Wetmilled diamonds
-				eigenschaften/besonderheiten von erzeugten nanodiamnten
-				verfahren
-				vorteile
-				nachteile
-				Vorgehen im Rahmen der Diss
-					- HPHT Davidov
-					- implantierte HPHT Diamanten	
-					- BASD SiV polykristalliner Diamant (Matthias Schreck) zermahlen von A. Krüger -> keine SiVs in NDs
-					- BASD SiV: E6 die SiVs enthalten zermahlen (A. Krüger) -> keine SiVs in ND
-					- milled CVD diamond film (in-situ SiV)
-						- polycristalliner Film von O. Williams (ev. Messungen)
-					- 2x vermahlene, implantierte NDs (E6->MDs->NDs)
-						- in Bochum implantiert
-						- Probleme mit MDs auf Si -> versinken nach annealing (Sublimation & Renuklenation) 
-					- Oberflächenbehandelte Proben aus Cardiff (O2, O3, H2, Plasma)(LIII, S19ff)
-					-Ir als Substrat 
-						- wirkt als Antenne & Spiegel
-						- Hydrophilität von Ir-Substrat (LI, S.152ff)
-						- Probleme mit Ir:Löcher, Ablösen
-						- PRobleme mit Si: Einsinken der Diamanten
-				
-
 * Chapter: Experimenteller Aufbau
 
 			Abstract: Zweck des Aufbaus, Aufbau fuer Fluoreszensmessungen. Details und Komponenten.
@@ -149,15 +101,57 @@ Inhaltsverzeichnis
 					components
 
 
-		
-* Chapter: SiV in Nanodiamanten (spektrale Verteilung)
+* Chapter: Herstellung von nanodiamanten
 
-			Abstract vom Paper: Welche Eigenschaften haben die untersuchten SiVs (Verteilung)
+			Abstract: Wir reden ueber verschiedene herstellungsverfahren
 
-			kurze Einleitung
-			Motivation
-			zusaetzliche experimentelle Details (welche Typen von Diamanten)
-			Einfuehrung Theorie
+
+			HPHT diamonds
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+					- HPHT Davidov
+				verfahren
+				vorteile
+				nachteile
+
+			CVD nanodiamaten
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				verfahren
+					CVD Diamant
+						wachstumsprozess
+					Nanodiamanten
+					SiV reinkriegen
+					CVD microwave (Schreck) vs. hot filament
+				vorteile
+				nachteile
+				Vorgehen im Rahmen der Diss
+					- Schreck'sche CVD-Diamanten (LI, S13, S17)
+					- Diamantoide (LIII, S.29ff)
+
+			Wetmilled diamonds
+				eigenschaften/besonderheiten von erzeugten nanodiamnten
+				verfahren
+				vorteile
+				nachteile
+				Vorgehen im Rahmen der Diss
+					- BASD SiV polykristalliner Diamant (Matthias Schreck) zermahlen von A. Krüger -> keine SiVs in NDs
+					- BASD(?) SiV: E6 die Si enthalten zermahlen (A. Krüger) -> elektronenbestrahlt -> keine SiVs in ND
+					- implantierte HPHT Diamanten	
+					- milled CVD diamond film (in-situ SiV)
+						- polycristalliner Film von O. Williams (ev. Messungen)
+					- 2x vermahlene, implantierte NDs (E6->MDs->NDs)
+						- in Bochum implantiert
+						- Probleme mit MDs auf Si -> versinken nach annealing (Sublimation & Renuklenation) 
+					- Oberflächenbehandelte Proben aus Cardiff (O2, O3, H2, Plasma)(LIII, S19ff)
+			
+			Ir als Substrat 
+				- wirkt als Antenne & Spiegel
+				- Hydrophilität von Ir-Substrat (LI, S.152ff)
+				- Probleme mit Ir:Löcher, Ablösen
+				- PRobleme mit Si: Einsinken der Diamanten
+				
+
+
+*Chapter: Crystalline Quality
 
 			eigenschaft annealing, oxidation
 				theory
@@ -179,6 +173,17 @@ Inhaltsverzeichnis
 					- Raman auf einzelnen Nanodiamanten (implantierten 2x MD)
 					- TEM -> NDs sind polykristallin
 				diskussion
+		
+
+
+* Chapter: SiV in Nanodiamanten (spektrale Verteilung)
+
+			Abstract vom Paper: Welche Eigenschaften haben die untersuchten SiVs (Verteilung)
+
+			kurze Einleitung
+			Motivation
+			zusaetzliche experimentelle Details (welche Typen von Diamanten)
+			Einfuehrung Theorien
 
 			eigentschaft Verteilung + Einzelemitter
 				theory

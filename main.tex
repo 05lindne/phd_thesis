@@ -1,9 +1,9 @@
 % \documentclass[a4paper]{report}
 % \documentclass[a4paper]{scrreprt}
 \documentclass[
-    a4paper,     % DinA4 Papier
-    11pt,        % Schriftgröße
-    twoside,     % oneside, twoside
+	a4paper,     % DinA4 Papier
+	11pt,       % Schriftgröße
+	oneside,     % oneside, twoside
 ]{report}
 
 \input{./frontbackstuff/preamble/preamble}
@@ -15,20 +15,20 @@
 
 \begin{document}
 
+\pagestyle{empty}
+\pagenumbering{Alph}%trick to get some style issues with hyperref right
+
 \newpage\null\thispagestyle{empty}\newpage
 
-\listoftodos		
 
-		\pagestyle{empty}
-		\pagenumbering{Alph}%trick to get some style issues with hyperref right
-    \include{./frontbackstuff/title/title}		\label{title}
-
+	\listoftodos		
+	\include{./frontbackstuff/title/title}		\label{title}
 	\cleardoublepage
-    \include{./chapters/abstract/abstract}	\label{abstract}
+	\include{./chapters/abstract/abstract}	\label{abstract}
    
 	\cleardoublepage
-		\pagestyle{fancy}
-    \pagenumbering{roman}
+\pagestyle{fancy}
+\pagenumbering{roman}
 
 % 	\cleardoublepage
 	\phantomsection
@@ -51,20 +51,20 @@
 	\include{./frontbackstuff/acknowledgements/acknowledgements}	\label{acknowledgements}
 
 	\cleardoublepage
-    \pagenumbering{arabic}
+\pagenumbering{arabic}
 		
 % 		\linenumbers
 % 		\doublespacing
 
 	\cleardoublepage
-  	\include{./chapters/introduction/introduction}
-  	\input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
-  	\input{./chapters/setup/setup}
-  	\input{./chapters/nanodiamonds/nanodiamonds}
-  	\input{./chapters/crystal_quality/crystal_quality}
-  	% \input{./chapters/results/results}
-  	\input{./chapters/discussion/discussion}
-  	\input{./chapters/conclusion/conclusion}
+	\include{./chapters/introduction/introduction}
+	\input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
+	\input{./chapters/setup/setup}
+	\input{./chapters/nanodiamonds/nanodiamonds}
+	\input{./chapters/crystal_quality/crystal_quality}
+	% \input{./chapters/results/results}
+	\input{./chapters/discussion/discussion}
+	\input{./chapters/conclusion/conclusion}
 	\input{./chapters/appendices/appendices}			\label{appendices}	
 	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}	
 	

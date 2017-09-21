@@ -3,5 +3,6 @@ Check for PhD thesis
 - all figures referenced?
 - figure captions?
 - can I fit any more defining numbers somewhere (eg experimental setup, efficiencies...)
-- confocal unit -> use other terminology?
 - delete listoftodos
+- delete todo
+- exchange seperated with separated

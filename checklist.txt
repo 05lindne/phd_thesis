@@ -6,3 +6,6 @@ Check for PhD thesis
 - delete listoftodos
 - delete todo
 - exchange seperated with separated
+- figure basd "ultrasound" chaged to "vibrations"
+- figure setup green border around lenses removed
+- schreibstil zeiten (is vs. was etc.) checken

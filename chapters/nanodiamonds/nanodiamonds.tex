@@ -32,7 +32,7 @@
 	Several press designs exist, which all provide a high temperature and a high pressure in their core.
 	While it is possible to grow big (> \SI{10}{\carat}) high-quality diamonds with the \HPHT process, it is rather expensive when compared to the \CVD process due to the necessary high temperatures and high pressures.
 	\\
-	In the scope of this thesis, \HPHT diamonds produced by Davydov et al. \cite{Davydov2014} are spectroscopically investigated.\todo[fancyline]{wie kommen da die SiVs rein?}
+	In the scope of this thesis, \HPHT diamonds \todo{sind die nicht auch zermahlen worden?}produced by Davydov et al. \cite{Davydov2014} are spectroscopically investigated.\todo[fancyline]{wie kommen da die SiVs rein?}
 
 
 \section[CVD]{Chemical Vapor Deposition Diamond}\label{sec::cvd}
@@ -188,8 +188,8 @@
 	\subsection{Wet-Milled \HPHT \Nds}\label{subsec::milled_hpht_nds}
 	We investigated \nds, which were produced from a \HPHT starting material and milled by a wet-milling process to median sizes of about \SIlist{45;80;260}{nm}.
 	They were then drop-casted onto an \ir substrate and implanted with \ch{^{28}Si^1+} \todo[fancyline]{implantation parameters} \footnote{Implantation was performet by Dr. Detlef Rogalla at Ruhr-Universität Bochum (RUBION - Zentrale Einrichtung für Ionenstrahlen und Radionuklide)}.
-	After impalntation, the \nds of a size of \SI{80}{nm} were annealed in vacuum for \SI{1}{\hour} at \SI{1000}{\celsius}, \SI{900}{\celsius} for \SI{3}{\hour}.
-	At last, all \HPHT \nds were oxidized in air at SI{450}{\celsius} for \SI{3}{\hour}.
+	% After impalntation, the \nds of a size of \SI{80}{nm} (sample \hphtimpeighty) were annealed in vacuum for \SI{1}{\hour} at \SI{1000}{\celsius}, \SI{900}{\celsius} for \SI{3}{\hour}.
+	At last, all \HPHT \nds (samples \hphtimpfortyfive, \hphtimpeighty,\hphtimptwosixty) were oxidized in air at SI{450}{\celsius} for \SI{3}{\hour}.
 	\\
 
 	\subsection{Wet-Milled \cvd \Nds}\label{subsec::milled_nds}
@@ -266,20 +266,7 @@
 	At last, they were milled again to sizes of about \SIlist{40;45;240;260}{nm}.
 	The diamonds of sizes \SIlist{40;240}{nm} were annealed in vacuum at \SI{1200}{\celsius}\todo{time?}.
 
-	 
-
-	\begin{table}[tp] 
-		\centering 
-		\caption{Summary of the \BASD samples. The first column indicates the names of the samples, the second the starting material from which the \nds were milled by \basd.} \label{tab::basd_samplenames} 
-			\begin{tabular}{llll} 
-			\toprule
-			Sample name & Starting material \\ 
-			\midrule
-			\basds & polycristalline diamond film (M. Schreck) \\ \hline 
-			\basdes & polycristalline diamond film (Element Six) \\ 
-			\bottomrule
-			\end{tabular} 
-	\end{table}
+	
 
 
 
@@ -290,17 +277,23 @@
 			\toprule
 			Sample name & Size & Si incorporation & Post-processing \\ 
 			\midrule
+			\hphtimpfortyfive & \SI{45}{nm} & \textit{implanted} & oxidized in air at \SI{450}{\celsius}\\ \hline 
+			\hphtimpeighty & \SI{80}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum for \SI{1}{\hour} at \SI{1000}{\celsius}\\ and at \SI{900}{\celsius} for \SI{3}{\hour}\end{tabular}\\ \hline 
+			\hphtimptwosixty & \SI{260}{nm} & \textit{in-situ} & oxidized in air at \SI{450}{\celsius}\\ \hline 
 			\insituF & \SI{50}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
 			\insituS & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
 			\insituSn & \SI{70}{nm} & \textit{in-situ} &  \begin{tabular}[c]{@{}l@{}}no post-processing \\ subset of \insituS \end{tabular}\\ \hline 
-			\insituSo & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}oxidized in air at 450\textdegree C \\ subset of \insituS \end{tabular}\\ \hline 
+			\insituSo & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}oxidized in air at \SI{450}{\celsius} \\ subset of \insituS \end{tabular}\\ \hline 
 			\insituH & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline 
-			\insituHao & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at 900\textdegree C, \\ consecutively oxidized in air at 450\textdegree C \\ subset of \insituH \end{tabular}\\ \hline 
-			\implantedTao & \SI{250}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at 900\textdegree C, \\ consecutively oxidized in air at 450\textdegree C\end{tabular}\\ 
+			\insituHao & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{900}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius} \\ subset of \insituH \end{tabular}\\ \hline 
+			\implantedTao & \SI{250}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{900}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline 
+			\milltwofortyann & \SI{40}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{1200}{\celsius}, \\  consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline 
+			\milltwofiftyno & \SI{50}{nm} & implanted & oxidized in air at \SI{450}{\celsius}\\ \hline 
+			\milltwotwofortyann & \SI{240}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{1200}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline 
+			\milltwotwosixtyno & \SI{260}{nm} & implanted & oxidized in air at \SI{450}{\celsius}\\ 
 			\bottomrule
 			\end{tabular} 
 	\end{table}
-
 
 
 

@@ -12,8 +12,9 @@ Inhaltsverzeichnis
 			Motivation aus der Quantenoptik.
 				Historischer Background + generelle introduction
 				Was ist Quantenoptik ueberhaupt?
-				Was sind Fabzentren ueberhaupt?
-				Warum interessiert sich irgendeiner dafuer?
+				Warum ist dafür Metrologie wichtig?
+				Was braucht die Metrologie?
+				Warum sind dafür Farbzentren interessant?
 
 			Was sind Farbzentren in Diamanten?
 				Es gibt Farbzentren mit verschiedensten Atomen.
@@ -238,6 +239,8 @@ Inhaltsverzeichnis
 						Probleme mit Spitze
 					- Ablösen von Diamanten (BASD & CVD) von Substrat im Ultraschallbad kann dazu führen, dass Substrat mitabgelöst wird) -> in Kalilauge auflösen LII, S96
 					- Antenne gespincoatet
+					- warum nicht einfach neue CVD-Diamanten herstellen, wie die, die am Anfang meiner Diss so gut funktioniert haben -> Dichte am Substrat zu hoch zum Aufpicken
+					- warum nicht die implantierten HPHT Diamanten hernehmen (Groessen 20, 40, 80nm) -> nur die 40nm grossen Diamanten zeigen irgendein Signal , sind aber zu klein zum Aufpicken
 				einfuehrung Theorie
 				Resultate
 					- Emitter sterben im SEM

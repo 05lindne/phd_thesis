@@ -3,11 +3,48 @@
 
 \chapter{Introduction}	\label{ch::introduction}
 	
-In the last few years...
+Within the last few years the topic of quantum technologies has witnessed a large progress in fields like quantum cryptography, quantum computation and quantum metrology.
+Requirements for these technologies are ideally single photons which are produced \enquote{on demand} i.e. deterministically and have well defined properties.
+For instance, quantum computing places restraints on the photon sources, called the diVincenzo criteria (\todo[fancyline]{enter diVincenzo criteria}).
+The progress of these technologies calls for measurement standards to make the individual measurements comparable???
+\\
+The candela is the SI (syst\`eme internationale) unit for optical radiation \cite{Cheung2007} and is the only unit which is linked to physiological processes, namely the varying sensitivity of the human eye to radiation of different frequencies.
+It is a photometric quantity, meaning that a physical measurement of the light in terms of luminous intensity represents the visual sensation experienced by a human observer exposed to the same source of light.
+It is one of the base units since the system was first introduced.
+In the latest definition, the candela is linked to the unit watt.
+The current definition of the candela (cd) is the following:
+\enquote{The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency \num{540e12} hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.}\cite{NistSIunits}
+Advances in the quantum technologies which operate in the photon-counting regime would profit from a redefinition of the candela in terms of photon number, named \enquote{quantum candela}.
+\\
+The term \enquote{quantum candela} is used to describe a reformulation of the candela by defining it via a countable number of photons.
+This new definition would be of a form that converts the current definition into
+\begin{equation}
+	P=nh\nu
+\end{equation}
 
-Now my major contribution which is aaaaawesome...
+where 
+
+\begin{align*}
+	P&=\text{power}=\text{\SI{1/683}{\watt} exactly}\\
+	n&=\text{number of photons per second}\\
+	h&=\text{Planck's constant}=\text{\SI{6.6260693+-11e-34}{\joule\second}}\\
+	\nu&=\text{photon frequency}=\text{\SI{540e12}{\hertz} exactly}
+\end{align*}
+
+which yields
+
+\[
+n=\text{\SI{4.0919429+-7e15}{\per\second}}
+\]
+\cite{Cheung2007}
+
+The number of photons of all wavelengths emitted or contained in a given beam of light is given by:
+\begin{equation}
+	N_p=\int\frac{E_{\nu}}{h\nu}\diff\nu =\int\frac{\lambda E_{\lambda} }{hc} \diff\lambda
+\end{equation}
 
 
-\par 
+
+
 
 

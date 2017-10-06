@@ -1,0 +1,9 @@
+sentences for my thesis intro from project proposal, paper Zwinkels2010, and paper Cheung2007
+
+Within the last few years the emerging topic of quantum technologies has witnessed a large progress in fields like quantum kryptography, quantum computation and quantum metrology.
+
+A basic technology required for this progress is the development of single photon sources with well defined properties.
+
+full quantum mechanical state for applications in metrology and quantum communication has to be known: quantitative parameters (e.g. photon count rate, quantum efficiency) and qualitative parameters (e.g. photon statistics, Fock state decomposition)
+
+only pure single photon emitters of well defined emission wavelength and emission rate can be used as an absolute 

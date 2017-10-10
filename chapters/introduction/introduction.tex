@@ -2,12 +2,19 @@
 
 
 \chapter{Introduction}	\label{ch::introduction}
-	
+
+\enquote{Every competent physicist can \enquote{do} quantum mechanics, but the stories we tell ourselves about what we are doing are as various as the tales of Sheherazade, and almost as implausible.} - David J. Griffiths
+\\
+%Was ist Quantenoptik ueberhaupt?
+Quantum optics is the sciences of light which deals with single light particles, namely photons.
+\\
+%Warum ist dafür Metrologie wichtig?
 Within the last few years the topic of quantum technologies has witnessed a large progress in fields like quantum cryptography, quantum computation and quantum metrology.
 Requirements for these technologies are ideally single photons which are produced \enquote{on demand} i.e. deterministically and have well defined properties.
 For instance, quantum computing places restraints on the photon sources, called the diVincenzo criteria (\todo[fancyline]{enter diVincenzo criteria}).
 The progress of these technologies calls for measurement standards to make the individual measurements comparable???
 \\
+%Was braucht die Metrologie
 The candela is the SI (syst\`eme internationale) unit for optical radiation \cite{Cheung2007} and is the only unit which is linked to physiological processes, namely the varying sensitivity of the human eye to radiation of different frequencies.
 It is a photometric quantity, meaning that a physical measurement of the light in terms of luminous intensity represents the visual sensation experienced by a human observer exposed to the same source of light.
 It is one of the base units since the system was first introduced.
@@ -31,20 +38,26 @@ where
 	\nu&=\text{photon frequency}=\text{\SI{540e12}{\hertz} exactly}
 \end{align*}
 
-which yields
+which yields \cite{Cheung2007}
 
 \[
 n=\text{\SI{4.0919429+-7e15}{\per\second}}
 \]
-\cite{Cheung2007}
 
-The number of photons of all wavelengths emitted or contained in a given beam of light is given by:
+
+The number of photons of all wavelengths emitted or contained in a given beam of light is given by \cite{Zwinkels2010}:
 \begin{equation}
-	N_p=\int\frac{E_{\nu}}{h\nu}\diff\nu =\int\frac{\lambda E_{\lambda} }{hc} \diff\lambda
+	N_P=\int\frac{E_{\nu}}{h\nu}\diff\nu =\int\frac{\lambda E_{\lambda} }{hc} \diff\lambda
 \end{equation}
 
+From this equation, the minimal number of photons to illuminate a scene can be calculated.
+However, in nature most light sources emit continuous light, therefore not the absolute number of photons, but the number of photons emitted per unit time, i.e. the photon flux $\Phi_P$ is of interest:
+\begin{equation}
+	\Phi_P=\frac{\diff N_P}{\diff t}
+\end{equation}
 
-
-
-
+For high-accuracy absolute radiometry at the quantum level, predictable or quasi-single-photon sources and photon detectors are needed.
+A key requirement for the progress of quantum information technology is the development of sources that deterministically produce single photons upon request (on-demand source).
+Colour centres in synthetic diamond...represent an interesting single-photon source with strong anti-bunching and a spectral width about 1nm at room temperature.
+\cite{Zwinkels2010}
 

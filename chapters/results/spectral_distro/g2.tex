@@ -1,0 +1,56 @@
+%!TEX root = ../../../main.tex
+
+
+
+
+\section[g2 Measurements]{Photon correlation measurements} \label{sec::g2}
+
+
+
+	\begin{figure}[tp]
+		\begin{subfigure}[tp]{ 0.49\linewidth}
+			\caption{}\label{subfig::g2_a}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/g2zuSpektrum8_15_5_corr_fit_notitle.pdf}}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[tp]{ 0.49\linewidth}
+			\caption{}\label{subfig::g2_b}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir8_g2_scan_xy-05_200uW_fit.pdf}}
+		\end{subfigure}
+		\caption{(a) Intensity autocorrelation function of \emnarrow at an excitation power of \SI{15}{\micro\W}. (b) Intensity autocorrelation function of \embroad at an excitation power of \SIlist{200}{\micro\W}, which is 25\% of the saturation count rate.}
+		\label{fig::g2}
+	\end{figure}
+
+
+	The investigated \sivs exhibit count rates of a few thousand to a few \SI{100000}{cps}.
+	We carried out measurements of the photon statistics and found that about 3\% of the \sivs are single color centers.
+	These measurements show, that the probability of finding a single emitter does not correlate in any way with the \cwl of the ZPL or the \lw of the ZPL.
+	We found several single \sivs with an antibunching dip down to about \num{0.2} and attribute the residual \gtz value to background fluorescence from the diamond host.
+	For the utilized \nds an of the background measurement independent of \siv \pl is impossible, because the laser spot size is bigger than the \nd. 
+	Therefore, the \siv will always be excited when the \nd is illuminated.
+	The measured lifetimes of the single \sivs are in the range of \SIrange{1}{7}{ns}.
+	\autoref{fig::g2} shows the \gt functions of the two emitters introduced in \autoref{subsec::spectra}, \emnarrow and \embroad.
+	\\
+	\autoref{subfig::g2_a} shows the photon correlation function of \emnarrow at a power of \SI{15}{\micro\W}. 
+	The fit of the data for an excitation power of \SI{15}{\micro\W} yields a lifetime of the excited state of \SI[separate-uncertainty]{1.6\pm0.1}{ns}.
+	The \gtz values of the same fit is \num{0.88}, which corresponds to eight equally bright emitters.
+	However, the \gtz value is probably overestimated due to the fast dynamics of the emitter which cannot be fully resolved.
+	Measurements of other \sivs in \hl yield \gtz values down to \num[separate-uncertainty]{0.2}.
+	\\
+	\autoref{subfig::g2_b} shows the \gt function of \embroad at an excitation power of \SI{200}{\micro\W}, which is 25\% of the saturation power of that emitter, which amounts to \SI{1}{mW}.
+	The \gtz values for yields \num[separate-uncertainty]{0.16\pm0.06}, therefore being a representative \gt measurement of single \sivs.
+	The fits yield a lifetime of the excited state of \SI[separate-uncertainty]{6.3\pm0.2}{ns}.
+	While it is not 0, it is well below \num{0.5}, indicating single photon emission.
+	The non-vanishing \gtz value is caused by background fluorescence of the diamond.
+	\\
+	Several spectra contain multiple narrow distinct peaks at different \ZPL \cwls.
+	This circumstance is attributed to a \nd containing more than one \siv, each of which is subject to a different \cwl shift.
+	We choose narrow bandpass filters to perform independent measurements of each individual \siv peak of such a spectrum.
+	Therefore it is possible to measure \gtz values below \num{0.5} for each of those narrow peaks.
+	Hence the individual peaks are identified as single emitters with a different ZPL \cwl.
+
+
+
+

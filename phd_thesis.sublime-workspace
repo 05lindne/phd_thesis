@@ -4,16 +4,176 @@
 		"selected_items":
 		[
 			[
-				"section",
-				"section{title}\tlatex-document"
+				"ph",
+				"photons"
 			],
 			[
-				"subse",
-				"subsection{title}\tlatex-document"
+				"e",
+				"eq	Equation"
+			],
+			[
+				"wavelen",
+				"wavelength	(commands_physics.tex)"
+			],
+			[
+				"todo",
+				"\\todo{text}                                       	todonotes"
+			],
+			[
+				"substra",
+				"substrates"
+			],
+			[
+				"hph",
+				"hphtimptwosixty"
+			],
+			[
+				"hp",
+				"hphtimpfortyfive"
+			],
+			[
+				"annea",
+				"annealed"
+			],
+			[
+				"cle",
+				"cleaned"
+			],
+			[
+				"manifest",
+				"manifests	(crystal_quality.tex)"
+			],
+			[
+				"conse",
+				"consecutively"
+			],
+			[
+				"subs",
+				"substrate"
+			],
+			[
+				"sam",
+				"sample"
+			],
+			[
+				"micro",
+				"microdiamonds"
+			],
+			[
+				"dia",
+				"diamond"
+			],
+			[
+				"imp",
+				"implantation"
+			],
+			[
+				"diam",
+				"diamonds"
+			],
+			[
+				"Wet",
+				"Wet-Milled"
+			],
+			[
+				"sub",
+				"substrate"
+			],
+			[
+				"nano",
+				"nanodiamonds"
+			],
+			[
+				"crys",
+				"crystal"
+			],
+			[
+				"di",
+				"diamonds"
+			],
+			[
+				"waveleng",
+				"wavelengths	(commands_physics.tex)"
+			],
+			[
+				"configu",
+				"configuration	(crystal_quality.tex)"
+			],
+			[
+				"reflect",
+				"reflected"
+			],
+			[
+				"con",
+				"confocal"
+			],
+			[
+				"orient",
+				"orientation"
+			],
+			[
+				"pur",
+				"purpose"
+			],
+			[
+				"renw",
+				"\\renewcommand{cmd}[args]{def}                     	latex-document"
+			],
+			[
+				"text",
+				"textwidth"
+			],
+			[
+				"temp",
+				"temperature	(commands_physics.tex)"
+			],
+			[
+				"anneal",
+				"annealing"
+			],
+			[
+				"subfig",
+				"subfig::sunken_nd"
+			],
+			[
+				"subfig::",
+				"subfig::sem_milled"
+			],
+			[
+				"lik",
+				"likely"
+			],
+			[
+				"ty",
+				"technically"
+			],
+			[
+				"coat",
+				"coated"
+			],
+			[
+				"gro",
+				"growth"
+			],
+			[
+				"produce",
+				"produced"
+			],
+			[
+				"consecut",
+				"consecutive"
+			],
+			[
+				"cv",
+				"pics/cvd_sketch.pdf"
+			],
+			[
+				"techn",
+				"technique"
 			],
 			[
 				"cite",
-				"cite{keylist}\tlatex-document"
+				"cite{keylist}	latex-document"
 			],
 			[
 				"wet",
@@ -25,15 +185,11 @@
 			],
 			[
 				"veri",
-				"\\verify{arg}                                      \tlocal"
-			],
-			[
-				"dia",
-				"diamond\t(methods.tex)"
+				"\\verify{arg}                                      	local"
 			],
 			[
 				"ex",
-				"excitation\t(methods.tex)"
+				"excitation	(methods.tex)"
 			],
 			[
 				"ch:",
@@ -41,31 +197,27 @@
 			],
 			[
 				"auto",
-				"autoref\t(methods.tex)"
+				"autoref	(methods.tex)"
 			],
 			[
 				"desc",
-				"described\t(methods.tex)"
+				"described	(methods.tex)"
 			],
 			[
 				"Nano",
-				"Nanodiamonds\t(methods.tex)"
+				"Nanodiamonds	(methods.tex)"
 			],
 			[
 				"autoref",
-				"\\autoref{label}                                   \thyperref"
+				"\\autoref{label}                                   	hyperref"
 			],
 			[
 				"tes",
-				"\\testbox{arg}                                     \tlocal"
+				"\\testbox{arg}                                     	local"
 			],
 			[
 				"confocal_setup_small",
 				"pics/confocal_setup_small.pdf"
-			],
-			[
-				"sub",
-				"subfigure"
 			],
 			[
 				"ZPL",
@@ -89,11 +241,15 @@
 			],
 			[
 				"num",
-				"\\num{number}                                      \tsiunitx"
+				"\\num{number}                                      	siunitx"
 			],
 			[
 				"lan",
-				"\\langle                                           \tlatex-mathsymbols"
+				"\\langle                                           	latex-mathsymbols"
+			],
+			[
+				"section",
+				"\\subsection[short]{title}                         	latex-document"
 			],
 			[
 				"sivs",
@@ -101,7 +257,7 @@
 			],
 			[
 				"color",
-				"color\t(preamble.tex)"
+				"color	(preamble.tex)"
 			],
 			[
 				"colle",
@@ -109,7 +265,7 @@
 			],
 			[
 				"SI",
-				"\\SI{value}{unit commands}                         \tsiunitx"
+				"\\SI{value}{unit commands}                         	siunitx"
 			],
 			[
 				"sing",
@@ -120,28 +276,24 @@
 				"beamsplitter"
 			],
 			[
-				"con",
-				"fig::confocal_setup"
-			],
-			[
 				"confoc",
 				"pics/confocal_setup.pdf"
 			],
 			[
 				"input",
-				"input{file}\tlatex-document"
+				"input{file}	latex-document"
 			],
 			[
 				"new",
-				"newcommand{cmd}[args]{def}\tlatex-document"
+				"newcommand{cmd}[args]{def}	latex-document"
 			],
 			[
 				"usepacka",
-				"usepackage{package}\tlatex-document"
+				"usepackage{package}	latex-document"
 			],
 			[
 				"texti",
-				"textit{text}\tlatex-document"
+				"textit{text}	latex-document"
 			],
 			[
 				"sc",
@@ -153,7 +305,7 @@
 			],
 			[
 				"plot",
-				"plot_spectrum.py\t(plot_spectrum.py)"
+				"plot_spectrum.py	(plot_spectrum.py)"
 			],
 			[
 				"out",
@@ -161,7 +313,7 @@
 			],
 			[
 				"convert",
-				"convert_countrate\t(plot_from_clicklist.sh)"
+				"convert_countrate	(plot_from_clicklist.sh)"
 			],
 			[
 				"my",
@@ -177,11 +329,11 @@
 			],
 			[
 				"D",
-				"Documents\t(fit_spectrum.py)"
+				"Documents	(fit_spectrum.py)"
 			],
 			[
 				"cit",
-				"cite{keylist}\tlatex-document"
+				"cite{keylist}	latex-document"
 			]
 		]
 	},
@@ -191,109 +343,99 @@
 			"file": "main.tex",
 			"settings":
 			{
-				"buffer_size": 2075,
-				"encoding": "UTF-8",
+				"buffer_size": 2097,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "frontbackstuff/commands/commands_physics.tex",
+			"file": "chapters/results/spectral_distro/spectral_distro.tex",
 			"settings":
 			{
-				"buffer_size": 3724,
-				"encoding": "UTF-8",
+				"buffer_size": 720,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chapters/setup/setup.tex",
+			"file": "chapters/results/spectral_distro/sideband.tex",
 			"settings":
 			{
-				"buffer_size": 15678,
-				"encoding": "UTF-8",
+				"buffer_size": 2854,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chapters/nanodiamonds/nanodiamonds.tex",
+			"file": "chapters/results/spectral_distro/g2.tex",
 			"settings":
 			{
-				"buffer_size": 25152,
-				"encoding": "UTF-8",
+				"buffer_size": 3546,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/sarah/Dropbox/work/paper/SiV_milled_diamonds/paper/maintext/results/raman.tex",
+			"file": "chapters/results/spectral_distro/emission_spectra.tex",
 			"settings":
 			{
-				"buffer_size": 6163,
+				"buffer_size": 10650,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chapters/crystal_quality/crystal_quality.tex",
+			"file": "chapters/results/spectral_distro/blinking.tex",
 			"settings":
 			{
-				"buffer_size": 7721,
-				"encoding": "UTF-8",
+				"buffer_size": 5828,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "chapters/results/results.tex",
+			"file": "checklist.txt",
 			"settings":
 			{
-				"buffer_size": 761,
+				"buffer_size": 502,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phrases.txt",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix",
+				"name": "write instead of \"it can be seen\""
 			}
 		},
 		{
 			"file": "brainstorming.txt",
 			"settings":
 			{
-				"buffer_size": 6385,
-				"encoding": "UTF-8",
+				"buffer_size": 6761,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "inhalte_labbooks_projects.txt",
+			"file": "sentences_intro.txt",
 			"settings":
 			{
-				"buffer_size": 2292,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 762,
+				"line_ending": "Unix",
+				"name": "sentences for my thesis from project proposal, pap"
 			}
 		}
 	],
-	"build_system": "Packages/LaTeXing/LaTeX.sublime-build",
-	"build_system_choices":
-	[
-		[
-			[
-				[
-					"Packages/LaTeXing/LaTeX.sublime-build",
-					""
-				],
-				[
-					"Packages/LaTeXing/LaTeX.sublime-build",
-					"Clean up Files"
-				]
-			],
-			[
-				"Packages/LaTeXing/LaTeX.sublime-build",
-				""
-			]
-		]
-	],
-	"build_varint": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "",
+		"height": 49.0,
 		"selected_items":
 		[
+			[
+				"Snippet: equ",
+				"Snippet: Equation"
+			],
+			[
+				"gi",
+				"GitGutter: Support Info"
+			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
@@ -359,19 +501,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 507.0
+		"width": 494.0
 	},
 	"console":
 	{
-		"height": 139.0,
-		"history":
-		[
-			"color_pick",
-			"prv",
-			"pdflatex",
-			"latexmk -pdf",
-			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
-		]
+		"height": 139.0
 	},
 	"distraction_free":
 	{
@@ -382,23 +516,31 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/sarah/Dropbox/work/phd_thesis"
-	],
 	"file_history":
 	[
-		"/home/sarah/Dropbox/work/phd_thesis/phd_thesis.sublime-project",
-		"/home/sarah/Documents/measurements/SiV/milled/M02-16/160713/g2/g2_sat113_12mW_corr_g2_fitparam.txt",
-		"/home/sarah/Dropbox/work/paper/nancy/single_emitter/g2_sat113_5mW_corr_g2_fitparam.txt",
-		"/home/sarah/Documents/measurements/SiV/milled/M02-16/160713/g2/g2_sat113_5mW_corr_g2_fitparam.txt",
-		"/home/sarah/Documents/measurements/SiV/milled/M02-16/160713/g2/g2_sat113_1mW_corr_g2_fitparam.txt",
-		"/home/sarah/Dropbox/work/paper/nancy/single_emitter/g2_sat113_12mW_corr_g2_fitparam.txt",
-		"/home/sarah/Dropbox/work/paper/nancy/single_emitter/sat113_parameters.txt",
-		"/home/sarah/Dropbox/work/paper/nancy/single_emitter/spectrum_sat113.txt",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/results/spectral_distro/raman.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/nanodiamonds/nanodiamonds.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/introduction/introduction.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/frontbackstuff/commands/commands.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/frontbackstuff/preamble/preamble.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/frontbackstuff/commands/commands_physics.tex",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/results/raman.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/setup/setup.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/crystal_quality/crystal_quality.tex",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/sahara/Library/TeXShop/bin/tslatexmk/latexmkrc",
+		"/Users/sahara/Dropbox/work/phd_thesis/brainstorming.txt",
+		"/Users/sahara/Dropbox/work/phd_thesis/chapters/results/results.tex",
+		"/Users/sahara/Dropbox/work/phd_thesis/my_snippets/psubfig2.sublime-snippet",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/Users/sahara/Dropbox/work/phd_thesis/phd_thesis.sublime-project",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/sahara/Dropbox/work/phd_thesis/inhalte_labbooks_projects.txt",
+		"/Users/sahara/Dropbox/work/phd_thesis/brainstorming.odt",
+		"/Users/sahara/Dropbox/work/phd_thesis/.gitignore",
 		"/home/sarah/Dropbox/work/phd_thesis/frontbackstuff/preamble/preamble.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/my_snippets/pfig.sublime-snippet",
-		"/home/sarah/Dropbox/work/phd_thesis/.gitignore",
 		"/home/sarah/Dropbox/work/phd_thesis/chapters/appendices/appendixA.tex",
 		"/home/sarah/Dropbox/work/phd_thesis/chapters/appendices/appendices.tex",
 		"/home/sarah/Dropbox/work/phd_thesis/frontbackstuff/bibliography/bibliography.tex",
@@ -420,6 +562,7 @@
 		"/home/sarah/Dropbox/work/phd_thesis/methods/nanodiamonds.tex",
 		"/home/sarah/Dropbox/work/phd_thesis/preamble/preamble.tex",
 		"/home/sarah/Documents/tmp_print/example_usage_latex_plot_sheet.tex",
+		"/home/sarah/Dropbox/work/phd_thesis/phd_thesis.sublime-project",
 		"/home/sarah/Dropbox/work/paper/SiV_milled_diamonds/paper/siv_milled diamonds.sublime-project",
 		"/home/sarah/Dropbox/Fotos/juli2017/P1120787.JPG",
 		"/home/sarah/Dropbox/Fotos/juli2017/P1120834.JPG",
@@ -450,14 +593,12 @@
 		"/home/sarah/.config/sublime-text-3/Packages/Color Scheme - Rainbow/Rainbow (Light).tmTheme",
 		"/home/sarah/.config/sublime-text-3/Packages/ColorPick/Default (OSX).sublime-keymap",
 		"/home/sarah/.config/sublime-text-3/Packages/ColorPick/Default.sublime-commands",
-		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/maintext/methods/methods.tex",
 		"/Users/sahara/Desktop/vertragsverlaengerung.txt",
 		"/Users/sahara/Dropbox/work/phd_thesis/methods/methods.tex",
 		"/Users/sahara/Dropbox/work/phd_thesis/make_main",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/builders/latex_bib_index.sublime-build",
-		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/LaTeXTools.sublime-settings",
 		"/Users/sahara/Dropbox/work/phd_thesis/my_snippets/pminip.sublime-snippet",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/my_snippets/pminip.sublime-snippet",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/pfig.sublime-snippet",
@@ -467,9 +608,7 @@
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeX Snippets/README.md",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/0_package_control_loader/01-bz2.py",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/0_package_control_loader/00-package_control.py",
-		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/LaTeXTools/builders/basicBuilder.py",
-		"/Users/sahara/Dropbox/work/phd_thesis/phd_thesis.sublime-project",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/preamble/preamble.tex",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/siv_milled diamonds.sublime-project",
 		"/Users/sahara/Dropbox/work/phd_thesis/main.pdf",
@@ -506,20 +645,11 @@
 		"/home/sarah/Documents/my_programs/plot/countrate/plot_countrate.py",
 		"/home/sarah/Documents/my_programs/plot/g2/plot_g2.py",
 		"/home/sarah/.bin/plot_g2.py",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/raman.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/tem.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/sideband.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/conclusion/conclusion.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/blinking.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/g2.tex",
-		"/home/sarah/.bin/plot_",
-		"/home/sarah/.config/sublime-text-3/Packages/User/LaTeXing.sublime-settings",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/commands/commands.tex",
-		"/home/sarah/.config/sublime-text-3/Packages/LaTeXing/LaTeXing.sublime-settings"
+		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/raman.tex"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -534,8 +664,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"pics/bes",
-			"}.",
+			"subfig::tem_milled",
+			"Destilled",
+			"_",
+			"hydrophility",
+			">",
+			"<",
+			"Schre",
+			"seperated",
+			"\\todo",
+			"textwidth",
+			"linewidth",
+			"-",
+			"\\}",
+			"\\{",
+			"toggle_fwdsync",
+			"fwd",
 			"results/",
 			"nanodiamonds",
 			"Diamonds",
@@ -560,7 +704,7 @@
 			"fref",
 			"experimental",
 			"Experimental",
-			"\\begin{figure}[t]\n\t\t\\centering\n\t\t\\includegraphics[width=\\linewidth]{./pics/confocal_setup.pdf}\n\t\t\\caption{Confocal setup}\n\t\t\\label{fig::confocal_setup}\n\t\\end{figure}\n",
+			"\\begin{figure}[t]\n		\\centering\n		\\includegraphics[width=\\linewidth]{./pics/confocal_setup.pdf}\n		\\caption{Confocal setup}\n		\\label{fig::confocal_setup}\n	\\end{figure}\n",
 			"maintext/",
 			"linewidths",
 			"linewidth ",
@@ -583,6 +727,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"hydrophilicity",
+			"separated",
+			"\\todo[fancyline]",
 			"\\apd",
 			"\\fl",
 			"\\lw{}s",
@@ -602,16 +749,240 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "main.tex",
-					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2075,
+						"buffer_size": 2097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapters/results/spectral_distro/spectral_distro.tex",
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chapters/results/spectral_distro/sideband.tex",
+					"settings":
+					{
+						"buffer_size": 2854,
 						"regions":
 						{
 						},
@@ -672,548 +1043,172 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1719,
-										1720
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1676,
-										1677
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "frontbackstuff/commands/commands_physics.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1384,
-								1384
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										1407,
-										1408
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										1382,
-										1383
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapters/setup/setup.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15678,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										2909,
-										2910
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "chapters/nanodiamonds/nanodiamonds.tex",
-					"semi_transient": false,
+					"file": "chapters/results/spectral_distro/g2.tex",
 					"settings":
 					{
-						"buffer_size": 25152,
+						"buffer_size": 3546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								149,
-								149
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
+							"BracketHighlighterBusy": false,
+							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/home/sarah/Dropbox/work/paper/SiV_milled_diamonds/paper/maintext/results/raman.tex",
-					"semi_transient": false,
+					"file": "chapters/results/spectral_distro/emission_spectra.tex",
 					"settings":
 					{
-						"buffer_size": 6163,
+						"buffer_size": 10650,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
+							"BracketHighlighterBusy": false,
+							"bh_regions":
 							[
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "chapters/crystal_quality/crystal_quality.tex",
-					"semi_transient": false,
+					"file": "chapters/results/spectral_distro/blinking.tex",
 					"settings":
 					{
-						"buffer_size": 7721,
+						"buffer_size": 5828,
 						"regions":
 						{
 						},
@@ -1226,217 +1221,84 @@
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
+							"BracketHighlighterBusy": false,
+							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"git_gutter_is_enabled": false,
-							"spell_check": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "chapters/results/results.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 7,
-					"file": "brainstorming.txt",
-					"semi_transient": false,
+					"buffer": 6,
+					"file": "checklist.txt",
 					"settings":
 					{
-						"buffer_size": 6385,
+						"buffer_size": 502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3220,
-								3220
+								502,
+								502
 							]
 						],
 						"settings":
@@ -1488,184 +1350,6 @@
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close"
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2404.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "inhalte_labbooks_projects.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
 							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
@@ -1674,7 +1358,234 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "phrases.txt",
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "write instead of \"it can be seen\"",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "brainstorming.txt",
+					"settings":
+					{
+						"buffer_size": 6761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								344
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2702.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sentences_intro.txt",
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								276
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "sentences for my thesis from project proposal, pap",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"type": "text"
 				}
 			]
@@ -1708,7 +1619,7 @@
 		"cols":
 		[
 			0.0,
-			0.577203691756,
+			0.634148828476,
 			1.0
 		],
 		"rows":
@@ -1730,8 +1641,6 @@
 	{
 		"height": 140.0
 	},
-	"pinned_build_system": "Packages/LaTeXing/LaTeX.sublime-build",
-	"project": "phd_thesis.sublime-project",
 	"replace":
 	{
 		"height": 50.0
@@ -1740,7 +1649,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1749,7 +1657,6 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1759,26 +1666,10 @@
 		],
 		"width": 380.0
 	},
-	"select_symbol":
-	{
-		"height": 375.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 378.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 247.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
 }

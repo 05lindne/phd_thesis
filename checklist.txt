@@ -6,8 +6,8 @@ Check for PhD thesis
 - delete listoftodos
 - delete todo
 - exchange seperated with separated
-- figure basd "ultrasound" chaged to "vibrations"
-- figure setup green border around lenses removed
+xx- figure basd "ultrasound" chaged to "vibrations"
+xx- figure setup green border around lenses removed
 - schreibstil zeiten (is vs. was etc.) checken
 - groesse von NDs einheitlich angegeben?
 - milling combine the advantageous SiV fluorescence properties with feasible production

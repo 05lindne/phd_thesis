@@ -8,20 +8,63 @@ Vacancies, impurity atoms and inclusions of graphite or amorphous carbon are exa
 Poor crystal quality manifests itselves self in \pl spectra e.g. as broad spectral \bkg fluorescence.
 To improve crystal quality, two methods are used: annealing in vacuum and oxidation in air.
 We investigated the effect of oxidation on the Raman spectrum.
-Raman measurements of various samples give insight to crystal quality and surface contamination.
-Additionally, several TEM measurements exhibit the composition of the wet-milled \nds. 
+Raman spectroscopy of various samples gives insight to crystal quality and surface contamination.
+Raman scattering is the inelastic scattering of a photon $\hbar\omega_i$ on a molecule or crystal lattice in the initial state $\ket{i}$ with energy $E_i$.
+The molecule of cristal transitions into a higher energy state $E_f$ and the scattered photon with frequency $\omega_s$ looses the energy $\Delta E = E_f - E_i = \hbar(\omega_i-\omega_s)$.
+Therefore, energy from is exchanged between the photon and the excited matter, changing the rotational or oscillation energy of the involved molecule or the oscillation energy, i.e. phonons of the crystal lattice.
+The Raman shift is typically referenced in wavenumbers.
+It is calculated by:
+\begin{equation}
+	\Delta \omega = \left( \frac{1}{\lambda_{ex}}-\frac{1}{\lambda_R}\right)
+\end{equation}
+As every solid exhibits characteristic phonon modes, Raman spectroscpy is used to identify the contributing elements of  a solid, hence in our case determine the purity of the diamond and identify contamination with sp$^2$ bonded and amorphous carbon, and graphite.
+Also, the Raman spectrum changes under the influence of stress in the sample, providing a way to investigate the stress in the sample with opical means.
+Additionally, several \tem (\TEM) measurements exhibit the composition of the wet-milled \nds. 
+% Transmission electron microscopy (TEM, also sometimes conventional transmission electron microscopy or CTEM) is a microscopy technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultrathin section less than 100 nm thick or a suspension on a grid. An image is formed from the interaction of the electrons with the sample as the beam is transmitted through the specimen. 
+During \tem a beam of electrons is transmitted through a sample, forming an image of the transmitted sample.
+Due to the smaller de Broglie wavelengths of electrons as compared to photons, a higher resolution is obtainable, and the crystal lattice planes\todo{ist das Wort richtig?} can be resolved.
+Therefore, the crystal quality can be investigated from a morphological point of view\todo{maybe rephrase}.
 
-	\section{Annealing and Oxidation}\label{sec::ann_ox}
 
-	During \si implantation the diamond lattice gets damaged by the penetrating ions.
-	sp$^2$ bonds, carbon interstitials and vacancies disrupt the metastable equilibrium of the diamond phase. Hence, there is a tendency for damaged diamond to "tip over" to the thermodynamicallz stable form of carbon, i.e. graphite.
-	At temperatures above about \SI{500}{\celsius}, vacancies in the diamond lattice become mobile and diffuse towards the surface\cite{Dresselhaus1992}\todo[fancyline]{another citation}.
-	Literature suggests, that annealing at \SI{900}{\celsius} for \SI{1}{\hour} is sufficient to remove most of the damage following implantations, that however some damage remains even after annealing at \SI{900}{\celsius} for \SI{1}{\hour}.
-	To reduce the damage in the diamond lattice, we anneal the implanted diamonds at \SIrange{900}{1200}{\celsius} for \SIrange{3}{6}{h} in vacuum (\SI{e-6}{Pa}).
-	\\
-	The surface of the \nds is contaminated with graphite and amorphous sp$^2$ hybridized carbon \todo[fancyline]{warum}.
-	The vacancies which diffuse towards the surface during annealing further increase the amorphous carbon content on the surface of the \nds \cite{}.
-	We apply oxidation in an oven under ambient air at a temperature of \SI{450}{\celsius} for \SIrange{3}{6}{h}.
+	\section{Post-Processing Treatments}
+
+		\subsection{Annealing and Oxidation}\label{sec::ann_ox}
+
+		During \si implantation the diamond lattice gets damaged by the penetrating ions.
+		sp$^2$ bonds, carbon interstitials and vacancies disrupt the metastable equilibrium of the diamond phase. Hence, there is a tendency for damaged diamond to "tip over" to the thermodynamically stable form of carbon, i.e. graphite.
+		At temperatures above about \SI{500}{\celsius}, vacancies in the diamond lattice become mobile and diffuse towards the surface\cite{Dresselhaus1992}\todo[fancyline]{another citation}.
+		Literature suggests, that annealing at \SI{900}{\celsius} for \SI{1}{\hour} is sufficient to remove most of the damage following implantations, that however some damage remains even after annealing at \SI{900}{\celsius} for \SI{1}{\hour}.
+		To reduce the damage in the diamond lattice, we anneal the implanted diamonds at \SIrange{900}{1200}{\celsius} for \SIrange{3}{6}{h} in vacuum (\SI{e-6}{Pa}).
+		\\
+		The surface of the \nds is contaminated with graphite and amorphous sp$^2$ hybridized carbon \todo[fancyline]{warum}.
+		The vacancies which diffuse towards the surface during annealing further increase the amorphous carbon content on the surface of the \nds \cite{}.
+		We apply oxidation in an oven under ambient air at a temperature of \SI{450}{\celsius} for \SIrange{3}{6}{h}.
+
+		\subsection{Surface Treatment With Gas And Plasma}
+
+		% Cardiff
+		We wanted to know wether surface treatment with different gasses had an influence on the emission properties, so we treated them with hydrogen (\ch{H2}), oxygen (\ch{O2}), ozone (\ch{O3}) all both at room temperature and at \SI{500}{\celsius}; and also with \ch{H2} plasma. 
+		However, we found that most \nds treated in this way only showed luminescence which immediatly bleached when illuminated with a cw \SI{660}{nm} laser even at low excitation powers of \SI{200}{\micro\watt}, or no luminescence at all.
+		We double-checked with a CCD-image of the surface to be sure that there are \nds in the focus.
+		This bleaching occured so quickly, that after a scanning no spectrum could be taken.
+		The only samples which did yield spectra with measureable \ZPLs were the ones treated with \ch{H2}.
+		However, also these \sivs were not single ones.
+		Therefore, we did not further investigate these samples.
+		\\
+		% C-Schalen
+		One sample showed shells around the \nd after oxidizing in air. 
+		We attribute this effect to a contamination in the oven.
+		When we illuminated these \nds in the SEM for several moments, the shell went away.
+		We therefore deducted that the shell is organic material.
+		To get rid of the shells on the whole sample, we treated it with oxygen-argon plasma for \SI{3}{min}\footnote{Treatment performed by \schmauch}.
+		After the first treatment, the shells were smaller, but not gone.
+		So we put them into the oxygen-argon plasma again for \SI{3}{min}, however, the shells were bigger than before any treatment.
+		We tried another approach to get rid of the shells with ozon treatment for \SI{4}{\hour} at \SI{360}{\celsius}.
+		Before ozon treatment there the diamond Raman line and other Raman lines visible.
+		After surface treatement, more lines appeared and all of these other lines got more intense.
+		There are probably organic contaminations on the sample in which functional groups got introduced by the ozon treatment.
+		We did not further investige this sample and defined it as broken.
+
 
 
 	\section{Raman Measurements} \label{sec::raman}
@@ -89,5 +132,25 @@ Additionally, several TEM measurements exhibit the composition of the wet-milled
 
 	\section[TEM]{Transmission Electron Spectroscopy Measurements}{\label{sec::tem}}
 
-		We performed \tem (\TEM) measurements to further investigate the crystal quality\footnote{TEM measurements performed by J. Schmauch, group xxx}.
+			
+		\begin{figure}[tp]
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering	
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/AM060-II-k4-2.png}}
+				\label{subfig::tem_crystal}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/AM060-II-k1-3.png}}
+				\label{subfig::tem_boundary}
+			\end{subfigure}
+			\caption{Transmission electron microscopy (TEM) pictures of sample \insituH. (a) Image of a single \nd particle. Several crystal boundaries can be seen within the diamond particle. (b) Close-up image a diamond particle. The vertical line is a crystal boundary, to the left and right the more or less horizontal layers of one crystalline region can be seen.}
+			\label{fig::tem}
+		\end{figure}
+
+
+		We performed \tem (\TEM) measurements to further investigate the crystal quality\footnote{TEM measurements performed by \schmauch}.
 

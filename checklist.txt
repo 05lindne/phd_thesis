@@ -11,3 +11,6 @@ xx- figure setup green border around lenses removed
 - schreibstil zeiten (is vs. was etc.) checken
 - groesse von NDs einheitlich angegeben?
 - milling combine the advantageous SiV fluorescence properties with feasible production
+xx- emitter from erlangen
+- make command for names & groups of collaborators for footnotes
+- gross- und Kleinschreibung in Titeln

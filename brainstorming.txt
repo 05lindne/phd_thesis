@@ -191,11 +191,18 @@ Inhaltsverzeichnis
 				resultate
 				diskussion
 
+			eigentschaft Kryo
+				theory
+				resultate
+					- milled NDs Linienwälder
+				diskussion
+
 			eigentschaft Sidebands
 				theory
 				resultate
 					- Debeye-Waller-Faktor
 					- Zusammenhang ZPL
+					- histogram multiple fits
 				diskussion
 
 			eigentschaft g2
@@ -209,11 +216,6 @@ Inhaltsverzeichnis
 				resultate
 				diskussion
 
-			eigentschaft Kryo
-				theory
-				resultate
-					- milled NDs Linienwälder
-				diskussion
 
 			eigentschaft n
 				theory

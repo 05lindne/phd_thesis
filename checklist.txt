@@ -12,5 +12,6 @@ xx- figure setup green border around lenses removed
 - groesse von NDs einheitlich angegeben?
 - milling combine the advantageous SiV fluorescence properties with feasible production
 xx- emitter from erlangen
-- make command for names & groups of collaborators for footnotes
+xx- make command for names & groups of collaborators for footnotes
 - gross- und Kleinschreibung in Titeln
+- was zu den zwei neuen spektren schreiben

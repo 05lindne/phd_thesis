@@ -4,6 +4,13 @@
 
 	\subsection{Sideband} \label{subsubsec::sideband}
 
+		\todo{beginning new}As mentioned before, phonons of the diamond lattice and the color center manifenst themselves as peaks in the sideband of the \pl spectrum. 
+		Phonons reduce the intensity of the the purely electronic transition, the \zpl.
+		The electron-phonon coupling is quantified by the \db factor or the \hr. 
+		The former is the integrated intensity of the \zpl $I_{ZPL}$ divided by the integrated intensity of the \pl of the whole spectrum, i.e. \ZPL plus sidebands, $I_{tot}$ \cite{Neu2014,Gaebel2004}.
+		The \hr factor $S$ is defined as $I_{ZPL}/I_{tot}=\exp{-S}$.\todo{end new}
+		
+
 		\begin{figure}[tp]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.49\textwidth]{./pics/sideband_regression.pdf}}
@@ -36,6 +43,18 @@
 		The distribution is fitted with a linear regression.
 		We attribute the variance in the sideband shift to strain: \correct{Adam Galis Erkenntnisse}
 		\\
+		\todo{beginning new}For further investigations, we plotted the \ZPL  of \gv with multiple peaks. 
+		We found that two Lorentzian fits fit the peak best.
+		\autoref{fig::sideband_multfit} shows histograms of the distribution of the \cw and the \lw of the fitted peaks.
+		Keep in mind that two of the peaks sum up to the peak visible as a \ZPL and the third peak is the sideband peak which we attribute to a lattice mode.
+		We found that the \lw of the sideband peak exhibits values up to \SI{20}{nm}.
+		This broad width is an indicator, that the local vibrational mode might indeed be outpowered by the more intense lattice mode.
+		However, it is not very easy to find spectra where the sideband peak is pronounced and isolated enough to make proper statistics.
+		The original \ZPL is split up in two peaks, one with a median \cwl of \SI{738}{nm} and a median \lw of \SI{4.5}{nm} and the other with a median \cwl of \SI{742}{nm} and a median \lw of \SI{8}{nm}.\todo{correct and verify all numbers}
+		It could be that this is an indication for another sideband peak at \SI{742}{nm}.
+		This assumption could be verified by cryostatic measurements, where the phonon sideband should vanish and only the \ZPL survive and split up into the four-level fine structure.
+		\todo{end new}
+		\\
 		\begin{figure}[tp]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
@@ -51,6 +70,50 @@
 				\label{subfig::sb_multfit_width}
 			\end{subfigure}
 			\caption{}
-			\label{fig::sb_multfit}
+			\label{fig::sideband_multfit}
 		\end{figure}
 		
+
+	\subsection{Cryostatic Measurements}\label{subsec::cryo}
+
+		\begin{figure}[tp]
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25Mox_fit_spe_scan_xy-08x11y19_297uW_t180.pdf}}
+				\label{subfig::roomtep1}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25Mox_fit_spe_scan_xy-08x11y19_297uW_t180.pdf}}
+				\label{subfig::cryo}
+			\end{subfigure}
+			\caption{}
+			\label{fig::rt_vs_cryo1}
+		\end{figure}
+
+		\begin{figure}[tp]
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25Mox_spe_scan_xy-35x10y12_300uW_t120_fit.pdf}}
+				\label{subfig::roomtep2}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\caption{}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25Mox_spe_scan_xy-35x10y12_300uW_t120_fit.pdf}}
+				\label{subfig::cryo2}
+			\end{subfigure}
+			\caption{}
+			\label{fig::rt_vs_cryo2}
+		\end{figure}
+		
+		We performed some cryostatic measurements to to pursue two goals:
+		First, if we see the four-level splitting of the \ZPL this is further proof that the dominant peaks of our spectra are indeed all due to \sivs and do not stem from other impurities.
+		Second, if the sideband peaks vanish at cold temperatures, this is evidence that they are caused by phonons.
+		So we cooled down a sample, but all we saw was a wood of lines.
+		Apparently, there were multiple \sivs in the \nds and they were all strained, messing up the four-level line structure.

@@ -21,11 +21,11 @@
 \newpage\null\thispagestyle{empty}\newpage
 
 
-	\listoftodos		
+	\listoftodos
 	\include{./frontbackstuff/title/title}		\label{title}
 	\cleardoublepage
 	\include{./chapters/abstract/abstract}	\label{abstract}
-   
+
 	\cleardoublepage
 \pagestyle{fancy}
 \pagenumbering{roman}
@@ -34,25 +34,25 @@
 	\phantomsection
 	\addcontentsline{toc}{chapter}{Table of Contents}
 	\tableofcontents	\label{tableofcontents}
-	
+
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{List of Figures}
 	\listoffigures		\label{listoffigures}
-	  
+
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{List of Tables}
 	\listoftables		\label{listoftables}
-	
+
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{Acknowledgements}
 	\include{./frontbackstuff/acknowledgements/acknowledgements}	\label{acknowledgements}
-
+	
 	\cleardoublepage
 \pagenumbering{arabic}
-		
+
 % 		\linenumbers
 % 		\doublespacing
 
@@ -65,12 +65,12 @@
 	\input{./chapters/results/spectral_distro/spectral_distro}
 	\input{./chapters/discussion/discussion}
 	\input{./chapters/conclusion/conclusion}
-	\input{./chapters/appendices/appendices}			\label{appendices}	
-	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}	
-	
+	\input{./chapters/appendices/appendices}			\label{appendices}
+	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}
+
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{\indexname}
 	\printindex					\label{index}
-	
+
 \end{document}

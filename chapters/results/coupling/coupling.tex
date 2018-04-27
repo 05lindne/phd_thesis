@@ -2,16 +2,41 @@
 
 \chapter[Coupling NDs]{Coupling \Nds to Photonic Structures}	\label{ch::coupling}
 
-	Abstract: Kopplung von SiVs an optische Strukturen: Antennen + Vcsel
-	Motivation
-	zusaetzliche experimentelle Details 
-				- Marker schreiben
-				- erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weisslichtlaserscan
-				- NDs mit AFM transferieren
-				-Nanomanipulator
-					Probleme mit Spitze
-				- Abloesen von Diamanten (BASD + CVD) von Substrat im Ultraschallbad kann dazu fuehren, dass Substrat mitabgeloest wird) -> in Kalilauge aufloesen LII, S96
-				- warum nicht einfach neue CVD-Diamanten herstellen, wie die, die am Anfang meiner Diss so gut funktioniert haben -> Dichte am Substrat zu hoch zum Aufpicken
-				- warum nicht die implantierten HPHT Diamanten hernehmen (Groessen 20, 40, 80nm) -> nur die 40nm grossen Diamanten zeigen irgendein Signal , sind aber zu klein zum Aufpicken
+	In the last chapter, we saw that the spectroscopic properties of \sivs vary strongly among individual \nds.
+	\Nds are further implemented in photonic structures for the application in metrology as well as in quantum cryptography or quantum computing.
+	Therefore, it is important to have a good knowledge of the spectroscopic properties of the individual \todo{think of other word} \siv.
+	A preselection of \nds including an \siv with desired properties is performed.
+	The selected \nd is then transferred to target structures.
+	In the scope of this thesis, \nds including \sivs were coupled to two different kinds of structures:
+	\begin{itemize}
+		\item \Vcsels: The aim is to create a hybrid-integrated \sps, where an electric current is employed to create single photons. The diamond containing an \siv is placed directly on the beam output. Hence the \siv is directly pumped by the laser beam. This system is interesting for metrological applications, as it is the major building block for a portable device ready to calibrate single photon detectors.
+		\item Plasmonic Nanoantennas: The aim is to enhance \pl intensity. As described in previous chapters, not only \ZPL position and \lw, but also the \pl intensity varies strongly among individual \sivs. However, in metrology a photon flux rate high enough to be measured by a low optical flux detector is needed \cite{Vaigu2017}. This increase in intensity is achieved by coupling the \sivs in \nds to plasmonic antennas.
+	\end{itemize}
+
+	\section{Additional Experimental Methods}
+
+
+	To couple \nds to photonic structures, we pursued several different methods: 
+	\begin{enumerate} 
+		\item Directly spin-coat the structures with a \nd solution and consecutively look for a structure containing a \nds with an \siv exhibiting the desired spectroscopic properties. This method was tried with the antenna structures, as there are many antenna structures on one substrate (see \Cref{subfig::antenna_structures_sem}), therefore there is a chance that a suited \nd is incidentally ends up at the right spot. However, it is not suitable for the VCSELs, first because of the morphology of the VCSELs and secondly, because there is a very limited number of VCSELs on one substrate.
+		\item \label{item::pp}Use an \ir substrate covered with \nds containing \sivs, look for a suited \nd and transfer it with a \pp technique using a nanomanipulator. The nanomanipulator is essentially a thin tip in a \sem. The \ir substrate is prepeocessed with markers, to record the position of the preselected \nd. The huge advantage is that the very best suited \nd can be preselected. However, disadvantages of this process include the electron radiation during the \pp process, which might affect \siv \fl and the further restriction that the \nds must be big enough to be picked up with the nanomanipulator. 
+		\item Similar to method \ref{item::pp}, however the transfer is performed with an \afm. While this method has the advantage that the \nds are not irradiated with electrons, the disavantage is that it is not possible to  observe the picking process in real time. The area of the preselected \nd has to be scanned after every pick-up try, which is very time consuming and therefore was not further pursued after some trials.
+	\end{enumerate}
+
+	In the following, the \pp technique of method \ref{item::pp} is described in more detail.
+	It is the method most extensivly deployed in the scope of this thesis and requires specific experimental procedures. 
+	\\
+	\subsubsection{Nanomanipulator}
+	% -Nanomanipulator
+	% 	Probleme mit Spitze
+	\subsubsection{Determination of Position of \Nds}
+	% - Marker schreiben
+	% - erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weisslichtlaserscan
+	% - Laserscanning fuer Standortbestimmung
+
+	% - Abloesen von Diamanten (BASD + CVD) von Substrat im Ultraschallbad kann dazu fuehren, dass Substrat mitabgeloest wird) -> in Kalilauge aufloesen LII, S96
+	% - warum nicht einfach neue CVD-Diamanten herstellen, wie die, die am Anfang meiner Diss so gut funktioniert haben -> Dichte am Substrat zu hoch zum Aufpicken
+
 
 	\missingfigure{Photo of Nanomanipulator}
+

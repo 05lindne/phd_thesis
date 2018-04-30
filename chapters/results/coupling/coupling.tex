@@ -23,20 +23,105 @@
 		\item Similar to method \ref{item::pp}, however the transfer is performed with an \afm. While this method has the advantage that the \nds are not irradiated with electrons, the disavantage is that it is not possible to  observe the picking process in real time. The area of the preselected \nd has to be scanned after every pick-up try, which is very time consuming and therefore was not further pursued after some trials.
 	\end{enumerate}
 
-	In the following, the \pp technique of method \ref{item::pp} is described in more detail.
-	It is the method most extensivly deployed in the scope of this thesis and requires specific experimental procedures. 
+	In the following paragraphs, the \pp technique of method \ref{item::pp} is described in more detail.
+	It is the coupling method most extensivly deployed in the scope of this thesis and requires a range of experimental setups. 
+	The \pp process was carried out with major help from \pauly.
+	The nanomanipulator setup was provided by the same group.
 	\\
 	\subsubsection{Nanomanipulator}
 	% -Nanomanipulator
 	% 	Probleme mit Spitze
-	\subsubsection{Determination of Position of \Nds}
-	% - Marker schreiben
-	% - erster Versuch zur Identifikation von NDs mit guten SiVs mittels Weisslichtlaserscan
-	% - Laserscanning fuer Standortbestimmung
+	% \begin{figure}[tp]		
+	% 	\centering
+	% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/pp_sketch.pdf}}
+	% 	\caption{Sketch of the \pp process exploiting a nanomanipulator.}
+	% 	\label{fig::pp_sketch}
+	% \end{figure}
 
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/pp_sketch.pdf}}
+			\caption{}
+			\label{subfig::pp_sketch}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/nanomanipulator_image.png}}
+			\caption{}
+			\label{subfig::nanomanipulator_image}
+		\end{subfigure}
+		\caption{(a) Sketch of the \pp process exploiting a nanomanipulator. (b) Image of the nanomanipulator mounted in the FIB. The arrows indicate the degrees of freedom of motion of the nanomanipulator. The custom made workbench is situated in the middle of the picture. On top of it, there is a \SI{1}{\centi\meter\squared} substrate with coated \nds, the nanomanipulator tip pointing to the middle of it. Behind it, there is the target \vcsel. Perpendicular to the workbench, the objective of the electron microscope can be seen. The pointier cone perpendicular to the image top image edge is the objective of the \fib.}
+	\end{figure}
+
+	In general, nanomanipulator is a tip mounted inside an SEM.
+	The one used for our experiments was built by the company Kleindiek (model MM3A-EM) and has a changeable tungsten tip (see \cref{subfig::nanomanipulator_image}).
+	It is mouted inside a Thermo Scientific\texttrademark{} Helios NanoLab\texttrademark{}  DualBeam\texttrademark{} microscope, which combines a \fib and an electron microscope.
+	The bent nanomanipulator tip has 3 degrees of freedom: up/down and left/right both in an arc up to \SI{240}{\degree} and \SI{12}{\milli\metre} in/out (see arrows in \cref{subfig::nanomanipulator_image}). 
+	Before nanomanipulation the tip was "sharpened" with the focussed ion beam by etching away  tungsten with gallium ions.
+	This sharpening was performed to meet the size criteria necessary to pick up the \nds.
+	In \cref{subfig::nanomanipulator_tip} the sharpened tip is shown.
+	The small tip sticking out of the bigger cone is the sharp tip used for \pp.
+
+
+	\subsubsection{Determination of The Position of \Nds}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M09-13_mitte_131209_01.png}}
+			\caption{}
+			\label{subfig::cross_markers}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M09-13_mitte_131209_01.png}}
+			\caption{}
+			\label{subfig::cross_marker_whitelightscan}
+		\end{subfigure}
+		\caption{(a) Overview of a field of cross markers. The field spans \num{0.5}\ensuremath{\times}\SI{0.5}{\milli\meter} (b) White light scan of an area with a cross marker in all four corners.}
+		\label{fig::<fig>}
+	\end{figure}
+
+	An \nd pre-characterized in the confocal setup exhibiting the preferred optical properties (e.g. narrow linewidth, high count rate) has to be found again in the SEM setup where the nanomanipulator is installed.
+	Therefore, we milled cross markers into the \ir coating of the \si substrate using the \fib prior to spin-coating the substrate with \nd solution.\todo{fib parameter}
+	The crosses' size is \num{10}$\times$\SI{10}{\micro\meter\squared} are exhibit a nominal depth of \SI{40}{nm}.
+	Four crosses are the cornerpoints of a \num{50}$\times$\SI{50}{\micro\meter\squared} sqaure.
+	The \num{10}$\times$\num{10} crosses spaned one field of crosses; we usually put 3 fields of crosses on one substrate.
+	\\
+	To record the position of a \nd \wrt a cross marker, we used two different methods:
+	\begin{itemize}
+		\item Scanning the sample in the confocal setup while a white light source illuminates the sample from the side in an acute angle. The edges of the cross markers are visible in the fluorescence scan. After turning the white light lamp off, the same area is scanned once more to record the fluorescence from the \sivs. An overlay of the two images identifies the position of flourescent \sivs \wrt the cross markers.\todo{put in a pic of whitelightscan} The disadvantage of this method is, that it takes a lot of time, as every scan has to be performed twice. Also, as only \fl scans are performed, no information of the \nds is accesessible, such as the size of the individual \nds or the distribution of the \nds. 
+		\item The substrate was first scanned in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the provious method, information on the \nds is accesessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera, a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
+	\end{itemize}
+
+	\subsubsection{Technical Issues of the \PP Process}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Tip2_140826_03.png}}
+			\caption{}
+			\label{subfig::nanomanipulator_tip}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M05-13_140826_05.png}}
+			\caption{}
+			\label{subfig::nanomanipulator_tip_bent}
+		\end{subfigure}
+		\caption{}
+	\end{figure}
+
+	- FIB Spezifikationen 1kV, 0.17nA 
+	- Hochaufloesungsmodus geringer arbeitsabstand von 5mm, higher magn. field
+	- 70nm \nds zu klein
+	- Anfahren mit Fokus
 	% - Abloesen von Diamanten (BASD + CVD) von Substrat im Ultraschallbad kann dazu fuehren, dass Substrat mitabgeloest wird) -> in Kalilauge aufloesen LII, S96
 	% - warum nicht einfach neue CVD-Diamanten herstellen, wie die, die am Anfang meiner Diss so gut funktioniert haben -> Dichte am Substrat zu hoch zum Aufpicken
 
 
-	\missingfigure{Photo of Nanomanipulator}
 

@@ -16,7 +16,7 @@
   \begin{figure}[htp]
 		\centering
 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/diamond_lattice.png}}
-		\caption{Face-cendered cubic diamond lattice. Note the tetraedal arrangements of carbon atoms. Figure reproduced with permission from \cite{janine::thesis}.}
+		\caption[Face-centered cubic diamond lattice]{Face-centered cubic diamond lattice. Note the tetraedal arrangements of carbon atoms. Figure reproduced with permission from \cite{janine::thesis}.}
 		\label{fig::diamond_lattice}
 	\end{figure}
 
@@ -27,39 +27,57 @@
   \begin{figure}[htp]
 		\centering
 		\testbox{\includegraphics[trim = 0 0 0 0, clip= true, width = 0.3\textwidth]{./pics/diamond_refraction.png}}
-		\caption{Light from a flourescent emmitter inside the diamond (green dot) undergoes reflection at the diamond-air interface. Figure reproduced with permission from \cite{neu::thesis}.}
+		\caption[Reduced light extraction efficiency of diamond due to refraction]{Light from a flourescent emmitter inside the diamond (green dot) undergoes reflection at the diamond-air interface. Figure reproduced with permission from \cite{neu::thesis}.}
 		\label{fig::diamond_refraction}
 	\end{figure}
 
-  \subsection{Types of diamonds}
+  \section{Classification of diamond}
 
     Two major approches for classifying diamond are commonly encountered. First, classification according to the presence or absence of certain impurities or impurity complexes. Second, classification based on different diamond crystallinities observed. In the following both classification systems are briefly introduced.
 
-    \subsubsection{Classification by impurities}
+    \subsection{Classification by impurities}
 
       Impurities or complexes of impurities in the diamond lattice can be optically active and thus change the optical properties of diamond. Most strikingly perhaps is the appearence of color in otherwise colorless diamond due to a sufficient concentration of such defects. Using IR absorption spectroscopy the degree of nitrogen impurtities can be determined. It is used to subdivide diamonds into distinct groups named Type I and Type II \cite{janine::148, janine::149}. The groups are further subdivided as follows:
 
       \begin{itemize}
             \item Type Ia: With a nitrogen concentration of up to \SI{3000}{ppm} most natural occuring diamonds belong to this group \cite{steinmetz::58}. Nitrogen appears arranged predominantly in aggregate clusters forming complexes of impurties. These complexes are optically active, absorbing light in the blue range of the visible spectrum. Consequently Type Ia diamonds often exhibit a yellow to brownish coloration.
 
-            \item Type Ib: With concentrations of up to \SI{500}{ppm} nitrogen atoms appear predominantly in isolation, replacing individual carbon atoms in the diamond lattice. In addition to absorbing visible blue light, green is being absorbed as well. Type Ib diamond thus exibits intensified the yellow or brownish coloration. While only \SI{0.1}{\percent} of naturally occuring diamond fall into this class, almost all synthetic diamonds created using the high-pressure-high-temperature method are of Type Ib \cite{steinmetz::58}.
+            \item Type Ib: With concentrations of up to \SI{500}{ppm} nitrogen atoms appear predominantly in isolation, replacing individual carbon atoms in the diamond lattice. In addition to absorbing visible blue light, green is being absorbed as well. Type Ib diamond thus exibits intensified the yellow or brownish coloration. While only \SI{0.1}{\percent} of naturally occuring diamond fall into this class, almost all synthetic diamonds created using the \hpht (\HPHT) method are of Type Ib \cite{steinmetz::58}.
       \end{itemize}
 
       While Type I diamond exhibits an appreciable concentration of nitrogen, Type II diamonds lack nitrogen entirely. Type II diamond is divided into two subgroups according to the presence or absence of boron as follows:
 
       \begin{itemize}
-        \item Type IIa: Can be considered pure as they lack boron impurities and other optically active defects \cite{neu::84}. They thus are colorless. Up to \SI{2}{\percent} of natrually occuring diamond and most diamonds synthetically created using the chemical vapor deposition method are of Type IIa \cite{steinmetz::58}.
+        \item Type IIa: Can be considered pure as they lack boron impurities and other optically active defects \cite{neu::84}. They thus are colorless. Up to \SI{2}{\percent} of natrually occuring diamond and most diamonds synthetically created using the \cvd (\CVD) method are of Type IIa \cite{steinmetz::58}.
         \item Type IIb: Contains appreciable concentrations of boron atoms replacing individual carbon atoms in the diamond lattice. Boron defects are optically active absorbing visible light ranging from red to yellow. Depending on the Boron concentration blue to grey colorations are observed. Furthermore, diamond is turned from an insulator to a efficient p-type semiconductor in the presence of boron impurities \cite{steinmetz::59}.
       \end{itemize}
 
-      We remark that for many modern applications of diamonds the presented ``classic" categorisation of diamond is not enough. Thus a precise quantification of the concentration and nature of various relevant impurities is often called-for. In this section we also briefly touched upon two methods to synthetically produce diamonds. Both are relevant for this thesis and are explained in detail in \autoref{ch::fabrication_nanodiamonds}.
+      We remark that for many modern applications of diamonds the presented ``classic" categorisation of diamond is not enough. In these cases a precise quantification of the concentration and nature of various relevant impurities is called for \cite{neu::85, neu::86}.
 
-    \subsubsection{Classification by morphology}
+      In this section we also briefly touched upon the \CVD and \HPHT methods, two approaches to synthetically produce diamonds. Both are relevant for this thesis and are explained in detail in \autoref{ch::fabrication_nanodiamonds}.
 
-      %steinmetz
-      Da es im späteren Verlauf dieser Arbeit auch Diamantproben einer anderen Mor- phologie als der einkristallinen betrachtet werden, soll kurz auf die unterschiedlichen Formen von CVD-Diamanten eingegangen werden. Bei deren Herstellung spielen so- wohl die Wachstumsparameter als auch die Art des verwendeten Substrates eine wichtige Rolle, da entsprechende Veränderungen die Morphologie der hergestellten Schichten deutlich verändern können. So ist es zur Herstellung eines Einkristalls not- wendig, ein Substrat zu verwenden, dessen Gitterparameter möglichst gut mit denen des zu wachsenden Diamanten übereinstimmen. Dies betrifft zum einen Gitterkon- stante (3,57Å) und -struktur (fcc mit zweiatomiger Basis), als auch den niedrigen thermischen Ausdehnungskoeffizienten des Diamanten von ca. 0,7 × 10−6 K−1 bei Raumtemperatur [61]. Das nächstliegende Substrat ist Diamant selbst [62] – man spricht in einem solchen Fall von Homoepitaxie. So kann man z.B. einen mit dem HPHT-Verfahren hergestellten und damit weniger reiner Stein als Substrat für einen reineren CVD-Diamanten verwenden, der dann nach dem Wachstum beispielsweise durch Laserschneiden von dem Substrat gelöst wird. Inzwischen ist es jedoch ebenfalls gelungen, Diamant auf fremde Substrate zu wachsen. Je nach Material ist dabei eine vorherige Bekeimung (engl. seeding) notwendig oder das Wachstum findet direkt an dem Gitter des Fremdsubstrates statt (sog. Heteroepitaxie); das eigentliche Wachs- tum läuft bei beiden Verfahren im Prinzip genauso ab wie bei einer Homoepitaxie. Als optimales Substrat für die Heteroepitaxie einkristalliner Schichten hat sich Iridium erwiesen, das sowohl bezüglich seiner Gitterparameter als auch seines thermischen Ausdehnungskoeffizienten eine gute Übereinstimmung zum Diamanten aufweist und so das heteroepitaktsche Wachstum einkristalliner Schichten ermöglicht [63,64].
+    \subsection{Classification by crystallinity}
 
-      Bei der Verwendung der meisten anderen Substrate, wie z.B. Glas, ist es jedoch nicht möglich, eine einkristalline Schicht zu wachsen. Selbst wenn die gleichen Para- meter wie zum Wachstum eines Einkristalls verwendet werden, d. h. im Wesentlichen ein niedriger Methanpartialdruck und eine gemäßigte Substrattemperatur [65], ist höchstens die Herstellung einer sog. polykristallinen Schicht möglich [62]. Darunter versteht man eine Diamantschicht, die aus einzelnen, unterschiedlich orientierten Dia- mantkristalliten aufgebaut ist. Je nach Wahl der Wachstumsparameter verändert sich diese Morphologie jedoch erneut: Mit steigendem Methanpartialdruck verringert sich die Größe der einzelnen Polykristallite und man gelangt zu so genannten nanokristal- linen Schichten. Erniedrigt man zusätzlich die Temperatur des Substrates, so ist das Ergebnis eine noch geringere Kristallitgröße und man spricht von einer ultrananokris- tallinen Morphologie [66]. Eine Übersicht über die unterschiedlichen Morphologien und die zugehörigen Wachstumsparameter der vorgestellten Diamanten ist in Ta- belle 3.2 gezeigt. Was ihre optischen Eigenschaften betrifft, so unterscheiden sich die ultranano- bis polykristallinen Diamanten von den Einkristallen vor allem durch eine erhöhte Absorption [67]. Diese wird durch Kohlenstoff an den Grenzflächen zwischen den Diamantkristalliten verursacht, der nicht in der Diamantphase vorliegt [68,69], sondern in der Form von Graphit und amorphem Kohlenstoff. Der relative Anteil die- ses Nichtdiamantkohlenstoffs wird mit steigendem Oberfläche/Volumen-Verhältnis größer, darum ist die Absorption im Falle ultrananokristalliner Diamantschichten am größten.
+      Up unitl now, the discussion assumed that diamond forms a lattice consisting of one giant single crystal. However, other crystallinities are possible and can be used to classify diamond.
+      They range from mono or single crystals to polycrystalline, nanocrystalline or even ultra-nanocrystalline diamond films \cite{steinmetz::62}. This classification is particularirly useful for synthesized diamon as will be discussed in \autoref{ch::fabrication_nanodiamonds}. \autoref{tab::diamond_grain_sizes} summarizes the different sizes of diamonds or diamond films which can be achieved using variations of the \CVD method.
+
+      Diamond films consist of isolated diamond grain of random orientation with sp2 hybridized grain boundaries and graphit-like inclusions \cite{janine::thesis}. Carbon present in non-diamond phases, e.g.\ graphite or amorphous carbon gives rise to detremental light absorption while crystal boundaries lead to increased scattering losses. As the size of diamond crystallites get smaller, the ratio of non-diamond carbon to diamond carbon increases. Thus losses are most pronounced for ultra-nanocrystalline diamond films.
+
+      \begin{table}[htbp]
+    		\centering
+    		\caption[Classification of diamond synthesized by \cvd]{Classification of diamonds sythensized using \CVD \cite{steinmetz::thesis}.} \label{tab::diamond_grain_sizes}
+    			\begin{tabular}{lc}
+    			\toprule
+    			Crystallity & Grain size  \\
+    			\midrule
+    			monocrystalline & arbitrary \\
+    			polycrystalline & \SI{50}{\nm} to \SI{10}{\mum} \\
+    			nanocrystalline & \SI{10}{\nm} to \SI{50}{\nm} \\
+    			ultra-nanocrystalline & $<$ \SI{10}{\nm} \\
+    			\bottomrule
+    			\end{tabular}
+    	\end{table}
+
 
 \section{\sivs} \label{sec::siv}
 
@@ -74,9 +92,7 @@
   The neutral SiV0 center with a zero-phonon transition at 1.31eV (946nm) [224] was identified using EPR measurements with a ground state spin of S = 1. The negative SiV− center exhibits a zero-phonon line at 1.68eV (738nm) and has been associated with a S = 1/2 ground state [222,223]. Due to its high brightness and the possible ability for optical readout of the excited state spin [15], we here focus on the negative SiV− center. We start to present the optical emission spectrum before we briefly discuss the electronic structure.
 
 
-  \subsection{Luminescence properties}
-
-    \subsubsection{Excitation}
+    \subsection{Excitation}
 
       %neu
       For the application of color centers in diamond as single photon sources, an excita- tion method is necessary that allows for the efficient excitation of the single color center without simultaneously introducing significant background luminescence, i.e., luminescence from other types of color centers or broadband luminescence from the diamond host (for a discussion on the origin of broadband fluorescence see page 73).
@@ -86,7 +102,7 @@
       To test whether a defect in diamond can be optically excited, one may first investigate the absorption due to the defect. At high SiV center concentration, the transitions of the SiV center can be observed in absorption [117,118]. Instead of direct detection of the absorption, i.e., extinction of light, one may also excite the color center with a varying wavelength and detect the fluorescence intensity of the color center depending on the excitation wavelength. Assuming that no saturation occurs, the fluorescence intensity is then proportional to the absorbed light intensity. This method is termed photoluminescence excitation spectroscopy (PLE). Employing this method, it has been found that SiV centers can be excited, although not with constant efficiency, in a broad spectral range between 1.75eV and 2.55eV [131]. Resonance features in the excitation efficiency are reported in Ref. [136], where an absorption enhancement at 1.98 eV is reported and assigned to a second excited state 0.3 eV above the first excited state.
       In addition to the efficiency of the excitation, for single centers, one also has to consider the possibility of ionization of the center: E.g., for nitrogen vacancy centers, a charge state conversion using 2.33eV (532nm) laser light has been shown [125]. As the single photons have to be detected at a defined wavelength, a charge state conversion reduces the effective fluorescence rate due to a change in the emission wavelength. Charge state conversion might also be the reason for longer times of fluorescence intermittence (blinking) observed for color centers in diamond [35, 137]. For SiV centers, also quenching of the SiV ensemble luminescence, especially for illumination with wavelengths shorter than 450 nm, was observed [127]. Thus, it might be advantageous to choose an excitation energy as low as possible and not capable of photo-ionizing the color center. According to Refs. [128, 131, 138], the ground state of the SiV center charge state responsible for 1.68eV (738nm) luminescence can be found 2.05 eV (605 nm) below the conduction band edge. In this work, we will employ excitation wavelengths of 671 nm (1.85 eV) as well as 685 nm (1.81 eV) up to 715 nm (1.73 eV) for the presented measurements on single centers. For ensembles, also excitation at 532nm (2.33eV) will be employed. Several tests using 532 nm excitation for single SiV centers yielded an enhanced probability for photobleaching of the centers with this excitation wavelength. Figure 1.5 illustrates the excitation schemes and the position of the energy levels in the bandgap.
 
-    \subsubsection{\zpl}
+    \subsection{\zpl}
 
       % neu
       Generally, the purely electronic transition of a color center, the zero-phonon-line (ZPL), is the spectrally narrowest transition of the color center. In contrast, vibra
@@ -95,7 +111,7 @@
       Only two reports of the linewidth of single centers exist: Wang et al. report a ZPL linewidth of 5 nm [37] and 6 ± 1 nm [74] at room temperature. We point out that in the work of Wang [74] also centers with significantly lower linewidth have been observed: A center with an emission wavelength of 736.8 nm and 1.3 nm ZPL width is not identified as an SiV center due to the short emission wavelength. Nevertheless, this blue shift of the ZPL might be due to the crystalline environment in the vicinity of the center: As mentioned above, reports in the literature clearly indicate inhomogeneous broadening of the ZPLs of ensembles of SiV centers in the nm range. Thus, one expects line positions spread over the inhomogeneous linewidth when observing single emitters and a ZPL observed at 736.8 nm might be due to an SiV center.
       At low temperature, in diamond with a low inhomogeneous broadening of the ZPL, a four line fine structure of the ZPL transition has been observed [111,140]. This specific line pattern might be considered as the ’spectral fingerprint’ of the SiV center and might be used to prove the identification of single color centers as SiV centers. A detailed discussion of the pattern as well as the associated level scheme is performed in Sec. 7.1. Together with a narrowing of the line upon cooling and the occurrence of the four line pattern, the SiV ZPL blue shifts 1.2-1.4nm upon cooling [112,139].
 
-    \subsubsection{Electron-phonon coupling}
+    \subsection{Electron-phonon coupling}
 
       % neu
       The linear electron-phonon coupling of the SiV center will be discussed in the following, while further discussion of quadratic electron-phonon coupling is shifted to section 7.2.2, where it is used to interpret temperature dependent spectra of single SiV centers. Vibronic sidebands in emission mostly occur as transitions from the vibrational ground state (n′ = 0) of the excited electronic state to higher vibrational states (n > 0) of the electronic ground state (for the level scheme see Fig. 1.6). Consequently, these lines are red shifted compared to the ZPL in luminescence. The red shift gives the phonon energy of the corresponding phonon mode if n = 1 (one-phonon sideband). For higher order sidebands (n > 1), the energy is a multiple of the phonon energy. In absorption, sidebands are blue shifted compared to the ZPL. Here, absorption mostly takes places from the vibrational ground state (n = 0, highest population) in the electronic ground state to higher vibrational states (n′ > 1) in the excited electronic state. The sideband spectrum together with the ZPL is characteristic for a specific color center [25], assisting to identify the emitting centers. The vibronic sidebands of the SiV center are weak compared to the ZPL even at room temperature. This indicates a weak linear electron-phonon coupling and renders SiV centers especially suitable as low bandwidth emitters. The linear electron- phonon coupling is measured either by the Debye-Waller factor (DW) or the Huang- Rhys factor (S). The Debye-Waller factor is defined as the integrated luminescence intensity of the ZPL Izpl divided by the integrated luminescence intensity of the

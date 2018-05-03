@@ -24,6 +24,7 @@
 \usepackage[singlelinecheck=false, aboveskip=-3pt]{subcaption}% use this package if subfigures are wanted, contains newest implementation of subfigures
 % \usepackage{cleveref}%supports cref to reference multiple things in a row and to automatically write into the text what object is referenced to(http://get-software.net/macros/latex/contrib/cleveref/cleveref.pdf)
 \usepackage[plain]{fancyref}%usage: \autoref{type:title} or \autoref{type:title}, gets information about kind of referenced stuff and writes name&number
+\usepackage[noabbrev, nameinlink, capitalize]{cleveref}      % to enable referencing of items 'nameinlink' option emulates look of \cref
 \usepackage{textcomp}
 \usepackage{gensymb}%for units
 \usepackage{siunitx}
@@ -37,6 +38,7 @@
 
 \usepackage{booktabs}% to use \toprule, \bottomrule in table
 \usepackage{backref}
+\usepackage[inline]{enumitem} % inline option which implements inline versions of the standard lists using starred versions of the basic list environments.
 
 
 \usepackage[showframe,headheight=14pt, margin=2.2cm,includehead,includefoot]{geometry}% Set margin sizes, put in showframe to show the frames on document

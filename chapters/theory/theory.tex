@@ -5,7 +5,7 @@
 
 \begin{remark}
     \begin{itemize}
-      \item test
+      \item Fill in used energies for \siv excitation.
     \end{itemize}
 \end{remark}
 
@@ -71,7 +71,7 @@
   			Crystallity & Grain size  \\
   			\midrule
   			monocrystalline & arbitrary \\
-  			polycrystalline & \SI{50}{\nm} to \SI{10}{\mum} \\
+  			polycrystalline & \SI{50}{\nm} to \SI{10}{\micro\meter} \\
   			nanocrystalline & \SI{10}{\nm} to \SI{50}{\nm} \\
   			ultra-nanocrystalline & $<$ \SI{10}{\nm} \\
   			\bottomrule
@@ -102,11 +102,86 @@
 
   \sivs have been created using \CVD in \nds and single-crystal diamond films \cite{janine::25}, see \autoref{ch::fabrication_nanodiamonds} for details. It is also possible to directly implant silicon atoms into pure diamond. High temperature annealing must then be used to animate present lattice vacancies to recombine with silicon impurities in order to forme split-vacancy \sivs \cite{janine::24,janine::223}.
 
-  In the following sections we detail the most important optical properties of \sivs in diamond. For a comprehensive review we refer to \cite{janine::thesis, neu::thesis} and references therein.
+  In the following sections we detail the most important luminescence properties of \sivs in diamond. For a comprehensive review we refer to \cite{janine::thesis, neu::thesis} and references therein.
+
+
+  \subsection{Luminescence properties}
+
+    The \sivc as a quasi-atomic system is capable of absorbing and emmitting light. When a ground state electron absorbs a photon of appropriate energy, it is promoted to a discrete higher-energy excited state located within the band gap of the diamond host matrix. Reversing this excitation relaxes the electron back down to the ground state while emmitting a so-called flourescent photon, accounting for the energy difference between excited and ground state. This transition is ``spin-allowed", limiting the life-times of excited states to nano-seconds and thus promoting rapid relaxation and associated fluorescence \cite{janine::229}.
+
+    Since flourescence is directly linked to the electronic structure of the \siv, see \autoref{fig::above_resonant_excitation}. It follows that photoluminescence spectroscopy can be used to study it using a laser to optically excite the \siv. In the context of this thesis, optical above-resonant excitation is the method of choice, in particular, when used in conjunction with a confocal photoluminescence setup which will be discussed in \autoref{ch::pl_setup}. If the excitation energy exceeds the energy of the lowest excited state, electrons are promoted to higher electronic and vibrational states. Conveniently, these states relax rapidly towards the lowest exited state in non-radiative processes \cite{janine::229}. Once the lowest excited state is reached, a flouresent transition can follow. It has been shown that above-resonant excitation is feasible for excitation energies ranging from \SIrange{1.75}{2.55}{\eV} \cite{becker::34, neu::131, neu::136}. If the excitation energy is choosen too high, however, the \siv is ionized. Electrons donated to the diamond conduction band do not participate in flourescence. Ionization may be reversed if a positively charged \siv manages to capture a free electron from the conduction band. This charge state conversion is believed to be linked to flourencense intermittence, more intuitively named as blinking \sivs \cite{neu::35, neu::137}.
+
+    \begin{figure}[htbp]
+      \centering
+      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/above_resonant_excitation.png}}
+      \caption[Band gap of \sivs hosted in diamond]{Simplified picture of the generous \SI{5.5}{\eV} band gap of diamond with discrete states induced by the presence of \sivs. The \siv ground state is situated \SI{2.05}{\eV} below the diamond conduction band. The lowest excited state sits \SI{1.68}{\eV} above the ground state with the \zpl transition in red connecting the two. Above-resonant optical excitation is indicated in orange. Figure curtesy of \cite{becker::thesis}.}
+      \label{fig::above_resonant_excitation}
+    \end{figure}
+
+    The flourescence spectrum of \sivs have two prominent features: A narrow \zpl a broad \psb. The former is connected to flourescent photons associated with a purely electronic transition while the latter involves vibrational transitions involving electron-phonon interactions. The \psb is typically shifted to higher wavelengths with respect to the \zpl. The resulting energy deficit can be explained by phonons being created during the relaxation of higher vibrational states. A shift in the opposite direction can also be observed in rare cases if phonons are absorbed during the relaxation process \cite{becker::36}.
+
+    The relative strength of the \zpl and the \psb is connected to the electron-phonon coupling of the excited \cc and thus to lattice vibrations. When a \cc is excited, its charge distribution changes. As a result, the equilibrium positions of all particles involved in the \cc shift leading to changes in \cc geometry. Naturally, the combined changes of charge distribution and geometry of the \cc affect the sourrounding atoms of the host lattice. Similarily, if the exited state relaxes back to the ground state, the process occurs in reverse. Thus, due to differing atomic arrangements for ground and exited states, the emmission and absorption of photons is accompanied by lattice vibrations, i.e.\ phonons \cite{janine::thesis}.
+
+    The Huang-Rhys model allows us to discuss the electron-phonon interaction in more detail. Our discussion follows the presentation in \cite{janine::213}. The model assumes in its simplest form that vibrational modes can be modelled as oscillations of nuclei between their euqilibrium coordinates $q$ associated with the electronic states \cite{janine::thesis}. Let $\mathcal{K}_{{}^{3}A_{2}}$ and $\mathcal{K}_{{}^{3}E}$ denote the harmonic potentials of the ground and excited states respectively:
+
+    \begin{align}
+      \mathcal{K}_{{}^{3}A_{2}} & = \frac{1}{2} \Omega^2 q^2 \\
+      \mathcal{K}_{{}^{3}E} & = C_{{}^{3}E} + aq + \frac{1}{2} (\Omega^2 + b)q^2 \\
+       & = C_{{}^{3}E} - C_R + \frac{1}{2} (\Omega^2 + b)(q - \delta q)^2.
+    \end{align}
+
+    It follows that the vibrational modes of ground and exited states are given as harmonic states with disrete energies $\hbar \Omega (\nu + 2)$ as well as $\hbar \sqrt{\Omega + b} (\nu + 2)$ respectively, where $\nu$ denotes the occupation number and $\Omega$ the frequency.
+    Further, $aq$ denotes the linear nuclear displacement of the excited state configuration with respect to the ground state equilibrium where $q = 0$.
+    The quadratic term $bq^2$ refers to the vibrational frequency shoft due to a redistribution of charge between the electronic states.
+    From the linear and quadratic coupling strenghts $a$ and $b$, the equilibrium displacement of the ${}^{3}E$ state is given by:
+
+    \begin{equation}
+      \delta q = \frac{-a}{\Omega^2 + b },
+    \end{equation}
+
+    while the relaxation energy reads \cite{janine::213}:
+
+    \begin{equation}
+      C_R = \frac{a^2}{2 (\Omega + b)} = \hbar S \sqrt{\Omega + b},
+    \end{equation}
+
+
+    where $S$ is referred to as Huang-Rhys factor.
+
+ The harmonic potentials and states are schematically shown in figure 3.6, with the excited state potential being shifted by the equilibrium displacement δq with respect to the ground state potential.
+
+Applying the Franck-Condon principle, the most probable electronic transition from the excited 3E state to the ground state 3A2 originates from the fundamental vibrational 3E state at δq into higher vibrational levels of the 3A2 ground state followed by non- radiative relaxation to the fundamental 3A2 vibrational level that effectively displaces the nuclei to the ground state equilibrium coordinate. The excitation from 3A2 to 3E proceeds vice versa. The Huang-Rhys factor S physically describes the mean number of vibrational quanta involved in the optical transition. For the NV center, the Huang- Rhys factor is typically S = 3.76 and the energy of the ground state vibrational mode is 􏰃Ω = 65 meV [168, 214]. The most probable transition originating from δq marks the maximum in the emission spectrum at 􏰃ω = 􏰃ωZPL −S􏰃Ω, shifted to longer wavelengths with respect to the ZPL. Other transitions are less probable and less intense. For the NV− center, we expect maximum intensity at 1.7eV (728nm). In absorption, an excitation energy of 􏰃ω = 􏰃ωZPL + S􏰃Ω = 2.19 eV (565 nm) efficiently excites the NV center, which corresponds well with the 532nm excitation wavelength widely used for off resonant excitation.
+A second measure of the electronic-vibrational coupling is the Debye-Waller factor Dw, which is related to the Huang-Rhys factor via Dw = exp(−S). The Debye-Waller factor determines the ratio of photons emitted into the zero-phonon line compared to the overall emission. Due to the poor ZPL branching ratio, the Debye-Waller factor of the NV center amounts only Dw = 2 − 4% [80, 83, 125, 170].
+
+
+% becker
+The energy of the excited state in the case of electron phonon coupling can be written as [37]:
+Ve = Ee + 1mω2q2 + aq + bq2 (2.1) 2
+Here, the term Ee corresponds to the electronic energy of the excited state, whereas the term 1mω2q2 corresponds to the vibrational energy of the state
+(potential approximated as being harmonic). The following two terms account for the linear electron-phonon coupling aq and the quadratic coupling bq2, with q being the displacement of the nuclei from their equilibrium positions. The linear coupling term corresponds to a constant change in the positions of the atomic nuclei between the ground and the excited state whereas the quadratic coupling describes a change in the vibrational frequencies. For the understand- ing of the PSB, the linear electron-phonon coupling has to be considered in greater detail. In Fig. 2 (b) the vibrational parabolas of an electronic ground and an excited state are shown for an arbitrary value of q. Since the excitation process (orange arrow) is very fast, it occurs vertically in terms of q, which means, that the system is excited into a higher lying vibrational state of the excited electronic state. The excitation occurs to the vibrational state with the wavefunction that has the largest overlap with the wavefunction of the initial state. Subsequently, on a larger time scale, the nuclei react on the changed charge distribution and relax in their new equilibrium positions. The excited vibrational state then relaxes into the vibrational ground state (dashed arrow) of the electronic excited state by non-radiative internal conversion processes. The following electronic relaxation process (red arrow) is again much faster than the movement of the atomic nuclei and the system will again end up in a vibrational excited state of the electronic ground state. Again, the final state which has the largest overlap with the vibrational ground state of the electronic excited state has the highest probability [38]. From Fig. 2 (b) it is easily noticeable that the value of q, which means the amount the parabolas are shifted against each other, determines the most probable vibrational state the system relaxes to. This probability is usually expressed by the so called Huang-Rhys factor S, which is given by
+2 ne−S
+|M0n| =S n! (2.2)
+with |M0n|2 being the intensity of the transition to the nth vibrational excited state [37]. If S equals two, this means, that the most probable vibrational state the system relaxes to, is the state with n=2. This case is illustrated in Fig. 2 (b). For S approaching zero, the most probable transition becomes the zero phonon line, which means, that the ratio of the ZPL fluorescence to the total fluorescence in the spectrum is given by
+IZPL = e−S. (2.3)
+IZP L+P SB
+The Huang-Rhys factor of the SiV centre has been determined to amount to S=0.08 up to S=0.24 [39, 40, 41]. This means that the major part of the flu- orescence of the SiV centre is concentrated in its zero phonon line making it a very narrowband single photon source (even for S=0.24 only around 23% of the fluorescence would be emitted by the PSB).
+A transition at 1.681eV in the spectrum has been assigned to the negatively charged SiV centre [42, 43] whereas a transition at 1.31 eV has been attributed to the neutral charge state [44]. However, since the fluorescence of the neutral SiV charge state is usually relatively weak the interest focusses on the bright 1.681 eV transition of the negatively charged centre. If SiV centres are cooled below approximately 110 K, the ZPL splitts into several fine structure compo- nents [45]. As seen in Fig. 3 (a), in large ensembles of SiV centres, up to twelve different lines can be observed with intensities corresponding to the natural abundances of the three stable isotopes of silicon. Each isotope contributes with four lines to the total spectrum. The lines are labelled with A1 to D1 etc.
+starting with the line of highest energy. As shown in Fig. 3 (b), in a spectrum of a single SiV centre this four-line fine structure is more obvious. The distri- bution of the fluorescence intensity over the four lines shown fo this emitter is characteristic for a SiV centre in bulk diamond exhibiting only a small local crystal strain. This rather unique pattern unveils, together with temperature- dependent photoluminescence measurements, that the electronic structure of the centre has to contain two levels in the ground and the excited state, with a splitting of around 0.02 meV and 1.07 meV, respectively[43]. In the following chapters, this splitting pattern will be a starting point to get more detailed information about the electronic structure as well as the symmetry properties of the negatively charged SiV centre.
+
+
+
+
+
 
     \subsection{Excitation}
 
-      To observe single photons being emmited from \sivs hosted in diamond, color centers first need to be excited. In the context of this thesis, optical above-resonant excitation is the method of choice. Using an exciation laser with a wavelength above the flouresent wavelength of \sivs causes electrons to be promoted from the ground state to excited states with energy levels exceeding the energy of the lowest excited state. Conveniently, the dissipative nature of the \sivc is such that electrons in higher exited states quickly relax down to the lowest excited state in a non-radiative process. From there electrons may relax further down to the ground state, emmiting observable single flourescent photons. \autoref{fig::above_resonant_excitation} illustrates the process. We remark that possible shelving states exhibiting both radiative and non-radiative dissipation are believed to be involved in the \siv relaxation processes \cite{janine::229}. While we omit a discussion of these states and their implications here, the interested reader is referred to \cite{janine::thesis} and references therein for a detailed description of the electronic (fine)structure of \sivs.
+      To observe single photons being emmitted from \sivs hosted in diamond, color centers first need to be excited. In the context of this thesis, optical above-resonant excitation is the method of choice, in particular, when used in conjunction with a confocal photoluminescence setup, see \autoref{ch::pl_setup}.
+
+      It is known that a above-resonant excitation of \sivs is feasible for excitation energies ranging from \SIrange{1.75}{2.55}{\eV} \cite{becker::34}.
+
+      For \sivs it is known that above-resonant excitation promotes electrons to states below the edge of the conduction band of the diamond host as long as excitation energies do not exceed \SI{2.05}{\eV} \cite{becker::35}.
+
+      Using an exciation laser with a wavelength above the flouresent wavelength of \sivs causes electrons to be promoted from the ground state to excited states with energy levels exceeding the energy of the lowest excited state. Conveniently, the dissipative nature of the \sivc is such that electrons in higher exited states quickly relax down to the lowest excited state in a non-radiative process. From there electrons may relax further down to the ground state, emmiting observable single flourescent photons. \autoref{fig::above_resonant_excitation} illustrates the process. We remark that possible shelving states exhibiting both radiative and non-radiative dissipation are believed to be involved in the \siv relaxation processes \cite{janine::229}. While we omit a discussion of these states and their implications here, the interested reader is referred to \cite{janine::thesis} and references therein for a detailed description of the electronic (fine)structure of \sivs.
 
       \begin{figure}[htbp]
     		\centering
@@ -115,10 +190,10 @@
     		\label{fig::above_resonant_excitation}
     	\end{figure}
 
-      To verify wheter a \siv can be optically excited, transitions of the \siv can be observed using direct absorption \cite{neu::117, neu::118}. Alternatively photoluminescence exitation spectroscopy may be used to investigate the fluourescence intensity of \ccs as a function of different excitation wavelengths. Using this method it has been shown that \sivs can be excited (with variying effciency) over a bread spectral range between \SIrange{1.75}{2.55}{\eV} \cite{neu::131, neu::136}.
+      To verify wheter a \siv can be optically excited, transitions of the \siv can be observed using direct absorption \cite{neu::117, neu::118}. Alternatively photoluminescence exitation spectroscopy may be used to investigate the fluourescence intensity of \ccs as a function of different excitation wavelengths. Using this method it has been shown that \sivs can be excited (with variying effciency) over a broad spectral range between \SIrange{1.75}{2.55}{\eV} \cite{neu::131, neu::136}.
 
-      %neu
-      In addition to the efficiency of the excitation, for single centers, one also has to consider the possibility of ionization of the center: E.g., for nitrogen vacancy centers, a charge state conversion using 2.33eV (532nm) laser light has been shown [125]. As the single photons have to be detected at a defined wavelength, a charge state conversion reduces the effective fluorescence rate due to a change in the emission wavelength. Charge state conversion might also be the reason for longer times of fluorescence intermittence (blinking) observed for color centers in diamond [35, 137]. For SiV centers, also quenching of the SiV ensemble luminescence, especially for illumination with wavelengths shorter than 450 nm, was observed [127]. Thus, it might be advantageous to choose an excitation energy as low as possible and not capable of photo-ionizing the color center. According to Refs. [128, 131, 138], the ground state of the SiV center charge state responsible for 1.68eV (738nm) luminescence can be found 2.05 eV (605 nm) below the conduction band edge. In this work, we will employ excitation wavelengths of 671 nm (1.85 eV) as well as 685 nm (1.81 eV) up to 715 nm (1.73 eV) for the presented measurements on single centers. For ensembles, also excitation at 532nm (2.33eV) will be employed. Several tests using 532 nm excitation for single SiV centers yielded an enhanced probability for photobleaching of the centers with this excitation wavelength. Figure 1.5 illustrates the excitation schemes and the position of the energy levels in the bandgap.
+      In this work we will use the following excitation energies\todo[fancyline]{Fill in wavelengths used in this thesis and explain why they are used.}.
+
 
     \subsection{Zero phonon line}
 
@@ -129,7 +204,7 @@
       Only two reports of the linewidth of single centers exist: Wang et al. report a ZPL linewidth of 5 nm [37] and 6 ± 1 nm [74] at room temperature. We point out that in the work of Wang [74] also centers with significantly lower linewidth have been observed: A center with an emission wavelength of 736.8 nm and 1.3 nm ZPL width is not identified as an SiV center due to the short emission wavelength. Nevertheless, this blue shift of the ZPL might be due to the crystalline environment in the vicinity of the center: As mentioned above, reports in the literature clearly indicate inhomogeneous broadening of the ZPLs of ensembles of SiV centers in the nm range. Thus, one expects line positions spread over the inhomogeneous linewidth when observing single emitters and a ZPL observed at 736.8 nm might be due to an SiV center.
       At low temperature, in diamond with a low inhomogeneous broadening of the ZPL, a four line fine structure of the ZPL transition has been observed [111,140]. This specific line pattern might be considered as the ’spectral fingerprint’ of the SiV center and might be used to prove the identification of single color centers as SiV centers. A detailed discussion of the pattern as well as the associated level scheme is performed in Sec. 7.1. Together with a narrowing of the line upon cooling and the occurrence of the four line pattern, the SiV ZPL blue shifts 1.2-1.4nm upon cooling [112,139].
 
-    \subsection{Electron-phonon coupling}
+    \subsection{Vibrational side-bands}
 
       % neu
       The linear electron-phonon coupling of the SiV center will be discussed in the following, while further discussion of quadratic electron-phonon coupling is shifted to section 7.2.2, where it is used to interpret temperature dependent spectra of single SiV centers. Vibronic sidebands in emission mostly occur as transitions from the vibrational ground state (n′ = 0) of the excited electronic state to higher vibrational states (n > 0) of the electronic ground state (for the level scheme see Fig. 1.6). Consequently, these lines are red shifted compared to the ZPL in luminescence. The red shift gives the phonon energy of the corresponding phonon mode if n = 1 (one-phonon sideband). For higher order sidebands (n > 1), the energy is a multiple of the phonon energy. In absorption, sidebands are blue shifted compared to the ZPL. Here, absorption mostly takes places from the vibrational ground state (n = 0, highest population) in the electronic ground state to higher vibrational states (n′ > 1) in the excited electronic state. The sideband spectrum together with the ZPL is characteristic for a specific color center [25], assisting to identify the emitting centers. The vibronic sidebands of the SiV center are weak compared to the ZPL even at room temperature. This indicates a weak linear electron-phonon coupling and renders SiV centers especially suitable as low bandwidth emitters. The linear electron- phonon coupling is measured either by the Debye-Waller factor (DW) or the Huang- Rhys factor (S). The Debye-Waller factor is defined as the integrated luminescence intensity of the ZPL Izpl divided by the integrated luminescence intensity of the

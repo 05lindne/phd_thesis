@@ -2,9 +2,63 @@
 
 \section[VCSELs]{Coupling \Nds to \Vcsels} \label{sec::coupling_vcsel}
 
-For metrology, the photon flux rate has to be high enough to be measured by a low optical flux detector \cite{Vaigu2017}.
+	For metrology, the photon flux rate has to be high enough to be measured by a low optical flux detector \cite{Vaigu2017}.
+	\\
+	The red AlGaInP-based oxide-confined \vcsels (VCSEL) are compact and perfect candidates for excitation of \sivs in a hybrid integrated single photon source: 
+	They exhibit wavelengths around \SI{650}{nm} at \cw emission.
+	\sivs exhibit intensity maxima at an excitation at \SI{670}{nm} and \SI{690}{nm} \cite{}.\todo{diagram einfuegen} 
+	In addition, VCSELs exhibit circular beam profile, have low divergence angle and emit linearly polarized light.
 
-	\subsection{Pick-And-Place Process to \Vcsel}
+	\subsection{\Vcsel Structure}
+
+	% Vertical-cavity surface-emitting lasers are attractive candidates for emerging technologies such as high-density optical storage systems, high-definition laser printing and optical communication systems using polymer optical fibers (POF). The red AlGaInP-based oxide-confined vertical-cavity surface-emitting lasers (VCSEL) target one absorption minimum of the polymer optical fibers (POF) at around 650 nm. In addition, VCSELs are compact, exhibit circular beam profile and have low divergence angle, in contrast to edge-emitting laser, for an easy coupling of light into the fiber. Furthermore, they offer high-speed modulation capability (several GHz) [1] which is required for optical data communication.
+	% \\
+	% The VCSEL structure (Fig. 2) consists of an laser active region embedded in between two distributed Bragg reflectors (DBR). For maximum modal gain the current and the optical mode need to be confined in the transverse direction for serving as a spatial filter. This is achieved with an implemented oxide aperture, with diameter DA, directly above the active region in a field node of the standing wave field to minimize scattering losses. Our devices possess optical output power up to 3 mW with low threshold current (1 mA) at 660 nm. For practical application a stable single transverse mode especially the fundamental mode and a stable polarization of the emission is desirable owing to higher coupling-efficiency into optical fibers.
+	% \\
+	% II. EXPERIMENTAL PROCEDURE The investigated VCSEL structures were grown by metalorganic vapor-phase epitaxy (MOVPE) in an AIX-200 hori- zontal reactor setup with in situ growth control using stan- dard sources at low pressure of 100 mbar and a tempera- ture of 750 ◦C on (100) n+-GaAs substrate misoriented 6 ◦ towards [111]A. The bottom n-type DBR is made of 50 pairs of AlAs/Al0.5Ga0.5As. The p-type DBR consists of 36 Al0.95Ga0.05As/Al0.5Ga0.5As mirror pairs. Four compres- sively strained GaInP quantum wells (QW) built up the active region. To realize an oxide aperture, the advantage of high oxidation selectivity of the AlxGa1−xAs material system is used. We use an Al-content of x = 0.98 for this oxidation layer. Active diameters DA from 3 µm to 20 µm were obtained on one sample because of the flow profile of the nitric water vapor in the oxidation chamber. To investigate the transverse beam profile depending on different parameters we built up a vertical measurement setup. The beam profile is mapped with a lens system of 3 lenses and captured with a CMOS-camera. The vertical setup provides the advantage of on-wafer-testing.
+
+	The VCSEL structure (\cref{fig::vcsel_sketch}) consists of an active region between two distributed Bragg reflectors (DBR). 
+	The bottom n-type DBR is made of 50 pairs of AlAs/Al\textsubscript{0.5}Ga\textsubscript{0.5}As, the p-type DBR consists of 36 Al\textsubscript{0.95}Ga\textsubscript{0.05}As/Al\textsubscript{0.5}Ga\textsubscript{0.5}As mirror pairs. 
+	The active region consists of four GaInP quantum wells (QW). 
+	An oxide aperture in a field node of the standing wave serves as a spatial filter for maximum modal gain by confining the current and the optical mode.
+	The active diameter which is defined by the oxide aperture amounts to \SI{5.8}{\micro\meter}.
+	As this region is the area where the laser emission exits the VCSEL, the \nds have to be put within this area.
+	The used VCSEL exhibits an optical output power up to \SI{1}{\milli\watt} with low threshold current of up to \SI{3}{\milli\ampere}\todo{ist das up to} at about \SI{655}{nm}\todo{nachdenken, wie formulierung richtig ist}. 
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/vcsel_sketch.png}}
+			\caption{}
+			\label{subfig::vcsel_sketch}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/vcsel_output_area.png}}
+			\caption{}
+			\label{subfig::vcsel_output_area}
+		\end{subfigure}
+		\caption{(a) Sketch of the VCSEL showing the different layers. (b) Image of the VCSEL. The circle with the black dots is the hole in the p-contact (diameter D\textsubscript{S}, the smaller darker area in the middle is the laser output area (diameter D\textsubscript{A})}
+		\label{fig::<fig>}
+	\end{figure}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/vcsel_output_wavelength.png}}
+			\caption{}
+			\label{subfig::vcsel_output_wavelength}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/vcsel_output_power.png}}
+			\caption{}
+			\label{subfig::vcsel_output_power}
+		\end{subfigure}
+		\caption{(a) Emission spectrum of the used VCSEL at two different currents. (b) Optical output power and voltage of the same VCSEL in dependence of input current. \cite{}}
+	\end{figure}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -20,24 +74,32 @@ For metrology, the photon flux rate has to be high enough to be measured by a lo
 			\caption{}
 			\label{subfig::vcsel_sem_detail}
 		\end{subfigure}
-		\caption{<caption>}
+		\caption{(a) SEM image of an array of VCSELs. The three wires are the anodes, which are connected to the top layer (p-contact) of the VCSEL. Therefore, three of the VCSEL structures can be operated. (b) Detail SEM image of the top of the exploited VCSEL Bm4. The circular middle part is the hole in the p-contact through which the top DBR is visible. The active diameter is smaller than that and not visible in the SEM.}
 	\end{figure}
 
 	\subsection{Spectroscopic Measurements of \Nd in \Vcsel}
 
+	After a successful \pp process where the pre-selected \nd was put onto the active area of VCSEL Bm4, the VCSEL sample was put into the confocal setup.
+	As a first check, the VCSEL surface was scanned with the laser from the confocal setup without operating the VCSEL itself \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
+	.
+	A bright dot exhibiting a countrate of a few thousand cps is visible where the \nd containing an SiV was put.
+	A comparative scan of a VCSEL without \nd only exhibits a background countrate, as expected (\cref{subfig::confocal_laser_excitation_without_diamond}).
+
+
+
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-15_APD2.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-15_APD2_circle.png}}
 			\caption{confocal laser excitation with diamond}
 			\label{subfig::vcsel_confocal_laser_excitation_with_diamond}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-16_APD2.png}}
-			\caption{vcsel excitation with diamond}
-			\label{subfig::vcsel_excitation_with_diamond}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-01_APD2.png}}
+			\caption{confocal laser excitation without diamond}
+			\label{subfig::confocal_laser_excitation_without_diamond}
 		\end{subfigure}
 		\caption{}
 	\end{figure}
@@ -45,9 +107,9 @@ For metrology, the photon flux rate has to be high enough to be measured by a lo
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-01_APD2.png}}
-			\caption{confocal laser excitation without diamond}
-			\label{subfig::confocal_laser_excitation_without_diamond}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-16_APD2.png}}
+			\caption{vcsel excitation with diamond}
+			\label{subfig::vcsel_excitation_with_diamond}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}

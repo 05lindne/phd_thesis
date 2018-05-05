@@ -3,7 +3,7 @@
 \chapter{Silicon Vacancy Centers in Diamond}	\label{ch::sivs}
 \chaptermark{SiV Centers}
 
-  In the following we introduce \ccs, i.e.\ optically acive point-defects, present in a diamond lattice. We focus on \ccs combining silicon impurties and lattice vacancies (SiV) in particular since their experimental study is at the focus of this thesis. We start by presenting the most important properties of diamond and emphasize its suitability as a host for optical applications with \ccs. A classification of diamond with respects to defects and impurities as well as crystallinities serves as a preparation for the introduction of methods to synthetize diamonds containing \sivs presented in \autoref{ch::fabrication_nanodiamonds}. Finally, we discuss \sivs in detail and focus on their most important optical properties as reliable single-photon sources at room temperature. In particular, we zoom in on the key features of its luminescence spectrum, the \zpl and the \psb.
+  In the following we introduce \ccs, i.e.\ optically acive point-defects, present in a diamond lattice. We focus on \ccs combining silicon impurties and lattice vacancies (SiV) in particular since their experimental study is at the focus of this thesis. We start by presenting the most important properties of diamond and emphasize its suitability as a host for optical applications with \ccs. A classification of diamond with respects to defects and impurities as well as crystallinities serves as a preparation for the introduction of methods to synthetize diamonds containing \sivs presented in \autoref{ch::fabrication_nanodiamonds}. Finally, we discuss \sivs in detail and focus on their most important optical properties as reliable single-photon sources at room temperature. In particular, we zoom in on the key features of its luminescence spectrum, the \zpl and the \psb. Our discussion partially follows the presentation in \cite{janine::thesis, neu::thesis, becker::thesis, steinmetz::thesis}.
 
 \section{Diamond as a host lattice}
 
@@ -164,7 +164,7 @@
 
    For \sivs hosted in polycrystalline diamonds the Huang-Rhys factors have been determined to be very small ranging from \SIrange{0.08}{0.24}{} \cite{neu::39,neu::40,neu::41}. As a result the \zpl as the most probable transition dominates the luminescence spectrum making \sivs excellent narrow-band emitters. \autoref{fig::spectral_features} illustrates the stark difference between the \zpl and the \psb. In contrast, $S=3.74$ has been established for nitrogen vacancy centers \cite{neu::94}. A electron-phonon coupling of this magnitude concentrates almost all emission into the \psb and leaves the \zpl almost indetectable.
 
-   \begin{figure}[tp]
+   \begin{figure}[thbp]
  		\begin{subfigure}[t]{ 0.49\linewidth}
  			\centering
  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/siv_zpl.png}}
@@ -190,3 +190,21 @@
     which can be interpreted as the fraction of total photons that are emitted into the \zpl.
 
     We remark at this point, that our discussion based on the Huang-Rhys model is assumes that only one vibrational mode couples to the \cc which is a strong assumption. In general it is believed that in a solid state host matrix a discrimination between the modes of the undisturbed lattice and quasi-local impurity-induced modes is appropriate \cite{neu::25, neu::139, neu::147}. Furthermore, various mechanical properties such as stress in the lattice are reported to affect phonon energies \cite{neu::149}. In addition electron-phonon interactions and thus \psb features are believed to depend strongly on various local properties of \ccs \cite{neu::111, neu::12}. Thus it is possible to encounter varying \psb features from one \siv to the next. For a more detailed discussion of these effects we refer the reader to \cite{neu::thesis, janine::thesis} and references therein.
+
+    We close this chapter with a short discussion of the luminescence spectra of \sivs at cryogenic temperatures. Naturally as temperatures approach absolute-zero the \psb must disappear. If \sivs are cooled below $\approx$ \SI{110}{\kelvin} a fine structure is revealed \cite{becker::45}. It includes up to $12$ different lines with intensities proportional to the natural abundance of the three stable isotopes of silicon ${}^{28}Si, {}^{29}Si, {}^{30}Si$ \cite{janine::231}. Each isotope is associated with $4$ lines attributed to doublet levels of ground and excited states which are split by \SI{0.2}{\milli\eV} and \SI{1.07}{\milli\eV} respectively \cite{janine::26, janine::223, janine::231}. The splitting itself is believed to be a result of spin-orbit coupling with a weak contribution of the dynamic Jahn-Teller effect \cite{janine::223}. Initial results were based on ensembles of \sivs, however, recently the splitting was detected for isolated \sivs as well \cite{janine::226}. \autoref{fig::cryogenic_spectra} shows exemplary spectra representative for ensembles and single \siv at cryogenic temperatures.
+
+    \begin{figure}[thbp]
+  		\begin{subfigure}[t]{ 0.49\linewidth}
+  			\centering
+  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/cryogenic_ensemble.png}}
+  			\caption{}
+  		\end{subfigure}
+  		\hfill
+  		\begin{subfigure}[t]{ 0.49\linewidth}
+  			\centering
+  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/cryogenic_siv.png}}
+  			\caption{}
+  		\end{subfigure}
+  		\caption{(a) Flourescence spectrum of an enseble of \sivs at \SI{10}{\kelvin}. $12$ peaks can be seen, $4$ for each stable isotope of silicon \cite{becker::42}. (b) Flourescence spectrum of an isolated \siv at \SI{15}{\kelvin}. $4$ peaks can be seen, $2$ for the ground state and $2$ for the excited state. Figure reproduced from \cite{janine::thesis}.}
+  		\label{fig::cryogenic_spectra}
+  	\end{figure}

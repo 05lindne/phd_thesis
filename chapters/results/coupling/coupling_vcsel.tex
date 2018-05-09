@@ -1,6 +1,6 @@
 %!TEX root = ../../../main.tex
 
-\section[VCSELs]{Coupling \Nds to \Vcsels} \label{sec::coupling_vcsel}
+\section[VCSELs]{Coupling \sivs to \Vcsels} \label{sec::coupling_vcsel}
 
 	For metrology, the photon flux rate has to be high enough to be measured by a low optical flux detector \cite{Vaigu2017}.
 	\\
@@ -71,19 +71,38 @@
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M05-13_PP_194_140926_14.png}}
-			\caption{}
+{}			\caption{}
 			\label{subfig::vcsel_sem_detail}
 		\end{subfigure}
 		\caption{(a) SEM image of an array of VCSELs. The three wires are the anodes, which are connected to the top layer (p-contact) of the VCSEL. Therefore, three of the VCSEL structures can be operated. (b) Detail SEM image of the top of the exploited VCSEL Bm4. The circular middle part is the hole in the p-contact through which the top DBR is visible. The active diameter is smaller than that and not visible in the SEM.}
 	\end{figure}
 
-	\subsection{Spectroscopic Measurements of \Nd in \Vcsel}
+	\subsection{\siv in a \Vcsel}
 
-	After a successful \pp process where the pre-selected \nd was put onto the active area of VCSEL Bm4, the VCSEL sample was put into the confocal setup.
-	As a first check, the VCSEL surface was scanned with the laser from the confocal setup without operating the VCSEL itself \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
+	% additional methods
+	As diamond material, we used an \ir coated \si wafer, on which CVD \nds had been grown (see \cref{sec::cvd}).
+	These \nds exhibit a nominal size of \SI{200}{nm}.
+	% preselection, 
+	We selected a \nd which exhibited one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}.
+	% position
+	The position was determined using a white light laser scan as described in \cref{subsec::position}.
+	% transfer
+	The transfer...
+	% Spectroscopic measurements
+	\\
+	After a successful transfer of the pre-selected \nd onto the active area of VCSEL Bm4, the VCSEL was investigated in the confocal setup.
+	To guarantee comparable measurements, at first we used the laser from the confocal setup to check if the \pp process was successful\todo{what does mean} and did not cause any damage to the \siv.
+	For this, the VCSEL itself was not operated itself.
+	First, the VCSEL surface was scanned \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
 	.
 	A bright dot exhibiting a countrate of a few thousand cps is visible where the \nd containing an SiV was put.
 	A comparative scan of a VCSEL without \nd only exhibits a background countrate, as expected (\cref{subfig::confocal_laser_excitation_without_diamond}).
+	\\
+	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process.
+	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm}.
+	After the \pp process, this line is still there, albeit very small.
+	Another line at \SI{700}{nm} \todo{check number} which was a minor feature in the spectrum before \pp, is a sharp line after the process. 
+	The explanation is, that 
 
 
 
@@ -91,7 +110,7 @@
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-15_APD2_circle.png}}
-			\caption{confocal laser excitation with diamond}
+			\caption{}
 			\label{subfig::vcsel_confocal_laser_excitation_with_diamond}
 		\end{subfigure}
 		\hfill
@@ -101,7 +120,7 @@
 			\caption{confocal laser excitation without diamond}
 			\label{subfig::confocal_laser_excitation_without_diamond}
 		\end{subfigure}
-		\caption{}
+		\caption{(a) Scan of the VCSEL Bm4 with coupled \nd under excitation with the laser from the confocal setup. The big visible ring is the edge of the cirular hole in the p-contact.The bright spot in the upper left corner corresponds to the transferred \nd containing an \siv. (b) Scan of the VCSEL Bm2 without \nd under excitation with the laser from the confocal setup. The cirular hole in the p-contact exhibits a constant countrate.}
 	\end{figure}
 
 	\begin{figure}[tp]
@@ -139,20 +158,27 @@
 		\label{fig::<fig>}
 	\end{figure}
 
+	% \begin{figure}[tp]
+	% 	\begin{subfigure}[t]{ 0.49\linewidth}
+	% 		\centering
+	% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_5.pdf}}
+	% 		\caption{spectrum vcsel excitation with diamond}
+	% 		\label{subfig::spectrum_vcsel_excitation_with_diamond}
+	% 	\end{subfigure}
+	% 	\hfill
+	% 	\begin{subfigure}[t]{ 0.49\linewidth}
+	% 		\centering
+	% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
+	% 		\caption{spectrum vcsel excitation without diamond}
+	% 		\label{subfig::spectrum_vcsel_excitation_without_diamond}
+	% 	\end{subfigure}
+	% 	\caption{<caption>}
+	% 	\label{fig::<fig>}
+	% \end{figure}
+
 	\begin{figure}[tp]
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_5.pdf}}
-			\caption{spectrum vcsel excitation with diamond}
-			\label{subfig::spectrum_vcsel_excitation_with_diamond}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
-			\caption{spectrum vcsel excitation without diamond}
-			\label{subfig::spectrum_vcsel_excitation_without_diamond}
-		\end{subfigure}
-		\caption{<caption>}
-		\label{fig::<fig>}
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/dbr_VCSEL.pdf}}
+		\caption{Reflectivity of the DBR of the VCSEL, and spectra of the VCSEL measured in the confocal setup.}
+		\label{fig::dbr_vcsel}
 	\end{figure}

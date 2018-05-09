@@ -1,0 +1,18 @@
+[[Model]]
+    Model(lorentzian, prefix='ltz1_')
+[[Fit Statistics]]
+    # function evals   = 23
+    # data points      = 318
+    # variables        = 3
+    chi-square         = 261714861.480
+    reduced chi-square = 830840.830
+    Akaike info crit   = 4337.387
+    Bayesian info crit = 4348.673
+[[Variables]]
+    ltz1_sigma:       0.93658326 +/- 0.022921 (2.45%) (init= 0.6768575)
+    ltz1_center:      745.974442 +/- 0.016176 (0.00%) (init= 745.9648)
+    ltz1_amplitude:   44915.7060 +/- 777.1123 (1.73%) (init= 25664.18)
+    ltz1_fwhm:        1.87316653 +/- 0.045843 (2.45%)  == '2.0000000*ltz1_sigma'
+    ltz1_height:      15265.1818 +/- 263.7591 (1.73%)  == '0.3183099*ltz1_amplitude/max(1.e-15, ltz1_sigma)'
+[[Correlations]] (unreported correlations are <  0.500)
+    C(ltz1_sigma, ltz1_amplitude)  =  0.708 

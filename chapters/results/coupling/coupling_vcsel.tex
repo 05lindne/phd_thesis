@@ -9,7 +9,7 @@
 	\sivs exhibit intensity maxima at an excitation at \SI{670}{nm} and \SI{690}{nm} \cite{}.\todo{diagram einfuegen} 
 	In addition, VCSELs exhibit circular beam profile, have low divergence angle and emit linearly polarized light.
 
-	\subsection{\Vcsel Structure}
+	\subsection{\Vcsel Structure}\label{subsec::vcsel_structure}
 
 	% Vertical-cavity surface-emitting lasers are attractive candidates for emerging technologies such as high-density optical storage systems, high-definition laser printing and optical communication systems using polymer optical fibers (POF). The red AlGaInP-based oxide-confined vertical-cavity surface-emitting lasers (VCSEL) target one absorption minimum of the polymer optical fibers (POF) at around 650 nm. In addition, VCSELs are compact, exhibit circular beam profile and have low divergence angle, in contrast to edge-emitting laser, for an easy coupling of light into the fiber. Furthermore, they offer high-speed modulation capability (several GHz) [1] which is required for optical data communication.
 	% \\
@@ -18,7 +18,7 @@
 	% II. EXPERIMENTAL PROCEDURE The investigated VCSEL structures were grown by metalorganic vapor-phase epitaxy (MOVPE) in an AIX-200 hori- zontal reactor setup with in situ growth control using stan- dard sources at low pressure of 100 mbar and a tempera- ture of 750 ◦C on (100) n+-GaAs substrate misoriented 6 ◦ towards [111]A. The bottom n-type DBR is made of 50 pairs of AlAs/Al0.5Ga0.5As. The p-type DBR consists of 36 Al0.95Ga0.05As/Al0.5Ga0.5As mirror pairs. Four compres- sively strained GaInP quantum wells (QW) built up the active region. To realize an oxide aperture, the advantage of high oxidation selectivity of the AlxGa1−xAs material system is used. We use an Al-content of x = 0.98 for this oxidation layer. Active diameters DA from 3 µm to 20 µm were obtained on one sample because of the flow profile of the nitric water vapor in the oxidation chamber. To investigate the transverse beam profile depending on different parameters we built up a vertical measurement setup. The beam profile is mapped with a lens system of 3 lenses and captured with a CMOS-camera. The vertical setup provides the advantage of on-wafer-testing.
 
 	The VCSEL structure (\cref{fig::vcsel_sketch}) consists of an active region between two distributed Bragg reflectors (DBR). 
-	The bottom n-type DBR is made of 50 pairs of AlAs/Al\textsubscript{0.5}Ga\textsubscript{0.5}As, the p-type DBR consists of 36 Al\textsubscript{0.95}Ga\textsubscript{0.05}As/Al\textsubscript{0.5}Ga\textsubscript{0.5}As mirror pairs. 
+	The bottom n-type DBR is made of 50 pairs of AlAs/Al\textsubscript{0.5}Ga\textsubscript{0.5}As, the p-type DBR consists of 36 Al\textsubscript{0.95}Ga\textsubscript{0.05}As/Al\textsubscript{0.5}Ga\textsubscript{0.5}As mirror pairs \cite{Weidenfeld2012}. 
 	The active region consists of four GaInP quantum wells (QW). 
 	An oxide aperture in a field node of the standing wave serves as a spatial filter for maximum modal gain by confining the current and the optical mode.
 	The active diameter which is defined by the oxide aperture amounts to \SI{5.8}{\micro\meter}.
@@ -39,7 +39,7 @@
 			\caption{}
 			\label{subfig::vcsel_output_area}
 		\end{subfigure}
-		\caption{(a) Sketch of the VCSEL showing the different layers. (b) Image of the VCSEL. The circle with the black dots is the hole in the p-contact (diameter D\textsubscript{S}, the smaller darker area in the middle is the laser output area (diameter D\textsubscript{A})}
+		\caption{(a) Sketch of the VCSEL showing the different layers. \todo[inline]{ask how to cite}(b) Image of the VCSEL. The circle with the black dots is the hole in the p-contact (diameter D\textsubscript{S}, the smaller darker area in the middle is the laser output area (diameter D\textsubscript{A})}
 		\label{fig::<fig>}
 	\end{figure}
 
@@ -80,31 +80,38 @@
 	\subsection{\siv in a \Vcsel}
 
 	% additional methods
-	As diamond material, we used an \ir coated \si wafer, on which CVD \nds had been grown (see \cref{sec::cvd}).
+	As diamond material we used CVD grown \nds.
+	They had been grown on an \ir coated \si wafer (see \cref{sec::cvd}).
 	These \nds exhibit a nominal size of \SI{200}{nm}.
 	% preselection, 
-	We selected a \nd which exhibited one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}.
+	First, we selected a \nd which exhibited one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}\todo{was it single?}.
 	% position
-	The position was determined using a white light laser scan as described in \cref{subsec::position}.
+	Consecutively, its position on the substrate was determined using a white light laser scan as described in \cref{subsec::position}.
 	% transfer
-	The transfer...
-	% Spectroscopic measurements
+	It was then transferred to the VCSEL Bm4 described in \cref{subsec::vcsel_structure}.
 	\\
-	After a successful transfer of the pre-selected \nd onto the active area of VCSEL Bm4, the VCSEL was investigated in the confocal setup.
-	To guarantee comparable measurements, at first we used the laser from the confocal setup to check if the \pp process was successful\todo{what does mean} and did not cause any damage to the \siv.
+	% Spectroscopic measurements
+	After a successful transfer of the pre-selected \nd onto the active area of VCSEL Bm4, the VCSEL was put in the confocal setup.
+	Using the laser from the confocal setup we checked if the \pp process caused any modification of the spectroscopic properties of the \siv such as a decrease of countrate or a modification of the \fl spectrum.
 	For this, the VCSEL itself was not operated itself.
 	First, the VCSEL surface was scanned \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
 	.
-	A bright dot exhibiting a countrate of a few thousand cps is visible where the \nd containing an SiV was put.
+	A bright dot exhibiting a countrate of a few thousand counts per second is visible where the \nd containing an SiV was put.
 	A comparative scan of a VCSEL without \nd only exhibits a background countrate, as expected (\cref{subfig::confocal_laser_excitation_without_diamond}).
 	\\
-	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process.
-	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm}.
-	After the \pp process, this line is still there, albeit very small.
-	Another line at \SI{700}{nm} \todo{check number} which was a minor feature in the spectrum before \pp, is a sharp line after the process. 
-	The explanation is, that 
+	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process (\cref{fig::spectrum_vcsel_diamond}).
+	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm} (denoted line A).
+	After the \pp process, this line is still there, albeit with a low intensity.
+	Another line at \SI{700}{nm} (denoted line B) \todo{check number} which was a minor feature in the spectrum before \pp, is the predominant line after the process. 
+	This modification of the spectrum is caused by a reduction of the intensity of line A and constant intensity of line B.
+	The reduction of the intensity of line A may be caused by damage of the color center due to electron radiation. 
+	While the energy of the electrons is low compared to the ionization energy of the color center \todo{numbers}, we observed a reduction of \fl intensity after electron radiation \todo{put alex meyers observations in appendix}\todo{besser begruenden, was passiert}.
+	\\
+	
 
 
+
+{}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -137,25 +144,25 @@
 			\caption{vcsel excitation without diamond}
 			\label{subfig::vcsel_excitation_without_diamond}
 		\end{subfigure}
-		\caption{<caption>}
+		\caption{(a) longpass filter  720 (b) longpass filter 710}
 	\end{figure}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/field330_scanxy06_x19y15_34uW_t30_2.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/field330_scanxy06_x19y15_34uW_t30_2_fit.pdf}}
 			\caption{<caption>}
 			\label{subfig::spectrum_diamond_for_vcsel_before_pp}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_scan_xy-25_300uW_t60_700-800nm.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_scan_xy-25_300uW_t60_700-800nm_lines.png}}
 			\caption{<caption>}
 			\label{subfig::spectrum_vcsel_confocal_excitation_with_diamond}
 		\end{subfigure}
 		\caption{<caption>}
-		\label{fig::<fig>}
+		\label{fig::spectrum_vcsel_diamond}
 	\end{figure}
 
 	% \begin{figure}[tp]

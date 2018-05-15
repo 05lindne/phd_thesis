@@ -102,12 +102,12 @@
 	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process (\cref{fig::spectrum_vcsel_diamond}).
 	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm} (denoted line A).
 	After the \pp process, this line is still there, albeit with a low intensity.
-	Another line at \SI{700}{nm} (denoted line B) \todo{check number} which was a minor feature in the spectrum before \pp, is the predominant line after the process. 
+	Another line at \SI{0}{nm} (denoted line B) \todo{check number} which was a minor feature in the spectrum before \pp, is the predominant line after the process. 
 	This modification of the spectrum is caused by a reduction of the intensity of line A and constant intensity of line B.
 	The reduction of the intensity of line A may be caused by damage of the color center due to electron radiation. 
 	While the energy of the electrons is low compared to the ionization energy of the color center \todo{numbers}, we observed a reduction of \fl intensity after electron radiation \todo{put alex meyers observations in appendix}\todo{besser begruenden, was passiert}.
 	\\
-	
+
 
 
 
@@ -124,7 +124,7 @@
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-01_APD2.png}}
-			\caption{confocal laser excitation without diamond}
+			\caption{}
 			\label{subfig::confocal_laser_excitation_without_diamond}
 		\end{subfigure}
 		\caption{(a) Scan of the VCSEL Bm4 with coupled \nd under excitation with the laser from the confocal setup. The big visible ring is the edge of the cirular hole in the p-contact.The bright spot in the upper left corner corresponds to the transferred \nd containing an \siv. (b) Scan of the VCSEL Bm2 without \nd under excitation with the laser from the confocal setup. The cirular hole in the p-contact exhibits a constant countrate.}
@@ -133,36 +133,36 @@
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-16_APD2.png}}
-			\caption{vcsel excitation with diamond}
-			\label{subfig::vcsel_excitation_with_diamond}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-02_APD2.png}}
-			\caption{vcsel excitation without diamond}
-			\label{subfig::vcsel_excitation_without_diamond}
-		\end{subfigure}
-		\caption{(a) longpass filter  720 (b) longpass filter 710}
-	\end{figure}
-
-	\begin{figure}[tp]
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/field330_scanxy06_x19y15_34uW_t30_2_fit.pdf}}
-			\caption{<caption>}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/field330_scanxy06_x19y15_34uW_t30_2_fit_lines.pdf}}
+			\caption{}
 			\label{subfig::spectrum_diamond_for_vcsel_before_pp}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_scan_xy-25_300uW_t60_700-800nm_lines.png}}
-			\caption{<caption>}
+			\caption{}
 			\label{subfig::spectrum_vcsel_confocal_excitation_with_diamond}
 		\end{subfigure}
-		\caption{<caption>}
+		\caption{(a) Spectrum of the preselected diamond for transfer onto VCSEL Bm4 before \pp. The strong line denoted A exhibits a \cwl of \SI{746.0}{nm} and a \lw of \SI{1.9}{nm}. Line B exhibits a \cwl of \SI{0}{nm} and a \lw of \SI{0}{nm} \todo[inline]{put in correct numbers} (b) Spectrum of the same \siv after \pp, excited with the same laser as before. While Line A is almost gone, line B still exists and ist the predominant line of the spectrum. Note: different longpass filters were used for the two measurements. Measurement (a) was performed with a \SI{720}{nm} longpass filter, measurement (b) with a \SI{710}{nm} longpass filter.}
 		\label{fig::spectrum_vcsel_diamond}
+	\end{figure}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-16_APD2.png}}
+			\caption{}
+			\label{subfig::vcsel_excitation_with_diamond}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/scan_xy-02_APD2.png}}
+			\caption{}
+			\label{subfig::vcsel_excitation_without_diamond}
+		\end{subfigure}
+		\caption{(a) Scan of the laser light stemming from the VCSEL Bm4 and the \fl light from the \siv in the filter window \SIrange{730}{750}{nm}. (b) Scan of the laser light stemming from the VCSEL Bm2 without coupled \siv. The outcome of the two scans is almost identical.}
 	\end{figure}
 
 	% \begin{figure}[tp]
@@ -185,7 +185,7 @@
 
 	\begin{figure}[tp]
 		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/dbr_VCSEL.pdf}}
-		\caption{Reflectivity of the DBR of the VCSEL, and spectra of the VCSEL measured in the confocal setup.}
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/dbr_VCSEL.pdf}}
+		\caption{Reflectivity of the \dbr (DBR) of the VCSEL, and spectrum of the \siv measured during VCSEL excitation. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during VCSEL operation coincides with the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser sideband in the same wavelength regime, the \sivs emission is not detectable.}
 		\label{fig::dbr_vcsel}
 	\end{figure}

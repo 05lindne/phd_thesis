@@ -32,30 +32,30 @@
 	As mentioned in the previous section, the investigated \sivs exhibit count rates of a few thousand to a few \SI{100000}{cps}.
 	To further investigate the count rate, the luminescence time trajectory of the emitters which exhibit a dip at \gtz is evaluated.
 	It is found that some of the observed emitters exhibit fluorescence intermittence, also called blinking (\autoref{fig::blink}).
-	Blinking is attributed to temporal ionization of the color center during optical excitation, forming an optically inactive charge state \cite{Jantzen2016,Neu2012a,Gali2013}. 
+	Blinking is attributed to temporal ionization of the color center during optical excitation, forming an optically inactive charge state \cite{Jantzen2016,Neu2012a,Gali2013}.
 	Therefore the emitters change between states of higher and lower emission, i.e. brighter and darker states, called blinking levels.
 	\\
 	The time trace of the emitter is shown in \autoref{fig::blink}.
 	In the overview picture (\autoref{subfig::blink_long}), a few blinking dips can be seen with retention times of up to a few minutes.
 	The fact, that the count rate never drops to the dark count rate lets us assume, that there are at least two \sivs present, one exhibiting fluorescence intermittence and one exhibiting a stable emission.
-	When zooming in, shorter retention times are observable (\autoref{subfig::blink_short}). 
+	When zooming in, shorter retention times are observable (\autoref{subfig::blink_short}).
 	The retention times range from a few tens of milliseconds up to a few seconds with a few outliers exhibiting very long retention times up to a few hundred seconds.
 	\\
 	The retention times of the bright and of the dark state exhibit different probability distribution functions and with that, different characteristic retention times.
 	The red histogram in \autoref{fig::fit_blink_distr} shows the retention times of the emitter in the bright state, whereas the blue histogram shows the retention times of the dark states (both omitting outliers with very long retention times).
 	The dashed lines are kernel density estimators of the distribution of the respective retention times (i.e. every data point is represented with a Gaussian function and the resulting functions are added up to model the whole data).
-	The red solid line is an exponential fit of the distribution of retention times in the bright state. 
+	The red solid line is an exponential fit of the distribution of retention times in the bright state.
 	The high p-value of \num{0.92} confirms the goodness of the fit.
 	The mean and the median retention time in the bright state obtained by the exponential fit amount to \SI[separate-uncertainty]{0.13\pm0.13}{s} and \SI{0.09}{s}, respectively.
-	While other literature about solid state quantum emitters reports an exponential probability distribution for both retention times in bright and dark states\cite{Bradac2010,Berhane2017}, we found a lognormal probability distribution for the retention time in the dark state.
+	While other literature about solid state quantum emitters reports an exponential probability distribution for both retention times in bright and dark states \cite{Bradac2010,Berhane2017}, we found a lognormal probability distribution for the retention time in the dark state.
 	The solid blue line in \autoref{fig::fit_blink_distr} is a lognormal fit of the distribution of the retention times in the dark state.
 	With a p-value of \num{0.77} it is by far the best model to describe the data distribution.
 	For comparison: The p-value of an exponential fit only amounts to \num{0.36}.
 	The median retention time in the dark state obtained by the lognormal fit amounts to \SI{0.10}{s}, therefore being a bit longer than the median retention time in the bright state (neglecting very long retention times which are treated as outliers).
 	\\
 	We do not identify a correlation between the count rate of a blinking level and its retention time.
-	However, there is a correlation between the position in the bimodal distribution and blinking: 
-	All but one emitters in \gh exhibit blinking, where only one of the emitters in \gv exhibits blinking (\autoref{fig::bimodal_distr}).
+	However, there is a correlation between the position in the bimodal distribution and blinking:
+	All but one emitters in \hl exhibit blinking, where only one of the emitters in \vl exhibits blinking (\autoref{fig::bimodal_distr}).
 	This dependency suggests that emitters in strained nanodiamonds are more likely to exhibit blinking.
 	\\
 	We explain the observed blinking as a manifestation of the local crystal disorder due to dislocations and impurities which act as a trap for the excited electron and therefore switching the emitter to the dark state \cite{Bradac2010}.

@@ -1,6 +1,6 @@
 %!TEX root = ../../../main.tex
 
-\chapter[Coupling NDs]{Coupling \Nds to Photonic Structures}	\label{ch::coupling}
+\chapter{Coupling of \Nds to Photonic Structures}	\label{ch::coupling}
 
 	In the last chapter, we saw that the spectroscopic properties of \sivs vary strongly among individual \nds.
 	\Nds are further implemented in photonic structures for the application in metrology as well as in quantum cryptography or quantum computing.
@@ -19,22 +19,22 @@
 	\section{Additional Experimental Methods} \label{sec::methods_coupling}
 
 
-	To couple \nds to photonic structures, we pursued several different methods: 
-	\begin{enumerate} 
+	To couple \nds to photonic structures, we pursued several different methods:
+	\begin{enumerate}
 		\item Directly spin-coat the structures with a \nd solution and consecutively look for a structure containing a \nds with an \siv exhibiting the desired spectroscopic properties. This method was tried with the antenna structures, as there are many antenna structures on one substrate (see \Cref{subfig::antenna_structures_sem}), therefore there is a chance that a suited \nd is incidentally ends up at the right spot. However, it is not suitable for the VCSELs, first because of the morphology of the VCSELs and secondly, because there is a very limited number of VCSELs on one substrate.
-		\item \label{item::pp}Use an \ir substrate covered with \nds containing \sivs, look for a suited \nd and transfer it with a \pp technique using a nanomanipulator. The nanomanipulator is essentially a thin tip in a \sem. The \ir substrate is prepeocessed with markers, to record the position of the preselected \nd. The huge advantage is that the very best suited \nd can be preselected. However, disadvantages of this process include the electron radiation during the \pp process, which might affect \siv \fl and the further restriction that the \nds must be big enough to be picked up with the nanomanipulator. 
+		\item \label{item::pp}Use an \ir substrate covered with \nds containing \sivs, look for a suited \nd and transfer it with a \pp technique using a nanomanipulator. The nanomanipulator is essentially a thin tip in a \sem. The \ir substrate is prepeocessed with markers, to record the position of the preselected \nd. The huge advantage is that the very best suited \nd can be preselected. However, disadvantages of this process include the electron radiation during the \pp process, which might affect \siv \fl and the further restriction that the \nds must be big enough to be picked up with the nanomanipulator.
 		\item Similar to method \ref{item::pp}, however the transfer is performed with an \afm. While this method has the advantage that the \nds are not irradiated with electrons, the disavantage is that it is not possible to  observe the picking process in real time. The area of the preselected \nd has to be scanned after every pick-up try, which is very time consuming and therefore was not further pursued after some trials.
 	\end{enumerate}
 
 	In the following paragraphs, the \pp technique of method \ref{item::pp} is described in more detail.
-	It is the coupling method most extensivly deployed in the scope of this thesis and requires a range of experimental setups. 
+	It is the coupling method most extensivly deployed in the scope of this thesis and requires a range of experimental setups.
 	The \pp process was carried out with major help from \pauly.
 	The nanomanipulator setup was provided by the same group.
 	\\
 	\subsection{Nanomanipulator} \label{subsec::nanomanipulator}
 	% -Nanomanipulator
 	% 	Probleme mit Spitze
-	% \begin{figure}[tp]		
+	% \begin{figure}[tp]
 	% 	\centering
 	% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/pp_sketch.pdf}}
 	% 	\caption{Sketch of the \pp process exploiting a nanomanipulator.}
@@ -61,7 +61,7 @@
 	In general, nanomanipulator is a tip mounted inside an SEM, allowing manipulation and visualization of the manipulation process at the same time.
 	The one used for our experiments was built by the company Kleindiek (model MM3A-EM) and has a changeable tungsten tip (see \cref{subfig::nanomanipulator_image}).
 	It is mouted inside a Thermo Scientific\texttrademark{} Helios NanoLab\texttrademark{}  DualBeam\texttrademark{} microscope, which combines a \fib and an electron microscope.
-	The bent nanomanipulator tip has 3 degrees of freedom: up/down and left/right both in an arc up to \SI{240}{\degree} and \SI{12}{\milli\metre} in/out (see arrows in \cref{subfig::nanomanipulator_image}). 
+	The bent nanomanipulator tip has 3 degrees of freedom: up/down and left/right both in an arc up to \SI{240}{\degree} and \SI{12}{\milli\metre} in/out (see arrows in \cref{subfig::nanomanipulator_image}).
 	Before nanomanipulation the tip was "sharpened" with the focussed ion beam by etching away  tungsten with gallium ions.
 	This sharpening was performed to meet the size criteria necessary to pick up the \nds.
 	In \cref{subfig::nanomanipulator_tip} the sharpened tip is shown (the radius of curvature amounts to \SI{100}{\nano\meter}).
@@ -119,14 +119,14 @@
 		\caption{}
 	\end{figure}
 
-	After we identified \nds as well-suited for transfer to the target structure, both the substrate with the \nds and the target structure were mounted inside the SEM. 
+	After we identified \nds as well-suited for transfer to the target structure, both the substrate with the \nds and the target structure were mounted inside the SEM.
 	The process was performed using a high resolution mode with a low acceleration voltage of the SEM of \SI{1}{\kilo\electronvolt} and a current of \SI{1.7}{\nano\ampere}.
 	The tip is approached to the pre-selected \nd from above.
 	As the SEM objective is mounted above the \np, the proximity the \np tip  to the \nd is not observable.
 	The proximity is indirectly estimated by the shadow the tip casts onto the substrate and the focus.
 	The first method is used for the coarse approachment of the tip to the \nd: The closer the tip gets to the \nd, the closer the shadow of the tip coincides with the \nd position.
 	Exploiting the focus as an estimate for the proximity of the tip is used for fine adjustment during the last stage of the approachment.
-	This is done as follows: 
+	This is done as follows:
 	At the end of the coarse movement, the tip of the \np is still some distance above the \nd.
 	The SEM is focused on the \nd, therefore the \np tip is out of focus and appears blurry.
 	As the tip is approached, it moves further and further into focus, its image becoming sharper, until the it touches the \nd.
@@ -138,14 +138,11 @@
 	Or the \nd has to be "wiped off" of the \np tip in a sideways motion.
 	In either way it is possible to place the \nd within a precision of a few nanometers.
 	\\
-	% The used SEM has a special high resolution mode. 
+	% The used SEM has a special high resolution mode.
 	% With this mode it is possible, to obtain high resolution images at a low acceleration voltage.
-	% The pitfall is that for this mode a small working distance of \SI{5}{mm} is necessary. 
+	% The pitfall is that for this mode a small working distance of \SI{5}{mm} is necessary.
 	% This working distance is too small for to use the nanomanipulator at the same time.
-	% Therefore, first we identified the position of the pre-selected \nd in high resolution mode in the SEM, marked its position in the iamge, switched to normal working mode and 
+	% Therefore, first we identified the position of the pre-selected \nd in high resolution mode in the SEM, marked its position in the iamge, switched to normal working mode and
 	% - Hochaufloesungsmodus geringer arbeitsabstand von 5mm, higher magn. field
 	% - Abloesen von Diamanten (BASD + CVD) von Substrat im Ultraschallbad kann dazu fuehren, dass Substrat mitabgeloest wird) -> in Kalilauge aufloesen LII, S96
 	% - warum nicht einfach neue CVD-Diamanten herstellen, wie die, die am Anfang meiner Diss so gut funktioniert haben -> Dichte am Substrat zu hoch zum Aufpicken
-
-
-

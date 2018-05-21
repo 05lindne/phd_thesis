@@ -5,7 +5,7 @@
 
 
 % \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
-
+\usepackage[pagebackref=true,plainpages=false,pdfpagelabels]{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{caption}
@@ -16,7 +16,6 @@
 \usepackage{color}
 \usepackage{makeidx}
 \usepackage{fancyhdr}	%options for headers and footers
-\usepackage[pagebackref=true,plainpages=false,pdfpagelabels]{hyperref}
 \usepackage[ngerman,english]{babel}
 \usepackage{mathtools}%extention to amsmath; loads amsmath;
 \usepackage{xspace}% when used in newcommand, space is only inserted, if not followed by dot, comma... Must be written at the LAST spot within the braces of a newcommand!!!
@@ -43,6 +42,7 @@
 
 \usepackage[showframe,headheight=14pt, margin=2.2cm,includehead,includefoot]{geometry}% Set margin sizes, put in showframe to show the frames on document
 \usepackage[textwidth=0.75in]{todonotes}
+\presetkeys{todonotes}{fancyline}{}
 
 \geometry{bindingoffset=1cm}
 
@@ -64,3 +64,10 @@
 % \reversemarginpar
 
 \usepackage{blindtext}  %generates lorem impsum latin blind text
+
+\usepackage{epigraph}
+\usepackage{etoolbox}
+
+\setlength\epigraphwidth{\linewidth}
+\setlength\epigraphrule{0pt}
+\renewcommand{\epigraphflush}{center}

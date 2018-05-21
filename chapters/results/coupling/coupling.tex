@@ -16,7 +16,7 @@
 	\end{itemize}
 
 
-	\section{Additional Experimental Methods}
+	\section{Additional Experimental Methods} \label{sec::methods_coupling}
 
 
 	To couple \nds to photonic structures, we pursued several different methods: 
@@ -31,7 +31,7 @@
 	The \pp process was carried out with major help from \pauly.
 	The nanomanipulator setup was provided by the same group.
 	\\
-	\subsubsection{Nanomanipulator}
+	\subsection{Nanomanipulator} \label{subsec::nanomanipulator}
 	% -Nanomanipulator
 	% 	Probleme mit Spitze
 	% \begin{figure}[tp]		
@@ -51,7 +51,7 @@
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/nanomanipulator_image.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/nanomanipulator_image_arrows.png}}
 			\caption{}
 			\label{subfig::nanomanipulator_image}
 		\end{subfigure}
@@ -68,7 +68,7 @@
 	The small tip sticking out of the bigger cone is the sharp tip used for \pp.
 
 
-	\subsubsection{Determination of The Position of \Nds}
+	\subsection{Determination of The Position of \Nds} \label{subsec::position}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -80,7 +80,7 @@
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M09-13_mitte_131209_01.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/114-02_2APD.png}}
 			\caption{}
 			\label{subfig::cross_marker_whitelightscan}
 		\end{subfigure}
@@ -96,11 +96,11 @@
 	\\
 	To record the position of a \nd \wrt a cross marker, we used two different methods:
 	\begin{itemize}
-		\item Scanning the sample in the confocal setup while a white light source illuminates the sample from the side in an acute angle. The edges of the cross markers are visible in the fluorescence scan. After turning the white light lamp off, the same area is scanned once more to record the fluorescence from the \sivs. An overlay of the two images identifies the position of flourescent \sivs \wrt the cross markers.\todo{put in a pic of whitelightscan} The disadvantage of this method is, that it takes a lot of time, as every scan has to be performed twice. Also, as only \fl scans are performed, no information of the \nds is accesessible. Such information comprises of the size of the individual \nds and whether the \nds lie isolated on the substrate surface. These parameters are only available during the \pp process in the SEM. An emitter with optimal optical properties can turn out not to be suited for \pp just before the process itself, hence the time spent to optically characterize an emitter was in vain.
-		\item A more efficient method is scnning the substrate first in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the provious method, information on the size and isolation of the \nds is accesessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera (\cref{fig::place_ccd}), a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
+		\item Scanning the sample in the confocal setup while a white light source illuminates the sample from the side in an acute angle. The edges of the cross markers are visible in the fluorescence scan. After turning the white light lamp off, the same area is scanned once more to record the fluorescence from the \sivs. An overlay of the two images identifies the position of fluorescent \sivs \wrt the cross markers.\todo{put in a pic of whitelightscan} The disadvantage of this method is, that it takes a lot of time, as every scan has to be performed twice. Also, as only \fl scans are performed, no information of the \nds is accessible. Such information comprises of the size of the individual \nds and whether the \nds lie isolated on the substrate surface. These parameters are only available during the \pp process in the SEM. An emitter with optimal optical properties can turn out not to be suited for \pp just before the process itself, hence the time spent to optically characterize an emitter was in vain.
+		\item A more efficient method is scanning the substrate first in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the previous method, information on the size and isolation of the \nds is accessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera (\cref{fig::place_ccd}), a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
 	\end{itemize}
 
-	\subsubsection{The \PP Process}
+	\subsection{The \PP Process}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -124,11 +124,11 @@
 	The tip is approached to the pre-selected \nd from above.
 	As the SEM objective is mounted above the \np, the proximity the \np tip  to the \nd is not observable.
 	The proximity is indirectly estimated by the shadow the tip casts onto the substrate and the focus.
-	The first method is used fo the coarse approachment of the tip to the \nd: The closer the tip gets to the \nd, the closer the shadow of the tip coincides with the \nd position.
+	The first method is used for the coarse approachment of the tip to the \nd: The closer the tip gets to the \nd, the closer the shadow of the tip coincides with the \nd position.
 	Exploiting the focus as an estimate for the proximity of the tip is used for fine adjustment during the last stage of the approachment.
 	This is done as follows: 
 	At the end of the coarse movement, the tip of the \np is still some distance above the \nd.
-	The SEM is focussed on the \nd, therefore the \np tip is out of focus and appears blurry.
+	The SEM is focused on the \nd, therefore the \np tip is out of focus and appears blurry.
 	As the tip is approached, it moves further and further into focus, its image becoming sharper, until the it touches the \nd.
 	As this is a tricky process, sometimes the tip was approached with too much force and was destroyed in the process (\cref{subfig::nanomanipulator_tip_bent}).
 	\\

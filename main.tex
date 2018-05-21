@@ -20,11 +20,11 @@
 
 \newpage\null\thispagestyle{empty}\newpage
 
-
-	\listoftodos
-	\include{./frontbackstuff/title/title}		\label{title}
-	\cleardoublepage
-	\include{./chapters/abstract/abstract}	\label{abstract}
+	%
+	% \listoftodos
+	% \include{./frontbackstuff/title/title}		\label{title}
+	% \cleardoublepage
+	% \include{./chapters/abstract/abstract}	\label{abstract}
 
 	\cleardoublepage
 \pagestyle{fancy}
@@ -45,11 +45,11 @@
 	\addcontentsline{toc}{chapter}{List of Tables}
 	\listoftables		\label{listoftables}
 
-% 	\cleardoublepage
-	\phantomsection
-	\addcontentsline{toc}{chapter}{Acknowledgements}
-	\include{./frontbackstuff/acknowledgements/acknowledgements}	\label{acknowledgements}
-	
+% % 	\cleardoublepage
+% 	\phantomsection
+% 	\addcontentsline{toc}{chapter}{Acknowledgements}
+% 	\include{./frontbackstuff/acknowledgements/acknowledgements}	\label{acknowledgements}
+
 	\cleardoublepage
 \pagenumbering{arabic}
 
@@ -57,38 +57,24 @@
 % 		\doublespacing
 
 	\cleardoublepage
-<<<<<<< HEAD
 	\include{./chapters/introduction/introduction}
 	\input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
 	\input{./chapters/setup/setup}
 	\input{./chapters/nanodiamonds/nanodiamonds}
 	\input{./chapters/crystal_quality/crystal_quality}
 	\input{./chapters/results/spectral_distro/spectral_distro}
-	\input{./chapters/discussion/discussion}
-	\input{./chapters/conclusion/conclusion}
-	\input{./chapters/appendices/appendices}			\label{appendices}
-	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}
-
-=======
-	% \include{./chapters/introduction/introduction}
-	% \input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
-	% \input{./chapters/setup/setup}
-	% \input{./chapters/nanodiamonds/nanodiamonds}
-	% \input{./chapters/crystal_quality/crystal_quality}
-	% \input{./chapters/results/spectral_distro/spectral_distro}
-	% \input{./chapters/results/spectral_distro/emission_spectra}
-	% \input{./chapters/results/spectral_distro/sideband}
-	% \input{./chapters/results/spectral_distro/g2}
-	% \input{./chapters/results/spectral_distro/blinking}
+	\input{./chapters/results/spectral_distro/emission_spectra}
+	\input{./chapters/results/spectral_distro/sideband}
+	\input{./chapters/results/spectral_distro/g2}
+	\input{./chapters/results/spectral_distro/blinking}
 	\input{./chapters/results/coupling/coupling}
 	\input{./chapters/results/coupling/coupling_vcsel}
 	\input{./chapters/results/coupling/coupling_antenna}
 	% \input{./chapters/discussion/discussion}
-	% \input{./chapters/conclusion/conclusion}
-	% \input{./chapters/appendices/appendices}			\label{appendices}	
-	% \include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}	
-	
->>>>>>> bc892a17af96ea3ef8652a074f0f0001b63691bd
+	\input{./chapters/conclusion/conclusion}
+	% \input{./chapters/appendices/appendices}			\label{appendices}
+	% \include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}
+
 % 	\cleardoublepage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{\indexname}

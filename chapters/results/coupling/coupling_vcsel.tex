@@ -79,39 +79,7 @@
 
 	\subsection{\siv in a \Vcsel}
 
-	% additional methods
-	As diamond material we used CVD grown \nds.
-	They had been grown on an \ir coated \si wafer (see \cref{sec::cvd}).
-	These \nds exhibit a nominal size of \SI{200}{nm}.
-	% preselection, 
-	First, we selected a \nd which exhibited one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}\todo{was it single?}.
-	% position
-	Consecutively, its position on the substrate was determined using a white light laser scan as described in \cref{subsec::position}.
-	% transfer
-	It was then transferred to the VCSEL Bm4 described in \cref{subsec::vcsel_structure}.
-	\\
-	% Spectroscopic measurements
-	After a successful transfer of the pre-selected \nd onto the active area of VCSEL Bm4, the VCSEL was put in the confocal setup.
-	Using the laser from the confocal setup we checked if the \pp process caused any modification of the spectroscopic properties of the \siv such as a decrease of countrate or a modification of the \fl spectrum.
-	For this, the VCSEL itself was not operated itself.
-	First, the VCSEL surface was scanned \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
-	.
-	A bright dot exhibiting a countrate of a few thousand counts per second is visible where the \nd containing an SiV was put.
-	A comparative scan of a VCSEL without \nd only exhibits a background countrate, as expected (\cref{subfig::confocal_laser_excitation_without_diamond}).
-	\\
-	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process (\cref{fig::spectrum_vcsel_diamond}).
-	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm} (denoted line A).
-	After the \pp process, this line is still there, albeit with a low intensity.
-	Another line at \SI{0}{nm} (denoted line B) \todo{check number} which was a minor feature in the spectrum before \pp, is the predominant line after the process. 
-	This modification of the spectrum is caused by a reduction of the intensity of line A and constant intensity of line B.
-	The reduction of the intensity of line A may be caused by damage of the color center due to electron radiation. 
-	While the energy of the electrons is low compared to the ionization energy of the color center \todo{numbers}, we observed a reduction of \fl intensity after electron radiation \todo{put alex meyers observations in appendix}\todo{besser begruenden, was passiert}.
-	\\
 
-
-
-
-{}
 
 	\begin{figure}[tp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -163,6 +131,25 @@
 			\label{subfig::vcsel_excitation_without_diamond}
 		\end{subfigure}
 		\caption{(a) Scan of the laser light stemming from the VCSEL Bm4 and the \fl light from the \siv in the filter window \SIrange{730}{750}{nm}. (b) Scan of the laser light stemming from the VCSEL Bm2 without coupled \siv. The outcome of the two scans is almost identical.}
+		\label{fig::vcsel_excitation}
+	\end{figure}
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_5.pdf}}
+			\caption{}
+			\label{subfig::spectrum_vcsel_excitation_with_diamond}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
+			\caption{}
+			\label{subfig::spectrum_vcsel_excitation_without_diamond}
+		\end{subfigure}
+		\caption{(a) Recorded Spectrum of the \siv in the transferred \nd on VCSEL Bm4 during VCSEL operation. No distinct \siv lines are visible. (b) Recorded spectrum of VCSEL Bm2 (without \siv)}
+		\label{fig::vcsel_spectra}
 	\end{figure}
 
 	% \begin{figure}[tp]
@@ -175,17 +162,73 @@
 	% 	\hfill
 	% 	\begin{subfigure}[t]{ 0.49\linewidth}
 	% 		\centering
-	% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
+	% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/dbr_VCSEL_only_blue.pdf}}
 	% 		\caption{spectrum vcsel excitation without diamond}
-	% 		\label{subfig::spectrum_vcsel_excitation_without_diamond}
+	% 		\label{subfig::dbr_vcsel}
 	% 	\end{subfigure}
-	% 	\caption{<caption>}
-	% 	\label{fig::<fig>}
+	% 	\caption{(a) Spectrum of the \siv in the transferred \nd during VCSEL operation. No distinct \siv lines are visible. (b) Reflectivity of the \dbr (DBR) of the VCSEL, and spectrum of the \siv measured during VCSEL excitation. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during VCSEL operation coincides with the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser sideband in the same wavelength regime, the \sivs emission is not detectable.}
+	% 	\label{fig::vcsel_spectra}
 	% \end{figure}
 
 	\begin{figure}[tp]
 		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/dbr_VCSEL.pdf}}
-		\caption{Reflectivity of the \dbr (DBR) of the VCSEL, and spectrum of the \siv measured during VCSEL excitation. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during VCSEL operation coincides with the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser sideband in the same wavelength regime, the \sivs emission is not detectable.}
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/dbr_VCSEL_only_blue.pdf}}
+		\caption{Reflectivity of the \dbr (DBR) of the VCSEL, and spectrum of the \siv measured during VCSEL excitation. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during VCSEL operation coincides with the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser sideband in the same wavelength regime, the \sivs emission is not detectable\todo[inline]{warum schaut das spectrum anders aus als das, was einzeln geplottet ist?}.}
 		\label{fig::dbr_vcsel}
 	\end{figure}
+
+	% additional methods
+	As diamond material we used CVD grown \nds.
+	They had been grown on an \ir coated \si wafer (see \cref{sec::cvd}).
+	These \nds exhibit a nominal size of \SI{200}{nm}.
+	% preselection, 
+	First, we selected a \nd which exhibited one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}\todo{was it single?}.
+	% position
+	Consecutively, its position on the substrate was determined using a white light laser scan as described in \cref{subsec::position}.
+	% transfer
+	It was then transferred to the VCSEL Bm4 described in \cref{subsec::vcsel_structure}.
+	\\
+	% Spectroscopic measurements
+	After a successful transfer of the pre-selected \nd onto the active area of VCSEL Bm4, the VCSEL was put in the confocal setup.
+	Using the laser from the confocal setup we checked if the \pp process caused any modification of the spectroscopic properties of the \siv such as a decrease of countrate or a modification of the \fl spectrum.
+	For this, the VCSEL itself was not operated itself.
+	First, the VCSEL surface was scanned \cref{subfig::vcsel_confocal_laser_excitation_with_diamond}.
+	.
+	A bright dot exhibiting a countrate of a few thousand counts per second is visible where the \nd containing an SiV was put.
+	A comparative scan of a VCSEL without \nd only exhibits a background countrate, as expected (\cref{subfig::confocal_laser_excitation_without_diamond}).
+	\\
+	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process (\cref{fig::spectrum_vcsel_diamond}).
+	The original spectrum before \nd transfer exhibits a sharp line at \SI{746.0}{nm} (denoted line A).
+	After the \pp process, this line is still there, albeit with a low intensity.
+	Another line at \SI{0}{nm} (denoted line B) \todo{check number} which was a minor feature in the spectrum before \pp, is the predominant line after the process. 
+	This modification of the spectrum is caused by a reduction of the intensity of line A and constant intensity of line B.
+	The reduction of the intensity of line A may be caused by damage of the color center due to electron radiation. 
+	While the energy of the electrons is low compared to the ionization energy of the color center \todo{numbers}, we observed a reduction of \fl intensity after electron radiation (for a detailed description of this effect, refer to \cite{alexmeyer::baccthesis}\todo{besser begruenden, was passiert}.
+	\\
+	We then operated the VCSEL at \SI{0.84}{mA} and \SI{3.3}{V} and turned off the laser of the confocal setup.
+	We scanned both the surface of VCSEL Bm4 (with \nd) and of VCSEL Bm2 (without \nd) with a \SIrange{730}{750}{nm} bandpass filter.
+	This filter window suppresses the VCSEL laser line at \SI{655}{nm} (\ref{subfig::vcsel_output_wavelength}) while leaving the \siv emission nearly unchanged.
+	The light areas in \cref{fig::vcsel_excitation} correspond to the laser output areas.
+	We measured a spectrum at the same points as before VCSEL operation. 
+	In the case of VCSEL Bm4, this spot corresponds to the position of the \siv.
+	The following observations are made from the measurements:
+	\begin{itemize}
+		\item In both scans, the laser output area is visible as a big bright spot. There is no difference in intensity between VCSEL Bm4 and Bm2.
+		\item The spectra of VCSEL Bm4 and Bm2 are almost identical.
+	\end{itemize}
+	
+	The spectrum recorded in the confocal setup corresponds well with the DBR reflectivity (\cref{fig::dbr_vcsel}).
+	Hence, we conclude, that the detected emission is due to the VCSEL and does not stem from the \siv\todo{ev besser begruenden}
+	From these observations, we draw the conclusion that the \fl emission from the \siv is small compared to the sideband of the VCSEL emission in the wavelength regime where the \siv emission is expected.
+	Therefore, the \siv emission is not detectable during VCSEL excitation.
+	\\
+	Ongoing work is performed to reduce sideband emission of the VCSEL in the \siv emission regime.
+	A promising approach is to add a gold layer on top of the VCSEL which acts as a tunable mirror.
+	While films of gold have a transmittance maximum at \SI{500}{nm}, the transmittance minimum depends on the film's thickness \cite{Axelevitch2012}.
+	Hence the goal is to apply a gold film which suppresses the laser sideband in the \siv emission regime.
+	\\
+	In this chapter we showed successful transfer of a \nd containing an \siv.
+	While the \siv spectrum was modified after the \pp process, it was clearly identified with the preselected \siv.
+	Further research has to be performed to enhance the VCSEL emission properties.
+
+	

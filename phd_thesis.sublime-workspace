@@ -4,6 +4,226 @@
 		"selected_items":
 		[
 			[
+				"prese",
+				"preselected"
+			],
+			[
+				"transf",
+				"transfer"
+			],
+			[
+				"wave",
+				"wavelength"
+			],
+			[
+				"fig::v",
+				"fig::vcsel_spectra"
+			],
+			[
+				"Bm",
+				"Bm2"
+			],
+			[
+				"measu",
+				"measured"
+			],
+			[
+				"ref",
+				"reflectivity"
+			],
+			[
+				"trans",
+				"transfer"
+			],
+			[
+				"preselec",
+				"preselected	(coupling.tex)"
+			],
+			[
+				"elec",
+				"electrons	(theory.tex)"
+			],
+			[
+				"denote",
+				"denoted	(emission_spectra.tex)"
+			],
+			[
+				"desc",
+				"described"
+			],
+			[
+				"gr",
+				"grown"
+			],
+			[
+				"determine",
+				"determined	(nanodiamonds.tex)"
+			],
+			[
+				"tran",
+				"transfer"
+			],
+			[
+				"investi",
+				"investigated"
+			],
+			[
+				"VCSE",
+				"VCSEL"
+			],
+			[
+				"vcse",
+				"pics/vcsel_output_area.png"
+			],
+			[
+				"VCS",
+				"VCSEL"
+			],
+			[
+				"VC",
+				"VCSEL"
+			],
+			[
+				"vcsel",
+				"pics/vcsel_output_power.png"
+			],
+			[
+				"mi",
+				"\\milli                                            	siunitx"
+			],
+			[
+				"wavel",
+				"wavelengths	(commands_physics.tex)"
+			],
+			[
+				"vcs",
+				"\\vcsels{}                                         	local"
+			],
+			[
+				"v",
+				"vcsel"
+			],
+			[
+				"techni",
+				"technical"
+			],
+			[
+				"cont",
+				"contain"
+			],
+			[
+				"antenn",
+				"antennas"
+			],
+			[
+				"app",
+				"approachment"
+			],
+			[
+				"nano",
+				"nanomanipulator"
+			],
+			[
+				"approach",
+				"approached"
+			],
+			[
+				"focu",
+				"focussed"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"iden",
+				"identified	(g2.tex)"
+			],
+			[
+				"meas",
+				"measurements	(spectral_distro.tex)"
+			],
+			[
+				"stru",
+				"structure"
+			],
+			[
+				"fl",
+				"fluorescence"
+			],
+			[
+				"on",
+				"only"
+			],
+			[
+				"subfig",
+				"subfig::nanomanipulator_tip"
+			],
+			[
+				"squ",
+				"\\squared                                          	siunitx"
+			],
+			[
+				"milli",
+				"\\millimetre                                       	siunitx"
+			],
+			[
+				"micro",
+				"microscope"
+			],
+			[
+				"p",
+				"chapters/results/coupling/pics/pp_sketch.pdf"
+			],
+			[
+				"nanom",
+				"chapters/results/coupling/pics/nanomanipulator_image.png"
+			],
+			[
+				"experi",
+				"experimental	(spectral_distro.tex)"
+			],
+			[
+				"micros",
+				"microscope	(coupling_antenna.tex)"
+			],
+			[
+				"perform",
+				"performed"
+			],
+			[
+				"item",
+				"item::pp"
+			],
+			[
+				"subfig::sem",
+				"subfig::antenna_structures_sem"
+			],
+			[
+				"beg",
+				"\\begin{}                                          	latex-document"
+			],
+			[
+				"metro",
+				"metrology"
+			],
+			[
+				"Vcse",
+				"\\Vcsels{}                                         	local"
+			],
+			[
+				"pla",
+				"pics/place_colored.png"
+			],
+			[
+				"vc",
+				"vcsel	(commands_physics.tex)"
+			],
+			[
+				"Quan",
+				"Quantum	(commands_physics.tex)"
+			],
+			[
 				"cr",
 				"crystallites"
 			],
@@ -18,10 +238,6 @@
 			[
 				"four",
 				"four-level"
-			],
-			[
-				"perform",
-				"performed	(nanodiamonds.tex)"
 			],
 			[
 				"line",
@@ -62,10 +278,6 @@
 			[
 				"cite",
 				"\\cite{keylist}                                    	latex-document"
-			],
-			[
-				"p",
-				"psubfig2	psubfig2"
 			],
 			[
 				"anti",
@@ -128,10 +340,6 @@
 				"sample"
 			],
 			[
-				"micro",
-				"microdiamonds"
-			],
-			[
 				"dia",
 				"diamond"
 			],
@@ -150,10 +358,6 @@
 			[
 				"sub",
 				"substrate"
-			],
-			[
-				"nano",
-				"nanodiamonds"
 			],
 			[
 				"crys",
@@ -202,10 +406,6 @@
 			[
 				"anneal",
 				"annealing"
-			],
-			[
-				"subfig",
-				"subfig::sunken_nd"
 			],
 			[
 				"subfig::",
@@ -268,10 +468,6 @@
 				"autoref	(methods.tex)"
 			],
 			[
-				"desc",
-				"described	(methods.tex)"
-			],
-			[
 				"Nano",
 				"Nanodiamonds	(methods.tex)"
 			],
@@ -318,90 +514,6 @@
 			[
 				"section",
 				"\\subsection[short]{title}                         	latex-document"
-			],
-			[
-				"sivs",
-				"sivs"
-			],
-			[
-				"color",
-				"color	(preamble.tex)"
-			],
-			[
-				"colle",
-				"collected"
-			],
-			[
-				"SI",
-				"\\SI{value}{unit commands}                         	siunitx"
-			],
-			[
-				"sing",
-				"single-mode"
-			],
-			[
-				"beam",
-				"beamsplitter"
-			],
-			[
-				"confoc",
-				"pics/confocal_setup.pdf"
-			],
-			[
-				"input",
-				"input{file}	latex-document"
-			],
-			[
-				"new",
-				"newcommand{cmd}[args]{def}	latex-document"
-			],
-			[
-				"usepacka",
-				"usepackage{package}	latex-document"
-			],
-			[
-				"texti",
-				"textit{text}	latex-document"
-			],
-			[
-				"sc",
-				"scan_z"
-			],
-			[
-				"scan",
-				"scan_xy"
-			],
-			[
-				"plot",
-				"plot_spectrum.py	(plot_spectrum.py)"
-			],
-			[
-				"out",
-				"outfile2"
-			],
-			[
-				"convert",
-				"convert_countrate	(plot_from_clicklist.sh)"
-			],
-			[
-				"my",
-				"my_filestub"
-			],
-			[
-				"c",
-				"countrate"
-			],
-			[
-				"df",
-				"df_range2"
-			],
-			[
-				"D",
-				"Documents	(fit_spectrum.py)"
-			],
-			[
-				"cit",
-				"cite{keylist}	latex-document"
 			]
 		]
 	},
@@ -411,7 +523,31 @@
 			"file": "frontbackstuff/commands/commands_physics.tex",
 			"settings":
 			{
-				"buffer_size": 5507,
+				"buffer_size": 6293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontbackstuff/preamble/preamble.tex",
+			"settings":
+			{
+				"buffer_size": 2972,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.tex",
+			"settings":
+			{
+				"buffer_size": 2490,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/theory/theory.tex",
+			"settings":
+			{
+				"buffer_size": 29525,
 				"line_ending": "Unix"
 			}
 		},
@@ -424,10 +560,10 @@
 			}
 		},
 		{
-			"file": "chapters/crystal_quality/crystal_quality.tex",
+			"file": "chapters/results/spectral_distro/spectral_distro.tex",
 			"settings":
 			{
-				"buffer_size": 15647,
+				"buffer_size": 1459,
 				"line_ending": "Unix"
 			}
 		},
@@ -440,14 +576,6 @@
 			}
 		},
 		{
-			"file": "chapters/results/spectral_distro/sideband.tex",
-			"settings":
-			{
-				"buffer_size": 7131,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "chapters/results/spectral_distro/g2.tex",
 			"settings":
 			{
@@ -456,10 +584,26 @@
 			}
 		},
 		{
-			"file": "chapters/results/spectral_distro/blinking.tex",
+			"file": "chapters/results/coupling/coupling.tex",
 			"settings":
 			{
-				"buffer_size": 5821,
+				"buffer_size": 13844,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/results/coupling/coupling_vcsel.tex",
+			"settings":
+			{
+				"buffer_size": 17332,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapters/results/coupling/coupling_antenna.tex",
+			"settings":
+			{
+				"buffer_size": 6405,
 				"line_ending": "Unix"
 			}
 		},
@@ -468,6 +612,14 @@
 			"settings":
 			{
 				"buffer_size": 2292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "brainstorming.txt",
+			"settings":
+			{
+				"buffer_size": 7814,
 				"line_ending": "Unix"
 			}
 		},
@@ -483,9 +635,13 @@
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
-		"height": 49.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"Snippet: ite",
+				"Snippet: Itemize"
+			],
 			[
 				"Snippet: equ",
 				"Snippet: Equation"
@@ -559,7 +715,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 494.0
+		"width": 490.0
 	},
 	"console":
 	{
@@ -576,6 +732,17 @@
 	},
 	"file_history":
 	[
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/results/coupling/pics/field330_scanxy06_x19y15_34uW_t30_2_fitparam.txt",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/nanodiamonds/nanodiamonds.tex",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/results/coupling/coupling_antenna.tex",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/crystal_quality/crystal_quality.tex",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/results/spectral_distro/sideband.tex",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/results/spectral_distro/blinking.tex",
+		"/Users/sahara/Google Drive/work/phd_thesis/chapters/results/spectral_distro/g2.tex",
+		"/Volumes/EXTSAHARA/work/uni_backup/measurements/pick_n_place/150520/compilation.tex",
+		"/Users/sahara/Google Drive/work/paper/SiV_milled_diamonds/paper/preamble/preamble.tex",
 		"/Users/sahara/Dropbox/work/phd_thesis/frontbackstuff/preamble/preamble.tex",
 		"/Users/sahara/Dropbox/work/phd_thesis/brainstorming.txt",
 		"/Users/sahara/Dropbox/work/phd_thesis/questions_for.txt",
@@ -596,7 +763,6 @@
 		"/Users/sahara/Dropbox/work/phd_thesis/chapters/results/spectral_distro/sideband.tex",
 		"/Users/sahara/Dropbox/work/phd_thesis/chapters/results/spectral_distro/g2.tex",
 		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/LaTeX.sublime-settings",
-		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/sahara/encrypted_message_test.txt",
 		"/Volumes/EXTSAHARA/work/uni_backup/measurements/SiV/milled/sidepeak_intensity/plots/pos_vs_width_detail_fit_params.txt",
 		"/Volumes/EXTSAHARA/work/uni_backup/measurements/SiV/milled/Ir8/141203/sat/sat_scan_xy-05.txt",
@@ -670,7 +836,6 @@
 		"/home/sarah/.config/sublime-text-3/Packages/Color Scheme - Rainbow/Rainbow (Light).tmTheme",
 		"/home/sarah/.config/sublime-text-3/Packages/ColorPick/Default (OSX).sublime-keymap",
 		"/home/sarah/.config/sublime-text-3/Packages/ColorPick/Default.sublime-commands",
-		"/Users/sahara/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/sahara/Dropbox/work/paper/SiV_milled_diamonds/paper/maintext/methods/methods.tex",
 		"/Users/sahara/Desktop/vertragsverlaengerung.txt",
 		"/Users/sahara/Dropbox/work/phd_thesis/methods/methods.tex",
@@ -694,16 +859,7 @@
 		"/home/sarah/Dropbox/work/phd_thesis/theory/theory.tex",
 		"/home/sarah/Dropbox/work/phd_thesis/methods/methods.tex",
 		"/home/sarah/Dropbox/work/phd_thesis/main.tex",
-		"/home/sarah/sticky@scollins/applet.js",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/results/emission_spectra.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/results/blinking.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/introduction/introduction.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/appendices/appendices.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/appendices/appendixA.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/maintext/methods/methods.tex",
-		"/home/sarah/Dropbox/work/SiV_milled_diamonds/paper/preamble/preamble.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/title/title.tex",
-		"/home/sarah/Dropbox/work/phd_thesis/preamble/preamble_thesis.tex"
+		"/home/sarah/sticky@scollins/applet.js"
 	],
 	"find":
 	{
@@ -714,6 +870,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open files>,-*.csv",
+			"",
 			"/Users/sahara/Dropbox/work/phd_thesis",
 			""
 		]
@@ -723,6 +881,83 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"janine::thesis",
+			"janine::231",
+			"janine::229",
+			"janine::226",
+			"janine::224",
+			"janine::223",
+			"janine::222",
+			"janine::213",
+			"janine::167",
+			"janine::166",
+			"janine::165",
+			"janine::153",
+			"Mueller2014",
+			"Pingault2014",
+			"janine::166",
+			"janine::165",
+			"janine::153",
+			"janine::149",
+			"janine::148",
+			"janine::64",
+			"janine::55",
+			"janine::27",
+			"janine::26",
+			"janine::25",
+			"janine::24",
+			"janine::17",
+			"janine::16",
+			"janine::15",
+			"steinmetz::thesis",
+			"neu::thesis",
+			"neu::149",
+			"neu::147",
+			"neu::139",
+			"neu::137",
+			"neu::136",
+			"neu::131",
+			"neu::111",
+			"neu::94",
+			"neu::91",
+			"neu::87",
+			"neu::86",
+			"neu::85",
+			"neu::84",
+			"neu::49",
+			"neu::41",
+			"neu::40",
+			"neu::39",
+			"neu::35",
+			"neu::25",
+			"neu::12",
+			"steinmetz::",
+			"steinmetz::71",
+			"steinmetz::70",
+			"steinmetz::62",
+			"steinmetz::59",
+			"steinmetz::58",
+			"steinmetz::57",
+			"steinmetz::56",
+			"steinmetz::52",
+			"steinmetz::36",
+			"steinmetz::34",
+			"steinmetz::32",
+			"steinmetz::29",
+			"steinmetz::27",
+			"neu",
+			"janine",
+			"steinmetz",
+			"autoref",
+			"todo",
+			"subsubsection",
+			"$",
+			"As",
+			"enumerate",
+			"itemize",
+			"pick",
+			" ",
+			"upper",
 			"\\vl ",
 			"\\gh",
 			"\\hl ",
@@ -773,24 +1008,7 @@
 			"build",
 			"fluorescence light",
 			"fref",
-			"experimental",
-			"Experimental",
-			"\\begin{figure}[t]\n		\\centering\n		\\includegraphics[width=\\linewidth]{./pics/confocal_setup.pdf}\n		\\caption{Confocal setup}\n		\\label{fig::confocal_setup}\n	\\end{figure}\n",
-			"maintext/",
-			"linewidths",
-			"linewidth ",
-			"silicon",
-			"\\si ",
-			"\\si",
-			"mendeley",
-			"local_bib",
-			"remote_bib",
-			"among",
-			"}}",
-			"\\testbox{",
-			"shift",
-			",",
-			"indent"
+			"experimental"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -798,6 +1016,68 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Riedrich-moller2014",
+			"Clark1995",
+			"Gali2013b",
+			"Dietrich2014a",
+			"DHaenens-Johansson2011",
+			"Hepp2014",
+			"Goss2007",
+			"Doherty2013",
+			"Santori2006",
+			"Jelezko2002",
+			"Manson2006",
+			"Prawer2014",
+			"Jelezko2002",
+			"Manson2006",
+			"Prawer2014",
+			"Breeding2009",
+			"Kaiser1959",
+			"Aharonovich2014",
+			"Neu2012a",
+			"Sipahigil2014",
+			"Rogers2014",
+			"Neu2011b",
+			"Collins1983",
+			"Rogers2014a",
+			"Pingault2014",
+			"Mueller2014",
+			"Steinmetz2011",
+			"neu2012",
+			"Grimsditch1978",
+			"Solin1970",
+			"Feng1993b",
+			"Siyushev2009",
+			"Rossi1997",
+			"Iakoubovskii2000",
+			"Sternschulte1994",
+			"Davies1981",
+			"Saslow1966",
+			"Mildren2008",
+			"Balasubramanian2009",
+			"Markham2011",
+			"Walker1979",
+			"Beveratos2001",
+			"Nothaft2012",
+			"Yuan2002",
+			"Duligall2006",
+			"Muller2011",
+			"Zaitsev2000",
+			"Huttner1995",
+			"Greentree2008",
+			"Kennedy2003",
+			"May2000",
+			"Massarani1978",
+			"Zaitsev2001",
+			"Clark1964",
+			"Saotome1998",
+			"Bundy1989",
+			"Lounis2005",
+			"Yuan2002",
+			"Michler2000",
+			"Keller2004",
+			"Kuhn2002",
+			"cref",
 			"\\gv ",
 			"\\gh",
 			"\\hl",
@@ -826,7 +1106,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -834,15 +1114,15 @@
 					"file": "frontbackstuff/commands/commands_physics.tex",
 					"settings":
 					{
-						"buffer_size": 5507,
+						"buffer_size": 6293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3579,
-								3579
+								1735,
+								1735
 							]
 						],
 						"settings":
@@ -899,13 +1179,241 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 2472.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "frontbackstuff/preamble/preamble.tex",
+					"settings":
+					{
+						"buffer_size": 2972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2863,
+								2863
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 870.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.tex",
+					"settings":
+					{
+						"buffer_size": 2490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1395,
+								1395
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1014.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chapters/theory/theory.tex",
+					"settings":
+					{
+						"buffer_size": 29525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "chapters/nanodiamonds/nanodiamonds.tex",
 					"settings":
 					{
@@ -916,8 +1424,8 @@
 						"selection":
 						[
 							[
-								20213,
-								20213
+								67,
+								67
 							]
 						],
 						"settings":
@@ -975,253 +1483,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2367.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chapters/crystal_quality/crystal_quality.tex",
-					"settings":
-					{
-						"buffer_size": 15647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15097,
-								15445
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4328.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "chapters/results/spectral_distro/emission_spectra.tex",
-					"settings":
-					{
-						"buffer_size": 11646,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3348,
-								3348
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 760.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "chapters/results/spectral_distro/sideband.tex",
-					"settings":
-					{
-						"buffer_size": 7131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4938,
-								4938
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1453.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "chapters/results/spectral_distro/g2.tex",
+					"file": "chapters/results/spectral_distro/spectral_distro.tex",
 					"settings":
 					{
-						"buffer_size": 6917,
+						"buffer_size": 1459,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								1455,
+								1455
 							]
 						],
 						"settings":
@@ -1286,18 +1566,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "chapters/results/spectral_distro/blinking.tex",
+					"file": "chapters/results/spectral_distro/emission_spectra.tex",
 					"settings":
 					{
-						"buffer_size": 5821,
+						"buffer_size": 11646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5105,
-								5105
+								10066,
+								10070
 							]
 						],
 						"settings":
@@ -1355,13 +1635,319 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 829.0,
+						"translation.y": 3099.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "chapters/results/spectral_distro/g2.tex",
+					"settings":
+					{
+						"buffer_size": 6917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5207,
+								5211
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "chapters/results/coupling/coupling.tex",
+					"settings":
+					{
+						"buffer_size": 13844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11997,
+								11997
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3551.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "chapters/results/coupling/coupling_vcsel.tex",
+					"settings":
+					{
+						"buffer_size": 17332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12700,
+								12700
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3871.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "chapters/results/coupling/coupling_antenna.tex",
+					"settings":
+					{
+						"buffer_size": 6405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2255,
+								1678
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "inhalte_labbooks_projects.txt",
 					"settings":
 					{
@@ -1430,13 +2016,89 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 487.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
+					"file": "brainstorming.txt",
+					"settings":
+					{
+						"buffer_size": 7814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5622,
+								5537
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4166.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "checklist.txt",
 					"settings":
 					{
@@ -1554,11 +2216,11 @@
 	},
 	"output.latextools":
 	{
-		"height": 155.0
+		"height": 182.0
 	},
 	"replace":
 	{
-		"height": 50.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":

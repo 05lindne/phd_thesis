@@ -89,6 +89,8 @@
 		\caption{}
 	\end{figure}
 
+	\subsection{Structure of the Plasmonic Antennas} \label{sec::structure_antenna}
+
 	\begin{figure}[tp]
 		\centering
 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/place_colored.png}}
@@ -103,16 +105,21 @@
 		\label{fig::place_ccd}
 	\end{figure}
 
-	\subsection{Structure of the Plasmonic Antennas} \label{sec::structure_antenna}
+	\begin{figure}[tp]
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/antenna_fdtd_calculation.png}}
+		\caption{<caption>}
+		\label{fig::antenna_fdtd_calculation}
+	\end{figure}
 
-	FDTD numerical simulations were performed using Lumerical software to characterize gold double bowtie nanoantennas on a gold substrate. The nanoantennas are tailored to have a gap of g = 150 nm (taking into account the diameter of the nanodiamonds of around 100 nm), side length of L = 2 µm, and a thickness of t = 60 nm (see Fig.3a). 
+	FDTD numerical simulations were performed using Lumerical software to characterize gold double bowtie nanoantennas on a gold substrate. The nanoantennas are tailored to have a gap of g = \SI{150}{nm} (taking into account the diameter of the nanodiamonds of around \SI{100}{nm}), side length of L = \SI{2}{\micro\meter}, and a thickness of t = \SI{60}{nm} (see Fig.3a). 
 	Upon excitation with incident light, an intense electromagnetic hotspot is formed in the nanoantenna gap \cite{Rahbany2015}\todo{read paper}, which is expected to excite a nanodiamond containing SIV centers aiming to enhance its fluorescence emission. 
 	Unlike a single bowtie that is sensitive only to the polarization along its principle axis (C2 rotational symmetry), a double bowtie features a C4 rotational symmetry and therefore focuses both parallel and perpendicular polarizations (i.e. all in-plane directions).
 	% For that, a circularly polarized light with a wavelength range of λ = 400 - 1500 nm is chosen to illuminate a gold double bowtie nanoantenna on a gold substrate, which efficiently excites both the horizontal and vertical components of the structure. 
-	The index of refraction of gold is taken from Palik \cite{}\todo{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}, and that of the nanodiamond is chosen to be n = 2.4 at λ = 660 nm. 
+	The index of refraction of gold is taken from Palik \cite{}\todo{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}, and that of the nanodiamond is chosen to be n = 2.4 at $\lambda$ = \SI{660}{nm}. 
 	The electric field intensity in the nanoantenna gap is then measured as a function of wavelength to identify the antenna resonance. 
-	The spectrum is given in Fig.3b where we observe that the resonance shows two peaks; an intense peak coinciding with the SiV emission wavelength (λ = 739 nm), and an additional mode at a lower wavelength (λ = 710 nm) \cite{Rahbany2016}
-	The resonance spectrum of the antenna alone shows only one peak at 739 nm. 
+	The spectrum is given in Fig.3b where we observe that the resonance shows two peaks; an intense peak coinciding with the SiV emission wavelength ($\lambda$ = \SI{739}{nm}), and an additional mode at a lower wavelength ($\lambda$ = \SI{710}{nm}) \cite{Rahbany2016}
+	The resonance spectrum of the antenna alone shows only one peak at \SI{739}{nm}. 
 	Thus, the additional peak is attributed to the presence of the nanodiamond that is slightly shifted from the center of the gap, corresponding to our experimental conditions.
 	These calculations suggest, that the emission from an \siv at \SI{738}{nm} is effectively enhanced and directed by the antenna.
 
@@ -143,26 +150,43 @@
 				\caption{<caption>}
 			\end{figure}
 
+			% \begin{figure}[tp]
+			% 	\centering
+			% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/antenna_no_ND.pdf}}
+			% 	\caption{<caption>}
+			% 	\label{fig::spectrum_antenna_multiple_before}
+			% \end{figure}
+
 			\begin{figure}[tp]
-				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/antenna_no_ND.pdf}}
+				\begin{subfigure}[t]{ 0.49\linewidth}
+					\centering
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_no_ND.pdf}}
+					\caption{}
+					\label{subfig::spectrum_antenna_no_nd}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure}[t]{ 0.49\linewidth}
+					\centering
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_Ir27M_f200_xy04x13y88_D09_t30_highP_fit.pdf}}
+					\caption{}
+					\label{subfig::spectrum_nd_multiple}
+				\end{subfigure}
 				\caption{<caption>}
-				\label{fig::spectrum_antenna_multiple_before}
 			\end{figure}
 
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_Ir27M_f200_xy04x13y88_D09_t30_highP_fit.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/find_middle_with_ccd_highP_2_arrows.pdf}}
 					\caption{}
 					\label{subfig::spectrum_antenna_nd_multiple}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/find_middle_with_ccd_highP_2.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_convolution.png}}
 					\caption{}
-					\label{subfig::spectrum_antenna_no_nd}
+					\label{subfig::antenna_convolution}
 				\end{subfigure}
 				\caption{<caption>}
 			\end{figure}

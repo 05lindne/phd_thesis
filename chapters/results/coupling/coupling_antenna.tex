@@ -188,15 +188,46 @@
 
 		\subsubsection{\Nd With Multiple \sivs Coupled to Antenna}
 
-			The \nds exploited for coupling to an antenna were produced by a wet-milling process from a CVD diamond film (\muzha, \williams).
+			The \nds exploited for the approach of coupling multiple \sivs to an antenna were produced by a wet-milling process from a CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams} .
 			The solution of \nds which exhibit a median size of \SI{100}{nm} were spin-coated on an iridium substrate treated with Piranha etch. 
 			To ensure that a pre-characterized nanodiamond exhibiting preferred optical properties (eg. narrow linewidth, high count rate) is later found again, the iridium substrate was engraved with reference cross markers produced by a focused ion beam prior to the spin-coating process.
 			After spin-coating, the sample was placed in an oven for 3 hours at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon. 
-			% preselection, 
+			\\
+			% preselection
+			% Fig. 1c shows an example of a PL scan where bright spots (highlighted by the red circles) correspond to nanodiamonds with PL in the SiV center spectral range. To further verify the presence of SiV centers, PL spectra at room temperature are recorded.
+			\Cref{subfig::spectrum_antenna_nd_multiple} shows the spectrum recorded of the preselected \nd.
+			The ZPL peak exhibits a \wl of \SI{738.55\pm0.01}{nm} and a \lw of \SI{5.0\pm0.03}{nm}\todo{fehlergrenzen verfnuenftig machen}.
+			These numbers correspond well to the ZPL of unstrained SiV centers and therefore allows us to deduce that the studied nanodiamond contains at least one SiV center.
+			Photon autocorrelation measurements revealed, that the \nd contains multiple \sivs.
+			\\
 			% position
+			To determine the position of the \nd on the original substrate, first a scan with a commercial \lsm (LSM) was performed as described in \cref{subsec::position}.
+			\Cref{subfig::cross_laser_scan} shows a part of an obtained LSM image.
+			The cross marker can easily be identified, the black dots are \nds.
+			After transferring the sample into the confocal setup, confocal scans of the corresponding areas are performed (\cref{subfig::pp_pl_scan}).
+			The area corresponding to the \fl scan in \cref{subfig::pp_pl_scan} is shaded blue in \cref{subfig::cross_laser_scan}.
+			When looking closely, the bright spots in the \fl scan can be identified with \nds visible in \cref{subfig::cross_laser_scan}.
+			The image in the SEM is very similar to the image obtained by the LSM.
+			Therefore, once a \nd containing a preselected emitter is identified in the LSM scan, it is easy to find the same emitter in the SEM.
+			\\
+			% A long pass filter (λ = 720 nm) is placed in the detection path to suppress any signal stemming  from the laser.. During the PL scan, the laser spot scans the surface and the emitted PL is recorded by the APD. In front of the APD a 730-750nm bandpass filter is installed. The center wavelength of the zero-phonon line of an SiV center is located at around 738 nm. Therefore, if a nanodiamond contains an SiV center, its emission  will results in a bright spot in the PL scan. 
 			% transfer
+			The the picking part of the \pp process was performed in the same manner as described in the section about VCSELs (\cref{subsec::vcsel_structure}).
+			The gold surface of the plasmonic antenna caused a high adhesion between the antenna surface and the \nd.
+			Once the \nd touched the gold, it could not be picked up again with the tungsten tip.
+			The \nd first touched the antnna structure a few nanometers away from the gap and immediately sticked to the surface, on top of one of the triangles.
+			Therefore, the \nd had to be pushed into the gap with the nanomanipulator tip.
+			This process caused some damage to the antenna structure.
+			The damage is visible as black area at the tip of the top triangle in \cref{fig::place_antenna_sem}.
+			However, as shown below comparisons of spectroscopic measurements with FDTD calculations reveal that this damage does not influence the antenna resonance\todo{besser formulieren}.
+			\\
 			% Spectroscopic measurements
-			After this deterministic placement we measure the PL spectrum of the nanodiamond to identify the effect of the nanoantenna on its emission. The result is displayed in Fig. 7a where an increase in the PL intensity is observed by more than a factor 10 indicating that the nanoantennas indeed contribute to the enhancement of the SiV centers emission. A $\lambda$ = 710 nm long pass filter is used to eliminate any signal from the laser. The additional peak at a lower wavelength is attributed to the antenna resonance mode. To verify this, we convolute the experimental PL spectrum of the nanodiamond measured before placing it in the nanoantenna (Fig. 2) with the intensity spectrum of the nanoantenna obtained by simulations (Fig. 3b). The resulting spectrum is given in Fig. 7b, and is in good agreement with the measured spectrum in Fig. 7a, confirming that indeed the extra peak is due to the antenna resonance.
+			After this deterministic placement we measure the PL spectrum of the nanodiamond to identify the effect of the nanoantenna on its emission. The result is displayed in \cref{subfig::spectrum_antenna_nd_multiple}.
+			% Fig. 7a where an increase in the PL intensity is observed by more than a factor 10 indicating that the nanoantennas indeed contribute to the enhancement of the SiV centers emission. 
+			% A $\lambda$ = 710 nm long pass filter is used to eliminate any signal from the laser. 
+			The additional peak at a lower wavelength is attributed to the antenna resonance mode. 
+			To verify this, we convolute the experimental PL spectrum of the nanodiamond measured before placing it in the nanoantenna (\cref{subfig::spectrum_nd_multiple}) with the intensity spectrum of the nanoantenna obtained by simulations (\cref{fig::antenna_fdtd_calculation}). 
+			The resulting spectrum is given in \cref{subfig::antenna_convolution}, and is in good agreement with the measured spectrum in \cref{subfig::spectrum_antenna_nd_multiple}, confirming that indeed the extra peak is due to the antenna resonance.
 
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}

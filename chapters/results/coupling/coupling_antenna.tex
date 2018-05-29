@@ -1,52 +1,64 @@
 %!TEX root = ../../../main.tex
 \section[Coupling \Nds to Optical Antennas]{Coupling \Nds to Double Bowtie Antenna Structures} \label{sec::coupling_antennas}
 
-	Optical antennas are very recent devices designed to efficently convert freely propagating optical radiation into localized energy and vice versa \cite{Optical Antennas, Palash Bharadwaj, Bradley Deutsch, and Lukas Novotny}. Leveraging this unique property, integrating \sivs with optical antennas creates coupled systems with desireable features. These include enhanced \pl emission and the ability to tailor \pl spectra of the integrated emitters. The latter can be achieved by tuning the physical design parameters of the system including antenna geometry and emitter placement.
+	Plasmonic nanoantennas are very recent devices designed to efficently convert freely propagating optical radiation into localized energy and vice versa \cite{Optical Antennas, Palash Bharadwaj, Bradley Deutsch, and Lukas Novotny, nancy::77, nancy::78}. Leveraging this unique property, integrating \sivs with optical antennas creates coupled systems with a range of desireable features. These include enhanced \pl emission and the ability to tailor \pl spectra of the integrated emitters. The latter can be achieved by tuning the physical design parameters of the system including antenna geometry and emitter placement.
 
 	In this chapter we report on our efforts aimed at enhancing the properties of \sivs by coupling them to optical double bowtie antennas. To this end we transfer selected \nds containing \sivs to the target antenna structure using \pp methods. After successful coupling we investigate the integrated structure experimentally. In addition to that we successfully relate some of our results to theoretical predictions.
 
 	In the following we give a short discussion of the most important properties of optical antennas. Then we sketch the actual coupling process and report on the optical properties of the resulting integrated structure.
 
 	\subsection{Plasmonic Antennas}
+		% nancy
 
-		\cite{Curto2010}
-		Optical antennas, acting as converters between propagating and localized fields,provide an effective route to couple photons in and out of nanoscale objects. These antennas are the counterparts of conventional radio and microwave antennas and operate in the visible regime (1, 2). Optical antennas have been shown to focus optical fields to subdiffraction- limited volumes (3), enhance the excitation and emission of quantum emitters (4–7), and modify their spectra (8).
-		\\
-		A characteristic of antennas is their directed emission and reception. So far, the control of directionality has mainly been pursued by photonic crystal structures (9) and surface-plasmon–based devices (10–12). However, for such structures approaching the nanometer scale diffraction can limit the collimated beaming of light. On the other hand, the interaction of quantum emitters with light is best enhanced with microcavities(13, 14). Compared with these approaches, plasmonic nanoantennas offer a much smaller footprint in an open geometry combining strong subwavelength fields and increased transitionrates, together with the prospect of directionality.
-		\\
-		\cite{Giessen2010}
-		from gold, a metal that can develop charge oscillations in its surface layers when excited by optical radiation. These antennas allow visible radia- tion, which has wavelengths of hundreds of nanometers, to couple into a semiconductor quantum dot only a few nanometers in diam- eter, and also direct the emission
-		\\
-		Good mode- matched antennas reradiate their energy after excitation within a single cycle of the wave. Molecules or quantum dots take nanoseconds or even longer to reradiate their energy. This time scale corresponds to about 1 million oscillations at optical frequencies, and the emission is in all directions.
-		\\
-		If an atom, molecule, or quantum dot is placed into the near-field of a metallic nanoantenna (within about 1/50th the wavelength of the emitted radiation), its excited state can radiate photons very efficiently to free space (see the fi g- ure, panel B). The quantum emitters can emit a single photon, which can be exploited in quantum optics. Additionally, the nanoantenna can redirect radiation into a defined solid angle in space and impose a specifi c polarization on it.
-		\\
-		The demonstration of the Purcell effect, which is the acceleration of the decay of the quantum emitter caused by impedance matching by the antenna to free space, could also enhance the radiative emission over nonradiative losses
-		\\
-		\cite{Novotny2011}
-		The electro- magnetic antenna, originally referred to as an ‘aerial’, is a transducer between electromagnetic waves and electric currents, and generally operates in the radiofrequency regime. In analogy with the electro- magnetic antenna, we define the optical antenna as a device thatconverts freely propagating optical radiation into localized energy, and vice versa1.The spatial extent of a receiver or transducer is commonly much smaller than the wavelength of radiation, λ, and is typically of the order of λ/100.
-		\\
-		Surface plasmon resonances make optical antennas particularly efficient at selected frequencies. A generic antenna problem is illustrated in Fig. 3. It consists of a transmitter and a receiver, both represented by dipoles p. The antenna is introduced to enhance the transmission efficiency from the transmitter to the receiver. This enhancement can be achieved by increasing the total amount of radiation released by the trans- mitter, for which the antenna efficiency is a useful figure of merit:
+		Optical nanoantennas act as convertes between propagating and localized electro-magnetic fields. Thus, they can be used efficiently to couple photons in and out of nanoscale objects \cite{Curto2010}. Due to their small physical sizes, comarale or smaller than the \wl of visible light, they are capable of focusing optical fields to subdiffraction-limited volumes, offering the ability to manipulate electromagnetic fields at nanoscales \cite{Curto2010::3, nancy::78}. This property, dubbed sub-wavelength confinement, has successfully been exploited to enahnce the excitation and emission of quantum emitters \cite{Curto2010::4, Curto2010::5, Curto2010::6, Curto2010::7} and to modify their spectra \cite{Curto2010::8}. Resulting practical applications include near-field optical microscopy \cite{nancy::79}, surface enhanced spectroscopy \cite{nancy::80, nancy::81} and molecular sensing \cite{nancy::82}.
+
+		A nanoantenna is a nanostructure made from materials such as noble metals like gold or silver. These metals have in common that they are susceptible to being polarized by electro-magnetic fields. When illuminted by the incident electromagnetic radiation causes electrons in the metal to be displaced with respect to the atomic lattice. As a result the material becomes temporarily polarized until restoring forces equillibrate the charge distribution.
+		Thus incident light of a given frequency induces oscillations in the free electron gas density in the surface layers of the metal. At resonance these light-induced oscillations exhibit modes of standing waves. The quasi-particles associated with these modes are known as \lsps (\LSPs).
+		For an in-depth treatment of \LSPs in the context of nanoantennas we refer the reader to \cite{nancy::thesis} and references therein.
+
+		Here it suffices to say, that \LSPs facilitate the deciding property of optical antennas: Converting electromagnetic energy from the far-field into localized energy in the near-field. This allows, in combination with high collection-efficencies of nanoantennas, to efficiently couple visible radiation with wavelenghts of hundres of nanometers, into small spatial volumes of only a few nanometer in diameter.
+
+		To create a controlled hot-spot several antenna designs are possible. In the context of this thesis we rely on double bowtie design available via a collaboration with \nancy. \autoref{fig::double_bowtie_antenna_schematic} illustrates the typical bowtie antenna.
+
+		\begin{figure}[thp]
+				\centering
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/double_bowtie_antenna_schematic.png}}
+				\caption[Schematic of a double bowtie antenna]{Schematic of a double bowtie antenna \cite{nancy::thesis, nancy::paper}.}
+				\label{fig::double_bowtie_antenna_schematic.png}
+		\end{figure}
+
+		This antenna design utilizing a symmetric arrangement of four identical triangle-shaped blocks, separated by a small gap. This setup allows \LSP modes local to individual blocks to couple with each other resulting in the formation of an intense hot-spot in the center area \cite{nancy::85}, see \autoref{fig:double_bow_tie_hotspot}. The actual electromagnetic response of a double bowtie nanoantenna depends on its physical design parameters such as gap size, material used, geometry and size. Furthermore, properties of incident light such as \wl and polarization determine antenna operation.
+
+		\begin{figure}[thp]
+				\centering
+				\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, width = 0.7\textwidth]{./pics/double_bow_tie_hotspot.png}}
+				\label{fig::double_bow_tie_hotspot}
+				\caption[Simul]{Simulation result of the electric field map of a gold double bowtie nanoantenna \cite{nancy::thesis, nancy::paper}. The center of the antenna exibits an area of pronouced focus.}
+		\end{figure}
+
+
+
+		In the context of \ccs, it is feasible to use the improved electro
+
+		In the context of this thesis, we aim to use the improved electromagnetic field at the center of a double bowtie antenna to enhance the spontaneous emission rate of \sivs. Previous research combining single bowtie antennas and
+
+		The improved electromagnetic field at the center of a metallic nanoantenna can be used to increase the spontaneous emission rate of emitters, a result known as Purcell effect \cite{nancy::86}. The antenna itself acts as a cavity providing a strong near field interaction with the emitter. This interaction creates additional electromagnetic modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
+		The magnitude of the amplification for an emitter is quantified by the ratio of its enhanced decay rate to its free space decay rate, known as the Purcell factor $F_p$, which is inversely proportional to the volume of the hot-spot. Thus antenna desing must aim to minimize hot-spot volume as a necessary condition for significant enhancement of \fl emission.
+
+		In addition to the antennas local field enhancment, the emitters original quantum yield $\eta_0$ influences overall emission enhancement. From theoretical considerations \cite{nancy::thesis, nancy::140, nancy::162, nancy::163}, the modified quantum efficiency $\eta$ of the interacting system consisting of emitter and antenna can be obtained as
+
 		\begin{equation}
-			p=p
+			\eta = \frac{\eta_0}{\frac{1-\eta_0}{F_p} + \frac{\eta_0}{\eta_{ant}} },
 		\end{equation}
-		where P is the total power dissipated by the antenna, Prad is the radiated power and Ploss is the power dissipated through other means,such as by absorption in the antenna. However, the transmission efficiency can also be improved by directing the radiation in the direction of the receiver. The efficiency for this process is repre- sented by the directivity:
-		\begin{equation}
-			p=p
-		\end{equation}
-		where the angles θ and ϕ represent the direction of observation and p(θ,ϕ) is the angular power density. The combination of antenna effi- ciency and directivity is referred to as the antenna gain:
-		\begin{equation}
-			p=p
-		\end{equation}
-		By reciprocity, we can interchange the fields and sources in Fig. 3 to give p1• E2 = p2 • E1, where E1 (E2 ) is the field of dipole p1 (p2 ) evalu- ated at the location of p2 (p1). A good transmitting antenna is therefore also a good receiving antenna. For a transmitter in the form of a two-state quantum emitter, reciprocity leads to a relationship between the emitter’s excitation rate Γexc and its spontaneous emission rate:
-		\begin{equation}
-			p=p
-		\end{equation}
-		Here, the superscript ‘o’ refers to the absence of the antenna and the subscript ‘θ’ indicates the polarization state; that is, the electric field vector points in direction of the θ unit vector. An equivalent equation holds for polarization in the ϕ direction. Interestingly, exci- tation in a direction of high directivity allows the excitation rate to be enhanced more strongly than the radiative rate. Another important antenna parameter is the antenna aperture, which is formally the same as the absorption cross-section sigma. Let us consider a dipole-like receiver with a cross-section σo that is not cou- pled to an antenna. The unit vector in the direction of the absorption dipole axis is denoted as np and the incident field at the location of the receiver is Eo . Once we couple the receiver to an antenna, the field at the receiver increases to E and the cross-section or antenna aperture becomes1
-		\begin{equation}
-			p=p
-		\end{equation}
-		Thus, the aperture of an optical antenna scales with the local intensity enhancement factor. Theoretical and experimental stud- ies have shown that intensity enhancements of 104–106are readily achievable14,36,37 and hence, for typical molecules with ‘free-space’ cross-sections of sigmao = 1 nm2 , we find that a layer of molecules spaced 0.1–1 μm apart can absorb all of the incident radiation if each molecule is coupled to an optical antenna. Of course, this estimate ignores the coupling between antennas and therefore has limited validity.
+
+		where $\eta_{ant}$ denotes dissipative losses in the metal of the antenna. It is clear that an emitter with $\eta_0 + 1$ will not profit from the Purcell effect. On the contrary, in this case antenna induced losses determine the quantum yield.
+
+		As a consequence, it can be show that magnitude of the emission enhancement depends on the quantum yield of the emitter in consideration.
+
+
+
+		The enhanced electromag- netic field in the gap of metallic nanoantennas can be implemented to increase the spontaneous emission rate of emitters placed in the gap, or what is known as the Purcell effect [86], in a regime called the weak coupling regime. However, when the interaction between the emitter and the nanoantenna overcomes all possible losses in the system, we reach what is called the strong coupling regime where both entities now act as one system. In this case, photons are absorbed and re-emitted several times before being radiated out of the system. These two regimes will be discussed in details in the next section.
+
 
 
 

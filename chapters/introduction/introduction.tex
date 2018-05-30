@@ -2,73 +2,64 @@
 
 
 \chapter{Introduction}	\label{ch::introduction}
+\chaptermark{SiV Centers}
 
-\enquote{Every competent physicist can \enquote{do} quantum mechanics, but the stories we tell ourselves about what we are doing are as various as the tales of Sheherazade, and almost as implausible.} - David J. Griffiths
-\\
-%Was ist Quantenoptik ueberhaupt?
-Quantum optics is the sciences of light which deals with single light particles, namely photons.
-\\
-%Warum ist dafür Metrologie wichtig?
-Within the last few years the topic of quantum technologies has witnessed a large progress in fields like quantum cryptography, quantum computation and quantum metrology.
-Requirements for these technologies are ideally single photons which are produced \enquote{on demand} i.e. deterministically and have well defined properties.
-For instance, quantum computing places restraints on the photon sources, called the diVincenzo criteria (\todo[fancyline]{enter diVincenzo criteria}).
-The progress of these technologies calls for measurement standards to make the individual measurements comparable???
-\\
-%Was braucht die Metrologie
-The candela is the SI (syst\`eme internationale) unit for optical radiation \cite{Cheung2007} and is the only unit which is linked to physiological processes, namely the varying sensitivity of the human eye to radiation of different frequencies.
-It is a photometric quantity, meaning that a physical measurement of the light in terms of luminous intensity represents the visual sensation experienced by a human observer exposed to the same source of light.
-It is one of the base units since the system was first introduced.
-In the latest definition, the candela is linked to the unit watt.
-The current definition of the candela (cd) is the following:
-\enquote{The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency \num{540e12} hertz and that has a radiant intensity in that direction of 1/683 watt per steradian.}\cite{NistSIunits}
-Advances in the quantum technologies which operate in the photon-counting regime would profit from a redefinition of the candela in terms of photon number, named \enquote{quantum candela}.
-\\
-The term \enquote{quantum candela} is used to describe a reformulation of the candela by defining it via a countable number of photons.
-This new definition would be of a form that converts the current definition into
-\begin{equation}
-	P=nh\nu
-\end{equation}
+		\epigraph{``Every competent physicist can \enquote{do} quantum mechanics, but the stories we tell ourselves about what we are doing are as various as the tales of Sheherazade, and almost as implausible.''}{\textup{David J. Griffiths}}
 
-where 
+		The International System of Units (SI, abbreviated from the French Syst\`eme international d'unit\'es) emerged in the late $18^{th}$ century as a coherent metric system of measurement with rationally related units and simple rules for combining them \cite{zwinckels::1}. Since its inception it was improved and augmented continously in an ongoing effort to accomodate continuued scientific and technological progress. The current SI system is comprised of seven base units: The kilogram (\SI{}{\kg}), the second (\SI{}{\s}), the Ampere (\SI{}{\ampere}), the Kelvin (\SI{}{\kelvin}), the mole (\SI{}{\mole}) and the candela (\SI{}{\candela}). Currently a redefinition of four of base units (kilogram, mole, Kelvin, Ampere) in terms of fundamental constants is under way \cite{zwinckels::3, Milton, Martin (14 November 2016). Highlights in the work of the BIPM in 2016}. The proposed change will improve the definitions of these base units to make them easier to realize experiemntally, particularily for the measurement of electrical quantities \cite{zwinckels::paper}. It will also eliminate the last remaining base unit definition which relies on a historic material artefact, the international prototype of the kilogram. As a result all base units will, for the first time, be tied to one or more fundamental constants of nature.
 
-\begin{align*}
-	P&=\text{power}=\text{\SI{1/683}{\watt} exactly}\\
-	n&=\text{number of photons per second}\\
-	h&=\text{Planck's constant}=\text{\SI{6.6260693+-11e-34}{\joule\second}}\\
-	\nu&=\text{photon frequency}=\text{\SI{540e12}{\hertz} exactly}
-\end{align*}
+		As these developments are put into motion, similar discussions regarding the SI base unit for luminous intensity, the candela, have emerged. It has been suggested that it can be improved by leveraging recent advances in classical radiometry and photometry as well as the development of novel quantum devices and techniques \cite{Cheung2007}.
 
-which yields \cite{Cheung2007}
+		At the time of writing the definition of the candela read:
 
-\[
-n=\text{\SI{4.0919429+-7e15}{\per\second}}
-\]
+		\begin{quote}
+		The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency \SI{540d12}{\hertz} and that has a radiant intensity in that direction of $638^{-1} \SI{}{\watt\per\steradian}$.
+	  \end{quote}
 
+		Traditional applications relying on this definition in conjunction with accurate photometric and radiometric measurements are light design, manufacturing and use of optical sources, detectors, optical components, colored materials and optical radiation measuring equipment \cite{zwinckels::paper}. In the classical regime of optical radiation high flux levels dominate. Here primary optical radiation scales for sources and detectors are generally based on cryogenic radiometry establishing a link to the SI units of electricity \cite{Cheung2007::5}. Other calculabe sources such as synchrotrons and blackbody radiators can serve as primary source scales in the ultraviolet and deep-UV regions by establishing tracability to SI units of thermometry, electricty and length \cite{zwinckels::paper, Cheung2007}.
 
-The number of photons of all wavelengths emitted or contained in a given beam of light is given by \cite{Zwinkels2010}:
-\begin{equation}
-	N_P=\int\frac{E_{\nu}}{h\nu}\diff\nu =\int\frac{\lambda E_{\lambda} }{hc} \diff\lambda
-\end{equation}
+		Scaling down to the quantum world of radiometry is associated with a loss of measurment accuracy. In this regime dedicated photon counting techniques are required to deal with the challenge of low flux levels. Since they rely on counting photons directly, the can provide efficient and traceable measurements and improved uncertainties. For high-accuracy absolute radiometry in this regime predictable single or quasi-single-photon sources and photon detectors as well as associated new quantum-based callibration methods and standards are called for. To promote the development of such technologies a reformulation of the candela has been proposed in terms of \emph{countable} photon units \cite{zwinckels::paper, Cheung2007, Milton, Martin (14 November 2016). Highlights in the work of the BIPM in 2016, www.quantumcandela.org}. Here we emphasize the distinction between \emph{countable} and \emph{calculabe} sources of photons. The latter being available as blackbodies or synchrotron radiators.
 
-From this equation, the minimal number of photons to illuminate a scene can be calculated.
-However, in nature most light sources emit continuous light, therefore not the absolute number of photons, but the number of photons emitted per unit time, i.e. the photon flux $\Phi_P$ is of interest:
-\begin{equation}
-	\Phi_P=\frac{\diff N_P}{\diff t}
-\end{equation}
+		A straightforward quantum-based reformulation has been suggested based on \cite{Cheung2007, zwinckels::paper}:
 
-For high-accuracy absolute radiometry at the quantum level, predictable or quasi-single-photon sources and photon detectors are needed.
-A key requirement for the progress of quantum information technology is the development of sources that deterministically produce single photons upon request (on-demand source).
-%Warum sind Frabzentren dafür interessant?
-Colour centres in synthetic diamond represent an interesting single-photon source with strong anti-bunching and a spectral width about 1nm at room temperature \cite{Zwinkels2010}.
-Being a solid state system, they are easy to handle and neither cooling nor vacuum is required.
-Diamond has the advantage, that it is a homogeneous host material, therefore the color center can be treated as a single atom.
-Additionally, it has a large band gap of \SI{5.5}{\electronvolt}
-\cite{Neu2014}
-Why nanodiamond?
-higher extraction efficiency of fluorescence light
-easy positioning using pick-and-place technique
-easy to obtain isolated color centers
-Why silicon-vacancy center?
-bright single photon source (count rates up to Mcps)
-narrow linewidth of zero-phonon line (down to 0.7 nm at room temperature)
-For the application of silicon vacancy color centers as absolute single-photon sources a fully characterized state of the emitted light is imperative.
+		\begin{equation}
+			P = n h \nu,
+		\end{equation}
+
+		where the radiant intensity per steradian $P = 638^{-1} \SI{}{\watt\per\steradian}$ in a given direction and the photon frequency $\nu = \SI{540d12}{\hertz}$ are assumed to be exact with their numerical values inherited from the present definition of the candela. The anticipated proposed changes to the SI system will define Planck's constant $h = \SI{6.62607015d-34}{\joule\second}$ as an exact numerical constant \cite{porposal}. As a consequence the number of photons per second per steradian in a candela $n$ becomes a constant defined as:
+
+		\begin{equation}
+			n = \frac{P}{h \nu} \approx \SI{4.0919429d15}{\counts\per\second\per\steradian}.
+		\end{equation}
+
+	Given this definition of the radiant intensity of a candela in terms of countable photons, a possible formulation of the quantum candela could read:
+
+	\begin{quote}
+		The candela is the luminous intensity, in a given direction, of a source that emits photons of frequency \SI{540d12}{\hertz} at a rate of \num{4.0919429d15} photons per second per steradian in that direction.
+	\end{quote}
+
+	This definition would incur a change of \SI{0.0014}{\percent} from the current value of the candela, an acceptable change, taking into account the fact that current experimental realizations of the candela are limited to uncertainties of \SI{0.02}{\percent} \cite{Cheung2007}. Proposals such as this are regularly reviewed by the Consultative Committee for Photometry and Radiometry ensuring that the current best measurement practices and existing as well as emerging needs of the user community of the candela are met \cite{zwinckels::paper}.
+
+	While a proposed formulation of a quantum-candela can be considered a small change to the SI system, a shift towards quantum based radiometic SI units it likely to become a critical enabler driving the development of accurate and traceable measuerment methods on the single-photon level. In order for the definition of the quantum-candela to have practical meaning, photon counting detectors are required. To ensure proper calibration of such devices, reliable deterministic \spss are required. As novel instruments and associated calibartion standards emerge, our ability to work with individual photons in a wide range of applications will improve \cite{Rodiek2017::1, Rodiek2017::2, Rodiek2017::3, Rodiek2017::4}. The quest for \spss is supported by large research projects such as ``Single-Photon Sources for Quantum Technology" funded by European Metrology Research Program.
+
+	Advances in radiometry are particularily important for fields like quantum communication and quantum computing. They are heavily reliant on deterministic reliable single-photon sources and well-calibrated detectors capable of resolving single photons. As such they have acted as major driving forces in their development \cite{vaigu2017::1, vaigu2017::2}. Amongst others, some well known applications include quantum key distribution \cite{janine::12, janine::28, janine::29} or transmission in a quantum network \cite{janine::18, janine::51, janine::54}.
+
+	At present several candidates for on-demand single-photon sources are available: One consists of a laser beam attenuated such that the mean number of photons in the beam becomes close to one \cite{Vaigu2017::6, Vaigu2017::7, Vaigu2017::8}. However, the mean photon number cannot be controlled perfectly and a non-zero probability remains that multiple photons are present.
+
+	Quasi-single photon states can be realized more efficiently using photon-pairs, consisting of a signal and an idler photon. Pairs are created when a photon interacts with a non-linear optical medium in a process called spontaneous parametric down-conversion (SPDC) \cite{Shih, Yanhua (2003). Entangled biphoton source - property and preparation, Vaigu2017::9, Vaigu2017::10, Vaigu2017::11, Vaigu2017::12}. The deciding feature of the process is the strong time-correlation between the signal and idler photons. If both photons are injected into individual signal paths, an detection event in one of the paths heralds the existence of a photon in the other path. SPDC pairs can thus be used to construct single-photon sources. Unfortunately, due to the poor efficiency of the SPDC process, the probability of generating pairs is unfavorable \cite{zwinckels::paper, Bock2016}. Thus efforts have been undertaken to improve the effeciency \cite{Bock2016, zwinckels::112, zwinckels::113}.
+
+	Quantum dots emit photons by recombination of electron-hole pairs created by optical excitation or via an electric current \cite{zwinckels::115, Vaigu2017::18, Vaigu2017::15}. The choice of semiconducting material determines the electronic structure of the system and thus the characteristics of the emitter. Similarily single-photons can be obtained as a result of radiative transitions between energy levels of single atoms or molecules trapped in an optical cavity \cite{zwickels::116}. While these sources have desirable properties such as high-collection efficiency, the practical usefulness is limited due to their technilogical requirements, amongst others a high vaccuum is needed to operate these sources \cite{zwickels::paper}.
+
+	For a wide range of \spss, significant progress has been made towards improving purity, indistinguishability and collection efficiency \cite{Vaigu2017::21, Vaigu2017::22, Vaigu2017::23, Vaigu2017::24, Vaigu2017::25}.
+
+	However, a \sps suitable for the calibration of single-photon detectors is difficult to realize \cite{Vaigu2017::paper}. Ideally, a standard \sps should be emmitting with a quantum efficiency of \SI{100}{\percent} indicating that the entire exitation energy is transformed into radiation without losses. At the same time single photons should be emitted with a probability of one and subsequently collected with perfect efficiency.
+
+	Very recently, steps towards realizing an ideal deterministic \sps have been taken. In particular it has been demonstrated that \ccs in \nds involving silicon \cite{Rodiek2017::12, Rodiek2017::13} and nitrogen \cite{Rodiek2017::8} are promising candidates for the realization of standard \spss \cite{Rodiek2017,Vaigu2017}. Single photon sources were absolutely calibrated by a classical detector and a calibrated spectormeter. Thus a unbroken traceability chain to the SI system has been achieved. The photon flux of the source can be controlled via the settings of the pump laser repetition rate. In this way a direct link between the high photon flux levels of the classical regime and low photon flux levels in the quantum world has been established. For the nitrogen vacancy center a photon flux rate of $\approx \num{1.4d5}$ photons per second was established.
+
+	In this thesis we focus on the \sivc hosted in \nd and its properties as a \sps. In doing so we aim to add momentum to the application of \sps as high accuracy calibration devices and subsequently, to the development of photon counting detectors and the adoption of the quantum-candela.
+
+	The \siv in diamond is an ideal candidate for single photon calibration purposes. It is are very efficient and stable narrow \lw emitter, emitting single photons with high intensity. Conveniently, \sivs operate at room temperature under normal pressure and hence do not require extremely sophisticated experimental setups. As an alternative to hosting \sivs in bulk diamond, they can be implanted in nano-sized diamond grains offering increased collection efficiency. Grains containing individual \sivs can be indentified and preselected according to their properties. As a result individual emmitters can be made mobile using \pp techniques. The ability to relocate emitters is convenient since it unlocks applications requiring selected single emitters such as coupling to antennas or the use as hybrid integraded \spss in conjunction with vertical-cavity surface-emitting laser (VCLS).
+
+	In this thesis we synthesize \nds with \sivs using a variety of different techniques. \Cvd, \hpht synthesis as well as wet-milling methods are used to produce a sizeable set of samples. To investigate the samples, i.e\ to study the optical properties of embedded \sivs we rely on optical excitation. In particular, confocal microscopy is used to collect emitted flourescent single-photons. An attached spectrometer or a \HBT setup offer further insights into the properties of the \siv as a \sps. We examine a large number of individual \sivs produced with different methods, allowing us to establish distributions of selected \siv properties. To our knowledge, this is the largest coherent examination of this type to date. After charting the luminescence properties of emmitters, we examine the possibilities of coupling \sivs to antennas and study the effect. Furthermore, we explore the use of \sivs in combination with a VCLS.
+
+	The thesis is structured as follows: \autoref{ch::sivs} introduces the reader to \ccs and diamond as a host material. A detailed discussion of \sivs and their most important luminous properties is presented. \autoref{ch::pl_setup} familiarizes the reader with the essential experimental setup and methods depolyed in this thesis to study \sivs. Various relevant methods of synthesizing \sivs in \nds are presented and discussed in \autoref{ch::fabrication_nanodiamonds}. \autoref{ch::crystal_quality} is dedicated to the important topic of gauging the quality of the fabricated samples. The results of investigating the luminous properties of our \siv samples is presented in \autoref{ch::distribution}. The possibility of coupling single \sivs to photonic structures is investigated in \autoref{ch::coupling}. Finally we summarize and discuss our findings of this thesis in \autoref{ch::conclusion}.

@@ -88,6 +88,13 @@
 		\label{fig::<fig>}
 	\end{figure}
 
+	\begin{figure}[tp]
+		\centering
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_f301_emitter7.png}}
+		\caption{Image of the sample surface of \SI{100}{nm} wet-milled nanodiamonds spin-coated on an \ir substrate illuminated with diffuse white light. The white bars are the horizontal bars of the cross markers which serve as a coarse orientation on the sample surface, the white dots are nanodiamonds, the big black spot is an artifact.}
+		\label{fig::ccd_cross_marker}
+	\end{figure}
+
 	An \nd pre-characterized in the confocal setup exhibiting the preferred spectroscopic properties has to be found again in the SEM setup where the nanomanipulator is installed.
 	Therefore, we milled cross markers into the \ir coating of the \si substrate using the \fib prior to spin-coating the substrate with \nd solution.\todo{fib parameter}
 	The crosses' size is \num{10}$\times$\SI{10}{\micro\meter\squared} are exhibit a nominal depth of \SI{40}{nm}.
@@ -97,7 +104,7 @@
 	To record the position of a \nd \wrt a cross marker, we used two different methods:
 	\begin{itemize}
 		\item Scanning the sample in the confocal setup while a white light source illuminates the sample from the side in an acute angle. The edges of the cross markers are visible in the fluorescence scan. After turning the white light lamp off, the same area is scanned once more to record the fluorescence from the \sivs. An overlay of the two images identifies the position of fluorescent \sivs \wrt the cross markers. The disadvantage of this method is, that it takes a lot of time, as every scan has to be performed twice. Also, as only \fl scans are performed, no information of the \nds is accessible. Such information comprises of the size of the individual \nds and whether the \nds lie isolated on the substrate surface. These parameters are only available during the \pp process in the SEM. An emitter with optimal optical properties can turn out not to be suited for \pp just before the process itself, hence the time spent to optically characterize an emitter was in vain.
-		\item A more efficient method is scanning the substrate first in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the previous method, information on the size and isolation of the \nds is accessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera (\cref{fig::place_ccd}), a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
+		\item A more efficient method is scanning the substrate first in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the previous method, information on the size and isolation of the \nds is accessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera (\cref{fig::ccd_cross_marker}), a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
 	\end{itemize}
 
 	\subsection{The \PP Process}

@@ -197,275 +197,275 @@
 
 	\subsection{Plasmonic Antenna Design} \label{sec::structure_antenna}
 
-	\begin{figure}[tp]
-		\begin{subfigure}[t]{ 0.49\linewidth}
+		\begin{figure}[tp]
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Antenna2_upper_right_150923_01.png}}
+				\caption{}
+				\label{subfig::antenna_structures_sem}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{ 0.49\linewidth}
+				\centering
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir27M_mitte_213_151111_13.jpg}}
+				\caption{}
+				\label{subfig::antenna_one_structure_sem}
+			\end{subfigure}
+			\caption{SEM images of the antenna structures. (a) Overview of a field of antenna structures exhibiting various dimensions. (b) Detail of one antenna sturcture. In the middle the double bowtie design is visible. The ring grating structure is surrounding it.}
+		\end{figure}
+
+		\begin{figure}[tp]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Antenna2_upper_right_150923_01.png}}
-			\caption{}
-			\label{subfig::antenna_structures_sem}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[t]{ 0.49\linewidth}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_s1_g3_db_g150_d20_rightone_crop.png}}
+			\caption{CCD image recorded in the confocal setup of an antenna structure under white light illumination. In the middle, the \nd containing multiple \sivs had been placed.}
+			\label{fig::place_ccd}
+		\end{figure}
+
+		\begin{figure}[tp]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir27M_mitte_213_151111_13.jpg}}
-			\caption{}
-			\label{subfig::antenna_one_structure_sem}
-		\end{subfigure}
-		\caption{SEM images of the antenna structures. (a) Overview of a field of antenna structures exhibiting various dimensions. (b) Detail of one antenna sturcture. In the middle the double bowtie design is visible. The ring grating structure is surrounding it.}
-	\end{figure}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/antenna_fdtd_simulation_spectrum.png}}
+			\caption{FDTD calculations of the electric field intensity as a function of wavelength in the gap of a double bowtie nanoantenna containing a nanodiamond.}
+			\label{fig::antenna_fdtd_calculation}
+		\end{figure}
 
-	\begin{figure}[tp]
-		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_s1_g3_db_g150_d20_rightone_crop.png}}
-		\caption{CCD image recorded in the confocal setup of an antenna structure under white light illumination. In the middle, the \nd containing multiple \sivs had been placed.}
-		\label{fig::place_ccd}
-	\end{figure}
-
-	\begin{figure}[tp]
-		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/antenna_fdtd_simulation_spectrum.png}}
-		\caption{FDTD calculations of the electric field intensity as a function of wavelength in the gap of a double bowtie nanoantenna containing a nanodiamond.}
-		\label{fig::antenna_fdtd_calculation}
-	\end{figure}
-
-	FDTD numerical simulations were performed using Lumerical software to characterize gold double bowtie nanoantennas on a gold substrate. The nanoantennas are tailored to have a gap of g = \SI{150}{nm} (taking into account the diameter of the nanodiamonds of around \SI{100}{nm}), side length of L = \SI{2}{\micro\meter}, and a thickness of t = \SI{60}{nm} (see Fig.3a).
-	Upon excitation with incident light, an intense electromagnetic hotspot is formed in the nanoantenna gap \cite{Rahbany2015}\todo{read paper}, which is expected to excite a nanodiamond containing SIV centers aiming to enhance its fluorescence emission.
-	Unlike a single bowtie that is sensitive only to the polarization along its principle axis (C2 rotational symmetry), a double bowtie features a C4 rotational symmetry and therefore focuses both parallel and perpendicular polarizations (i.e. all in-plane directions).
-	% For that, a circularly polarized light with a wavelength range of λ = 400 - 1500 nm is chosen to illuminate a gold double bowtie nanoantenna on a gold substrate, which efficiently excites both the horizontal and vertical components of the structure.
-	The index of refraction of gold is taken from Palik \cite{}\todo{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}, and that of the nanodiamond is chosen to be n = 2.4 at $\lambda$ = \SI{660}{nm}.
-	The electric field intensity in the nanoantenna gap is then measured as a function of wavelength to identify the antenna resonance.
-	The spectrum is given in \cref{fig::antenna_fdtd_calculation} where we observe that the resonance shows two peaks; an intense peak coinciding with the SiV emission wavelength ($\lambda$ = \SI{739}{nm}), and an additional mode at a lower wavelength ($\lambda$ = \SI{710}{nm}) \cite{Rahbany2016}
-	The resonance spectrum of the antenna alone shows only one peak at \SI{739}{nm}.
-	Thus, the additional peak is attributed to the presence of the nanodiamond that is slightly shifted from the center of the gap, corresponding to our experimental conditions.
-	These calculations suggest, that the emission from an \siv at \SI{738}{nm} is effectively enhanced and directed by the antenna.
-	\\
-	High optical confinement can be reached via successful SPP-LSP coupling at the nanoscale. One way of achieving that is by integrating diffraction gratings with nanoscale apertures or nanoantennas. Nanoantennas have shown to be very good candidates for focusing and enhancing electromagnetic fields in their vicinity. Nevertheless, due to their small size, a significant amount of the incident light is lost either by being scattered, reflected, or not entirely focused on the nanoantenna. On the other hand, plasmonic gratings act as sources for launching and orienting SPPs in a specific desired direction. Integrating a nanoantenna in the center of a concentric plasmonic ring grating creates a highly focused electromagnetic field at its center leading to an increase in the radiative decay rate as well as a collimated radiation of a dipole emitter placed inside [nancy::238–240]
-	aus Nancys Doktorabreit al ERlaerung, warum die antenne ringe herum hat
-	\todo{fehlt Erklaerung zu Ringen}
-	Optical plasmonic focusing has been extensively studied in the field of nanoplasmon- ics and has very important applications in high resolution imaging, sensing, waveg- uiding, nanolithography, and sub-wavelength optics. For this purpose, researchers have investigated several plasmonic structures capable of enhancing and confining surface plasmons into sub-wavelength dimensions. Cavities composed of diffraction gratings acting as SPP launchers can be used as efficient nanoscale focusing de- vices [243,244], confined surface plasmon polariton amplifiers [245], and fluorescence emission enhancement tools [246] (Fig. 4.1a). It has been shown that the plasmonic “Bull’s Eye” structure, made of periodic concentric grooves in a metallic substrate, can lead to a strongly enhanced evanescent field focused in its center where propa- gating surface plasmons constructively interfere [247]. Controlling the directionality of transmitted light through an aperture surrounded by periodic corrugations was also achieved, which allows overcoming the limitations of low transmittance and high diffraction in the sub-wavelength regime [248]. In a similar study, the aperture is replaced by a narrow slit in the center of the Bull’s Eye antenna leading to a higher power coupling, narrower radiated beam, and good return losses [249]. In addition, ring grating structures can be used to control the luminescence directivity of emitters placed in the center. Fluorescence beaming of molecules placed in a nanoaperture surrounded by concentric metallic grooves was studied by directing their emission in a precise direction and with a specific angular width depending on their wavelength [250]. Similar work related to the fluorescence emission of quan- tum dots placed in a slit surrounded by a ring grating shows that their emission can be manipulated to form perfectly narrow collimated beams [251] (Fig. 4.1b). Ring gratings surrounding diamond nanoposts [186] and circular diamond nanowires [135] with embedded nitrogen-vacancy (NV) centers were also used to improve the collec- tion efficiency and radiative decay rate of single NV centers. Directing the far-field emission of single NV centers placed in the center of a Bull’s Eye grating was also recently investigated in a study that resulted in a high collection efficiency within a low numerical aperture [252]. This motivates us to use the ring grating structure described below to study efficient plasmon-emitter coupling at the nanoscale. An interesting property of the device is that the position of excitation determines the direction of propagation of the SPPs, providing a flexible mean of studying their interactions with molecules or dipole-like emitters placed on the surface.
+		FDTD numerical simulations were performed using Lumerical software to characterize gold double bowtie nanoantennas on a gold substrate. The nanoantennas are tailored to have a gap of g = \SI{150}{nm} (taking into account the diameter of the nanodiamonds of around \SI{100}{nm}), side length of L = \SI{2}{\micro\meter}, and a thickness of t = \SI{60}{nm} (see Fig.3a).
+		Upon excitation with incident light, an intense electromagnetic hotspot is formed in the nanoantenna gap \cite{Rahbany2015}\todo{read paper}, which is expected to excite a nanodiamond containing SIV centers aiming to enhance its fluorescence emission.
+		Unlike a single bowtie that is sensitive only to the polarization along its principle axis (C2 rotational symmetry), a double bowtie features a C4 rotational symmetry and therefore focuses both parallel and perpendicular polarizations (i.e. all in-plane directions).
+		% For that, a circularly polarized light with a wavelength range of λ = 400 - 1500 nm is chosen to illuminate a gold double bowtie nanoantenna on a gold substrate, which efficiently excites both the horizontal and vertical components of the structure.
+		The index of refraction of gold is taken from Palik \cite{}\todo{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}, and that of the nanodiamond is chosen to be n = 2.4 at $\lambda$ = \SI{660}{nm}.
+		The electric field intensity in the nanoantenna gap is then measured as a function of wavelength to identify the antenna resonance.
+		The spectrum is given in \cref{fig::antenna_fdtd_calculation} where we observe that the resonance shows two peaks; an intense peak coinciding with the SiV emission wavelength ($\lambda$ = \SI{739}{nm}), and an additional mode at a lower wavelength ($\lambda$ = \SI{710}{nm}) \cite{Rahbany2016}
+		The resonance spectrum of the antenna alone shows only one peak at \SI{739}{nm}.
+		Thus, the additional peak is attributed to the presence of the nanodiamond that is slightly shifted from the center of the gap, corresponding to our experimental conditions.
+		These calculations suggest, that the emission from an \siv at \SI{738}{nm} is effectively enhanced and directed by the antenna.
+		\\
+		High optical confinement can be reached via successful SPP-LSP coupling at the nanoscale. One way of achieving that is by integrating diffraction gratings with nanoscale apertures or nanoantennas. Nanoantennas have shown to be very good candidates for focusing and enhancing electromagnetic fields in their vicinity. Nevertheless, due to their small size, a significant amount of the incident light is lost either by being scattered, reflected, or not entirely focused on the nanoantenna. On the other hand, plasmonic gratings act as sources for launching and orienting SPPs in a specific desired direction. Integrating a nanoantenna in the center of a concentric plasmonic ring grating creates a highly focused electromagnetic field at its center leading to an increase in the radiative decay rate as well as a collimated radiation of a dipole emitter placed inside [nancy::238–240]
+		aus Nancys Doktorabreit al ERlaerung, warum die antenne ringe herum hat
+		\todo{fehlt Erklaerung zu Ringen}
+		Optical plasmonic focusing has been extensively studied in the field of nanoplasmon- ics and has very important applications in high resolution imaging, sensing, waveg- uiding, nanolithography, and sub-wavelength optics. For this purpose, researchers have investigated several plasmonic structures capable of enhancing and confining surface plasmons into sub-wavelength dimensions. Cavities composed of diffraction gratings acting as SPP launchers can be used as efficient nanoscale focusing de- vices [243,244], confined surface plasmon polariton amplifiers [245], and fluorescence emission enhancement tools [246] (Fig. 4.1a). It has been shown that the plasmonic “Bull’s Eye” structure, made of periodic concentric grooves in a metallic substrate, can lead to a strongly enhanced evanescent field focused in its center where propa- gating surface plasmons constructively interfere [247]. Controlling the directionality of transmitted light through an aperture surrounded by periodic corrugations was also achieved, which allows overcoming the limitations of low transmittance and high diffraction in the sub-wavelength regime [248]. In a similar study, the aperture is replaced by a narrow slit in the center of the Bull’s Eye antenna leading to a higher power coupling, narrower radiated beam, and good return losses [249]. In addition, ring grating structures can be used to control the luminescence directivity of emitters placed in the center. Fluorescence beaming of molecules placed in a nanoaperture surrounded by concentric metallic grooves was studied by directing their emission in a precise direction and with a specific angular width depending on their wavelength [250]. Similar work related to the fluorescence emission of quan- tum dots placed in a slit surrounded by a ring grating shows that their emission can be manipulated to form perfectly narrow collimated beams [251] (Fig. 4.1b). Ring gratings surrounding diamond nanoposts [186] and circular diamond nanowires [135] with embedded nitrogen-vacancy (NV) centers were also used to improve the collec- tion efficiency and radiative decay rate of single NV centers. Directing the far-field emission of single NV centers placed in the center of a Bull’s Eye grating was also recently investigated in a study that resulted in a high collection efficiency within a low numerical aperture [252]. This motivates us to use the ring grating structure described below to study efficient plasmon-emitter coupling at the nanoscale. An interesting property of the device is that the position of excitation determines the direction of propagation of the SPPs, providing a flexible mean of studying their interactions with molecules or dipole-like emitters placed on the surface.
 
 	\subsection{\siv in a Plasmonic Double Bowtie Antenna}
 
-	\begin{figure}[htp]
-		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_s1_g3_db_g150_d20_rightone_crop.png}}
-		\caption{CCD image recorded in the confocal setup of an antenna structure under white light illumination. In the middle, the \nd containing multiple \sivs had been placed.}
-		\label{fig::place_ccd}
-	\end{figure}
+		\begin{figure}[htp]
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_s1_g3_db_g150_d20_rightone_crop.png}}
+			\caption{CCD image recorded in the confocal setup of an antenna structure under white light illumination. In the middle, the \nd containing multiple \sivs had been placed.}
+			\label{fig::place_ccd}
+		\end{figure}
 
-		% Einleitung
-		In the following, specific details and challenges concerning the coupling process are given and results of the spectroscopic measurements of an \siv in a plasmonic double bowtie antenna are reported.
-		\\
-		% additional methods
-		We performed coupling the nanodiamonds containing \sivs in two approaches:
-		First we chose a \nd containing several \sivs for \pp and afterwards a \nd containing a single \siv.
-		As mentioned before, single \sivs may be damaged by the electron radiation in the SEM during \pp and stop emittig \pl light.
-		Hence, we decided to run first experiments with \nds containing multiple \sivs.
-		This approach has the advantages that we are able to gain experience in the execution of the \pp process without the risk of permanently damaging the emitter and therefore rendering the tedious \pp process futile.
-		For measurements of the intensity enhancement by the antenna, a single emitter is necessary.
-		However, the antenna's influence on the \siv spectrum can be studied when serveral emitters are present.
-		Therefore, studies of the spectrum are performed in this first approach.
-		\\
-		After we gained experience with the first approach, we  searched for a suited \nd containing a single \siv.
-		The aim was to perform saturation and second order correlation measurements to probe single SiV centers, and consequently quantify the exact Purcell enhancement imposed by the nanoantenna on a single photon emitter.
-		% However, the challenges for experiments with a single \siv are magnitudes bigger than for multiple \sivs.
-
-
-
-		\subsubsection{\Nd With Multiple \sivs Coupled to Antenna}
-
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M05-13_structure3_stitch_crop_area.jpg}}
-					\caption{}
-					\label{subfig::cross_laser_scan}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, width = \textwidth]{./pics/scan_xy-32_2APD_mum_noscale.png}}
-					\caption{}
-					\label{subfig::pp_pl_scan}
-				\end{subfigure}
-				\caption{ (a) Picture recorded with a commercial high resolution laser scanning microscope. The area shaded in blue represents the \pl scan in image (b). (b) \Pl scan of a \SI{8}{\micro\metre}x\SI{13}{\micro\metre}}
-			\end{figure}
-
-
-
-
-			The \nds exploited for the approach of coupling multiple \sivs to an antenna were produced by a wet-milling process from a CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams} .
-			The solution of \nds which exhibit a median size of \SI{100}{nm} were spin-coated on an iridium substrate treated with Piranha etch.
-			To ensure that a pre-characterized nanodiamond exhibiting preferred optical properties (eg. narrow linewidth, high count rate) is later found again, the iridium substrate was engraved with reference cross markers produced by a focused ion beam prior to the spin-coating process.
-			After spin-coating, the sample was placed in an oven for 3 hours at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon.
+			% Einleitung
+			In the following, specific details and challenges concerning the coupling process are given and results of the spectroscopic measurements of an \siv in a plasmonic double bowtie antenna are reported.
 			\\
-			% preselection
-			% Fig. 1c shows an example of a PL scan where bright spots (highlighted by the red circles) correspond to nanodiamonds with PL in the SiV center spectral range. To further verify the presence of SiV centers, PL spectra at room temperature are recorded.
-			\Cref{subfig::spectrum_antenna_nd_multiple} shows the spectrum recorded of the preselected \nd.
-			The ZPL peak exhibits a \wl of \SI{738.55\pm0.01}{nm} and a \lw of \SI{5.0\pm0.03}{nm}\todo{fehlergrenzen verfnuenftig machen}.
-			These numbers correspond well to the ZPL of unstrained SiV centers and therefore allows us to deduce that the studied nanodiamond contains at least one SiV center.
-			Photon autocorrelation measurements revealed, that the \nd contains multiple \sivs.
+			% additional methods
+			We performed coupling the nanodiamonds containing \sivs in two approaches:
+			First we chose a \nd containing several \sivs for \pp and afterwards a \nd containing a single \siv.
+			As mentioned before, single \sivs may be damaged by the electron radiation in the SEM during \pp and stop emittig \pl light.
+			Hence, we decided to run first experiments with \nds containing multiple \sivs.
+			This approach has the advantages that we are able to gain experience in the execution of the \pp process without the risk of permanently damaging the emitter and therefore rendering the tedious \pp process futile.
+			For measurements of the intensity enhancement by the antenna, a single emitter is necessary.
+			However, the antenna's influence on the \siv spectrum can be studied when serveral emitters are present.
+			Therefore, studies of the spectrum are performed in this first approach.
 			\\
-			% position
-			To determine the position of the \nd on the original substrate, first a scan with a commercial \lsm (LSM) was performed as described in \cref{subsec::position}.
-			\Cref{subfig::spectrum_nd_multiple} shows a part of an obtained LSM image.
-			The cross marker can easily be identified, the black dots are \nds.
-			After transferring the sample into the confocal setup, confocal scans of the corresponding areas are performed (\cref{subfig::pp_pl_scan}).
-			The area corresponding to the \fl scan in \cref{subfig::pp_pl_scan} is shaded blue in \cref{subfig::cross_laser_scan}.
-			When looking closely, the bright spots in the \fl scan can be identified with \nds visible in \cref{subfig::cross_laser_scan}.
-			The image in the SEM is very similar to the image obtained by the LSM.
-			Therefore, once a \nd containing a preselected emitter is identified in the LSM scan, it is easy to find the same emitter in the SEM.
-			\\
-			% A long pass filter (λ = 720 nm) is placed in the detection path to suppress any signal stemming  from the laser.. During the PL scan, the laser spot scans the surface and the emitted PL is recorded by the APD. In front of the APD a 730-750nm bandpass filter is installed. The center wavelength of the zero-phonon line of an SiV center is located at around 738 nm. Therefore, if a nanodiamond contains an SiV center, its emission  will results in a bright spot in the PL scan.
-			% transfer
-			The picking part of the \pp process was performed in the same manner as described in the section about VCSELs (\cref{subsec::vcsel_structure}).
-			The gold surface of the plasmonic antenna caused a high adhesion between the antenna surface and the \nd.
-			Once the \nd touched the gold, it could not be picked up again with the tungsten tip.
-			The \nd first touched the antnna structure a few nanometers away from the gap and immediately sticked to the surface, on top of one of the triangles.
-			Therefore, the \nd had to be pushed into the gap with the nanomanipulator tip.
-			This process caused some damage to the antenna structure.
-			The damage is visible as black area at the tip of the top triangle in \cref{fig::place_antenna_sem}.
-			However, FDTD simulations of damaged antennas reveal that this modification of the antenna hardly influences the antenna resonance\todo{bild dazu}.
-			\\
-			% Spectroscopic measurements
-			After this deterministic placement, the antenna sample is placed in the confocal setup.
-			The structure where the \nd was placed is searched observing the sample surface in a CCD image under white light illumination (\cref{fig::place_ccd}).
-			A scan of the antenna is performed in the confocal setup using the \SI{660}{nm} \cw laser of the setup.
-			The scan serves to locate the middle of the antenna structure and therefore the \nd which had been placed there.
-			An outline of the rings is visible in an overview scan of the antenna structure (\cref{subfig::antenna_laser_scan}).
-			Zooming in to the middle of these rings, some of the edges of the bowtie antenna are vaguely visible (\cref{subfig::antenna_bowtie_laser_scan}).
-			This images suffices to approach the \nd close enough to measure a PL spectrum.
-			The PL spectrum of the \siv in the nanodiamond gives insight to the effect of the nanoantenna on its emission.
-			The result is displayed in \cref{subfig::spectrum_antenna_nd_multiple}.
-			To rule out artifacts, a spectrum of an antenna of the same dimensions without \nd is recorded (\cref{subfig::spectrum_antenna_no_nd}).
-			% Fig. 7a where an increase in the PL intensity is observed by more than a factor 10 indicating that the nanoantennas indeed contribute to the enhancement of the SiV centers emission.
-			% A $\lambda$ = 710 nm long pass filter is used to eliminate any signal from the laser.
-			The additional peak at a lower wavelength is attributed to the antenna resonance mode.
-			To verify this, we convolute the experimental PL spectrum of the nanodiamond measured before placing it in the nanoantenna (\cref{subfig::spectrum_nd_multiple}) with the intensity spectrum of the nanoantenna obtained by simulations (\cref{fig::antenna_fdtd_calculation}).
-			The resulting spectrum is given in \cref{subfig::antenna_convolution}, and is in good agreement with the measured spectrum in \cref{subfig::spectrum_antenna_nd_multiple}, confirming that indeed the extra peak is due to the antenna resonance.
+			After we gained experience with the first approach, we  searched for a suited \nd containing a single \siv.
+			The aim was to perform saturation and second order correlation measurements to probe single SiV centers, and consequently quantify the exact Purcell enhancement imposed by the nanoantenna on a single photon emitter.
+			% However, the challenges for experiments with a single \siv are magnitudes bigger than for multiple \sivs.
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_Ir27M_f200_xy04x13y88_D09_t30_highP_fit.pdf}}
-					\label{subfig::spectrum_nd_multiple}
-					\caption{}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_no_ND.pdf}}
-					\caption{}
-					\label{subfig::spectrum_antenna_no_nd}
-				\end{subfigure}
-				\caption{(a) PL spectrum of the emitter in the preselected nanodiamond at room temperature. Black: experimental results; red: fit to experimental data, \todo[inline]{verfnuenftige fehlergrenzen einfuegen}which yields a \ZPL \cwl of \SI{738.55\pm0.01}{nm} and a \lw of  \SI{5.09\pm0.03}{nm}}
-			\end{figure}
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/xy_scan-11_2APD.png}}
-					\caption{}
-					\label{subfig::antenna_laser_scan}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/xy_scan-13_2APD.png}}
-					\caption{}
-					\label{subfig::antenna_bowtie_laser_scan}
-				\end{subfigure}
-				\caption{(a) Confocal scan of the double bowtie antenna where a \nd containing multiple \sivs had been placed. The rings are visible. (b) Detail scan of the triangles of the same antenna structure, which make up the double bowtie antenna. While the seperate triangle cannot be seen, some edges and two bright spots are visible. To identify the place of the \nd we compare the middle point of the rings in (a), the point of intersection of the edges and the bright spot and conclude that the upper bright spot in (b) is the location of the \nd. }
-			\end{figure}
 
-			% \begin{figure}[tp]
-			% 	\centering
-			% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/antenna_no_ND.pdf}}
-			% 	\caption{<caption>}
-			% 	\label{fig::spectrum_antenna_multiple_before}
-			% \end{figure}
+			\subsubsection{\Nd With Multiple \sivs Coupled to Antenna}
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/find_middle_with_ccd_highP_2_arrows.pdf}}
-					\caption{}
-					\label{subfig::spectrum_antenna_nd_multiple}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_convolution.png}}
-					\caption{}
-					\label{subfig::antenna_convolution}
-				\end{subfigure}
-				\caption{(a) Measured PL spectrum of the emitter after placing the \nd into the nanoantenna, (b) Convolution of the spectrum of the measured PL spectrum of the emitter before \pp (see Figure \ref{subfig::spectrum_nd_multiple}) and the simulated resonance spectrum of the nanoantenna (see Figure \ref{fig::antenna_fdtd_calculation}).}
-			\end{figure}
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M05-13_structure3_stitch_crop_area.jpg}}
+						\caption{}
+						\label{subfig::cross_laser_scan}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, width = \textwidth]{./pics/scan_xy-32_2APD_mum_noscale.png}}
+						\caption{}
+						\label{subfig::pp_pl_scan}
+					\end{subfigure}
+					\caption{ (a) Picture recorded with a commercial high resolution laser scanning microscope. The area shaded in blue represents the \pl scan in image (b). (b) \Pl scan of a \SI{8}{\micro\metre}x\SI{13}{\micro\metre}}
+				\end{figure}
 
-		\subsubsection{\Nd With Single \siv Coupled to Antenna}
 
-			In this section, coupling a \nd containing only few \sivs to a double bowtie antenna is reported.
-			% sample description
-			The origin sample used for this experiment is an \ir substrate onto which a solution of \nds were drop-casted.
-			Starting material for the \nds was a electronic grade diamond film produced by the company rho-BeSt coating (now CarbonCompetence).
-			It was then milled in a \basd process\footnote{\krueger} to \nds of a size of \todo{groesse einfuegen}.
-			The \nds were drop-casted at \SI{60}{\celsius} onto an \ir substrate containing cross markers which had been treated with Piranha etch.
-			% sample M02-16: drop-casted with SiGH45
-			% preselection,
-			Preselecting a \nd with a single \siv is imposes further constrains to the suitability of an \nd.
-			First, only a small percentage of the technically suited \nds (size, isolation) contain a single \siv, second, damage due to electon radiation during \pp.
-			After  an \siv with a small dip in the \gt function, indicating only few \sivs.
-			% position
-			% transfer
-			% Spectroscopic measurements
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/sat114_fit_bkg.pdf}}
-					\caption{}
-					\label{subfig::single_siv_sat_before_transfer_antenna}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/g2_sat113_5mW_corr_fit.pdf}}
-					\caption{}
-					\label{subfig::single_siv_g2_before_transfer_antenna}
-				\end{subfigure}
-				\caption{<caption>}
-			\end{figure}
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/single_spectrum_sat113_fit.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_before_transfer_antenna}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum03.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_after_transfer_antenna}
-				\end{subfigure}
-				\caption{<caption>}
-			\end{figure}
+				The \nds exploited for the approach of coupling multiple \sivs to an antenna were produced by a wet-milling process from a CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams} .
+				The solution of \nds which exhibit a median size of \SI{100}{nm} were spin-coated on an iridium substrate treated with Piranha etch.
+				To ensure that a pre-characterized nanodiamond exhibiting preferred optical properties (eg. narrow linewidth, high count rate) is later found again, the iridium substrate was engraved with reference cross markers produced by a focused ion beam prior to the spin-coating process.
+				After spin-coating, the sample was placed in an oven for 3 hours at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon.
+				\\
+				% preselection
+				% Fig. 1c shows an example of a PL scan where bright spots (highlighted by the red circles) correspond to nanodiamonds with PL in the SiV center spectral range. To further verify the presence of SiV centers, PL spectra at room temperature are recorded.
+				\Cref{subfig::spectrum_antenna_nd_multiple} shows the spectrum recorded of the preselected \nd.
+				The ZPL peak exhibits a \wl of \SI{738.55\pm0.01}{nm} and a \lw of \SI{5.0\pm0.03}{nm}\todo{fehlergrenzen verfnuenftig machen}.
+				These numbers correspond well to the ZPL of unstrained SiV centers and therefore allows us to deduce that the studied nanodiamond contains at least one SiV center.
+				Photon autocorrelation measurements revealed, that the \nd contains multiple \sivs.
+				\\
+				% position
+				To determine the position of the \nd on the original substrate, first a scan with a commercial \lsm (LSM) was performed as described in \cref{subsec::position}.
+				\Cref{subfig::spectrum_nd_multiple} shows a part of an obtained LSM image.
+				The cross marker can easily be identified, the black dots are \nds.
+				After transferring the sample into the confocal setup, confocal scans of the corresponding areas are performed (\cref{subfig::pp_pl_scan}).
+				The area corresponding to the \fl scan in \cref{subfig::pp_pl_scan} is shaded blue in \cref{subfig::cross_laser_scan}.
+				When looking closely, the bright spots in the \fl scan can be identified with \nds visible in \cref{subfig::cross_laser_scan}.
+				The image in the SEM is very similar to the image obtained by the LSM.
+				Therefore, once a \nd containing a preselected emitter is identified in the LSM scan, it is easy to find the same emitter in the SEM.
+				\\
+				% A long pass filter (λ = 720 nm) is placed in the detection path to suppress any signal stemming  from the laser.. During the PL scan, the laser spot scans the surface and the emitted PL is recorded by the APD. In front of the APD a 730-750nm bandpass filter is installed. The center wavelength of the zero-phonon line of an SiV center is located at around 738 nm. Therefore, if a nanodiamond contains an SiV center, its emission  will results in a bright spot in the PL scan.
+				% transfer
+				The picking part of the \pp process was performed in the same manner as described in the section about VCSELs (\cref{subsec::vcsel_structure}).
+				The gold surface of the plasmonic antenna caused a high adhesion between the antenna surface and the \nd.
+				Once the \nd touched the gold, it could not be picked up again with the tungsten tip.
+				The \nd first touched the antnna structure a few nanometers away from the gap and immediately sticked to the surface, on top of one of the triangles.
+				Therefore, the \nd had to be pushed into the gap with the nanomanipulator tip.
+				This process caused some damage to the antenna structure.
+				The damage is visible as black area at the tip of the top triangle in \cref{fig::place_antenna_sem}.
+				However, FDTD simulations of damaged antennas reveal that this modification of the antenna hardly influences the antenna resonance\todo{bild dazu}.
+				\\
+				% Spectroscopic measurements
+				After this deterministic placement, the antenna sample is placed in the confocal setup.
+				The structure where the \nd was placed is searched observing the sample surface in a CCD image under white light illumination (\cref{fig::place_ccd}).
+				A scan of the antenna is performed in the confocal setup using the \SI{660}{nm} \cw laser of the setup.
+				The scan serves to locate the middle of the antenna structure and therefore the \nd which had been placed there.
+				An outline of the rings is visible in an overview scan of the antenna structure (\cref{subfig::antenna_laser_scan}).
+				Zooming in to the middle of these rings, some of the edges of the bowtie antenna are vaguely visible (\cref{subfig::antenna_bowtie_laser_scan}).
+				This images suffices to approach the \nd close enough to measure a PL spectrum.
+				The PL spectrum of the \siv in the nanodiamond gives insight to the effect of the nanoantenna on its emission.
+				The result is displayed in \cref{subfig::spectrum_antenna_nd_multiple}.
+				To rule out artifacts, a spectrum of an antenna of the same dimensions without \nd is recorded (\cref{subfig::spectrum_antenna_no_nd}).
+				% Fig. 7a where an increase in the PL intensity is observed by more than a factor 10 indicating that the nanoantennas indeed contribute to the enhancement of the SiV centers emission.
+				% A $\lambda$ = 710 nm long pass filter is used to eliminate any signal from the laser.
+				The additional peak at a lower wavelength is attributed to the antenna resonance mode.
+				To verify this, we convolute the experimental PL spectrum of the nanodiamond measured before placing it in the nanoantenna (\cref{subfig::spectrum_nd_multiple}) with the intensity spectrum of the nanoantenna obtained by simulations (\cref{fig::antenna_fdtd_calculation}).
+				The resulting spectrum is given in \cref{subfig::antenna_convolution}, and is in good agreement with the measured spectrum in \cref{subfig::spectrum_antenna_nd_multiple}, confirming that indeed the extra peak is due to the antenna resonance.
 
-			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum05.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_bkg_antenna}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum_sat113_fit_origin.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}
-				\end{subfigure}
-				\caption{<caption>}
-			\end{figure}
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spe_Ir27M_f200_xy04x13y88_D09_t30_highP_fit.pdf}}
+						\label{subfig::spectrum_nd_multiple}
+						\caption{}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_no_ND.pdf}}
+						\caption{}
+						\label{subfig::spectrum_antenna_no_nd}
+					\end{subfigure}
+					\caption{(a) PL spectrum of the emitter in the preselected nanodiamond at room temperature. Black: experimental results; red: fit to experimental data, \todo[inline]{verfnuenftige fehlergrenzen einfuegen}which yields a \ZPL \cwl of \SI{738.55\pm0.01}{nm} and a \lw of  \SI{5.09\pm0.03}{nm}}
+				\end{figure}
+
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/xy_scan-11_2APD.png}}
+						\caption{}
+						\label{subfig::antenna_laser_scan}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/xy_scan-13_2APD.png}}
+						\caption{}
+						\label{subfig::antenna_bowtie_laser_scan}
+					\end{subfigure}
+					\caption{(a) Confocal scan of the double bowtie antenna where a \nd containing multiple \sivs had been placed. The rings are visible. (b) Detail scan of the triangles of the same antenna structure, which make up the double bowtie antenna. While the seperate triangle cannot be seen, some edges and two bright spots are visible. To identify the place of the \nd we compare the middle point of the rings in (a), the point of intersection of the edges and the bright spot and conclude that the upper bright spot in (b) is the location of the \nd. }
+				\end{figure}
+
+				% \begin{figure}[tp]
+				% 	\centering
+				% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/antenna_no_ND.pdf}}
+				% 	\caption{<caption>}
+				% 	\label{fig::spectrum_antenna_multiple_before}
+				% \end{figure}
+
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/find_middle_with_ccd_highP_2_arrows.pdf}}
+						\caption{}
+						\label{subfig::spectrum_antenna_nd_multiple}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/antenna_convolution.png}}
+						\caption{}
+						\label{subfig::antenna_convolution}
+					\end{subfigure}
+					\caption{(a) Measured PL spectrum of the emitter after placing the \nd into the nanoantenna, (b) Convolution of the spectrum of the measured PL spectrum of the emitter before \pp (see Figure \ref{subfig::spectrum_nd_multiple}) and the simulated resonance spectrum of the nanoantenna (see Figure \ref{fig::antenna_fdtd_calculation}).}
+				\end{figure}
+
+			\subsubsection{\Nd With Single \siv Coupled to Antenna}
+
+				In this section, coupling a \nd containing only few \sivs to a double bowtie antenna is reported.
+				% sample description
+				The origin sample used for this experiment is an \ir substrate onto which a solution of \nds were drop-casted.
+				Starting material for the \nds was a electronic grade diamond film produced by the company rho-BeSt coating (now CarbonCompetence).
+				It was then milled in a \basd process\footnote{\krueger} to \nds of a size of \todo{groesse einfuegen}.
+				The \nds were drop-casted at \SI{60}{\celsius} onto an \ir substrate containing cross markers which had been treated with Piranha etch.
+				% sample M02-16: drop-casted with SiGH45
+				% preselection,
+				Preselecting a \nd with a single \siv is imposes further constrains to the suitability of an \nd.
+				First, only a small percentage of the technically suited \nds (size, isolation) contain a single \siv, second, damage due to electon radiation during \pp.
+				After  an \siv with a small dip in the \gt function, indicating only few \sivs.
+				% position
+				% transfer
+				% Spectroscopic measurements
+
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/sat114_fit_bkg.pdf}}
+						\caption{}
+						\label{subfig::single_siv_sat_before_transfer_antenna}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/g2_sat113_5mW_corr_fit.pdf}}
+						\caption{}
+						\label{subfig::single_siv_g2_before_transfer_antenna}
+					\end{subfigure}
+					\caption{<caption>}
+				\end{figure}
+
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/single_spectrum_sat113_fit.pdf}}
+						\caption{}
+						\label{subfig::single_siv_spec_before_transfer_antenna}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum03.pdf}}
+						\caption{}
+						\label{subfig::single_siv_spec_after_transfer_antenna}
+					\end{subfigure}
+					\caption{<caption>}
+				\end{figure}
+
+				\begin{figure}[tp]
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum05.pdf}}
+						\caption{}
+						\label{subfig::single_siv_spec_bkg_antenna}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.49\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum_sat113_fit_origin.pdf}}
+						\caption{}
+						\label{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}
+					\end{subfigure}
+					\caption{<caption>}
+				\end{figure}

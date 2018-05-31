@@ -8,15 +8,15 @@
 	In the following we give a short discussion of the most important properties of optical antennas. Then we sketch the actual coupling process and report on the optical properties of the resulting integrated structure.
 
 	\subsection{Plasmonic Antennas}
-		% nancy
 
 		Optical nanoantennas act as convertes between propagating and localized electro-magnetic fields. Thus, they can be used efficiently to couple photons in and out of nanoscale objects \cite{Curto2010}. Due to their small physical sizes, comarale or smaller than the \wl of visible light, they are capable of focusing optical fields to subdiffraction-limited volumes, offering the ability to manipulate electromagnetic fields at nanoscales \cite{Curto2010::3, nancy::78}. This property, dubbed sub-wavelength confinement, has successfully been exploited to enahnce the excitation and emission of quantum emitters \cite{Curto2010::4, Curto2010::5, Curto2010::6, Curto2010::7} and to modify their spectra \cite{Curto2010::8}. Resulting practical applications include near-field optical microscopy \cite{nancy::79}, surface enhanced spectroscopy \cite{nancy::80, nancy::81} and molecular sensing \cite{nancy::82}.
 
-		A nanoantenna is a nanostructure made from materials such as noble metals like gold or silver. These metals have in common that they are susceptible to being polarized by electro-magnetic fields. When illuminted by the incident electromagnetic radiation causes electrons in the metal to be displaced with respect to the atomic lattice. As a result the material becomes temporarily polarized until restoring forces equillibrate the charge distribution.
+		A nanoantenna is a nanostructure made from materials such as noble metals like gold or silver. These metals have in common that they are very susceptible to being polarized by electro-magnetic fields. When illuminated by the incident electromagnetic radiation causes electrons in the metal to behave as a plasma that tends to move with respect to the atomic lattice. As a result excess charge at the opposite surfaces of the material accumulates and the material becomes temporarily polarized until restoring forces equillibrate the charge distribution.
+
 		Thus incident light of a given frequency induces oscillations in the free electron gas density in the surface layers of the metal. At resonance these light-induced oscillations exhibit modes of standing waves. The quasi-particles associated with these modes are known as \lsps (\LSPs).
 		For an in-depth treatment of \LSPs in the context of nanoantennas we refer the reader to \cite{nancy::thesis} and references therein.
 
-		Here it suffices to say, that \LSPs facilitate the deciding property of optical antennas: Converting electromagnetic energy from the far-field into localized energy in the near-field. This allows, in combination with high collection-efficencies of nanoantennas, to efficiently couple visible radiation with wavelenghts of hundres of nanometers, into small spatial volumes of only a few nanometer in diameter.
+		Here it suffices to say, that \LSPs facilitate the deciding property of optical antennas: Converting electromagnetic energy from the far-field into localized energy in the near-field. This allows, in combination with the high collection-efficencies of nanoantennas, to efficiently couple visible radiation with wavelenghts of hundres of nanometers, into small effective spatial volumes of only a few nanometer in diameter.
 
 		To create a controlled hot-spot several antenna designs are possible. In the context of this thesis we rely on double bowtie design available via a collaboration with \nancy. \autoref{fig::double_bowtie_antenna_schematic} illustrates the typical bowtie antenna.
 
@@ -37,29 +37,18 @@
 		\end{figure}
 
 
+		The improved electromagnetic field at the center of a metallic nanoantenna can be used to increase the spontaneous emission rate of emitters, a result known as Purcell effect \cite{nancy::86}. The gap between the antenna arms acts as a resonat cavity providing a strong near field interaction with the emitter. This interaction modiefies the density of states of the system, effectively providing additional modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
+		The magnitude of the amplification for an emitter is quantified by the ratio of its enhanced decay rate to its free space decay rate, known as the Purcell factor $F_p$. This factor is proportional to $Q/V_{eff}$ where $Q$ denotes the quality of the antenna and $V_{eff}$ the volume of the hot-spot. Thus antenna desing must optimize $F_p$ as a necessary condition for significant enhancement of \fl emission.
 
-		In the context of \ccs, it is feasible to use the improved electro
-
-		In the context of this thesis, we aim to use the improved electromagnetic field at the center of a double bowtie antenna to enhance the spontaneous emission rate of \sivs. Previous research combining single bowtie antennas and
-
-		The improved electromagnetic field at the center of a metallic nanoantenna can be used to increase the spontaneous emission rate of emitters, a result known as Purcell effect \cite{nancy::86}. The antenna itself acts as a cavity providing a strong near field interaction with the emitter. This interaction creates additional electromagnetic modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
-		The magnitude of the amplification for an emitter is quantified by the ratio of its enhanced decay rate to its free space decay rate, known as the Purcell factor $F_p$, which is inversely proportional to the volume of the hot-spot. Thus antenna desing must aim to minimize hot-spot volume as a necessary condition for significant enhancement of \fl emission.
-
-		In addition to the antennas local field enhancment, the emitters original quantum yield $\eta_0$ influences overall emission enhancement. From theoretical considerations \cite{nancy::thesis, nancy::140, nancy::162, nancy::163}, the modified quantum efficiency $\eta$ of the interacting system consisting of emitter and antenna can be obtained as
+		In addition to the antennas local field enhancment, the emitters original quantum yield $\eta_0$ influences the overall effectiveness of the emission enhancement. From theoretical considerations \cite{nancy::thesis, nancy::140, nancy::162, nancy::163}, the modified quantum efficiency $\eta$ of the combined system consisting of emitter and antenna can be obtained as
 
 		\begin{equation}
 			\eta = \frac{\eta_0}{\frac{1-\eta_0}{F_p} + \frac{\eta_0}{\eta_{ant}} },
 		\end{equation}
 
-		where $\eta_{ant}$ denotes dissipative losses in the metal of the antenna. It is clear that an emitter with $\eta_0 + 1$ will not profit from the Purcell effect. On the contrary, in this case antenna induced losses determine the quantum yield.
+		where $\eta_{ant}$ denotes the fraction of \fl which is not dissipated through losses in the metal of the antenna. It is clear that an emitter with $\eta_0 \to 1$ will not profit from the Purcell effect. On the contrary, for realisitc antennas with $\eta_{ant} < 1$ antenna-induced losses reduce the overall quantum yield $\eta$. Consequently poor emitters with low initial $\eta_{0}$ stand to profit the most from antenna-emitter coupling provided antennas are engineered well, \i.e.\ they maximize their Purcell Factors and minimize their losses. For an in-dept review
 
-		As a consequence, it can be show that magnitude of the emission enhancement depends on the quantum yield of the emitter in consideration.
-
-
-
-		The enhanced electromag- netic field in the gap of metallic nanoantennas can be implemented to increase the spontaneous emission rate of emitters placed in the gap, or what is known as the Purcell effect [86], in a regime called the weak coupling regime. However, when the interaction between the emitter and the nanoantenna overcomes all possible losses in the system, we reach what is called the strong coupling regime where both entities now act as one system. In this case, photons are absorbed and re-emitted several times before being radiated out of the system. These two regimes will be discussed in details in the next section.
-
-
+		The presented considerations illustrate that due to their relatively low quantum efficiency, \sivs are excellent candidates for coupling with antennas. Thus it is promising to expliot the improved electromagnetic field at the center of a double bowtie antenna to enhance the spontaneous emission rate of \sivs and thus improve their merit as \spss.
 
 
 

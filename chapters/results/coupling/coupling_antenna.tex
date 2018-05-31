@@ -50,7 +50,7 @@
 
 		The presented considerations illustrate that due to their relatively low quantum efficiency, \sivs are excellent candidates for coupling with antennas. Thus it is promising to expliot the improved electromagnetic field at the center of a double bowtie antenna to enhance the spontaneous emission rate of \sivs and thus improve their merit as \spss.
 
-	\subsection{Plasmonic Antenna Design} \label{sec::structure_antenna}
+	\subsection{Plasmonic Antenna Design and Simulation} \label{sec::structure_antenna}
 
 		 To couple \sivs to optical antennas, we work with gold double bowtie antennas on a gold substrate. In comparison with triangular, or single bowtie antennas, double bowtie antennas offer significantly improved intensity enhancements. Antennas were provided by \nancy in a joined effort to explore the possibilities of combining antennas with \sivs. The antennas themselves were fabricated using electron beam lithography, a technique suitable to imprint predetirmined patterns onto a suitable substrate with nanoscale resolution \cite{nancy::232}. \autoref{subfig::antenna_structures_sem} shows a SEM image of an array of antenna structures of various sizes. In \autoref{subfig::antenna_one_structure_sem} a detail of an individual double bowtie antenna is shown. It can be seen that the double bowtie antenna is placed in the center of another structure, a so-called bulls-eye antenna, consisting of multiple concentric gratings. When illuintated by a laser at a proper angle, the gratings excite surface plasmon polaritons (SPPs) which are directed towards the center of the structure. If a double bowtie antenna is present in the center, SPPs can interact with the \LSPs of the double bow tie, leading to an even stronger localization of electromagnetic fields in the gap of the bowtie. While this interaction certainly merits exploration in the context of enhancing \sivs, we omit the excitation of SSPs in our first exploration of the couling of \sivs and antennas. Thus the presence of the gratings can be ignored for our purposes. The reader interested in the details of bulls-eye antennas and their properties is referred to \cite{nancy::thesis}.
 
@@ -90,9 +90,24 @@
 
 		In summary, the combined simulation results suggest, that the engineered system of nanoantenna and \nd is well suited to effectively enhance the emission from an \siv hosted in the \nd. In the following sections we report on the experimental realization of this preposition.
 
+	\subsection{\siv in a Plasmonic Double Bowtie Antenna}
+		%
+		% \begin{figure}[htp]
+		% 	\centering
+		% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_s1_g3_db_g150_d20_rightone_crop.png}}
+		% 	\caption{CCD image recorded in the confocal setup of an antenna structure under white light illumination. In the middle, the \nd containing multiple \sivs had been placed.}
+		% 	\label{fig::place_ccd}
+		% \end{figure}
 
+		In the following we report on our attempts to couple \sivs to double bowtie antennas. Given ideal \nds containing exactly one \siv each, the major challenge of coupling consists of transporting a given \nd to the gap of an antenna. However, \nds rarely contain exactly one \siv. The identification of a perfect candidate requires manual examination of hundreds of \nds, making it an extremely tedious, error-prone and time-consuming process. In addition to that, methods such as \pp entail a very real risk of permanently damaging or invalidating a precious candidate in transit to the antenna, thus rendering the significant efforts invested in identifying the candidate futile. In contrast to that, \nds containing anything from a small number to an entire ensemble of \sivs are much more likely and thus easier to identify and to use.
 
+		Thus we approach the problem of coupling \sivs to antennas in several phases. In the first phase \nds containing an entire ensemble of \sivs are utilized. Such \nds can be found with high probability. Due to the large number of individual emitters involved, they exhibit an increased resilence against being damaged. The disadvantage is that once placed in the antenna, the whole ensemble will be affected by Purcell enhancement and as a result its effectiveness for individual emitters cannot be obtained.
 
+		After gaining experience in the first phase, the second phase aims at using \nds with a very low number of \sivs hosted. Here the goal is to identify a candidate \nd in a reasonable amount of time. Once transferred to an antenna using \pp methods, saturation and second order correlation measurements can be attempted provided the involved emitters remain stable.
+
+		The third and last phase focuses on identifying a \nd hosting a singleton \siv building onto of the insights gained in the previous phases. After successful \pp transit, a precise characterization of the emitter and its antenna-induced Purcell enhancement should be possible.
+
+		Here we report on our obtained results regarding phases one and two. At the time of writing this, phase three was not yet implemented.
 
 \section[Antennas]{Coupling \Nds to Double Bowtie Antenna Structures} \label{sec::coupling_antennas}
 
@@ -244,7 +259,7 @@
 		\todo{fehlt Erklaerung zu Ringen}
 		Optical plasmonic focusing has been extensively studied in the field of nanoplasmon- ics and has very important applications in high resolution imaging, sensing, waveg- uiding, nanolithography, and sub-wavelength optics. For this purpose, researchers have investigated several plasmonic structures capable of enhancing and confining surface plasmons into sub-wavelength dimensions. Cavities composed of diffraction gratings acting as SPP launchers can be used as efficient nanoscale focusing de- vices [243,244], confined surface plasmon polariton amplifiers [245], and fluorescence emission enhancement tools [246] (Fig. 4.1a). It has been shown that the plasmonic “Bull’s Eye” structure, made of periodic concentric grooves in a metallic substrate, can lead to a strongly enhanced evanescent field focused in its center where propa- gating surface plasmons constructively interfere [247]. Controlling the directionality of transmitted light through an aperture surrounded by periodic corrugations was also achieved, which allows overcoming the limitations of low transmittance and high diffraction in the sub-wavelength regime [248]. In a similar study, the aperture is replaced by a narrow slit in the center of the Bull’s Eye antenna leading to a higher power coupling, narrower radiated beam, and good return losses [249]. In addition, ring grating structures can be used to control the luminescence directivity of emitters placed in the center. Fluorescence beaming of molecules placed in a nanoaperture surrounded by concentric metallic grooves was studied by directing their emission in a precise direction and with a specific angular width depending on their wavelength [250]. Similar work related to the fluorescence emission of quan- tum dots placed in a slit surrounded by a ring grating shows that their emission can be manipulated to form perfectly narrow collimated beams [251] (Fig. 4.1b). Ring gratings surrounding diamond nanoposts [186] and circular diamond nanowires [135] with embedded nitrogen-vacancy (NV) centers were also used to improve the collec- tion efficiency and radiative decay rate of single NV centers. Directing the far-field emission of single NV centers placed in the center of a Bull’s Eye grating was also recently investigated in a study that resulted in a high collection efficiency within a low numerical aperture [252]. This motivates us to use the ring grating structure described below to study efficient plasmon-emitter coupling at the nanoscale. An interesting property of the device is that the position of excitation determines the direction of propagation of the SPPs, providing a flexible mean of studying their interactions with molecules or dipole-like emitters placed on the surface.
 
-	\subsection{\siv in a Plasmonic Double Bowtie Antenna}
+	\subsection{\sivs in a Plasmonic Double Bowtie Antenna}
 
 		\begin{figure}[htp]
 			\centering
@@ -254,10 +269,11 @@
 		\end{figure}
 
 			% Einleitung
-			In the following, specific details and challenges concerning the coupling process are given and results of the spectroscopic measurements of an \siv in a plasmonic double bowtie antenna are reported.
+			In the following, we discuss specific details and challenges concerning our initial attempts of coupling \sivs to plasmonic double bowtie nanoantennas. Furthermore, we assert successful coupling and report spectroscopic measurements of an \siv situated inside the gap of the antenna.
 			\\
 			% additional methods
-			We performed coupling the nanodiamonds containing \sivs in two approaches:
+			When transferring \nds to the center of an antenna, we distinguish between \nds hosting
+			To transfer individual \nds hosting one or more \sivs to the center of an antenna, we follow two approaches:
 			First we chose a \nd containing several \sivs for \pp and afterwards a \nd containing a single \siv.
 			As mentioned before, single \sivs may be damaged by the electron radiation in the SEM during \pp and stop emittig \pl light.
 			Hence, we decided to run first experiments with \nds containing multiple \sivs.

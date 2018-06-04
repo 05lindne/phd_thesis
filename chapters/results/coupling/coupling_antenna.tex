@@ -338,13 +338,31 @@
 			\\
 			% Spectroscopic measurements
 			The \siv coupled to the antenna structure was then spectroscopically investigated in the confocal setup.
-			First, we recorded a spectrum.
+			First, we recorded a spectrum (spectrum A).
 			The result of the first recorded spectrum revealed a multitude of peaks.
-			To ensure that the peaks are no artifacts due to deficient alignment, we rechecked the alignment and initiated another measurement of the spectrum.
-			However, this time the recorded spectrum only showed a broad \bkg.
-			After checking in the confocal scan that the measurement was performed at the correct position, we had to conclude that the emitter bleached shortly after recording the first spectrum.
-			
-			In \cref{subfig::single_siv_spec_after_transfer_antenna} each peak is fitted.
+			To ensure that the peaks are no artifacts due to deficient alignment, we rechecked the alignment which proved to be precise.
+			We initiated another measurement of the spectrum.
+			However, this time the recorded spectrum only showed a broad \bkg (spectrum B).
+			After checking in the confocal scan that the measurement was performed at the correct position, we had to conclude that the emitter bleached shortly after recording spectrum A.
+			\\
+			As mentioned earlier, the electron radiation may damage \sivs in nanodiamonds.
+			The electron radiation might have put the \siv into an unstable state.
+			Although we were still able to measure one spectrum, further application of energy from the laser seems to have permanently bleached the \siv.
+			While we cannot solidify this conclusion with further experimental evidence, we observed in earlier independent measurements that some \sivs bleach after electron radiation and that some \sivs bleach after an extended laser irradiation \cite{}.
+			The observations in this measurement suggest a combination of the two effects.
+			\\
+			We performed FDTD calculations of the selected \siv in the host \nd in the plasmonic double bowtie antenna as described in the previous section\todo{put in pictures}.
+			We used spectrum B to for \bkg correction of spectrum A and fitted the measured peaks (\cref{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}).
+			In the simulations, we do not see the peaks between \SIrange{700}{750}{nm} that we recorded in the measurement.
+			Hence, we conclude, that not additionally to the observed photobleaching, also the emitter's spectrum was modified in the \pp process.
+			While it is not possible to pinpoint exactly which circumstance caused the modification, possible candidates are\todo{enter candidates and explain why}.
+			\\
+			To gain further insight, we performed FDTD calculations with antenna damage and different dipole orientation.
+			To be able to include the dipole orientation into the calculations, a dipole emitter with a broad emission instead of a narrow emission peak has to be used.
+			Therefore, the convolution method as described in the previsous section is more adequate for our purpose, as the \siv exhibits a very narrow emission peak.
+			However, these calculations give further insight.
+			First, the antenna damage does not have a big effect on the spectra, however the dipole orientation changes the results drastically (\cref{}). 
+			Therefore, for future experiments should include polarization measurements to experimentally quantify the impact of the emitter orientation.
 
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
@@ -404,4 +422,5 @@
 				\caption{<caption>}
 			\end{figure}
 
+		\subsubsection{Outlook: Coupling a \Nd With a Single \Siv to the Plasmonic Double Bowtie Antenna}
 			Verbesserungvorschlag: Nanodiamanten deterministisch mit einem einzelnen Siv pro Diamant finden.

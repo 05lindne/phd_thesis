@@ -248,6 +248,7 @@
 			To verify this, we convolute the experimental PL spectrum of the nanodiamond measured before placing it in the nanoantenna (\cref{subfig::spectrum_nd_multiple}) with the intensity spectrum of the nanoantenna obtained by simulations (\cref{fig::antenna_fdtd_calculation}). 
 			The resulting spectrum is given in \cref{subfig::antenna_convolution}, and is in good agreement with the measured spectrum in \cref{subfig::spectrum_antenna_nd_multiple}, confirming that indeed the extra peak is due to the antenna resonance.
 
+
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
@@ -362,23 +363,23 @@
 			Therefore, the convolution method as described in the previsous section is more adequate for our purpose, as the \siv exhibits a very narrow emission peak.
 			However, these calculations give further insight.
 			First, the antenna damage does not have a big effect on the spectra, however the dipole orientation changes the results drastically (\cref{}). 
-			Therefore, for future experiments should include polarization measurements to experimentally quantify the impact of the emitter orientation.
+			Therefore, future experiments should include polarization measurements to experimentally quantify the impact of the emitter orientation.
 
 			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/sat114_fit_bkg.pdf}}
-					\caption{}
-					\label{subfig::single_siv_sat_before_transfer_antenna}
-				\end{subfigure}
-				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/g2_sat113_5mW_corr_fit.pdf}}
 					\caption{}
 					\label{subfig::single_siv_g2_before_transfer_antenna}
 				\end{subfigure}
-				\caption{(a) Saturation \todo[inline]{cps zu a.u. aendern}(b) \gtf}
+				\hfill
+				\begin{subfigure}[t]{ 0.49\linewidth}
+					\centering
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/sat114_fit_bkg.pdf}}
+					\caption{}
+					\label{subfig::single_siv_sat_before_transfer_antenna}
+				\end{subfigure}
+				\caption{(a) The \gtf of the preselected \nd hosting few nanodiamonds. A dip at \gtz is present, however it does not decrease below 0.5. While this indicates that more than one \siv is present, a small number of \sivs cause a dip in the \gtf instead of no dip at all which would be measured under coherent emission\todo[inline]{cps zu a.u. aendern}. (b) Saturation curve of the same emitter\todo[inline]{zahlen fuer sat eintragen}. Data points are black, fitted curve red.}
 			\end{figure}
 
 			\begin{figure}[tp]
@@ -395,7 +396,7 @@
 					\caption{}
 					\label{subfig::single_siv_spec_after_transfer_antenna}
 				\end{subfigure}
-				\caption{<caption>}
+				\caption{(a) Spectrum of the preselected \nd hosting few \sivs. (b) Measured spectrum after transfer of the preselected \nd into the double bowtie antenna.}
 			\end{figure}
 
 			% \begin{figure}[tp]
@@ -408,19 +409,34 @@
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum_sat113_fit_origin.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum05.pdf}}
 					\caption{}
 					\label{subfig::single_siv_spec_bkg_antenna}
 				\end{subfigure}
-				\caption{<caption>}
+				\hfill
+				\begin{subfigure}[t]{ 0.49\linewidth}
+					\centering
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum_sat113_fit_origin.pdf}}
+					\caption{}
+					\label{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}
+				\end{subfigure}
+				\caption{(a) Spectrum of the \nd hosting few \sivs coupled to the double bowtie antenna after the emitter bleached. (b) Background corrected spectrum of the transferred \nd in the double bowtie antenna. Peaks are fitted, results of the fits are the colored lines. For background correction, the spectrum in (a) was used.}
 			\end{figure}
 
 		\subsubsection{Outlook: Coupling a \Nd With a Single \Siv to the Plasmonic Double Bowtie Antenna}
-			Verbesserungvorschlag: Nanodiamanten deterministisch mit einem einzelnen Siv pro Diamant finden.
+			To effectivly state the emission enhancement of the \siv by the plasmonic double bowtie antenna, a single \siv is necessary.
+			A correct measure for the emission enhancement is the saturation count rate.
+			The saturation countrate is proportional to the inverse of the emitter's lifetime.
+			Hence, if there are two or more emitters present, photons of the individual emitters are emitted randomly, which renders a correct saturation measurement impossible. 
+			However, finding \sivs in \nds which fulfill both spectroscopic (\gtz $\approx$0, saturation, narrow \ZPL spectrum) and technical (size, isolation of \nds) constraints tured out to be a very time-consuming work.
+			\\
+			We investigated different kinds of \nds in the search of \nds exhibiting optimal spectroscopic and technical parameters.
+			We were able to fulfill the size requirements posed by the \pp process and antenna design by producing different patches of different sizes of \nds and took the ones which were best suited.
+			We also developped a good isolation of the \nds on the substrate by treating the \ir substrate with Piranha etch and tuning the amount of diamond solution drop-casted onto the substrate.
+			This leaves us with the need of a higher propability of exactly one \siv per \nd.
+			Parameters which have an impact on the quantity of \sivs per \nd are the initial \siv density in the starting material and the \nd size.
+			Once the time constraint of finding a single \siv in a \nd is overcome, we can apply the extensive methods and knowledge gained by the reported procedures to couple a single \siv to a plasmonic bowtie antenna.
+			\\
+			To our knowledge, our experiments were the first time an \siv in a \nd was coupled to a plasmonic bowtie antenna.
+			The extraordinarily precise correlation of the theoretically predicted and the experimentally recorded spectrum of an ensemble of \sivs in a \nd make this process a promising candidate for future applications.
+

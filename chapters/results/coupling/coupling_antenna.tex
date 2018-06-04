@@ -176,7 +176,7 @@
 
 
 
-		\subsubsection{\Nd With Multiple \sivs Coupled to Antenna}
+		\subsubsection{\Nd With Multiple \sivs Coupled to Antenna}\label{subsubsection::antenna_multiple_sivs}
 
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
@@ -306,22 +306,45 @@
 				\caption{(a) Measured PL spectrum of the emitter after placing the \nd into the nanoantenna, (b) Convolution of the spectrum of the measured PL spectrum of the emitter before \pp (see Figure \ref{subfig::spectrum_nd_multiple}) and the simulated resonance spectrum of the nanoantenna (see Figure \ref{fig::antenna_fdtd_calculation}).}
 			\end{figure}
 
-		\subsubsection{\Nd With Single \siv Coupled to Antenna}
+		\subsubsection{\Nd With Few \siv Coupled to Antenna}\label{subsubsection::antenna_single_siv}
 
+			As the experiment of coupling a \nd with an ensemble of \sivs proved to be very successful, the next step was to select a \nd with only few \sivs, i.e. that it exhibits countrate saturation and a dip in the \gtf.
 			In this section, coupling a \nd containing only few \sivs to a double bowtie antenna is reported.
+			It is an intermediate step between coupling 
 			% sample description
 			The origin sample used for this experiment is an \ir substrate onto which a solution of \nds were drop-casted.
-			Starting material for the \nds was a electronic grade diamond film produced by the company rho-BeSt coating (now CarbonCompetence).
+			Starting material for the \nds was a electronic grade diamond film produced by the company rho-BeSt coating (now CarbonCompetence)\todo{checken, ob angaben passen}.
 			It was then milled in a \basd process\footnote{\krueger} to \nds of a size of \todo{groesse einfuegen}. 
-			The \nds were drop-casted at \SI{60}{\celcius} onto an \ir substrate containing cross markers which had been treated with Piranha etch.
+			The \nds were drop-casted at \SI{60}{\celsius} onto an \ir substrate containing cross markers which had been treated with Piranha etch.
 			% sample M02-16: drop-casted with SiGH45
+			\\
 			% preselection, 
-			Preselecting a \nd with a single \siv is imposes further constrains to the suitability of an \nd.
+			Preselecting a \nd with a single \siv is imposes additional constrains to the suitability of an \nd if compared to a \nd with multiple \sivs.
 			First, only a small percentage of the technically suited \nds (size, isolation) contain a single \siv, second, damage due to electon radiation during \pp.
-			After  an \siv with a small dip in the \gt function, indicating only few \sivs.
 			% position
+			The position of the \sivs on the substrate surface was performed in the same way as described in \cref{subsubsection::
+			}.
+			The identification whether bright spots in the scan were suitable emitter was performed as follows: 
+			First a saturation curve was recorded.
+			Countrate saturation is only a necessary and not a sufficient measure for single photon emission, hence the saturation measurement alone does not prove that the emitter in question is single.
+			However, it takes only a few seconds to record a saturation measurement compared to potentially hour-long measurements of \gtfs.
+			Therefore, it is a quick selection method to evaluate potential candidates.
+			Once an emitter with a saturating countrate was found, a spectrum was recorded to prove that the emitter in question is indeed an \siv.
+			At last, the \gtf was recorded.
+			We successfully found an \siv with a small dip in the \gt function.
+			While the dip is too small to account for a single \siv, it indicates the presence of only few \sivs.
 			% transfer
+			Hence, we proceeded by transferring the host \nd to the antenna structure.
+			\\
 			% Spectroscopic measurements
+			The \siv coupled to the antenna structure was then spectroscopically investigated in the confocal setup.
+			First, we recorded a spectrum.
+			The result of the first recorded spectrum revealed a multitude of peaks.
+			To ensure that the peaks are no artifacts due to deficient alignment, we rechecked the alignment and initiated another measurement of the spectrum.
+			However, this time the recorded spectrum only showed a broad \bkg.
+			After checking in the confocal scan that the measurement was performed at the correct position, we had to conclude that the emitter bleached shortly after recording the first spectrum.
+			
+			In \cref{subfig::single_siv_spec_after_transfer_antenna} each peak is fitted.
 
 			\begin{figure}[tp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
@@ -337,7 +360,7 @@
 					\caption{}
 					\label{subfig::single_siv_g2_before_transfer_antenna}
 				\end{subfigure}
-				\caption{<caption>}
+				\caption{(a) Saturation \todo[inline]{cps zu a.u. aendern}(b) \gtf}
 			\end{figure}
 
 			\begin{figure}[tp]
@@ -357,19 +380,28 @@
 				\caption{<caption>}
 			\end{figure}
 
+			% \begin{figure}[tp]
+			% 	\centering
+			% 	\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/single_spectrum_sat113_fit.pdf}}
+			% 	\caption{<caption>}
+			% 	\label{fig::single_siv_spec_before_transfer_antenna}
+			% \end{figure}
+
 			\begin{figure}[tp]
-				\begin{subfigure}[t]{ 0.49\linewidth}
-					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum05.pdf}}
-					\caption{}
-					\label{subfig::single_siv_spec_bkg_antenna}
-				\end{subfigure}
-				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum_sat113_fit_origin.pdf}}
 					\caption{}
 					\label{subfig::single_siv_spec_after_transfer_antenna_bkg_corrected}
 				\end{subfigure}
+				\hfill
+				\begin{subfigure}[t]{ 0.49\linewidth}
+					\centering
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/spectrum05.pdf}}
+					\caption{}
+					\label{subfig::single_siv_spec_bkg_antenna}
+				\end{subfigure}
 				\caption{<caption>}
 			\end{figure}
+
+			Verbesserungvorschlag: Nanodiamanten deterministisch mit einem einzelnen Siv pro Diamant finden.

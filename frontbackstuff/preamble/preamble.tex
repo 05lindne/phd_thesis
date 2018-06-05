@@ -21,7 +21,7 @@
 \usepackage{xspace}% when used in newcommand, space is only inserted, if not followed by dot, comma... Must be written at the LAST spot within the braces of a newcommand!!!
 \usepackage{parskip}
 \usepackage[singlelinecheck=false, aboveskip=-3pt]{subcaption}% use this package if subfigures are wanted, contains newest implementation of subfigures
-% \usepackage{cleveref}%supports cref to reference multiple things in a row and to automatically write into the text what object is referenced to(http://get-software.net/macros/latex/contrib/cleveref/cleveref.pdf)
+\usepackage{cleveref}%supports cref to reference multiple things in a row and to automatically write into the text what object is referenced to(http://get-software.net/macros/latex/contrib/cleveref/cleveref.pdf)
 \usepackage[plain]{fancyref}%usage: \autoref{type:title} or \autoref{type:title}, gets information about kind of referenced stuff and writes name&number
 \usepackage{textcomp}
 \usepackage{gensymb}%for units
@@ -64,13 +64,9 @@
 
 \usepackage{blindtext}  %generates lorem impsum latin blind text
 
-\usepackage[noabbrev, nameinlink, capitalize]{cleveref}      % to enable referencing of items 'nameinlink' option emulates look of \cref
-
-
 \usepackage{epigraph}
 \usepackage{etoolbox}
 
 \setlength\epigraphwidth{\linewidth}
 \setlength\epigraphrule{0pt}
 \renewcommand{\epigraphflush}{center}
-

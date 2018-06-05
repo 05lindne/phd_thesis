@@ -3,19 +3,19 @@
 \chapter{Coupling of \Nds to Photonic Structures}	\label{ch::coupling}
 \chaptermark{Photonic Structures}
 
-	In the previous chapter, we reported on \pl properties of different sets of \sivs. 
-	Across the available samples, emitters were found to exhibit considerable variations in wavelength, \lw as well as intensity of \zpls. 
-	This broad variety in combination with the ability to examine \sivs individually opens up the possibility to preselect emitters according to desired spectroscopic parameters, such as narrow \lw{}s, high countrates and single photon emission. 
+	In the previous chapter, we reported on \pl properties of different sets of \sivs.
+	Across the available samples, emitters were found to exhibit considerable variations in wavelength, \lw as well as intensity of \zpls.
+	This broad variety in combination with the ability to examine \sivs individually opens up the possibility to preselect emitters according to desired spectroscopic parameters, such as narrow \lw{}s, high countrates and single photon emission.
 
-	Once suitable emitters are identified, their host \nds can be moved with precision using \pp methods. 
-	In particular, \sivs may be transfered and coupled to photonic structures where their extaordinary properties can be exploited to create \sps. 
+	Once suitable emitters are identified, their host \nds can be moved with precision using \pp methods.
+	In particular, \sivs may be transfered and coupled to photonic structures where their extaordinary properties can be exploited to create \sps.
 	Such sources are useful tools, widely required for applications in metrology and various quantum technologies such as quantum computing or quantum cryptography.
 
 	In the scope of this thesis, \nds including suitable \sivs were identified and coupled to two different kinds of structures: \Vcsels (\VCSELs) and plasmonic nanoantennas.
 
 	To create a hybrid-integrated \sps, a \nd containing an \siv placed on top of a \VCSEL. The \siv is positioned such that it is directly pumped by the \VCSEL output laser beam. Thus, the emission of the \siv is steered indirectly via the operation of the \VCSEL. Through the use of suitable optical filters allowing only \siv \fl to emerge, a controlled \sps can be realized. This system is interesting in the context of metrological applications, as it constitutes a promising building block for a portable device ready to calibrate single photon detectors.
 
-	Coupling \sivs to plasmonic nanoantennas aims at enhancing the detectable \pl intensity of an emitter. 
+	Coupling \sivs to plasmonic nanoantennas aims at enhancing the detectable \pl intensity of an emitter.
 	As described in previous chapters, not only \ZPL position and \lw, but also the \pl intensity varies strongly among individual \sivs.
 	Obtaining a \sps with a photon flux rate large enough to reliably and precisely be mearsured by a low photon flux detector is a key requirement for applications in metrology \cite{Vaigu2017}\todo{ich glaub, das ist bullshit}.
 	Furthermore, plasmonic antennas can be used to tune the emitters' \pl spectrum\todo{der satz muss noch einmassiert werden}.
@@ -24,12 +24,12 @@
 
 	\section{Additional Experimental Methods} \label{sec::methods_coupling}
 
-	Coupling \sivs to photonic structures requires specialized experimental methods. 
+	Coupling \sivs to photonic structures requires specialized experimental methods.
 	A range of challenges must be overcome:
 	First, additionally to the spectroscopic pre-selection, the \pp process poses further technical restrictions on the suitability of a host \nd.
 	The size of the host \nd has to be bigger than \SI{70}{nm} and they have to lie isolated on the substrate surface, i.e. with a distance of about one micrometer.
 	This substantially reduces the number of \siv candidates ready to be coupled to photonic structures.
-	Another challenge is posed by accurately picking up a single \nd hosting an \siv and placing it precisely at a specified position within a given photonic structure. 
+	Another challenge is posed by accurately picking up a single \nd hosting an \siv and placing it precisely at a specified position within a given photonic structure.
 	Furthermore, since the \siv is to function as the \pl emitter, it must not be damaged during the relocation process.
 	To minimize both the damage cause by electron radiation, both the dose and the energy are minimized.
 	Hence, the \pp process is performed as fast as possible and with a low acceleration voltage that is just strong enough to see a hazy image of the \nd.
@@ -126,28 +126,6 @@
 				\caption[Combining \fl and \lsm to identify \nds]{a) Picture recorded with a commercial high resolution laser scanning microscope. Cross marker is visible as well. b) \Pl scan of a $\SI{8}{\micro\metre} \times  \SI{13}{\micro\metre}$ corresponding to the blue shaded area in b).he area shaded in blue represents the \pl scan in image b).}
 		\end{figure}
 
-
-<<<<<<< HEAD
-	\begin{figure}[tp]
-		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/ccd_f301_emitter7.png}}
-		\caption{Image of the sample surface of \SI{100}{nm} wet-milled nanodiamonds spin-coated on an \ir substrate illuminated with diffuse white light. The white bars are the horizontal bars of the cross markers which serve as a coarse orientation on the sample surface, the white dots are nanodiamonds, the big black spot is an artifact.}
-		\label{fig::ccd_cross_marker}
-	\end{figure}
-
-	An \nd pre-characterized in the confocal setup exhibiting the preferred spectroscopic properties has to be found again in the SEM setup where the nanomanipulator is installed.
-	Therefore, we milled cross markers into the \ir coating of the \si substrate using the \fib prior to spin-coating the substrate with \nd solution.\todo{fib parameter}
-	The crosses' size is \num{10}$\times$\SI{10}{\micro\meter\squared} are exhibit a nominal depth of \SI{40}{nm}.
-	Four crosses are the cornerpoints of a \num{50}$\times$\SI{50}{\micro\meter\squared} sqaure.
-	The \num{10}$\times$\num{10} crosses spaned one field of crosses; we usually put 3 fields of crosses on one substrate.
-	\\
-	To record the position of a \nd \wrt a cross marker, we used two different methods:
-	\begin{itemize}
-		\item Scanning the sample in the confocal setup while a white light source illuminates the sample from the side in an acute angle. The edges of the cross markers are visible in the fluorescence scan. After turning the white light lamp off, the same area is scanned once more to record the fluorescence from the \sivs. An overlay of the two images identifies the position of fluorescent \sivs \wrt the cross markers. The disadvantage of this method is, that it takes a lot of time, as every scan has to be performed twice. Also, as only \fl scans are performed, no information of the \nds is accessible. Such information comprises of the size of the individual \nds and whether the \nds lie isolated on the substrate surface. These parameters are only available during the \pp process in the SEM. An emitter with optimal optical properties can turn out not to be suited for \pp just before the process itself, hence the time spent to optically characterize an emitter was in vain.
-		\item A more efficient method is scanning the substrate first in a commercial \lsm \todo{specs}. The \lsm is a confocal microscope where the focus of a laser is used to obtain the height of a structure. \todo{verify info}It is possible to scan a whole field of cross markers in several minutes. The obtained image is a greyscale image, where the greyscale corresponds to the height deviation of a structure. Therefore, both the crosses and the \nds appear in darker shades of grey. So in contrast to the previous method, information on the size and isolation of the \nds is accessible. After scanning the substrate with the \lsm, it is put into the confocal setup. While observing the surface with the CCD camera (\cref{fig::ccd_cross_marker}), a specific cross marker is chosen as the starting point of a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan are attributed to \nds in the \lsm scan (see \cref{subfig::cross_laser_scan,subfig::pp_pl_scan}).
-	\end{itemize}
-=======
->>>>>>> editing
 
 	\subsection{The \PP Process}
 

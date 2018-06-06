@@ -5,8 +5,6 @@
 
 	\begin{remark}
 			\item die section mit den \si implanted \nds muss von dir ueberarbeitet werden. Die hab ich deshalb vorerst ausgelassen. Es gibt 3 teile (einfuehrung, preliminary tests und final procedure). Ich hab den eindruck, dass sich da konzeptionell vieles wiederholt und das man das ganze vielleicht in einer section unterbringen kann und die feineren unterscheidungen einfach beilaeufig erwaehnt.
-			\item section iridium substrate sollte auch nochmal durchgelesen werden. Ich habs zwar nochmal ueberarbeitet, aber ich denke da koenntest du noch den einen oder anderen erklaerendne statz springen lassen. Insbesondere das listin in preparation of substrate ist nicht gerade selbsterklaerend.
-			\item Die tabelle mit dem ueberblick ueber alle samples hab ich in eine eigene section geschoben. Die is ja wichtig, weil in den results immer wieder die sample id genannt werden. Wennd as im inhaltsverzeichnis auscheint, find ich das praktisch.
 	\end{remark}
 
 	\epigraph{``Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth's surface.''}{\textup{Gemological Institute of America Inc.}}
@@ -40,7 +38,7 @@
 
 	In contrast to the \HPHT method, diamond is crystallized from carbon available in the gas phase in the \CVD method.
 	The process still requires respectable temperatures in the range of \SIrange{700}{1300}{\celsius} but makes due with the low pressures of less than \SI{1}{\bar} available in a vacuum growth chamber \cite{janine::141}.
-
+	\\
 	The chamber contains a vapour consisting of a mixture of atomic hydrogen and methan. The gas can be forced into the plasma phase using strong microwaves or hot filaments \cite{neu::75, neu::78, neu::79}. While the hot filament is easy to implement, it has the disadvantage that atoms which are etched from the filament during the growth process are likely to contaminate the diamond. To minimize the introduction of defects other than \sivs in the diamond, growing diamonds in a microwave plasma is preferred. In it methane molecules dissociate and relase carbon. In the presence of a substrate such as \ir containing suitable seeds, carbon can crystalize forming diamond. \autoref{fig::cvd_sketch} illustrates the setup. In a plasma containing atomic hydrogen, the formation of diamond is favored over the formation of graphite. This is due to the fact that the atomic hydrogen preferentially etches $sp2$ bonded carbon, i.e.\ graphite.
 
 	\begin{figure}[htp]
@@ -54,7 +52,7 @@
 	This method is utilized for all the \CVD \nds grown and investigated in this thesis.
 	It relies on small diamond crystals deposited in the substracte acting as seeds for the diamond crystalization process\footnote{\CVD \nd growth performet by \gsell}. Seed diamond crystals are commercially available, and are usually particles produced by a so-called detonation process.
 	In a detonation process, the high pressure produced by shockwaves of a detonation is used to create very small diamond particles of a size down to a few nanometers.
-
+	\\
 	Growth on a substrate is favored, if the lattice constant of the substrate and the diamond to be grown are similar.
 	The lattice constant of \ir is \SI{0.384}{nm} \cite{Arblaster2010,Gsell2007} and thus close to the lattice constant of diamond with \SI{0.356}{nm} \cite{Davis1993}.
 	Therefore, the diamond was grown on a stratified substrate topped with an \ir layer of \SIrange{60}{150}{nm} thickness\footnote{Production of the stratified substrate performed by \gsell}. 
@@ -75,6 +73,7 @@
 	The first batch, henceforth referred to as \CVD samples, was grown by the group of \schreck using detonation diamond seeds of a size smaller than \SI{3}{nm}(produced by the company Microdiamant, product Liquid Diamond monocrystalline, MSY {0-0.03} micron GAF).
 	For the growth process, \SI{1}{\percent} of methane was added to the hydrogen environment in the growth chamber.
 	The growth process was performed with a pressure of \SI{30}{hPa} for \SIrange{30}{60}{min}, yielding \nds of a diameter of about \SIrange{100}{200}{nm}. A sample of the produced diamonds is given in \autoref{fig::sem_cvd}.
+	\\
 
 	\begin{figure}[htp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -124,14 +123,17 @@
 
 	In addition to growing \nds of a specific size directly via a \CVD process, macroscopic diamond starting material can be crushed to obtain small diamond particles.
 	In contrast to \nds directly grown by a \CVD process, the process is divided into two sub-processes:
-	At first a macroscopic diamond is produced using one of the methods introduced in this chapter. Then macroscopic diamond is continuously milled into smaller diamond particles.
-
-	The wet-milled \nds investigated in this thesis were kindly provided by \muzha. During the wet-milling process small metal beeds in an aqueous solution are driven by the vibrations of a vibrational mill. The moving beads continously collide with the present diamonds and thus keep breaking them into smaller and smaller particles. A sketch of the process is shown in \autoref{fig::sketch_milling}. Steel contamination introduced by the beads can be eliminated in a post-processing treatment with acid.
+	At first a macroscopic diamond is produced using one of the methods introduced in this chapter. 
+	Then macroscopic diamond is continuously milled into smaller diamond particles.
+	\\
+	The wet-milled \nds investigated in this thesis were kindly provided by \muzha. During the wet-milling process small metal beeds in an aqueous solution are driven by the vibrations of a vibrational mill. 
+	The moving beads continously collide with the present diamonds and thus keep breaking them into smaller and smaller particles. 
+	A sketch of the process is shown in \autoref{fig::sketch_milling}. Steel contamination introduced by the beads can be eliminated in a post-processing treatment with acid.
 
 	\begin{figure}[htp]
 		\centering
 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/milling_sketch.pdf}}
-		\caption[Wet-milling in a vibrational mill]{Sketch of a vibrational wet-mill. A macroscopic polycrystalline \nd is progressively broken down into smaller polycrystalline \nds by metal beads.}\label{subfig::sketch_milling}
+		\caption[Wet-milling in a vibrational mill]{Sketch of a wet-milling process in a vibrational mill. A macroscopic polycrystalline \nd is progressively broken down into smaller polycrystalline \nds by metal beads.}\label{subfig::sketch_milling}
 	\end{figure}
 
 	The big advantage of the milling process is that it enables the production of a large quantity of diamond nanoparticles.
@@ -289,27 +291,34 @@
 
 	\subsection{Preparation of The Substrate}
 
-	As a preparatory step preceeding drop-casting, the \ir substrate is cleaned.
-	The standard cleaning procedure is comprised of the following cleaning steps in an ultrasonic bath. Each step is in effect for  a duration of \SIrange{3}{7}{\minute}:
+	Prior to drop-casting or spin-coating a diamond solution onto the \ir substrate, the substrate is cleaned. 
+	The standard cleaning procedure is started with treating the substrate in diverse chemicals in an ultrasonic bath. 
+	Each step is carried out for a duration of \SIrange{3}{7}{\minute}, approximately adjusted to the amount of contamination present:
 
 	\begin{itemize}
-		\item Distilled water with a drop of dishwasher detergent
-		\item Isopropanol (\SI{99.9}{\percent} p.a.)
-		\item Acetone (\SI{99.9}{\percent} p.a.)
-		\item Distilled water
+		\item Distilled water with a drop of dishwasher detergent: removes coarse contamination off the substrate.
+		\item Isopropanol (purity \SI{99.9}{\percent} p.a.): dissolves oils without leaving oil traces as compared to ethanol
+		\item Acetone (purity \SI{99.9}{\percent} p.a.): a heavy-duty degreaser, also dissolves many plastics
+		\item Distilled water: Acetone heavily reacts with the later applied Piranha solution, potentially causing explosions. Therefore, any acetone residue has to be removed. As actetone is water-soluble, distilled water is used to remove the residue. 
 	\end{itemize}
 
 	Thereafter, the substrates are put into a Piranha solution (\SI{50}{\percent} sulfuric acid \ch{H2So4}, \SI{50}{\percent} hydrogen peroxide \ch{H2O2}) to enhance the surface hydrophilicity and therefore obtain a homogeneous distribution of diamonds on the surface.
 	They are then put again into distilled water and blow-dried with compressed air to avoid residue from the water.
+	\\
 	The substrates were then either drop-casted or spin-coated with aqueous diamond solutions.
-	For the former, the substrates are heated to a temperature of \SI{60}{\celsius} and drops of a volume of about \SI{5}{\micro\liter} are dropped onto the substrate.
+	For the former, the substrates are heated on a heating plate to a temperature of \SI{60}{\celsius}.
+	While the substrates are permanently heated by the heating plate, drops of a volume of about \SI{5}{\micro\liter} are dropped onto the substrate surface.
 	If substantially more than \SI{5}{\micro\liter} is needed, then several drops of about \SI{5}{\micro\liter} are dropped onto the substrate consecutively. A single large drop is ill-advised since the solution would flow off the substrate before drying.
-	For spin-coating, a spin coater was build on-site used.
-	Here, drops of \SI{5}{\micro\liter} are dropped on the substrate and the spin-coater set to a velocity of \SI{2500}{\rpm} for \SI{3}{\minute}.
+	\\
+	For spin-coating, an on-site built spin coater was used.
+	Therefore the spin-coater is pre-set to  velocity of \SI{2500}{\rpm}.
+	Then drops of \SI{5}{\micro\liter} are dropped on the substrate and the spin-coater is immediately turned on.
+	After about \SI{3}{\minute}, the drop has dried.
+	If more than \SI{5}{\micro\liter} of diamond solution is wanted, the spin-coating is repeated until the desired amount is reached.
 
  \section{Listing of available samples}
 
- \begin{table}[tp]
+ \begin{table}[hp]
 	 \centering
 	 \caption[Listing of available wet-milled samples]{Listing of available wet-milled samples. The first column indicates the names of the samples, the second the mean diameter of the \nds, and the third designates how the \si was incorporated into the diamond.} \label{tab::samplenames}
 		 \begin{tabular}{llll}

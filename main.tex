@@ -3,7 +3,7 @@
 \documentclass[
 	a4paper,     % DinA4 Papier
 	11pt,       % Schriftgröße
-	oneside,     % oneside, twoside
+	twoside,     % oneside, twoside
 ]{report}
 
 \input{./frontbackstuff/preamble/preamble}
@@ -22,9 +22,9 @@
 
 	%
 	% \listoftodos
-	% \include{./frontbackstuff/title/title}		\label{title}
-	% \cleardoublepage
-	% \include{./chapters/abstract/abstract}	\label{abstract}
+	\include{./frontbackstuff/title/title}		\label{title}
+	\cleardoublepage
+	\include{./chapters/abstract/abstract}	\label{abstract}
 
 	\cleardoublepage
 \pagestyle{fancy}
@@ -58,22 +58,22 @@
 
 	\cleardoublepage
 	\include{./chapters/introduction/introduction}
-	% \input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
-	% \input{./chapters/setup/setup}
-	% \input{./chapters/nanodiamonds/nanodiamonds}
-	% \input{./chapters/crystal_quality/crystal_quality}
-	% \input{./chapters/results/spectral_distro/spectral_distro}
-	% \input{./chapters/results/spectral_distro/emission_spectra}
-	% \input{./chapters/results/spectral_distro/sideband}
-	% \input{./chapters/results/spectral_distro/g2}
-	% \input{./chapters/results/spectral_distro/blinking}
-	% \input{./chapters/results/coupling/coupling}
-	% \input{./chapters/results/coupling/coupling_vcsel}
-	% \input{./chapters/results/coupling/coupling_antenna}
-	% \input{./chapters/discussion/discussion}
+	\input{./chapters/theory/theory}	%use input instead of include if no pagebreak before the file is desired (doesn't create separate .aux files)
+	\input{./chapters/setup/setup}
+	\input{./chapters/nanodiamonds/nanodiamonds}
+	\input{./chapters/crystal_quality/crystal_quality}
+	\input{./chapters/results/spectral_distro/spectral_distro}
+	\input{./chapters/results/spectral_distro/emission_spectra}
+	\input{./chapters/results/spectral_distro/sideband}
+	\input{./chapters/results/spectral_distro/g2}
+	\input{./chapters/results/spectral_distro/blinking}
+	\input{./chapters/results/coupling/coupling}
+	\input{./chapters/results/coupling/coupling_vcsel}
+	\input{./chapters/results/coupling/coupling_antenna}
+	\input{./chapters/discussion/discussion}
 	\input{./chapters/conclusion/conclusion}
 	% \input{./chapters/appendices/appendices}			\label{appendices}
-	% \include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}
+	\include{./frontbackstuff/bibliography/bibliography}		\label{bibliography}
 
 % 	\cleardoublepage
 	\phantomsection

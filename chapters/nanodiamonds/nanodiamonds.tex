@@ -3,10 +3,6 @@
 \chapter{Fabrication of Nano-diamonds}	\label{ch::fabrication_nanodiamonds}
 \chaptermark{Fabrication of Nano-diamonds}
 
-	\begin{remark}
-			\item die section mit den \si implanted \nds muss von dir ueberarbeitet werden. Die hab ich deshalb vorerst ausgelassen. Es gibt 3 teile (einfuehrung, preliminary tests und final procedure). Ich hab den eindruck, dass sich da konzeptionell vieles wiederholt und das man das ganze vielleicht in einer section unterbringen kann und die feineren unterscheidungen einfach beilaeufig erwaehnt.
-	\end{remark}
-
 	\epigraph{``Diamond forms under high temperature and pressure conditions that exist only about 100 miles beneath the earth's surface.''}{\textup{Gemological Institute of America Inc.}}
 
 	Due to its extraordinary properties, diamond has transcended its sole purpose as a rare gem and developed into an important tool enabling various applications in industry and research. This change has been driven largely by the development of methods allowing to cheaply produce synthetic diamond. While synthetic diamonds are typically small and without the splendor generally associated with diamond, they can be produced on-demand and are thus arguably more useful than rare gemstones.
@@ -155,13 +151,6 @@
 	\subsection{Wet-Milled \CVD \Nds}\label{subsec::milled_nds}
 		% - milled CVD diamond film (in-situ SiV)
 
-		\begin{figure}[htp]
-				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/Ir27M_mitte_213_151111_22_crop.jpg}}
-			\caption[Distribution of \nds on-top of an \ir substrate]{Pictures of milled \nds (sample \insituH) showing the distribution of the \nd crystals on the \ir substrate.}
-			 \label{fig::sem_millling}
-		\end{figure}
-
 		In the following paragraphs, details of the production processes of \nd produced by wet-milling a \CVD diamond film in a vibrational mill are given.
 		For an overview of the samples refer to \autoref{tab::samplenames}.
 		The starting material for the wet-milled \nds was a nano-crystalline diamond film \cite{Williams2006a} directly grown on a silicon wafer by \CVD.
@@ -172,6 +161,14 @@
 		The high amount of steel containment due to the steel beads is removed by extensive acid treatment.
 		We also investigated \nds milled with silicon nitride beads, and found that the choice of material of the beads does not result in any noticeable difference in dependent measurements.
 		The median diameters of the diamonds are \SIlist{50; 70; 100}{\nano\meter} as determined by laser diffraction spectroscopy. \autoref{subfig::sem_milled} shows milled \nds on-top of an \ir substrate.
+
+		\begin{figure}[htp]
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height=5cm]{./pics/Ir27M_mitte_213_151111_22_crop.jpg}}
+			\caption[Distribution of \nds on-top of an \ir substrate]{Pictures of milled \nds (sample \insituH) showing the distribution of the \nd crystals on the \ir substrate.}
+			 \label{fig::sem_millling}
+		\end{figure}
+
 		The aqueous solution containing the \nds is drop cast onto an \ir film on a \Si substrate.
 		The \ir film of a thickness of \SI{130}{nm} is grown onto a buffer layer of yttria-stabilized zirconia (YSZ) which in turn is grown onto a \Si wafer.
 		The \ir surface has the advantage that it acts as an antenna and therefore enhances the collection efficiency of fluorescence light \cite{Neu2012a}. For a discussion on the properties of the substrate see \autoref{sec::ir_substrate}.
@@ -184,7 +181,7 @@
 		In addition to \sivs that were implanted during diamond growth, we investigated \nds with \sivs implanted after diamond growth.
 		% Here a polycristalline Element Six diamond film (electronic grade) served as starting material.
 		We developed a procedure composed of consecutive milling steps to obtain \nds with an optimal concentration and inhomogeneous distribution of \sivs in the host \nds.
-		Suboptimal concentration of \sivs in \nds arises from the fact, that \si implantation causes the \sivs to form in a specific depth dependent on the implantation energy\todo{ergebnisse von simulationen einfuegen}.
+		A suboptimal concentration of \sivs in \nds arises from the fact, that \si implantation causes the \sivs to form in a specific depth dependent on the implantation energy\todo{ergebnisse von simulationen einfuegen}.
 		As a consequence, when implanting bulk material most of the diamond is left vacant of \sivs.
 		Hence, a big portion of \nds milled from such a bulk material would not host any \sivs.
 		\\
@@ -197,17 +194,17 @@
 		For the milling process in a vibrational mill, a minimum amount of diamond material is necessary\todo{how much?}.
 		When starting with a diamond film, this threshold is easily reached, however, a big quantity of micro-diamonds is needed to meet the requirements.
 		To develop an optimal production procedure of implanted \nds, we first ran preliminary tests with a small amount of diamond material.
-		After determination of the optimal specifications of the procedure, we production at a larger scale. 
+		After determination of the optimal specifications of the procedure, we began production on a larger scale. 
 		\\
 		For our first experiments, we coated a small amount of micro-diamonds milled from the diamond film onto a \si substrate without an \ir layer.
 		The micro-diamonds were then implanted with \ch{^{28}Si^1+} at an implantation energy of \SI{1.7}{MeV}, and fluences of \SIrange{e9}{e12}{cm^-1}\footnote{Implantation performed by \rogalla.}.
-		After implantation, the micro-diamonds on the \si substrate were annealed for \SI{2}{\hour} at \SI{900}{\celsius} and subsequently oxidized in air for \SI{2}{\hour} at \SI{450}{\celsius} (for a detailed explanation of the effect of annealing and oxidation refer to \cref{subsection::ann_ox}).
+		After implantation, the micro-diamonds on the \si substrate were annealed for \SI{2}{\hour} at \SI{900}{\celsius} and subsequently oxidized in air for \SI{2}{\hour} at \SI{450}{\celsius}. For a detailed explanation of the effect of annealing and oxidation refer to \cref{subsection::ann_ox}.
 		Using this procedure, we encountered the problem that the \si from the substrate sublimated and re-nucleated during annealing.
-		This process caused the diamonds to sink into the \si surface (\autoref{subfig::sunken_nd}).
+		This process caused the diamonds to sink into the \si surface, see \autoref{subfig::sunken_nd}.
 		\\
 		\Ir is less prone to damage by high temperatures and withstands annealing procedures up to our standard annealing temperature of \SI{900}{\celsius} without problems.
 		Hence, we repeated the production process in the same manner as described above, but this time, we used an \ir coated \si wafer as substrate. 
-		Thus we circumvented the reported problems of micro-diamonds sinking into the substrate surface.
+		Thus we effectively circumvented the reported problems of micro-diamonds sinking into the substrate surface.
 		\\
 		A further technical challenge was the limited space in the vacuum oven used for annealing the micro-diamonds. 
 		This circumstance capped the size of individual substrates for the micro-diamonds to a side length of \SI{2}{cm}.
@@ -215,65 +212,45 @@
 		\begin{figure}[htp]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/am21-sc-7-x20000-1.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/am21-sc-7-x20000-1.png}}
 				\caption{}\label{subfig::sunken_nd}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M5_1_4_17.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/M5_1_4_17.png}}
 				\caption{}\label{subfig::microdiamonds}
 			\end{subfigure}
-			\caption{(a) SEM picture of \nds sunken into a \si substrate after annealing at \SI{900}{\celsius} for \SI{3}{h}. Magnification \num{20000}. (b) SEM image of the micro-diamonds after milling on an \ir substrate, but before implantation. In the middle of the picture, there is a reference cross milled into the \ir substrate with a focused ion beam. Its size amounts to \SI{10}{\micro\meter}. It can be seen, that the micro-diamonds exhibit sizes of a few micrometer.}
-			\label{fig::<fig>}
+			\caption[SEM images of micro and nano-diamonds]{(a) SEM picture of \nds sunken into a \si substrate after annealing at \SI{900}{\celsius} for \SI{3}{h}. Magnification \num{20000}. (b) SEM image of the micro-diamonds after milling on an \ir substrate, but before implantation. In the middle of the picture, there is a reference cross milled into the \ir substrate with a focused ion beam. Its size amounts to \SI{10}{\micro\meter}. It can be seen, that the micro-diamonds exhibit sizes of a few micrometer.}
 		\end{figure}
 
-		Spectroscopic measurements revealed, that micro-diamonds implanted with a fluence of fluence \SI{e11}{\per\centi\meter\squared} was best suited to form a high concentration of \sivs within the micro-diamonds.
+		Spectroscopic measurements revealed, that micro-diamonds implanted with a fluence of \SI{e11}{\per\centi\meter\squared} were best suited to form a high concentration of \sivs within the micro-diamonds.
 		\\
 		Following our results from the preliminary tests, we initiated mass production.
-		The micro-diamonds were directly spin-coated onto 20 \ir substrates of a side length of \SI{2}{cm} which yielded densely coated samples(\cref{subfig::microdiamonds}).
-		After spin-coating the samples were implanted with \ch{^{28}Si^1+} (implantation energy \SI{900}{keV}, fluence \SI{e11}{\per\centi\meter\squared}) \footnote{Implantation performed by \klug.}
+		The micro-diamonds were directly spin-coated onto $20$ \ir substrates of a side length of \SI{2}{cm} which yielded densely coated samples, see \cref{subfig::microdiamonds}.
+		After spin-coating the samples were implanted with \ch{^{28}Si^1+} using an implantation energy of \SI{900}{keV} with a fluence of \SI{e11}{\per\centi\meter\squared}\footnote{Implantation performed by \klug.}.
 		The micro-diamonds were then annealed in vacuum for \SI{3}{\hour} at \SI{900}{\celsius} and oxidized in air for \SI{3}{\hour} at \SI{450}{\celsius}.
 		As mentioned, a bottleneck of the production was the limited space of the vacuum oven.
-		Only 3 samples fit into it at once, hence it was necessary to recursively repeat the annealing process until all samples were annealed.
+		Only $3$ samples fit into it at once, hence it was necessary to recursively repeat the annealing process until all samples were annealed.
 		\\
 		At last, the micro-diamonds were milled again to sizes of about \SIlist{40;45;240;260}{nm}.
 		The diamonds of sizes \SIlist{40;240}{nm} were directly annealed in vacuum at \SI{1200}{\celsius}\todo{time?}\footnote{performed by \muzha} without prior spin-coating.
 
 \section{\Ir Substrate}\label{sec::ir_substrate}
 
-
-	\begin{figure}[tp]
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\caption{}\label{subfig::wetting}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/benetzung_M11_13_2edit.png}}
-		\end{subfigure}
-		\hfill
-		\begin{subfigure}[t]{ 0.49\linewidth}
-			\caption{}\label{subfig::peeled_ir}
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/siq-basd-siv2-tilt45-x10000-1.png}}
-		\end{subfigure}
-		\caption{(a) Microscope image of a drop of water on an \ir substrate cleaned with Piranha etch. This picture was used to estimate the contact angle. (b) SEM picture of an \SI{60}{nm} \ir layer that peeled off the substrate after an ultrasonic bath.}
-		\label{fig::sem_substrates}
-	\end{figure}
-
-	As mentioned in \autoref{sec::cvd}, growth on a substrate is favored, if the lattice constant of the substrate and the diamond to be grown are similar.
-	Therefore, for CVD nano-diamond growth a multi-layered substrate was prepared in a heteroepitaxial growth process. 
+	As mentioned in \autoref{sec::cvd}, growth on a substrate is favored, if the lattice constants of substrate and diamond to be grown are similar.
+	Therefore, for \CVD nano-diamond growth a multi-layered substrate was prepared in a heteroepitaxial growth process. 
 	This substrate consists of a \si wafer on the bottom, a yttria-stabilized zirconia buffer layer in the middle and an \ir layer on top. 
 	Initially, whole \SI{4}{\inch} wafers were prepared with a multi-layered structure.
 	After the heteroepitaxial growth processes, the wafer is cut to squares with a side length of \SI{1}{cm} to fit into all machinery used during experiments, such as the spin-coater, the confocal setup, the \fib and the SEM.
 	\\
 	Apart from the favorable lattice constant, \ir exhibits further advantages which lead us to coating the wet-milled diamonds onto these same multi-layered substrates:
 
-
 	\begin{itemize}
-		\item The high hydrophilicity of \ir enhances the homogeneity of the \nds on the substrate after spin-coating or drop-casting.
-		The hydrophilicity is further improved by treating the substrate in a Piranha etch (50:50 mixture of sulfuric acid \ch{H2So4} and hydrogen peroxide \ch{H2O2}) by removing oxide layers on the surface.
+		\item The high hydrophilicity of \ir enhances the homogeneity of the \nds on the substrate after spin-coating or drop-casting. Hydrophilicity is further improved by treating the substrate in a Piranha etch (50:50 mixture of sulfuric acid \ch{H2So4} and hydrogen peroxide (\ch{H2O2}) by removing oxide layers on the surface.
 		The treatment with Piranha etch also has the advantage that all organic contamination is removed.
 		Measurements after applying the Piranha cleaning yielded an estimation of the contact angle of slightly more than one degree.
-		To determine the contact angle with water, the volume of a water drop is compared to the surface it covers after dropping it onto an \ir substrate, see \autoref{subfig::wetting}.	From that an estimation of the contact angle is deduced.
+		To determine the contact angle with water, the volume of a water drop is compared to the surface it covers after dropping it onto an \ir substrate, see \autoref{subfig::wetting}. From that an estimation of the contact angle is deduced.
 		\item During the post-processing steps, it is of major importance, that the substrate can withstand high temperatures.
 		As described in \autoref{subsubsec::preliminary_tests}, during the preliminary tests with implanted \nds on a \si substrate we encountered difficulties with diamonds on a \si substrate as the sunk into the surface after annealing.
 		In contrast, \ir withstands the high temperatures required for annealing without damage.
@@ -281,10 +258,27 @@
 		Therefore, the collection efficiency of the \fl light is enhanced.
 	\end{itemize}
 
+
+	\begin{figure}[tp]
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::wetting}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/benetzung_M11_13_2edit.png}}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[t]{ 0.49\linewidth}
+			\caption{}\label{subfig::peeled_ir}
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/siq-basd-siv2-tilt45-x10000-1.png}}
+		\end{subfigure}
+		\caption[Details for \ir substrates]{(a) Microscope image of a drop of water on an \ir substrate cleaned with Piranha etch. This picture was used to estimate the contact angle. (b) SEM picture of an \SI{60}{nm} \ir layer that peeled off the substrate after an ultrasonic bath.}
+		\label{fig::sem_substrates}
+	\end{figure}
+
 	At this point we comment upon a minor complication we experienced when using \ir surfaces.
 	If the \ir layer is too thin, it tends to peel off the substrate, see \autoref{subfig::peeled_ir}.
 	We encountered this problem during a cleaning procedure in the ultrasonic bath.
-	However, this disadvantage is easily circumvented by using a thicker \ir layer.
+	However, this disadvantage is trivially circumvented by using a thicker \ir layer.
 	For our measurements, we used an \ir layer of a thickness of \SI{130}{nm}, for which we did not encounter any adhesion problems.
 
 	\subsection{Substrate Preparation}
@@ -294,9 +288,9 @@
 		Each step is carried out for a duration of \SIrange{3}{7}{\minute}, approximately adjusted to the amount of contamination present:
 
 		\begin{itemize}
-			\item Distilled water with a drop of dishwasher detergent: removes coarse contamination off the substrate.
-			\item Isopropanol (purity \SI{99.9}{\percent} p.a.): dissolves oils without leaving oil traces as compared to ethanol
-			\item Acetone (purity \SI{99.9}{\percent} p.a.): a heavy-duty degreasing agent, also dissolves many plastics
+			\item Distilled water with a drop of dishwasher detergent: Removes coarse contamination off the substrate.
+			\item Isopropanol (purity \SI{99.9}{\percent} p.a.): Dissolves oils without leaving oil traces as compared to ethanol.
+			\item Acetone (purity \SI{99.9}{\percent} p.a.): A heavy-duty degreasing agent, also dissolves many plastics.
 			\item Distilled water: Acetone heavily reacts with the later applied Piranha solution, potentially causing explosions. Therefore, any acetone residue has to be removed. As acetone is water-soluble, distilled water is used to remove the residue. 
 		\end{itemize}
 
@@ -309,7 +303,7 @@
 		If substantially more than \SI{5}{\micro\liter} is needed, then several drops of about \SI{5}{\micro\liter} are dropped onto the substrate consecutively. A single large drop is ill-advised since the solution would flow off the substrate before drying.
 		\\
 		For spin-coating, an on-site built spin coater was used.
-		Therefore the spin-coater is preset to  velocity of \SI{2500}{\rpm}.
+		Therefore the spin-coater is preset to velocity of \SI{2500}{\rpm}.
 		Then drops of \SI{5}{\micro\liter} are dropped on the substrate and the spin-coater is immediately turned on.
 		After about \SI{3}{\minute}, the drop has dried.
 		If more than \SI{5}{\micro\liter} of diamond solution is wanted, the spin-coating is repeated until the desired amount is reached.
@@ -317,7 +311,7 @@
 		
 	 \section[Samples List]{Listing of Investigated Samples}
 
-		 \begin{table}[hp]
+		 \begin{table}[H]
 			 \centering
 			 \caption[Listing of investigated wet-milled samples]{Listing of investigated wet-milled samples. While this is a subset of all the samples investigated throughout the work of this thesis, these samples are the most thoroughly investigated ones. They are the basis for the results reported in \ref{ch::distribution}. The first column indicates the names of the samples, the second the mean diameter of the \nds, and the third designates how the \si was incorporated into the diamond.} \label{tab::samplenames}
 				 \begin{tabular}{llll}

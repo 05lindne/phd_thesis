@@ -29,7 +29,7 @@
 		% 	\end{minipage}
 		% \end{figure}
 
-		When studying \sivs experimentally, two capabilities are key: Exciting \sivs into emmiting fluerescent light using a laser and the ability to register resulting \siv flourescence. A confocal setup elegantly supports both requirements. Confocal microscopy uses an objective to focus a laser onto a small volume of a sample which can be used to excite \sivs in a controlled fashion. As the luminescence light returning from the emitter is in the same focus as the excitation laser light, it is effectively collected by the objective, thus the designation ``confocal". For an overview of confocal microscopy we refer the reader to \cite{janine::237}.
+		When studying \sivs experimentally, two capabilities are key: Exciting \sivs into emmiting \fl using a laser and the ability to register resulting \siv fluorescence. A confocal setup elegantly supports both requirements. Confocal microscopy uses an objective to focus a laser onto a small volume of a sample which can be used to excite \sivs in a controlled fashion. As the luminescence light returning from the emitter is in the same focus as the excitation laser light, it is effectively collected by the objective, thus the designation ``confocal". For an overview of confocal microscopy we refer the reader to \cite{janine::237}.
 
 		\begin{figure}[htb]
 			\centering
@@ -46,14 +46,14 @@
 		The translation stage is moved by two stepper motors (Newport MVP25XL) enabling the sample to be translated horizontally, i.e.\ in the $x-y$ plane.
 		Above the horizontal stage, the objective is fixed to another stage which in turn is mounted to a vertical breadboard.
 		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$ axis, \i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
-
+		\\
 		The bright red color in the sketch in \autoref{fig::confocal_setup} represents the path of the excitation laser beam.
 		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) emitting at a \wl of \SI{660}{\nano\meter}.
 		The outlet of the laser is a pigtail fiber.
 		The laser light is outcoupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
 		After this cleanup filter, the excitation beam hits a \SI{}{\milli\meter} glass plate (fabricator Halle Germany \todo[fancyline]{thickness}) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
-
+		\\
 		The collected light follows the detection beam path depicted in dark red in \autoref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
 		Removing the flip mirror behind the beamsplitter from the path directs light towards a \smf (Thorlabs SM600) connecting the confocal setup with either the spectrometer or the \hbt setup. Prior to focusing light into the \smf using an aspheric lens, a longpass filter is deployed to eliminate residual exictation light and ambient light.
@@ -62,9 +62,9 @@
 		Its diameter of about \SI{4.3}{\micro\meter} serves as a pinhole to reject \pl light from depths ouside of the focal plane \cite{Santori2010}.
 		For this axis the resolution amounts to \todo[fancyline]{value}, in the plane of the sample it is \todo[fancyline]{value}.
 		\todo[fancyline]{short discussion if resolution is enough}
-
+		\\
 		We remark that the glass plate in used \autoref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation effeciency since most of the exciting light is not being redirected towards the sample. In constrast to that, certain use cases such as saturation measurements require high exictation intensities. To realize these the glass plate may be replaced by dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects sight as a function of its wavelength.
-
+		\\
 		In general, if a high excitation is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs and can also cause permanent flourescent intermittence of \sivs, \i.e.\ blinking, as an unwanted side-effect see \autoref{ch::siv}.
 
 	\section[Surface Imaging]{Optical Imaging of The Sample Surface} \label{sec::methods_optical}
@@ -153,7 +153,7 @@
 		As stated earlier, the time delay between two consecutive photons is necessary for the reconstruction of the \gtf.
 		The time delays are fed into a histogram which is then fitted to receive the continuous \gtf.
 		As a suitable fit function a numerical convolution between the $\gt(\tau)$ derived for a three-level system and detector timing jitter can be used \cite{becker::16, neu::thesis, janine::thesis}.
-
+		\\
 		In the \HBT{}-setup the arrival time of photons are recorded with two APDs, each of which keeping a list of arrival times as raw data.
 		To get a single array of arrival times of the photons, which can then be binned to obtain the \gtf, the arrays of time tags of the two \APDs have to be correlated.
 		For that, the time difference between each entry in one array and all consecutive time tags in the other array are determined and binned according to the timing resolution of the time tag unit.

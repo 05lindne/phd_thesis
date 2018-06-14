@@ -29,21 +29,21 @@
 		The translation stage is moved by two stepper motors (Newport MVP25XL) enabling the sample to be translated horizontally, i.e.\ in the $x-y$ plane.
 		Above the horizontal stage, the objective is fixed to another stage which in turn is mounted to a vertical breadboard.
 		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$ axis, \i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
-
+		\\
 		The bright red color in the sketch in \autoref{fig::confocal_setup} represents the path of the excitation laser beam.
 		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) emitting at a \wl of \SI{660}{\nano\meter}.
 		The outlet of the laser is a pigtail fiber.
 		The laser light is out-coupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
 		After this cleanup filter, the excitation beam hits a \SI{}{\milli\meter} glass plate (fabricator Halle Germany \todo[fancyline]{thickness}) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
-
+		\\
 		The collected light follows the detection beam path depicted in dark red in \autoref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
 		Removing the flip mirror behind the beamsplitter from the path directs light towards a \smf (Thorlabs SM600) connecting the confocal setup with either the spectrometer or the \hbt setup. Prior to focusing light into the \smf using an aspheric lens, a long-pass filter is deployed to eliminate residual excitation light and ambient light.
 		The filter is chosen with a cutoff \wl of \SI{710}{\nm} or \SI{720}{\nm}.
 		Besides the obvious purpose of guiding the \pl light to the spectrometer and the \HBT setup for spectroscopic investigations, it severs another crucial purpose. Namely, diameter of about \SI{4.3}{\micro\meter} acts as a pinhole to reject \pl light from depths outside of the focal plane \cite{Santori2010}.
 		For this axis the resolution amounts to \todo[fancyline]{resolution value}, in the plane of the sample it is \todo[fancyline]{resolution value}.
-		
+
 		We remark that the glass plate in used \autoref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
 
 		In general, if high excitation setting is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs to the point of bleaching and can also cause fluorescent intermittence of \sivs, \i.e.\ blinking, as an unwanted side-effect see \autoref{ch::siv}.
@@ -76,14 +76,14 @@
 		The \fl arrives via a pigtail fiber connecting the confocal setup with the detection setup and is out-coupled with an aspheric lens.
 		A flip mirror is employed to direct the light either to a grating spectrometer or the \hbt setup.
 		The optical spectrum of a light source gives insight to the optically active constituents and therefore bears information about the emitter.
-		
+
 		As mentioned before, the \fl from the \sivs is investigated with the grating spectrometer (Princeton Instruments Acton2500i).
 		The incident beam passes through an entrance slit, is then scattered on the grating where the light is spectrally divided and finally hits a detector, imaging the entrance slit on the detector surface.
 		The employed detector is a CCD camera (Princeton Instruments, Spec-10) cooled with liquid nitrogen to a temperature of \SI{-120}{\celsius}. This limits background signals due to thermally generated free charge carriers.
 		The spectrometer is optimized for detection of light up to a \wl of \SI{900}{nm}.
 		and features three gratings: \SI[per-mode=symbol]{600}{\lines\per\mm}, \SI[per-mode=symbol]{1200}{\lines\per\mm}, and \SI[per-mode=symbol]{1800}{\lines\per\mm}.
 		These gratings are mounted on a turret, allowing easy swapping of gratings between measurements.
-		
+
 		With the spectrometer's step-and-glue function which is implemented in the spectrometer software (WinSpec) it is possible, to record several spectra over a wide \wl range which are then stitched together.
 		It is therefore possible to combine a larger \wl range with a higher resolution.
 		For most measurements the grating with \SI[per-mode=symbol]{600}{\lines\per\mm} was used.
@@ -95,7 +95,7 @@
 		A \HBT setup is used to establish the intensity autocorrelation function (\gt function) of an emitter \cite{janine::240, janine::241}.
 		In this work, the \gtf is used to assert the non-classical behavior of a \pl source, \i.e.\ characterize its behavior as a single photon emitter.
 		In the photon number representation, it is defined as follows:
-		
+
 		\begin{equation}
 		\gt(\tau) = \frac{ \mean{ N(t) N(t+\tau) } }{\mean{N(t)}^2}.
 		\end{equation}
@@ -112,7 +112,7 @@
 			\label{fig::g2_illustration}
 		\end{figure}
 
-		
+
 		The aim of the \hbt setup is to record the time delay between two consecutive photons as a prerequisite to compute $\gtz$.
 		A sketch of the \hbt setup is shown in \autoref{fig::hbt_spectrometer}.
 		Photons are detected using single photon \apds (\APDs, PicoQuant $\tau${}-SPAD100).
@@ -144,7 +144,7 @@
 		As stated earlier, the time delay between two consecutive photons is necessary for the reconstruction of the \gtf.
 		The time delays are fed into a histogram which is then fitted to receive the continuous \gtf.
 		As a suitable fit function a numerical convolution between the $\gt(\tau)$ derived for a three-level system and detector timing jitter can be used \cite{becker::16, neu::thesis, janine::thesis}.
-
+		\\
 		In the \HBT{}-setup the arrival time of photons are recorded with two APDs, each of which keeping a list of arrival times as raw data.
 		To get a single array of arrival times of the photons, which can then be binned to obtain the \gtf, the arrays of time-tags of the two \APDs have to be correlated.
 		For that, the time difference between each entry in one array and all consecutive time-tags in the other array are determined and binned according to the timing resolution of the time-tag unit.

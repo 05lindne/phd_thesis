@@ -15,26 +15,44 @@
 
 		\end{remark}
 
-		In this thesis we perform measurements of \sivs hosted in high-quality wet-milled \nds. In this context we use the term quality as a measure of how close diamond crystals are to their pristine form. The presence of lattice imperfections such as additional vacancies, lattice strain, impurities or the inclusion of graphite or amorphous carbon is known to adversely affect crystal quality \cite{Zaitsev2001,Prawer2004,Orwa2000}.
+		Carbon forms a great variety of crystalline and disordered structures because it is able to exist in three hybridisations, sp$^3$, sp$^2$, sp$^1$(\cref{fig::c_bonds})\cite{Robertson1986}.In the sp$^3$ configuration, as in diamond, a carbon atom's four valence electrons are each assigned to a tetrahedrally directed sp$^3$ orbital,which makes a strong $\sigma$ bond to an adjacent atom. In the three-fold coordinated sp$^2$ configuration as in graphite, three of the four valence electrons enter trigonally directed sp$^2$ orbitals, which form $\sigma$ bonds in a plane. The fourth electron of the sp$^2$ atom lies in a p$_z$(p$\pi$) orbital, which lies normal to the $\sigma$ bonding plane. This $\pi$  orbital forms a weaker $\pi$ bond with an $\pi$ orbital on one or more neighbouring atoms. In the sp$^1$ configuration, two of the four valence electrons enter $\sigma$ orbitals, each forming a $\sigma$ bond directed along the $\pm$x-axis, and the other two electrons enter p$\pi$ orbitals in the y and z directions. The extreme physical properties of diamond derive from its strong, directional $\sigma$ bonds. Graphite has strong intra-layer $\sigma$ bonding and weak van der Waals bonding between its layers \cite{Robertson2002}.
 
-		Surface contamination like graphite and amorphous $sp^2$ hybridized carbon atoms manifest themselves as additional peaks in the Raman spectrum.
+		\begin{figure}[htb]
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/c_bonds_axis.png}}
+			\caption{The sp$^3$, sp$^2$, sp$^1$ hybridised bonding \cite{Robertson1986}}
+			\label{fig::c_bonds}
+		\end{figure}
+
+		
+		In this thesis we perform measurements of \sivs hosted in \nds produced by various means \cref{ch::fabrication_nanodiamonds}.
+		In this context we use the term quality as a measure of how close diamond crystals are to their pristine form. 
+		The presence of lattice imperfections such as additional vacancies, lattice strain, impurities or the inclusion of graphite or amorphous carbon is known to adversely affect crystal quality \cite{Zaitsev2001,Prawer2004,Orwa2000}.
+		\\
+		Surface contamination like graphite and amorphous sp$^2$ hybridized carbon atoms manifest themselves as additional peaks in the Raman spectrum.
 		Strain in the diamond lattice broadens the first order Raman peak and causes it to shift to higher or smaller wavenumbers.
 		Similarly, high concentrations of lattice defects cause additional peaks, a broadening of the first order Raman peak and a shift towards smaller wavenumbers.
-
+		\\
 		To improve crystal quality and to reduce the mentioned distracting effects the following methods are deployed here: Annealing in a vacuum, oxidation in air as well as surface treatments involving plasmas\todo[fancyline]{Hier fehlt jeweils ein kurzer satz was die dinger bewirken sollen.}.
-
+		\\
 		To study the effectiveness of these treatments and to gauge the quality of our \nd samples we rely on Raman spectroscopy and TEM imaging. The former is used to detect strain, quantify defect concentration and the presence of carbon in non-diamond phases, while the latter enables imaging of individual \nds revealing details in crystallinity such as crystal boundaries.
 
 		\section{Quality-improving Post-Processing Treatments}
 
 			\subsection{Annealing and Oxidation}\label{subsection::ann_ox}
 
+				In this thesis we perform measurements with \nds produced both by direct \CVD growth and by wet-milling a \CVD diamond film.
+				In a \cvd reactor, either an amorphous carbon deposit, or a crystalline diamond film may be produced depending on the ratio of the fluxes of carbon and atomic hydrogen onto a substrate \cite{Ford1995,Olson1993}. 
+				\\
+				\sivs were formed both via \textit{in-situ} implantation during \CVD growth and via \si implantation.
 				During \si implantation the diamond lattice gets damaged by the penetrating ions.
-				sp$^2$ bonds, carbon interstitials and vacancies disrupt the metastable equilibrium of the diamond phase. Hence, there is a tendency for damaged diamond to "tip over" to the thermodynamically stable form of carbon, i.e.\ graphite.
+				sp$^2$ bonds, carbon interstitials and vacancies disrupt the metastable equilibrium of the diamond phase. 
+				Hence, there is a tendency for damaged diamond to "tip over" to the thermodynamically stable form of carbon, i.e.\ graphite.
+				\\
 				At temperatures above about \SI{500}{\celsius}, vacancies in the diamond lattice become mobile and diffuse towards the surface\cite{Dresselhaus1992}.
 				Literature suggests, that annealing at \SI{900}{\celsius} for \SI{1}{\hour} is sufficient to remove most of the damage following implantations.
 				To reduce the damage in the diamond lattice even further, we anneal the implanted diamonds at \SIrange{900}{1200}{\celsius} for \SIrange{3}{6}{h} in vacuum (\SI{e-6}{Pa}).
-				
+				\\
 				The surface of the \nds is contaminated with graphite and amorphous sp$^2$ hybridized carbon \todo[fancyline]{warum?}. We apply oxidation in an oven under ambient air at a temperature of \SI{450}{\celsius} for \SIrange{3}{6}{h}.
 
 			\subsection{Surface Treatment With Gas And Plasma}\label{subsection::plasma}

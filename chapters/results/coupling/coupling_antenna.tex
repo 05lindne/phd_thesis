@@ -2,22 +2,22 @@
 \section[Coupling \Nds to Optical Antennas]{Coupling \Nds to Double Bowtie Antenna Structures} \label{sec::coupling_antennas}
 
 	Plasmonic nano-antennas are very recent devices designed to efficiently convert freely propagating optical radiation into localized energy and vice versa \cite{Optical Antennas, Palash Bharadwaj, Bradley Deutsch, and Lukas Novotny, nancy::77, nancy::78}. Leveraging this unique property, integrating \sivs with optical antennas creates coupled systems with a range of desirable features. These include enhanced \pl emission and the ability to tailor \pl spectra of the integrated emitters. The latter can be achieved by tuning the physical design parameters of the system including antenna geometry and emitter placement.
-
+	\\
 	In this chapter we report on our efforts aimed at enhancing the properties of \sivs by coupling them to optical double bowtie antennas. To this end we transfer selected \nds containing \sivs to the target antenna structure using \pp methods. After successful coupling we investigate the integrated structure experimentally. In addition to that we successfully relate some of our results to theoretical predictions.
-
+	\\
 	In the following we give a short discussion of the most important properties of optical antennas. Then we sketch the actual coupling process and report on the optical properties of the resulting integrated structure. To our knowledge, our experiments were the first attempts of coupling \sivs to plasmonic bowtie antennas.
 
 	\subsection{Plasmonic Antennas}
 
 		Optical nano-antennas act as converters between propagating and localized electro-magnetic fields. Thus, they can be used efficiently to couple photons in and out of nano-scale objects \cite{Curto2010}. Due to their small physical sizes, comparable or smaller than the \wl of visible light, they are capable of focusing optical fields to sub-diffraction-limited volumes, offering the ability to manipulate electromagnetic fields at nano-scales \cite{Curto2010::3, nancy::78}. This property, dubbed sub-wavelength confinement, has successfully been exploited to enhance the excitation and emission of quantum emitters \cite{Curto2010::4, Curto2010::5, Curto2010::6, Curto2010::7} and to modify their spectra \cite{Curto2010::8}. Resulting practical applications include near-field optical microscopy \cite{nancy::79}, surface enhanced spectroscopy \cite{nancy::80, nancy::81} and molecular sensing \cite{nancy::82}.
-
+		\\
 		A nano-antenna is a nano-structure made from materials such as noble metals like gold or silver. These metals have in common that they are very susceptible to being polarized by electro-magnetic fields. When illuminated by the incident electromagnetic radiation causes electrons in the metal to behave as a plasma that tends to move with respect to the atomic lattice. As a result excess charge at the opposite surfaces of the material accumulates and the material becomes temporarily polarized until restoring forces equilibrate the charge distribution.
-
+		\\
 		Thus incident light of a given frequency induces oscillations in the free electron gas density in the surface layers of the metal. At resonance these light-induced oscillations exhibit modes of standing waves. The quasi-particles associated with these modes are known as \lsps (\LSPs).
 		For an in-depth treatment of \LSPs in the context of nano-antennas we refer the reader to \cite{nancy::thesis} and references therein.
-
+		\\
 		Here it suffices to say, that \LSPs facilitate the deciding property of optical antennas: Converting electromagnetic energy from the far-field into localized energy in the near-field. This allows, in combination with the high collection-efficiencies of nano-antennas, to efficiently couple visible radiation with wavelengths of hundreds of nanometers, into small effective spatial volumes of only a few nanometer in diameter.
-
+		\\
 		To create a controlled hot-spot several antenna designs are possible. In the context of this thesis we rely on double bowtie antennas available via a collaboration with \nancy. \cref{fig::double_bowtie_antenna_schematic} illustrates the typical bowtie antenna.
 
 		\begin{figure}[thp]
@@ -39,7 +39,7 @@
 
 		The improved electromagnetic field at the center of a metallic nano-antenna can be used to increase the spontaneous emission rate of emitters emitting at frequencies close to the resonance frequency of the antenna. This result is the known as Purcell effect \cite{nancy::86}. The gap between the antenna arms acts as a resonant cavity providing a strong near field interaction with the emitter. This interaction modifies the density of states of the system, effectively providing additional modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
 		The magnitude of the amplification for an emitter is quantified by the ratio of its enhanced decay rate to its free space decay rate, known as the Purcell factor $F_p$. This factor is proportional to $Q/V_{eff}$ where $Q$ denotes the quality of the antenna and $V_{eff}$ the volume of the hot-spot. Thus antenna design must optimize $F_p$ as a necessary condition for significant enhancement of \fl emission.
-
+		\\
 		In addition to the antennas local field enhancement, the emitters original quantum yield $\eta_0$ influences the overall effectiveness of the emission enhancement. From theoretical considerations \cite{nancy::thesis, nancy::140, nancy::162, nancy::163}, the modified quantum efficiency $\eta$ of the combined system consisting of emitter and antenna can be obtained as
 
 		\begin{equation}
@@ -47,7 +47,7 @@
 		\end{equation}
 
 		where $\eta_{ant}$ denotes the fraction of \fl which is not dissipated through losses in the metal of the antenna. It is clear that an emitter with $\eta_0 \to 1$ will not profit from the Purcell effect. On the contrary, for realistic antennas with $\eta_{ant} < 1$ antenna-induced losses reduce the overall quantum yield $\eta$. Consequently poor emitters with low initial $\eta_{0}$ stand to profit the most from antenna-emitter coupling provided antennas are engineered well, \i.e.\ they maximize their Purcell Factors and minimize their losses. For an in-dept review of plasmonic nano-antennas we refer the reader to \cite{nancy::thesis} and references therein.
-
+		\\
 		The presented considerations illustrate that due to their relatively low quantum efficiency, \sivs are excellent candidates for coupling with antennas. Thus it is promising to exploit the improved electromagnetic field at the center of a double bowtie antenna to enhance the spontaneous emission rate of \sivs and thus improve their merit as \spss.
 
 	\subsection{Plasmonic Antenna Design and Simulation} \label{sec::structure_antenna}
@@ -72,11 +72,11 @@
 		 		\end{figure}
 
 		To effectively enhance the emission of an emitter by coupling it to an optical antenna, the emission \wl must match the resonant \wl of the antenna. In the context of \sivs a value of \SI{738}{nm} is required. Since this value can be considered constant, the design parameters of the antenna must be choose such, that the resulting resonance matches it. An additional constraint is placed on the size of the antenna gap, since it must be big enough to accommodate \nds hosting \sivs, the former are around \SI{100}{\nm} in size. However, it cannot be chosen arbitrarily big, since bigger gaps lead to larger effective volumes and thus smaller Purcell Factors.
-
+		\\
 		Using finite time difference domain (FDTD) simulation deploying Lumerical Software the design space of gold double bowtie nano-antennas on a gold substrate was explored \cite{nancy::thesis}. Although we initially attempted to simulate antennas without a \nd present in the gap, it was subsequently discovered that its ab initio inclusion yielded superior results. Thus to determine usable design parameters for our purposes, an integrated system combining antenna and \nd was used. To better mimic experimental conditions and associated imperfections, the \nd was placed slightly off-center in the gap.
-
-		In a series of simulation it was established that a gap-size of $d = \SI{150}{nm}$, a side length of $L = \SI{2}{\micro\meter}$ and a structure thickness of $S = \SI{60}{nm}$ are feasible parameters as refered to in \cref{double_bowtie_antenna_schematic}. The simulation required the index of refraction for gold which was taken from Palik \cite{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}.
-
+		\\
+		In a series of simulation it was established that a gap-size of $d = \SI{150}{nm}$, a side length of $L = \SI{2}{\micro\meter}$ and a structure thickness of $S = \SI{60}{nm}$ are feasible parameters as referred to in \cref{double_bowtie_antenna_schematic}. The simulation required the index of refraction for gold which was taken from Palik \cite{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}.
+		\\
 		The resulting geometry hosting a \nd is capable of producing a suitable hot-spot when excited.
 
 		\begin{figure}[htp]
@@ -87,15 +87,42 @@
 		\end{figure}
 
 		Finally, to pin-point the resonant \wl for the antenna hosting a \nd, the electric field intensity is simulated as a function of the \wl of the incident light. The resulting spectrum is shown in \cref{fig::antenna_fdtd_spectrum}. Two resonant peaks are found. The intense major peak at \SI{739}{nm} coincides exceptionally well with the \siv emission wavelength \SI{738}{nm} indicating successful antenna design. In addition to the major peak, an additional minor mode at a lower wavelength of \SI{710}{nm} is found \cite{Rahbany2016}. We remark that if the \nd in the gap of the antenna is removed from the simulations, the minor feature vanishes. Thus the additional peak is well-attributed to the presence of the \nd.
-
+		\\
 		In summary, the combined simulation results suggest, that the engineered system of nano-antenna and \nd is well suited to effectively enhance the emission from an \siv hosted in the \nd. In the following sections we report on the experimental realization of this preposition.
 
 	\subsection{\siv in a Plasmonic Double Bowtie Antenna}
 
-		In the following we report on our attempts to couple \sivs to gold double bowtie nano-antennas in order to study the properties of the resulting integrated system. Ideally, a suitable \nd containing exactly one \siv is placed in the center of the antenna. The term suitable is used to summarize both desirable spectroscopic properties such as narrow-bandwith saturated single-photon emission as well as technical requirements such as \nd size and degree of isolation on the surface. Naturally, the odds of identifying and addressing a \nd fulfilling all these criteria simultaneously are small. As a result identifying a perfect candidate for coupling is prohibitively time-consuming.
+		In the following we report on our attempts to couple \sivs to gold double bowtie nano-antennas in order to study the properties of the resulting integrated system. Ideally, a suitable \nd containing exactly one \siv is placed in the center of the antenna. The term suitable is used to summarize both desirable spectroscopic properties such as narrow-bandwidth saturated single-photon emission as well as technical requirements such as \nd size and degree of isolation on the surface. Naturally, the odds of identifying and addressing a \nd fulfilling all these criteria simultaneously are small. 
+		As a result identifying a perfect candidate for coupling is prohibitively time-consuming. 
+		\Cref{fig::milky_way2} shows a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area of the surface of one of the samples which was used to identify suitable \nds.
+		The black dots are \nds.
+		It can be seen, that the concentration of the \nds and therefore the isolation of \nds varies.
+		The black frames correspond to areas of which confocal scans were recorded to identify \nds emitting \fl.
+		The red dots indicate \nds which are isolated and large enough for the \pp process and of which at least a \pl spectrum and a saturation measurement and in some cases a \gt measurement were recorded.
+		Only two of the measurements performed on this sample revealed a favorable spectrum, emission saturation and at least a small dip in the \gtf indicating a small amount of \sivs.
 
-		To mitigate this difficulty we decided to relax the condition of exactly one \siv per \nd and initiate our exploratory work with \nds containing several, potentially many active \sivs. Relying on \gtz measurements we identify two interesting classes of \nds. The first class consists of \nds containing large ensembles of \sivs acting as coherent emitters. The \fl light received from large ensemble of emitters is mainly coherent, leading to a flat response in the \gtz function. The second class of \nds we investigate features \nds hosting multiple \sivs. As a result relevant \gtz measurements report weak but discernible anti-bunching dips. Both classes have in common that relevant \nd specimen are significantly easier to obtain than \nds containing singleton \sivs. Thus \nds containing ensembles of \sivs as well as \nds containing few \sivs are both valid starting points for our work. It is likely that the experience gained during our preliminary explorations will be valuable once \nds containing singleton \sivs become available.
-
+		\begin{figure}[htbp]
+			\centering
+			\begin{tikzpicture}
+				\begin{scope}[spy using outlines={rectangle,blue,magnification=3,size=2.5cm}]
+				\node{\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \linewidth]{./pics/M02-16_structure2_paint.png}}};
+				\spy on (-6,-4.8) in node (a) [left] at (0,-6);
+				\end{scope}
+			\end{tikzpicture}
+			\caption[LSM scan, overview of a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area]{\Lsm scan of one of a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area of the investigated samples in search for suitable \nds. Black frames correspond to areas of which confocal scans were recorded to identify \nds emitting \fl. Red colored dots indicate \nds which are isolated enough for the \pp process and of which at least a \pl spectrum and a saturation measurement and in some cases a \gt measurement were recorded. The inset shows a magnification of the area framed in blue for better visibility of the red colored dots.}
+			\label{fig::milky_way2}
+		\end{figure}
+		
+		To mitigate this difficulty we decided to relax the condition of exactly one \siv per \nd and initiate our exploratory work with \nds containing several, potentially many active \sivs. 
+		Relying on \gt measurements we identify two interesting classes of \nds. 
+		The first class consists of \nds containing large ensembles of \sivs acting as coherent emitters. 
+		The \fl light received from large ensemble of emitters is mainly coherent, leading to a flat response in the \gtz function. 
+		The second class of \nds we investigate features \nds hosting multiple \sivs. 
+		As a result relevant \gtz measurements report weak but discernible anti-bunching dips. 
+		Both classes have in common that relevant \nd specimen are significantly easier to obtain than \nds containing singleton \sivs. 
+		Thus \nds containing ensembles of \sivs as well as \nds containing few \sivs are both valid starting points for our work. 
+		It is likely that the experience gained during our preliminary explorations will be valuable once \nds containing singleton \sivs become available.
+		\\
 		In the following sections we report on our efforts to couple \nds containing \sivs to antennas. We illustrate the coupling process and its challenges and discuss relevant results regarding the coupling of \nds of the classes described above. We close the chapter with a short discussion and suggestions for further research.
 
 		\subsubsection{\Nds Containing Ensembles of \sivs Coupled to Antennas}\label{subsubsection::antenna_multiple_sivs}
@@ -107,10 +134,10 @@
 			\end{remark}
 
 			The \nds used for the approach of coupling ensembles of \sivs to an antenna were wet-milled from a \CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams}.
-			The solution of \nds exhibiting a median size of \SI{100}{nm} was spin-coated on an iridium substrate treated with Piranha etch.
+			The solution of \nds exhibiting a median size of \SI{100}{nm} was spin-coated on an iridium substrate treated with Piranha etch (sample of type \insituH).
 			To ensure that a preselected nanodiamond exhibiting preferred optical properties can reliably be located, the iridium substrate was engraved with reference cross markers produced by a focused ion beam after the spin-coating process.
 			After spin-coating, the sample was placed in an oven for \SI{3}{\hour} at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon. See \cref{ch::nanodiamonds} for more information.
-
+			\\
 			% position
 			To determine the position of \nds on the original substrate, first a scan with a commercial \lsm (LSM) was performed as described in \cref{subsec::position}.
 			\cref{subfig::cross_laser_scan} shows a part of an obtained LSM image.
@@ -135,7 +162,8 @@
 				$\SI{8}{\micro\metre} \times \SI{13}{\micro\metre}$. }
 			\end{figure}
 
-			The most promising candidate \nds are characterized by \fl spectra with very narrow \zpls and minimal \psb features. \cref{subfig::spectrum_nd_multiple} shows the spectrum stemming from one such preselected \nd.
+			The most promising candidate \nds are characterized by \fl spectra with very narrow \zpls and minimal \psb features. 
+			\cref{subfig::spectrum_nd_multiple} shows the spectrum stemming from one such preselected \nd.
 			The \ZPL feature exhibits a \cwl of \SI[separate-uncertainty = true]{738.55\pm0.01}{nm} and a \lw of \SI[separate-uncertainty = true]{5.0\pm0.03}{nm}, corresponding well with the \ZPL of unstrained \sivs. Photon autocorrelation measurements revealed that the \nd  contains an ensemble of \sivs collectively generating coherent \fl light, see \cref{subfig::coherent_g2}.
 
 				\begin{figure}[htp]
@@ -195,14 +223,14 @@
 				\label{fig::pp_antenna}
 			\end{figure}
 
-			We remark that the gold surface of the plasmonic antenna exhibited strong adhesion forces between the antenna surface and the \nd.
+			The gold surface of the plasmonic antenna exhibited strong adhesion forces between the antenna surface and the \nd.
 			Once the \nd touched the gold, it could not be picked up again with the tungsten tip.
 			The \nd first touched the antenna structure a few nanometers away from the gap and immediately sticked to the surface, on top of one of the triangles.
 			Therefore, the \nd had to be pushed into the gap with the nano-manipulator tip.
 			This process caused some damage to the antenna structure.
 			The damage is visible as black area at the tip of the top triangle in \cref{subfig::pp_payload_delivered}.
 			Luckily, FDTD simulations of damaged antennas reveal that this modification of the antenna hardly influences the antenna resonance.
-
+			\\
 			% Spectroscopic measurements
 			After successful placement, the antenna sample is installed in the confocal setup.
 			The antenna itself was located during a scan of the sample surface under white light illumination.
@@ -230,7 +258,7 @@
 
 			These images suffices to locate the \nd with sufficient precision to measure PL spectra.
 			The PL spectrum of the ensemble of \sivs in the \nd is shown in \cref{subfig::spectrum_antenna_nd_multiple}. It can be seen that at \SI{738}{\nm} a major peak is present, almost exactly at the same \wl than the \siv \zpl, \i.e.\ \SI{739}{\nm}. The additional minor peak at \SI{726}{\nm} is attributed to the antenna resonance mode. We remark that, any damage sustained through electron radiation during the \pp process is likely not sufficient to invalidate the \nd. This is expected as a large ensemble of \sivs can easily lose several emitters without any noticeable difference in the optical properties. Needless to say, the exact opposite is true for \nds with very few hosted \sivs making them risky to work with.
-
+			\\
 			We verified successful coupling of the ensemble of \sivs to the antenna by combining experimental and numerical results. In particular, we convolve the experimental PL spectrum of the \nd measured before placing it in the nano-antenna, see \cref{subfig::spectrum_nd_multiple},  with the intensity spectrum of the nano-antenna obtained by means of simulations given in \cref{fig::spectrum_antenna_nd_multiple}.
 			The result of the convolution is the spectrum given in \cref{subfig::antenna_convolution}. The agreement with the measured spectrum in \cref{subfig::spectrum_antenna_nd_multiple} is almost perfect, indicating successful coupling of emitters and antenna. At the same time we confirm that the minor peak in \cref{subfig::spectrum_antenna_nd_multiple} is indeed due to the antenna resonance.
 
@@ -261,9 +289,9 @@
 				\end{figure}
 
 			At this point one must resist the temptation of comparing the values of the intensity maxima of the spectra in \cref{subfig::spectrum_nd_multiple} and \cref{subfig::spectrum_antenna_nd_multiple} in order to determine the enhancement the ensemble of emitters experiences. These values inherently do not allow a meaningful comparison.
-
+			\\
 			A meaningful comparison can in principle be achieved via intensity saturation measurements. By measuring the saturation intensities before and after insertion into the antenna and accounting for effects related to the polarization of emitters, the magnitude of the Purcell enhancement can be determined. Unfortunately, these methods are reserved for single emitters and do not apply for ensembles of \sivs. Thus at this point we have no method to determine the Purcell enhancement ensembles of \sivs experience.
-
+			\\
 			In summary, in this section we showed that coupling of \nds containing ensembles of \sivs with gold double bowtie antennas is feasible using a \pp approach. Furthermore we verified that the coupling is indeed present after the \nd was placed in the gap of the antenna. Unfortunately, at present there is no reliably method available to us to quantify the magnitude of \fl enhancement experienced by the \siv ensemble.
 
 		\subsubsection{\Nds Containing Few \sivs Coupled to Antennas} \label{subsubsection::antenna_single_siv}
@@ -278,15 +306,15 @@
 				\end{remark}
 
 				After a first successful validation of inserting \nds hosting large ensembles of \sivs into a gold double bowtie antenna, we attempt to select \nds containing a comparatively small number of \sivs. Suitable \nds show an anti-bunching dip in the \gtf in addition to count-rate saturation. This can be regarded an intermediate step towards using \nds containing singleton \sivs. We stress that in comparison to \nds hosting large ensembles of emitters, \nds containing only a few emitters are already difficult to identify. Naturally, technical requirements applying to candidate \nds such as sufficiently isolation for picking it up in the \pp process and a size not larger than that of the antenna gap still need to be observed.
-
+				\\
 				% sample description
 				The starting material for the \nds used here was an electronic grade diamond film produced by the company rho-BeSt coating (now renamed to CarbonCompetence).
 				The film was then milled in a \basd process\footnote{\krueger} to \nds of a median size of approximately \SI{100}{nm}.
 				The \nds were drop-cast at \SI{60}{\celsius} onto an \ir substrate containing cross markers. Prior to drop-casting the substrate was cleaned with Piranha etch.
 				% sample M02-16: drop-casted with SiGH45
-
+				\\
 				Given samples containing \nds the tedious task of identifying potential candidates for transfer to the antenna. As described in the previous section, a commercial \lsm (LSM) is used to identify \nds on the substrate. Using the cross markers to adress their exact positions, a corresponding \fl scan allow us to single out \nds with bright emission. We further test the suitability of potential candidates as follows. First, a saturation curve is recorded to establish whether the \sivs in a \nd saturate. Since saturation is a necessary albeit not sufficient condition for single-photon emission, only \nds that saturate are capable of showing an anti-bunching dip in the \gtf. Note that, measuring the \gtf potentially requires hour-long measurements, while determining saturation requires merely seconds. Thus, in search of candidate \nds we may use the saturation behavior as a quick check whether a candidate is feasible to follow on up with a lengthy \gtf measurement. For \nds containing \sivs showing saturation we then check the spectrum to assert that the emitters are indeed \sivs. After this last check \gtf measurements are established.
-
+				\\
 				After a significant search, involving a sizable number of discarded candidates, a \nd with a discernible anti-bunching dip was found. \cref{single_siv_g2_before_transfer_antenna} shows its \gtf function while \cref{subfig::single_siv_sat_before_transfer_antenna} reports its saturation curve. While the dip in \gtf is quite weak, it is present and a fitting it was possible. This indicates that the \nd neither contains a singleton \siv nor does it host enough \sivs to emit coherent light. Thus we conclude that a limited number of \sivs must be present. While it is not possible to quantify the number of emitters directly, the candidate sufficiently differs from \nds hosting large ensembles of \sivs. Thus it is viable to take it to the stage of coupling.
 
 				\begin{figure}[htp]
@@ -307,7 +335,7 @@
 				\end{figure}
 
 				In order to relocate the identified \nd to the center of a gold double bowtie antenna we repeat the \pp procedure described in the previous section, see \cref{fig::pp_antenna}. We remark at this point that since the \nd in question contains fewer \sivs as compared to the \nds hosting large ensembles of \sivs, it is expected to be less resilient to adverse effects such as the electron radiation present during the \pp process.
-
+				\\
 				After a successful relocation, the sample containing the antenna is mounted in the confocal setup to investigate the properties of the combined system consisting of antenna and \sivs. \cref{subfig::single_siv_spec_after_transfer_antenna} gives the spectrum of the candidate \nd after being relocated to the center of a gold double bowtie antenna. Interestingly we find a multitude of individual peaks in the vicinity of the \siv \zpl line. In addition we find that the sideband appears more pronounced in relation to the intensity of the major feature after the \nd has been relocated to the antenna. Due to the shape of the recorded sideband we conjecture that it arises as a combination of the \psbs associated with individual \sivs and additional contributions due to fluorescent contaminations. \cref{subfig::single_siv_spec_before_transfer_antenna} showing the spectrum of the same \nd before being relocated to the antenna. Here the \psb is weaker in comparison to the \zpl feature.
 
 
@@ -329,7 +357,7 @@
 							\end{figure}
 
 				To exclude the possibility that the obtained peaks are artifacts due to misalignment of the experimental setup, we rechecked the alignment which proved to be precise.
-
+				\\
 				To reverify the obtained spectrum, we repeated the measurement. Unfortunately, we obtained an entirely different result, showing only a broad \bkg seen in \cref{subfig::single_siv_spec_bkg_antenna}. After checking in the confocal scan that the measurement was performed at the correct position, we had to conclude that all of the \sivs hosted by the \nd permanently bleached after recording the spectrum seen in \cref{subfig::single_siv_spec_after_transfer_antenna}. It is likely that continued application of energy from the laser triggered this effect as earlier independent measurements established that \sivs exhibit an increased likelihood of bleaching after being exposed to electron radiation \cite{}. Thus we conclude that the exposure to electron radiation during the \pp left the \sivs in an unstable state susceptible to bleaching.
 
 				\begin{figure}[tp]
@@ -350,19 +378,18 @@
 				\end{figure}
 
 				Even though the \nd was invalidated for further measurements, the spectrum that was obtained remains to be discussed further. To better understand the obtained observations, we turn to FDTD calculations of \nd coupled to a gold plasmonic double bowtie antenna as described in the beginning of this chapter. In particular, we fold the spectrum of the \nd before insertion into the antenna as given in \cref{subfig::single_siv_spec_before_transfer_antenna} with the simulation spectrum of the integrated system consisting of \nd and antenna. The simulation result thus constitutes a prediction of what we the spectrum in \cref{subfig::single_siv_spec_after_transfer_antenna} should look like. \cref{fig::fdtd_results} illustrates the simulation prediction and demonstrates that we have no reason to expect the to see the peaks between \SIrange{700}{750}{nm} observed experimentally\todo{put in pictures for fdtd results and reference them}. Hence we must conclude that the spectrum of the \nd was modified during the \pp process. While it is not possible to pinpoint exactly which circumstance caused the modification, several effects could influence the observed spectra.
-
+				\\
 				First, the electron radiation itself. While it lacks the energy to modify the lattice itself, it can influence the electrons present and in particular may modify the charge state of \sivs. As was mentioned before, electron radiation was linked to increased likelihood of photo-bleaching.
-
+				\\
 				Next, during the \pp process it is possible that the \nd collects additional contaminating matter on its surface. Contaminations may be fluorescing themselves, thus modifying the spectrum. The fact that we record a significant sideband signal in \cref{subfig::single_siv_spec_after_transfer_antenna} supports this conjecture.
-
+				\\
 				Yet another property of \sivs which should not be neglected is their dipole orientation interacting with the antenna. Conducting dedicated FDTD simulations with a focus on different dipole orientations indicated a dramatic effect on the resulting spectra. Therefore, future experiments aiming to investigate the effect of coupling \nds containing few \sivs to antennas should include polarization measurements to experimentally quantify the impact of the emitter orientation.
-
+				\\
 				% To gain further insight, we performed FDTD calculations with antenna damage and different dipole orientation.
 				% To be able to include the dipole orientation into the calculations, a dipole emitter with a broad emission instead of a narrow emission peak has to be used.
 				% Therefore, the convolution method as described in the previsous section is more adequate for our purpose, as the \siv exhibits a very narrow emission peak.
 				% However, these calculations give further insight.
 				% First, the antenna damage does not have a big effect on the spectra, however the dipole orientation changes the results drastically (\cref{}).
-
 				As it stands, the most likely explanation of the recorded spectrum consists of a combination of the discussed effects. Since the \nd bleached almost immediately no further measurements were possible. It is thus advised to repeat the experiment hoping for a \nd that manages to complete the \pp process unharmed. At the moment it is not clear if this can be done, thus further investigation is required.
 
 		% \subsubsection{Outlook: \Nds with single \sivs Coupled to Antennas}

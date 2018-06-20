@@ -2,7 +2,7 @@
 
 \section{Coupling \sivs to \Vcsels} \label{sec::coupling_vcsel}
 
-	In the context of metrology, controllable \spss, operating at room temperature, are an extremely important prospect. Such devices are anticipated to play a key role in the development and calibration of detectors and measurement methods aiming to resolve optical flux down to single-photon resolution \cite{Vaigu2017}. As such \sps form a cornerstone of the efforts directed towards the redefinition of the candela in terms of single photons, see discussion in \autoref{ch::introduction}.
+	In the context of metrology, controllable \spss, operating at room temperature, are an extremely important prospect. Such devices are anticipated to play a key role in the development and calibration of detectors and measurement methods aiming to resolve optical flux down to single-photon resolution \cite{Vaigu2017}. As such \sps form a cornerstone of the efforts directed towards the redefinition of the candela in terms of single photons, see discussion in \cref{ch::introduction}.
 
 	Here we attempt to create a hybrid-integrated \sps by placing a \nd ideally containing a solitary \sivs on-top of a \vcsels (\VCSELs).
 	The \siv is situated such that output laser of the \VCSEL can be used to optically excite the \cc. Since the \VCSEL laser can be controlled very well, \siv operation can be steered reliably. Through the use of suitable optical filters allowing only \siv \fl to emerge, a controlled \sps can be realized in principle.
@@ -12,7 +12,7 @@
 	\subsection{\Vcsels}\label{subsec::vcsel_structure}
 
 		% britney = http://britneyspears.ac/physics/vcsels/vcsels.htm
-		A \vcsel is a type of semi-conductor laser diode \cite{britney::1, britney::6, brintney::7}. \autoref{fig::vcsel_sketch} illustrates a common design consisting of a $p$-layer on top and a $n$-layer at the bottom separated by a so-called active area. When a current is applied across the device, charge carriers migrate towards the active region. Holes act as charge carriers in the $p$ region, whilst electrons carry charge in the $n$-region. The material properties of the active region is chosen such that when electrons and holes spontaneously recombine, a photon is emitted in the process. Electron-hole pairs can also dissipated via the creation of phonons leading to losses in the form of heat. To define the region for recombination to occur and to control the optical properties of the device, additional thin layers of semi-conducting material can be introduced in the active area. These result in the formation of quantum wells with associated energy levels and resulting preferred transitions with well-defined energies for the recombination of electrons and holes.
+		A \vcsel is a type of semi-conductor laser diode \cite{britney::1, britney::6, brintney::7}. \cref{fig::vcsel_sketch} illustrates a common design consisting of a $p$-layer on top and a $n$-layer at the bottom separated by a so-called active area. When a current is applied across the device, charge carriers migrate towards the active region. Holes act as charge carriers in the $p$ region, whilst electrons carry charge in the $n$-region. The material properties of the active region is chosen such that when electrons and holes spontaneously recombine, a photon is emitted in the process. Electron-hole pairs can also dissipated via the creation of phonons leading to losses in the form of heat. To define the region for recombination to occur and to control the optical properties of the device, additional thin layers of semi-conducting material can be introduced in the active area. These result in the formation of quantum wells with associated energy levels and resulting preferred transitions with well-defined energies for the recombination of electrons and holes.
 
 		\begin{figure}[htp]
 			\centering
@@ -39,7 +39,7 @@
 		 Gegeben einen \nd ist es ja a priori unwahrscheinlich, dass ein einziges \siv drin vorkommt. In antenneteil gehen wir darauf ein. Hier nicht. Warum nicht? Auch im Siv paper ist keine thematisierung.
 	\end{remark}
 
-	To conduct our research, we received an array of red AlGaInP-based oxide-confined \VCSELs from \michler. The array includes three individually operable \VCSELs, two of which, labeled \BmFour and \BmTwo were used in our experiments, see \autoref{subfig::vcsel_sem_big_overview}.
+	To conduct our research, we received an array of red AlGaInP-based oxide-confined \VCSELs from \michler. The array includes three individually operable \VCSELs, two of which, labeled \BmFour and \BmTwo were used in our experiments, see \cref{subfig::vcsel_sem_big_overview}.
 
 	\begin{figure}[htp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -60,10 +60,10 @@
 
 	The \VCSELs we obtained use a $n$-type DBR consisting of $50$ pairs of AlAs/Al\textsubscript{0.5}Ga\textsubscript{0.5}As mirror pairs while the $p$-type DBR is formed by $36$ Al\textsubscript{0.95}Ga\textsubscript{0.05}As/Al\textsubscript{0.5}Ga\textsubscript{0.5}As \cite{Weidenfeld2012}. The active region itself consists of $4$ GaInP quantum wells. An oxide aperture in a field node of the standing wave serves as a spatial filter for maximum modal gain by confining the current and the optical mode. The active diameter which is defined by the oxide aperture is \SI{5.8}{\micro\meter}.
 
-	The available \VCSELs are perfect candidates for the excitation of \sivs in a hybrid integrated single photon source for several reasons. They exhibit a circular beam profile, have low divergence angel and emit linearly polarized light. Their physical size and the fact, that their output beam is perpendicular to the substrate implies that our \nds containing \nds can simply be placed on-top of the structure light-emitting region using \pp methods, see \autoref{subfig::vcsel_sem_detail}. Thus the \VCSELs output laser can be used to optically excite \sivs.
+	The available \VCSELs are perfect candidates for the excitation of \sivs in a hybrid integrated single photon source for several reasons. They exhibit a circular beam profile, have low divergence angel and emit linearly polarized light. Their physical size and the fact, that their output beam is perpendicular to the substrate implies that our \nds containing \nds can simply be placed on-top of the structure light-emitting region using \pp methods, see \cref{subfig::vcsel_sem_detail}. Thus the \VCSELs output laser can be used to optically excite \sivs.
 
 	As a first step towards using \VCSELs to excite \ccs, we characterized the behavior of \BmFour. To this end we operated it at currents of
-	\SI{1.5}{\mA} and \SI{3}{\mA} and recorded the resulting lasing \wl. The emission spectra showed that the emitted \cw laser light to be around \SI{655}{\nm} in wavelength for both currents, see \autoref{subfig::vcsel_output_wavelength}. Previous research within the authors group recorded \siv intensity maxima at excitation \wls of \SI{720}{\nm} and \SI{680}{\nm} \cite{Incomplete master thesis of X}, aligning reasonably well with the output \wl of \BmFour.
+	\SI{1.5}{\mA} and \SI{3}{\mA} and recorded the resulting lasing \wl. The emission spectra showed that the emitted \cw laser light to be around \SI{655}{\nm} in wavelength for both currents, see \cref{subfig::vcsel_output_wavelength}. Previous research within the authors group recorded \siv intensity maxima at excitation \wls of \SI{720}{\nm} and \SI{680}{\nm} \cite{Incomplete master thesis of X}, aligning reasonably well with the output \wl of \BmFour.
 
 		\begin{figure}[htp]
 			\begin{subfigure}[t]{ 0.49\linewidth}
@@ -82,16 +82,16 @@
 			\caption[Emission spectra and optical power of \BmFour]{(a) Emission spectrum of \BmFour at two different currents. (b) Optical output power and voltage of \BmFour in dependence of input current. \cite{}}
 		\end{figure}
 
-	The optical output power of \BmFour as a function of the current applied is given in \autoref{subfig::vcsel_output_power}. In addition, the resulting voltages are shown. It can be seen that the maximum power of $\approx \SI{0.6}{\mW}$ is reached for moderate currents of $\approx \SI{4.5}{\mA}$. While the available optical powers are small comparable to using a conventional laser, low powers are sufficient for initial explorations.
+	The optical output power of \BmFour as a function of the current applied is given in \cref{subfig::vcsel_output_power}. In addition, the resulting voltages are shown. It can be seen that the maximum power of $\approx \SI{0.6}{\mW}$ is reached for moderate currents of $\approx \SI{4.5}{\mA}$. While the available optical powers are small comparable to using a conventional laser, low powers are sufficient for initial explorations.
 
-	The next step consists of selecting a suitable \nd containing an \siv followed by transferring it ontop of \BmFour. To this end \nds \SI{200}{\nm} in size were grown with the \CVD method in an \ir coated \si wafer. We refer the reader to \autoref{sec::cvd} for details on the process.
+	The next step consists of selecting a suitable \nd containing an \siv followed by transferring it ontop of \BmFour. To this end \nds \SI{200}{\nm} in size were grown with the \CVD method in an \ir coated \si wafer. We refer the reader to \cref{sec::cvd} for details on the process.
 
-	Next, using the confocal setup described in \autoref{ch::pl_setup} a \nd was identified exhibiting one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}. Its position on the substrate was determined consecutively using a white light laser scan as described in \autoref{subsec::position}. Given the position of the \nd it was then transferred to \BmFour and placed precisely in its active, i.e.\ light-emitting region. The process of introducing an \siv to another structure is referred to as coupling.
+	Next, using the confocal setup described in \cref{ch::pl_setup} a \nd was identified exhibiting one dominant line at \SI{746.0}{nm} with a \lw of \SI{1.9}{nm}. Its position on the substrate was determined consecutively using a white light laser scan as described in \cref{subsec::position}. Given the position of the \nd it was then transferred to \BmFour and placed precisely in its active, i.e.\ light-emitting region. The process of introducing an \siv to another structure is referred to as coupling.
 
 	After successful transfer \BmFour was inserted into the confocal setup.
 	Using the laser from the confocal setup we checked if the \pp process caused any modification of the spectroscopic properties of the \siv such as a decrease of count-rate or a modification of the \fl spectrum. During these checks, the \VCSEL itself was not active.
 
-	As a first check, we scanned the \VCSEL surface in an attempt to detect the activity of the introduced \siv. \autoref{subfig::vcsel_confocal_laser_excitation_with_diamond} shows the \siv as a bright dot in the aperture of \BmFour. For comparison, a \Vcsel without coupled \siv exhibits solely background counts which is shown in \autoref{subfig::confocal_laser_excitation_without_diamond}.
+	As a first check, we scanned the \VCSEL surface in an attempt to detect the activity of the introduced \siv. \cref{subfig::vcsel_confocal_laser_excitation_with_diamond} shows the \siv as a bright dot in the aperture of \BmFour. For comparison, a \Vcsel without coupled \siv exhibits solely background counts which is shown in \cref{subfig::confocal_laser_excitation_without_diamond}.
 
 	\begin{figure}[htp]
 		\begin{subfigure}[t]{ 0.49\linewidth}
@@ -110,7 +110,7 @@
 		\caption[Scans of \VCSELs with and without \siv]{(a) Scan of the \BmFour with coupled \nd under excitation with the laser from the confocal setup. The big visible ring is the edge of the circular aperture in the $p$-contact of \BmFour.The bright spot in the upper left corner corresponds to the transferred \nd containing an \siv causing a spike in the count-rate. (b) Scan of the \BmTwo lacking a \nd under excitation with the laser from the confocal setup. The circular aperture in the $p$-contact exhibits a constant count-rate. Note the different scales.}
 	\end{figure}
 
-	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process. \autoref{fig::spectrum_vcsel_diamond} shows that the original spectrum before \nd transfer exhibits one dominant line at \SI{746.0}{nm}, denoted line $A$. Furthermore, two minor peaks can be seen. The lower \wl peak is denoted as line $B$. Interestingly, after the \pp process, a different picture emerges shown in \autoref{fig::spectrum_vcsel_diamond}. The once dominant line $A$ is strongly reduced. The new dominant feature is line $B$. Note that the count rate of line $B$ remained the same before and after \pp.
+	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process. \cref{fig::spectrum_vcsel_diamond} shows that the original spectrum before \nd transfer exhibits one dominant line at \SI{746.0}{nm}, denoted line $A$. Furthermore, two minor peaks can be seen. The lower \wl peak is denoted as line $B$. Interestingly, after the \pp process, a different picture emerges shown in \cref{fig::spectrum_vcsel_diamond}. The once dominant line $A$ is strongly reduced. The new dominant feature is line $B$. Note that the count rate of line $B$ remained the same before and after \pp.
 
 
 	\begin{figure}[htp]
@@ -137,7 +137,7 @@
 	Thus \siv excitation is due to the output laser of \BmFour.
 
 	For comparison, we scanned both the surface of \BmFour including a \nd as well as \BmTwo without a \nd. A bandpass filter allowing light between \SIrange{730}{750}{\nm} to pass was used.
-	This filter window suppresses the \VCSEL laser line at \SI{655}{\nm} while leaving the \siv emission nearly unchanged. The results of the two scans are given in \autoref{fig::vcsel_excitation}, where the bright areas correspond to the circular \VCSEL output regions. It can be seen that no difference in brightness can be established between a \VCSEL with and without a \nd containing a \siv.
+	This filter window suppresses the \VCSEL laser line at \SI{655}{\nm} while leaving the \siv emission nearly unchanged. The results of the two scans are given in \cref{fig::vcsel_excitation}, where the bright areas correspond to the circular \VCSEL output regions. It can be seen that no difference in brightness can be established between a \VCSEL with and without a \nd containing a \siv.
 
 		\begin{figure}[htp]
 			\begin{subfigure}[t]{ 0.49\linewidth}
@@ -158,7 +158,7 @@
 		\end{figure}
 
 
-		To further investigate we conduct spectroscopic measurements. Since the position of the \nd in \BmFour is known, we measure the spectrum of light originating from this position. A second spectrum is obtained from \BmTwo measuring the corresponding position without a \nd present. \autoref{fig::vcsel_spectra} reports the results. Again no meaningful difference between the two \VCSELs can be established. The lack of any distinct lines in the spectrum taken for \BmFour{} which can be attributed to \siv emission is striking.
+		To further investigate we conduct spectroscopic measurements. Since the position of the \nd in \BmFour is known, we measure the spectrum of light originating from this position. A second spectrum is obtained from \BmTwo measuring the corresponding position without a \nd present. \cref{fig::vcsel_spectra} reports the results. Again no meaningful difference between the two \VCSELs can be established. The lack of any distinct lines in the spectrum taken for \BmFour{} which can be attributed to \siv emission is striking.
 
 			\begin{figure}[htp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
@@ -179,7 +179,7 @@
 			\end{figure}
 
 		To explain the observation, the following considerations are reasonable: The \siv is excited by the \VCSELs laser and thus emitting single photons which are passing through the filter window. The same is true for photons stemming from \VCSEL \sb emission. Given that the emission from the \sb of \BmFour dwarfs the single photon emission of its \siv, the obtained results are reasonable.
-		To confirm we examine the reflectivity of the DBR of \BmFour. \autoref{fig::dbr_vcsel} illustrates that the DBR exhibits imperfect reflexivity in the wavelength region relevant for \siv emission. As a result, relevant \sb emissions of \BmFour are not sufficiently suppressed to allow for \siv emission to be detected. This in turn means that our initial attempt to realize a hybrid-integrated \sps by coupling an \siv to a \VCSELs is thwarted by large \sb emissions of the latter.
+		To confirm we examine the reflectivity of the DBR of \BmFour. \cref{fig::dbr_vcsel} illustrates that the DBR exhibits imperfect reflexivity in the wavelength region relevant for \siv emission. As a result, relevant \sb emissions of \BmFour are not sufficiently suppressed to allow for \siv emission to be detected. This in turn means that our initial attempt to realize a hybrid-integrated \sps by coupling an \siv to a \VCSELs is thwarted by large \sb emissions of the latter.
 
 		\begin{figure}[htp]
 			\centering

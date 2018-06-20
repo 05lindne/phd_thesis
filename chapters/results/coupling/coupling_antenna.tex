@@ -127,12 +127,6 @@
 
 		\subsubsection{\Nds Containing Ensembles of \sivs Coupled to Antennas}\label{subsubsection::antenna_multiple_sivs}
 
-			\begin{remark}
-				
-						\item fuer \cref{subfig::coherent_g2} brauchts noch das richtige bild. also eine g2 function mit coherent light
-
-			\end{remark}
-
 			The \nds used for the approach of coupling ensembles of \sivs to an antenna were wet-milled from a \CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams}.
 			The solution of \nds exhibiting a median size of \SI{100}{nm} was spin-coated on an iridium substrate treated with Piranha etch (sample of type \insituH).
 			To ensure that a preselected nanodiamond exhibiting preferred optical properties can reliably be located, the iridium substrate was engraved with reference cross markers produced by a focused ion beam after the spin-coating process.
@@ -176,7 +170,7 @@
 					\hfill
 					\begin{subfigure}[t]{ 0.49\linewidth}
 						\centering
-						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/g2_sat113_5mW_corr_fit.pdf}}
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/g2_coherent.png}}
 						\caption{}
 						\label{subfig::coherent_g2}
 					\end{subfigure}
@@ -283,7 +277,7 @@
 
 				\begin{figure}[htp]
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/antenna_no_ND.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/antenna_no_ND.pdf}}
 					\caption[Spectrum of a double bowtie antenna without \nd]{Spectrum of a gold double bowtie nano-antenna without a \nd present.}
 					\label{fig::spectrum_antenna_no_nd}
 				\end{figure}
@@ -383,8 +377,26 @@
 				\\
 				Next, during the \pp process it is possible that the \nd collects additional contaminating matter on its surface. Contaminations may be fluorescing themselves, thus modifying the spectrum. The fact that we record a significant sideband signal in \cref{subfig::single_siv_spec_after_transfer_antenna} supports this conjecture.
 				\\
-				Yet another property of \sivs which should not be neglected is their dipole orientation interacting with the antenna. Conducting dedicated FDTD simulations with a focus on different dipole orientations indicated a dramatic effect on the resulting spectra. Therefore, future experiments aiming to investigate the effect of coupling \nds containing few \sivs to antennas should include polarization measurements to experimentally quantify the impact of the emitter orientation.
+				Yet another property of \sivs which should not be neglected is their dipole orientation interacting with the antenna. Conducting dedicated FDTD simulations with a focus on different dipole orientations indicated a dramatic effect on the resulting spectra (\cref{fig::dipole_damaged_antenna}). Therefore, future experiments aiming to investigate the effect of coupling \nds containing few \sivs to antennas should include polarization measurements to experimentally quantify the impact of the emitter orientation.
 				\\
+
+				\begin{figure}[htbp]
+					\begin{subfigure}[t]{ 0.29\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/dipole_antenna_sketch.pdf}}
+						\caption{}
+						\label{subfig::dipole_damaged_antenna_sketch}
+					\end{subfigure}
+					\hfill
+					\begin{subfigure}[t]{ 0.69\linewidth}
+						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/dipole+damaged_antenna.png}}
+						\caption{}
+						\label{subfig::dipole_damaged_antenna_spectrum}
+					\end{subfigure}
+					\caption{}
+					\label{fig::dipole_damaged_antenna}
+				\end{figure}
 				% To gain further insight, we performed FDTD calculations with antenna damage and different dipole orientation.
 				% To be able to include the dipole orientation into the calculations, a dipole emitter with a broad emission instead of a narrow emission peak has to be used.
 				% Therefore, the convolution method as described in the previsous section is more adequate for our purpose, as the \siv exhibits a very narrow emission peak.

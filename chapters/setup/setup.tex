@@ -21,7 +21,7 @@
 			\label{fig::confocal_setup}
 		\end{figure}
 
-		\cref{fig::confocal_setup} illustrates the confocal setup deployed in this work.
+		\autoref{fig::confocal_setup} illustrates the confocal setup deployed in this work.
 		With the exception of the laser and the sample stage, the whole setup is fixed to a vertical breadboard.
 		The vertical design permits a horizontal sample stage, promoting quick scanning and exchanging of samples.
 		The sample itself resides on top of a translation stage and is held in place sufficiently by surface friction.
@@ -30,28 +30,28 @@
 		Above the horizontal stage, the objective is fixed to another stage which in turn is mounted to a vertical breadboard.
 		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$ axis, \i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
 		\\
-		The bright red color in the sketch in \cref{fig::confocal_setup} represents the path of the excitation laser beam.
+		The bright red color in the sketch in \autoref{fig::confocal_setup} represents the path of the excitation laser beam.
 		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) emitting at a \wl of \SI{660}{\nano\meter}.
 		The outlet of the laser is a pigtail fiber.
 		The laser light is out-coupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
 		After this cleanup filter, the excitation beam hits a \SI{}{\milli\meter} glass plate (fabricator Halle Germany \todo[fancyline]{thickness}) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
 		\\
-		The collected light follows the detection beam path depicted in dark red in \cref{fig::confocal_setup}.
+		The collected light follows the detection beam path depicted in dark red in \autoref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
 		Removing the flip mirror behind the beamsplitter from the path directs light towards a \smf (Thorlabs SM600) connecting the confocal setup with either the spectrometer or the \hbt setup. Prior to focusing light into the \smf using an aspheric lens, a long-pass filter is deployed to eliminate residual excitation light and ambient light.
 		The filter is chosen with a cutoff \wl of \SI{710}{\nm} or \SI{720}{\nm}.
 		Besides the obvious purpose of guiding the \pl light to the spectrometer and the \HBT setup for spectroscopic investigations, it severs another crucial purpose. Namely, diameter of about \SI{4.3}{\micro\meter} acts as a pinhole to reject \pl light from depths outside of the focal plane \cite{Santori2010}.
 		For this axis the resolution amounts to \todo[fancyline]{resolution value}, in the plane of the sample it is \todo[fancyline]{resolution value}.
 
-		We remark that the glass plate in used \cref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
+		We remark that the glass plate in used \autoref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
 
-		In general, if high excitation setting is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs to the point of bleaching and can also cause fluorescent intermittence of \sivs, \i.e.\ blinking, as an unwanted side-effect see \cref{ch::siv}.
+		In general, if high excitation setting is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs to the point of bleaching and can also cause fluorescent intermittence of \sivs, \i.e.\ blinking, as an unwanted side-effect see \autoref{ch::siv}.
 
 	\section[Surface Imaging]{Optical Imaging of The Sample Surface} \label{sec::methods_optical}
 
 		The setup introduced in the previous section can be modified to investigate the sample surface before starting fluorescence measurements.
-		For this purpose, the sample is directly illuminated at a flat angle from outside the objective with white light from a halogen lamp, see the white light source in \cref{fig::confocal_setup}.
+		For this purpose, the sample is directly illuminated at a flat angle from outside the objective with white light from a halogen lamp, see the white light source in \autoref{fig::confocal_setup}.
 		The flip mirror behind the glass plate is brought into an upright position to guide the light towards a CCD camera.
 		The scattered light from the sample surface is collected by the objective and the surface is imaged on the CCD chip.
 		Thus \nds and other features on the substrate are made visible.
@@ -64,7 +64,7 @@
 			\label{fig::hbt_spectrometer}
 		\end{figure}
 
-		In chapter \cref{ch::coupling} we introduce applications of \sivs in \nds, for which knowing the precise positions of specific \nds is crucial.
+		In chapter \autoref{ch::coupling} we introduce applications of \sivs in \nds, for which knowing the precise positions of specific \nds is crucial.
 		Therefore, cross markers are milled into the surface of the substrate on which the \nds are situated.
 		These markers of a size of \SI{10}{\micro\meter} can easily be recognized by optical imaging and can thus be used as landmarks for the purpose of indexing individual \sivs.
 		The starting point for a scan of an area of interest on the sample is fixed while navigating with the optical image.
@@ -72,7 +72,7 @@
 
 	\section{Spectrometer} \label{sec::methods_spectrometer}
 
-		\cref{fig::hbt_spectrometer} displays the detection part of the setup.
+		\autoref{fig::hbt_spectrometer} displays the detection part of the setup.
 		The \fl arrives via a pigtail fiber connecting the confocal setup with the detection setup and is out-coupled with an aspheric lens.
 		A flip mirror is employed to direct the light either to a grating spectrometer or the \hbt setup.
 		The optical spectrum of a light source gives insight to the optically active constituents and therefore bears information about the emitter.
@@ -103,7 +103,7 @@
 		Here, $N(t)$ denotes the number of photons at a certain time $t$, $N(t+\tau)$ denotes the number of photon at a time interval $\tau$ later than $t$.
 		The angular brackets $\mean{}$ denote temporal averaging.
 		For a two-level system $\gt(\tau)$ can be interpreted as the probability of detecting two photons separated by a time interval $\tau$.
-		The physical intuition behind this definition is as follows: The detection of a fluorescent photon emitted from a quantum system is the result of an excited electron relaxing back to its ground state. To emit a consecutive single photon, an additional electron must first be promoted to an exited state, a process which takes a certain amount of time, see \cref{ch::theory}. If $\gt(\tau) \neq 0$ in the limit of $\tau \to 0$ a system is capable of emitting several photons simultaneously. This is known as photon bunching and is typical for classical light sources. In contrast, $\gt(\tau) \to 0$ for $\tau \to 0$ is an indication that no two photons can be detected simultaneously. This property is termed photon anti-bunching and is a defining characteristic of non-classical light sources such as \sps. The last important type are coherent photons, as for instance produced via stimulated emission. \cref{fig::g2_illustration} shows how the \gt function distinguishes these three types. For an in-dept review of the intensity auto-correlation function we refer the reader to \cite{neu::thesis, Fox2006}.
+		The physical intuition behind this definition is as follows: The detection of a fluorescent photon emitted from a quantum system is the result of an excited electron relaxing back to its ground state. To emit a consecutive single photon, an additional electron must first be promoted to an exited state, a process which takes a certain amount of time, see \autoref{ch::theory}. If $\gt(\tau) \neq 0$ in the limit of $\tau \to 0$ a system is capable of emitting several photons simultaneously. This is known as photon bunching and is typical for classical light sources. In contrast, $\gt(\tau) \to 0$ for $\tau \to 0$ is an indication that no two photons can be detected simultaneously. This property is termed photon anti-bunching and is a defining characteristic of non-classical light sources such as \sps. The last important type are coherent photons, as for instance produced via stimulated emission. \autoref{fig::g2_illustration} shows how the \gt function distinguishes these three types. For an in-dept review of the intensity auto-correlation function we refer the reader to \cite{neu::thesis, Fox2006}.
 
 		\begin{figure}[htb]
 			\centering
@@ -114,7 +114,7 @@
 
 
 		The aim of the \hbt setup is to record the time delay between two consecutive photons as a prerequisite to compute $\gtz$.
-		A sketch of the \hbt setup is shown in \cref{fig::hbt_spectrometer}.
+		A sketch of the \hbt setup is shown in \autoref{fig::hbt_spectrometer}.
 		Photons are detected using single photon \apds (\APDs, PicoQuant $\tau${}-SPAD100).
 		\APDs are the semiconductor analog to photomultiplier tubes, i.e.\ an incoming photon creates secondary charge carriers through ionization.
 		The secondary charge carrier is accelerated by a bias voltage to create further secondary charge carriers, resulting in an avalanche effect.

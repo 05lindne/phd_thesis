@@ -1,7 +1,7 @@
 %!TEX root = ../../../main.tex
 \section[Coupling \Nds to Optical Antennas]{Coupling \Nds to Double Bowtie Antenna Structures} \label{sec::coupling_antennas}
 
-	Plasmonic nano-antennas are very recent devices designed to efficiently convert freely propagating optical radiation into localized energy and vice versa \cite{Optical Antennas, Palash Bharadwaj, Bradley Deutsch, and Lukas Novotny, nancy::77, nancy::78}. Leveraging this unique property, integrating \sivs with optical antennas creates coupled systems with a range of desirable features. These include enhanced \pl emission and the ability to tailor \pl spectra of the integrated emitters. The latter can be achieved by tuning the physical design parameters of the system including antenna geometry and emitter placement.
+	Plasmonic nano-antennas are very recent devices designed to efficiently convert freely propagating optical radiation into localized energy and vice versa \cite{Bharadwaj2009, ballanis1997antenna, ding2009understanding}. Leveraging this unique property, integrating \sivs with optical antennas creates coupled systems with a range of desirable features. These include enhanced \pl emission and the ability to tailor \pl spectra of the integrated emitters. The latter can be achieved by tuning the physical design parameters of the system including antenna geometry and emitter placement.
 	\\
 	In this chapter we report on our efforts aimed at enhancing the properties of \sivs by coupling them to optical double bowtie antennas. To this end we transfer selected \nds containing \sivs to the target antenna structure using \pp methods. After successful coupling we investigate the integrated structure experimentally. In addition to that we successfully relate some of our results to theoretical predictions.
 	\\
@@ -9,7 +9,7 @@
 
 	\subsection{Plasmonic Antennas}
 
-		Optical nano-antennas act as converters between propagating and localized electro-magnetic fields. Thus, they can be used efficiently to couple photons in and out of nano-scale objects \cite{Curto2010}. Due to their small physical sizes, comparable or smaller than the \wl of visible light, they are capable of focusing optical fields to sub-diffraction-limited volumes, offering the ability to manipulate electromagnetic fields at nano-scales \cite{Curto2010::3, nancy::78}. This property, dubbed sub-wavelength confinement, has successfully been exploited to enhance the excitation and emission of quantum emitters \cite{Curto2010::4, Curto2010::5, Curto2010::6, Curto2010::7} and to modify their spectra \cite{Curto2010::8}. Resulting practical applications include near-field optical microscopy \cite{nancy::79}, surface enhanced spectroscopy \cite{nancy::80, nancy::81} and molecular sensing \cite{nancy::82}.
+		Optical nano-antennas act as converters between propagating and localized electro-magnetic fields. Thus, they can be used efficiently to couple photons in and out of nano-scale objects \cite{Curto2010}. Due to their small physical sizes, comparable or smaller than the \wl of visible light, they are capable of focusing optical fields to sub-diffraction-limited volumes, offering the ability to manipulate electromagnetic fields at nano-scales \cite{taminiau2008optical, ding2009understanding}. This property, dubbed sub-wavelength confinement, has successfully been exploited to enhance the excitation and emission of quantum emitters \cite{taminiau2008enhanced, taminiau2008single, Curto2010::6, Curto2010::7} and to modify their spectra \cite{Curto2010::8}. Resulting practical applications include near-field optical microscopy \cite{keilmann2004near}, surface enhanced spectroscopy \cite{kneipp1997single, martin2014high} and molecular sensing \cite{larsson2007sensing}.
 		\\
 		A nano-antenna is a nano-structure made from materials such as noble metals like gold or silver. These metals have in common that they are very susceptible to being polarized by electro-magnetic fields. When illuminated by the incident electromagnetic radiation causes electrons in the metal to behave as a plasma that tends to move with respect to the atomic lattice. As a result excess charge at the opposite surfaces of the material accumulates and the material becomes temporarily polarized until restoring forces equilibrate the charge distribution.
 		\\
@@ -27,7 +27,7 @@
 				\label{fig::double_bowtie_antenna_schematic}
 		\end{figure}
 
-		This antenna design utilizing a symmetric arrangement of four identical triangle-shaped blocks, separated by a small gap. This setup allows \LSP modes local to individual blocks to couple with each other resulting in the formation of an intense hot-spot in the center area \cite{nancy::85}, see \autoref{fig:double_bow_tie_hotspot}. The actual electromagnetic response of a double bowtie nano-antenna depends on its physical design parameters such as gap size, material used, geometry and size. Furthermore, properties of incident light such as \wl and polarization determine antenna operation.
+		This antenna design utilizing a symmetric arrangement of four identical triangle-shaped blocks, separated by a small gap. This setup allows \LSP modes local to individual blocks to couple with each other resulting in the formation of an intense hot-spot in the center area \cite{ghenuche2008spectroscopic}, see \autoref{fig:double_bow_tie_hotspot}. The actual electromagnetic response of a double bowtie nano-antenna depends on its physical design parameters such as gap size, material used, geometry and size. Furthermore, properties of incident light such as \wl and polarization determine antenna operation.
 
 		\begin{figure}[thp]
 				\centering
@@ -37,10 +37,10 @@
 		\end{figure}
 
 
-		The improved electromagnetic field at the center of a metallic nano-antenna can be used to increase the spontaneous emission rate of emitters emitting at frequencies close to the resonance frequency of the antenna. This result is the known as Purcell effect \cite{nancy::86}. The gap between the antenna arms acts as a resonant cavity providing a strong near field interaction with the emitter. This interaction modifies the density of states of the system, effectively providing additional modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
+		The improved electromagnetic field at the center of a metallic nano-antenna can be used to increase the spontaneous emission rate of emitters emitting at frequencies close to the resonance frequency of the antenna. This result is the known as Purcell effect \cite{purcell1995spontaneous}. The gap between the antenna arms acts as a resonant cavity providing a strong near field interaction with the emitter. This interaction modifies the density of states of the system, effectively providing additional modes for the emitter to decay into, thus amplifying its total decay rate. The amplification affects both radiative and non-radiative decay.
 		The magnitude of the amplification for an emitter is quantified by the ratio of its enhanced decay rate to its free space decay rate, known as the Purcell factor $F_p$. This factor is proportional to $Q/V_{eff}$ where $Q$ denotes the quality of the antenna and $V_{eff}$ the volume of the hot-spot. Thus antenna design must optimize $F_p$ as a necessary condition for significant enhancement of \fl emission.
 		\\
-		In addition to the antennas local field enhancement, the emitters original quantum yield $\eta_0$ influences the overall effectiveness of the emission enhancement. From theoretical considerations \cite{rahbany2016towards, nancy::140, nancy::162, nancy::163}, the modified quantum efficiency $\eta$ of the combined system consisting of emitter and antenna can be obtained as
+		In addition to the antennas local field enhancement, the emitters original quantum yield $\eta_0$ influences the overall effectiveness of the emission enhancement. From theoretical considerations \cite{rahbany2016towards, mohammadi2008gold, mohammadi2010fluorescence, wientjes2014nanoantenna}, the modified quantum efficiency $\eta$ of the combined system consisting of emitter and antenna can be obtained as
 
 		\begin{equation}
 			\eta = \frac{\eta_0}{\frac{1-\eta_0}{F_p} + \frac{\eta_0}{\eta_{ant}} },
@@ -52,7 +52,7 @@
 
 	\subsection{Plasmonic Antenna Design and Simulation} \label{sec::structure_antenna}
 
-		 To couple \sivs to optical antennas, we work with gold double bowtie antennas on a gold substrate. In comparison with triangular, or single bowtie antennas, double bowtie antennas offer significantly improved intensity enhancements. Antennas were provided by \nancy in a joined effort to explore the possibilities of combining antennas with \sivs. The antennas themselves were fabricated using electron beam lithography, a technique suitable to imprint predetirmined patterns onto a suitable substrate with nano-scale resolution \cite{nancy::232}. \autoref{subfig::antenna_structures_sem} shows a SEM image of an array of antenna structures of various sizes. In \autoref{subfig::antenna_one_structure_sem} a detail of an individual double bowtie antenna is shown. It can be seen that the double bowtie antenna is placed in the center of another structure, a so-called bulls-eye antenna, consisting of multiple concentric gratings. When illuminated by a laser at a proper angle, the gratings excite surface plasmon polaritons (SPPs) which are directed towards the center of the structure. If a double bowtie antenna is present in the center, SPPs can interact with the \LSPs of the double bow tie, leading to an even stronger localization of electromagnetic fields in the gap of the bowtie. While this interaction certainly merits exploration in the context of enhancing \sivs, we omit the excitation of SSPs in our first exploration of the coupling of \sivs and antennas. Thus the presence of the gratings can be ignored for our purposes. The reader interested in the details of bulls-eye antennas and their properties is referred to \cite{rahbany2016towards}.
+		 To couple \sivs to optical antennas, we work with gold double bowtie antennas on a gold substrate. In comparison with triangular, or single bowtie antennas, double bowtie antennas offer significantly improved intensity enhancements. Antennas were provided by \nancy in a joined effort to explore the possibilities of combining antennas with \sivs. The antennas themselves were fabricated using electron beam lithography, a technique suitable to imprint predetirmined patterns onto a suitable substrate with nano-scale resolution \cite{pease1981electron}. \autoref{subfig::antenna_structures_sem} shows a SEM image of an array of antenna structures of various sizes. In \autoref{subfig::antenna_one_structure_sem} a detail of an individual double bowtie antenna is shown. It can be seen that the double bowtie antenna is placed in the center of another structure, a so-called bulls-eye antenna, consisting of multiple concentric gratings. When illuminated by a laser at a proper angle, the gratings excite surface plasmon polaritons (SPPs) which are directed towards the center of the structure. If a double bowtie antenna is present in the center, SPPs can interact with the \LSPs of the double bow tie, leading to an even stronger localization of electromagnetic fields in the gap of the bowtie. While this interaction certainly merits exploration in the context of enhancing \sivs, we omit the excitation of SSPs in our first exploration of the coupling of \sivs and antennas. Thus the presence of the gratings can be ignored for our purposes. The reader interested in the details of bulls-eye antennas and their properties is referred to \cite{rahbany2016towards}.
 
 		 		\begin{figure}[htp]
 		 			\begin{subfigure}[t]{ 0.49\linewidth}
@@ -75,7 +75,7 @@
 		\\
 		Using finite time difference domain (FDTD) simulation deploying Lumerical Software the design space of gold double bowtie nano-antennas on a gold substrate was explored \cite{rahbany2016towards}. Although we initially attempted to simulate antennas without a \nd present in the gap, it was subsequently discovered that its ab initio inclusion yielded superior results. Thus to determine usable design parameters for our purposes, an integrated system combining antenna and \nd was used. To better mimic experimental conditions and associated imperfections, the \nd was placed slightly off-center in the gap.
 		\\
-		In a series of simulation it was established that a gap-size of $d = \SI{150}{nm}$, a side length of $L = \SI{2}{\micro\meter}$ and a structure thickness of $S = \SI{60}{nm}$ are feasible parameters as referred to in \autoref{double_bowtie_antenna_schematic}. The simulation required the index of refraction for gold which was taken from Palik \cite{Palik, E. D. Handbook of optical constants of solids. 3, (Academic press, 1998)}.
+		In a series of simulation it was established that a gap-size of $d = \SI{150}{nm}$, a side length of $L = \SI{2}{\micro\meter}$ and a structure thickness of $S = \SI{60}{nm}$ are feasible parameters as referred to in \autoref{double_bowtie_antenna_schematic}. The simulation required the index of refraction for gold which was taken from Palik \cite{ghosh1998handbook}.
 		\\
 		The resulting geometry hosting a \nd is capable of producing a suitable hot-spot when excited.
 
@@ -92,8 +92,8 @@
 
 	\subsection{\siv in a Plasmonic Double Bowtie Antenna}
 
-		In the following we report on our attempts to couple \sivs to gold double bowtie nano-antennas in order to study the properties of the resulting integrated system. Ideally, a suitable \nd containing exactly one \siv is placed in the center of the antenna. The term suitable is used to summarize both desirable spectroscopic properties such as narrow-bandwidth saturated single-photon emission as well as technical requirements such as \nd size and degree of isolation on the surface. Naturally, the odds of identifying and addressing a \nd fulfilling all these criteria simultaneously are small. 
-		As a result identifying a perfect candidate for coupling is prohibitively time-consuming. 
+		In the following we report on our attempts to couple \sivs to gold double bowtie nano-antennas in order to study the properties of the resulting integrated system. Ideally, a suitable \nd containing exactly one \siv is placed in the center of the antenna. The term suitable is used to summarize both desirable spectroscopic properties such as narrow-bandwidth saturated single-photon emission as well as technical requirements such as \nd size and degree of isolation on the surface. Naturally, the odds of identifying and addressing a \nd fulfilling all these criteria simultaneously are small.
+		As a result identifying a perfect candidate for coupling is prohibitively time-consuming.
 		\autoref{fig::milky_way2} shows a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area of the surface of one of the samples which was used to identify suitable \nds.
 		The black dots are \nds.
 		It can be seen, that the concentration of the \nds and therefore the isolation of \nds varies.
@@ -112,15 +112,15 @@
 			\caption[LSM scan, overview of a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area]{\Lsm scan of one of a $\SI{0.5}{mm}\times\SI{0.5}{mm}$ area of the investigated samples in search for suitable \nds. Black frames correspond to areas of which confocal scans were recorded to identify \nds emitting \fl. Red colored dots indicate \nds which are isolated enough for the \pp process and of which at least a \pl spectrum and a saturation measurement and in some cases a \gt measurement were recorded. The inset shows a magnification of the area framed in blue for better visibility of the red colored dots.}
 			\label{fig::milky_way2}
 		\end{figure}
-		
-		To mitigate this difficulty we decided to relax the condition of exactly one \siv per \nd and initiate our exploratory work with \nds containing several, potentially many active \sivs. 
-		Relying on \gt measurements we identify two interesting classes of \nds. 
-		The first class consists of \nds containing large ensembles of \sivs acting as coherent emitters. 
-		The \fl light received from large ensemble of emitters is mainly coherent, leading to a flat response in the \gtz function. 
-		The second class of \nds we investigate features \nds hosting multiple \sivs. 
-		As a result relevant \gtz measurements report weak but discernible anti-bunching dips. 
-		Both classes have in common that relevant \nd specimen are significantly easier to obtain than \nds containing singleton \sivs. 
-		Thus \nds containing ensembles of \sivs as well as \nds containing few \sivs are both valid starting points for our work. 
+
+		To mitigate this difficulty we decided to relax the condition of exactly one \siv per \nd and initiate our exploratory work with \nds containing several, potentially many active \sivs.
+		Relying on \gt measurements we identify two interesting classes of \nds.
+		The first class consists of \nds containing large ensembles of \sivs acting as coherent emitters.
+		The \fl light received from large ensemble of emitters is mainly coherent, leading to a flat response in the \gtz function.
+		The second class of \nds we investigate features \nds hosting multiple \sivs.
+		As a result relevant \gtz measurements report weak but discernible anti-bunching dips.
+		Both classes have in common that relevant \nd specimen are significantly easier to obtain than \nds containing singleton \sivs.
+		Thus \nds containing ensembles of \sivs as well as \nds containing few \sivs are both valid starting points for our work.
 		It is likely that the experience gained during our preliminary explorations will be valuable once \nds containing singleton \sivs become available.
 		\\
 		In the following sections we report on our efforts to couple \nds containing \sivs to antennas. We illustrate the coupling process and its challenges and discuss relevant results regarding the coupling of \nds of the classes described above. We close the chapter with a short discussion and suggestions for further research.
@@ -156,7 +156,7 @@
 				$\SI{8}{\micro\metre} \times \SI{13}{\micro\metre}$. }
 			\end{figure}
 
-			The most promising candidate \nds are characterized by \fl spectra with very narrow \zpls and minimal \psb features. 
+			The most promising candidate \nds are characterized by \fl spectra with very narrow \zpls and minimal \psb features.
 			\autoref{subfig::spectrum_nd_multiple} shows the spectrum stemming from one such preselected \nd.
 			The \ZPL feature exhibits a \cwl of \SI[separate-uncertainty = true]{738.55\pm0.01}{nm} and a \lw of \SI[separate-uncertainty = true]{5.0\pm0.03}{nm}, corresponding well with the \ZPL of unstrained \sivs. Photon autocorrelation measurements revealed that the \nd  contains an ensemble of \sivs collectively generating coherent \fl light, see \autoref{subfig::coherent_g2}.
 

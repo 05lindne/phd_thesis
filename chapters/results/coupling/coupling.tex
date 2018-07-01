@@ -55,8 +55,8 @@
 		\begin{figure}[htp]
 				\centering
 				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/nanomanipulator_image_arrows.png}}
+				\caption[Nano-manipulator in a SEM setup]{Image of the nano-manipulator mounted in the FIB. The arrows indicate the degrees of freedom of motion of the nano-manipulator. The custom made workbench is situated in the middle of the picture. On top of it, there is a \SI{1}{\centi\meter\squared} substrate with coated \nds, the nano-manipulator tip pointing to the middle of it. Behind it, there is the target \vcsel. Perpendicular to the workbench, the objective of the electron microscope can be seen. The angled cone perpendicular to the top edge of the image is the objective of the \fib.}
 				\label{fig::nanomanipulator_image}
-			\caption[Nano-manipulator in a SEM setup]{Image of the nano-manipulator mounted in the FIB. The arrows indicate the degrees of freedom of motion of the nano-manipulator. The custom made workbench is situated in the middle of the picture. On top of it, there is a \SI{1}{\centi\meter\squared} substrate with coated \nds, the nano-manipulator tip pointing to the middle of it. Behind it, there is the target \vcsel. Perpendicular to the workbench, the objective of the electron microscope can be seen. The angled cone perpendicular to the top edge of the image is the objective of the \fib.}
 		\end{figure}
 
 		Before using the nano-manipulator, its tip was ``sharpened'' with a focused ion beam by etching away tungsten with gallium ions. Its final radius of curvature amounts to \SI{100}{\nano\meter}. The sharpening enables the pick-up of \nds of a size suitable for use with photonic structures.
@@ -106,23 +106,23 @@
 
 		In the first method the confocal setup is used with a white light source illuminates the sample from the side at an acute angle. As a result, the edges of the cross markers become visible in the \fl scan, see \autoref{subfig::cross_marker_whitelightscan}. After turning the white light lamp off, the same area is scanned again to record the fluorescence from the \sivs. An overlay of the two images identifies the position of fluorescent \sivs \wrt the cross markers. The disadvantage of this method is the increased time consumption, as every scan for every subregion of the sample has to be performed twice. As only \fl scans are performed, no information about the size of individual \nds is available. Furthermore, it remains unknown whether \nds are present in isolation or close to each other. Such information is only available in the SEM where the \pp is conducted. It is only at this later stage, that individual \nds can be excluded as unusable for the \pp process. For such \nds the time spend of characterizing its properties was unfortunately wasted.
 
-		To mitigate this problem, a more efficient method consists of scanning the substrate first using a commercial \lsm. The \lsm is a confocal microscope where the focus of a laser can be used to obtain the height of a structure. When scanning an array of cross markers a gray-scale image is obtained, where the gray value corresponds to the height deviation of a structure. As a result, both the crosses with a nominal depth of \SI{40}{\nm} and the \nds themselves are revealed as darker shades of gray. In contrast to the previous method, information on the size and isolation of \nds is accessible. After scanning the substrate with the \lsm, it is inserted into the confocal setup. While observing the surface with a CCD camera, a specific cross marker is chosen as the starting point for a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan can be attributed to \nds in the \lsm scan. \autoref{subfig::cross_laser_scan,subfig::pp_pl_scan} illustrate the process.
+		To mitigate this problem, a more efficient method consists of scanning the substrate first using a commercial \lsm. The \lsm is a confocal microscope where the focus of a laser can be used to obtain the height of a structure. When scanning an array of cross markers a gray-scale image is obtained, where the gray value corresponds to the height deviation of a structure. As a result, both the crosses with a nominal depth of \SI{40}{\nm} and the \nds themselves are revealed as darker shades of gray. In contrast to the previous method, information on the size and isolation of \nds is accessible. After scanning the substrate with the \lsm, it is inserted into the confocal setup. While observing the surface with a CCD camera, a specific cross marker is chosen as the starting point for a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan can be attributed to \nds in the \lsm scan. \autoref{subfig::cross_laser_scan_1} and \autoref{subfig::pp_pl_scan_1} illustrate the process.
 
 		\begin{figure}[htp]
 			\begin{subfigure}{ 0.49\linewidth}
 				\centering
 				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/M05-13_structure3_stitch_crop_area.jpg}}
 				\caption{}
-				\label{subfig::cross_laser_scan}
+				\label{subfig::cross_laser_scan_1}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}{ 0.49\linewidth}
 				\centering
 				\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, height = 0.7\textwidth]{./pics/scan_xy-32_2APD_mum_noscale.png}}
 				\caption{}
-				\label{subfig::pp_pl_scan}
+				\label{subfig::pp_pl_scan_1}
 			\end{subfigure}
-				\caption[Combining \fl and \lsm to identify \nds]{a) Picture recorded with a commercial high resolution laser scanning microscope. Cross marker is visible as well. b) \Pl scan of a $\SI{8}{\micro\metre} \times  \SI{13}{\micro\metre}$ corresponding to the blue shaded area in b).he area shaded in blue represents the \pl scan in image b).}
+				\caption[Combining \fl and \lsm to identify \nds]{a) Picture recorded with a commercial high resolution laser scanning microscope. Cross marker is visible as well. b) \Pl scan of a $\SI{8}{\micro\metre} \times  \SI{13}{\micro\metre}$ corresponding to the blue shaded area in b). The area shaded in blue represents the \pl scan in image b).}
 		\end{figure}
 
 

@@ -4,8 +4,9 @@
 
 	In the context of metrology, controllable \spss, operating at room temperature, are an extremely important prospect. Such devices are anticipated to play a key role in the development and calibration of detectors and measurement methods aiming to resolve optical flux down to single-photon resolution \cite{Vaigu2017}. As such \sps form a cornerstone of the efforts directed towards the redefinition of the candela in terms of single photons, see discussion in \autoref{ch::introduction}.
 
-	Here we attempt to create a hybrid-integrated \sps by placing a \nd ideally containing a solitary \sivs on-top of a \vcsels (\VCSELs).
-	The \siv is situated such that output laser of the \VCSEL can be used to optically excite the \cc. Since the \VCSEL laser can be controlled very well, \siv operation can be steered reliably. Through the use of suitable optical filters allowing only \siv \fl to emerge, a controlled \sps can be realized in principle.
+	Here we attempt to create a hybrid-integrated \sps by placing a \nd ideally containing a solitary \sivs on-top of a \vcsels (\VCSELs). Using \nds containing exactly one \sivs is a necessary requirement for the realization of a proper \sps, however, such \nds are difficult to identify. Thus, we rely on \nds containing several \sivs for a first poof-of-concept implementation demostrating the validity of coupling emmitters to \VCSELs.
+
+	In our approach a \nd containing \sivs is situated such that output laser of the \VCSEL can be used to optically excite the \cc. Since the \VCSEL laser can be controlled very well, \siv operation can be steered reliably. Through the use of suitable optical filters allowing only \siv \fl to emerge, a controlled \sps can be realized in principle.
 
 	In the following we give a short discussion of \VCSELs. Next we discuss the coupling of \sivs to \VCSELs and report on the optical properties of the resulting hybrid-integrated light source.
 
@@ -34,10 +35,6 @@
 	% The VCSEL structure (Fig. 2) consists of an laser active region embedded in between two distributed Bragg reflectors (DBR). For maximum modal gain the current and the optical mode need to be confined in the transverse direction for serving as a spatial filter. This is achieved with an implemented oxide aperture, with diameter DA, directly above the active region in a field node of the standing wave field to minimize scattering losses. Our devices possess optical output power up to 3 mW with low threshold current (1 mA) at 660 nm. For practical application a stable single transverse mode especially the fundamental mode and a stable polarization of the emission is desirable owing to higher coupling-efficiency into optical fibers.
 	% \\
 	% II. EXPERIMENTAL PROCEDURE The investigated VCSEL structures were grown by metalorganic vapor-phase epitaxy (MOVPE) in an AIX-200 hori- zontal reactor setup with in situ growth control using stan- dard sources at low pressure of 100 mbar and a tempera- ture of 750 ◦C on (100) n+-GaAs substrate misoriented 6 ◦ towards [111]A. The bottom n-type DBR is made of 50 pairs of AlAs/Al0.5Ga0.5As. The p-type DBR consists of 36 Al0.95Ga0.05As/Al0.5Ga0.5As mirror pairs. Four compres- sively strained GaInP quantum wells (QW) built up the active region. To realize an oxide aperture, the advantage of high oxidation selectivity of the AlxGa1−xAs material system is used. We use an Al-content of x = 0.98 for this oxidation layer. Active diameters DA from 3 µm to 20 µm were obtained on one sample because of the flow profile of the nitric water vapor in the oxidation chamber. To investigate the transverse beam profile depending on different parameters we built up a vertical measurement setup. The beam profile is mapped with a lens system of 3 lenses and captured with a CMOS-camera. The vertical setup provides the advantage of on-wafer-testing.
-
-	\begin{remark}
-		 Gegeben einen \nd ist es ja a priori unwahrscheinlich, dass ein einziges \siv drin vorkommt. In antenneteil gehen wir darauf ein. Hier nicht. Warum nicht? Auch im Siv paper ist keine thematisierung.
-	\end{remark}
 
 	To conduct our research, we received an array of red AlGaInP-based oxide-confined \VCSELs from \michler. The array includes three individually operable \VCSELs, two of which, labeled \BmFour and \BmTwo were used in our experiments, see \autoref{subfig::vcsel_sem_big_overview}.
 
@@ -127,7 +124,7 @@
 			\caption{}
 			\label{subfig::spectrum_vcsel_confocal_excitation_with_diamond}
 		\end{subfigure}
-		\caption[\Siv properties before and after \pp]{(a) Spectrum of the preselected diamond for transfer onto \BmFour before \pp. The strong line denoted $A$ exhibits a \cwl of \SI{746.0}{nm} and a \lw of \SI{1.9}{nm}. Line $B$ exhibits a \cwl of \SI{0}{nm} and a \lw of \SI{0}{nm} \todo[inline]{put in correct numbers} (b) Spectrum of the same \siv after \pp, excited with the same laser as before. While Line $A$ is almost gone, line $B$ still exists seemingly unchanged and has become the predominant line of the spectrum. We remark that due to material restrictions, different long-pass filters were used for the two measurements. Measurement (a) was performed with a \SI{720}{nm} long-pass filter, measurement (b) with a \SI{710}{nm} longpass filter.}
+		\caption[\Siv properties before and after \pp]{(a) Spectrum of the preselected diamond for transfer onto \BmFour before \pp. The strong line denoted $A$ exhibits a \cwl of \SI{746.0}{nm} and a \lw of \SI{1.9}{nm}. Line $B$ exhibits a \cwl of \SI{734.5}{\nm} and a \lw of \SI{3.8}{\nm}. (b) Spectrum of the same \siv after \pp, excited with the same laser as before. While Line $A$ is almost gone, line $B$ still exists seemingly unchanged and has become the predominant line of the spectrum. We remark that due to material restrictions, different long-pass filters were used for the two measurements. Measurement (a) was performed with a \SI{720}{nm} long-pass filter, measurement (b) with a \SI{710}{nm} longpass filter.}
 		\label{fig::spectrum_vcsel_diamond}
 	\end{figure}
 
@@ -184,7 +181,7 @@
 		\begin{figure}[htp]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/dbr_VCSEL_only_blue.pdf}}
-			\caption[Reflectivity of \BmFour]{Reflectivity of the \dbr (DBR) of \BmFour \cite{Weidenfeld2012}, and a spectrum of the \siv measured during \VCSEL excitation for comparison. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during \VCSEL operation is reminiscent of the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser \sb in the same wavelength regime, the \sivs emission is not detectable\todo[inline]{warum schaut das spectrum anders aus als das, was einzeln geplottet ist?}.}
+			\caption[Reflectivity of \BmFour]{Reflectivity of the \dbr (DBR) of \BmFour \cite{Weidenfeld2012}, and a spectrum of the \siv measured during \VCSEL excitation for comparison. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during \VCSEL operation is reminiscent of the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser \sb in the same wavelength regime, the \sivs emission is not.}
 			\label{fig::dbr_vcsel}
 		\end{figure}
 

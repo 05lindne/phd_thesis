@@ -9,6 +9,7 @@
 \usepackage[utf8]{inputenc}
 
 % \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
+\usepackage{breakurl}
 \usepackage[pagebackref=false,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
 \usepackage{etex}
 \usepackage[T1]{fontenc}
@@ -74,7 +75,7 @@
   backend=biber,
   language=auto,
   % style=ieee, %
-  %style=numeric-comp,%
+  style=numeric,%
   % style=authoryear-comp, % Author 1999, 2010
   sorting=nyt, % name, year, title
   maxbibnames=3, % default: 3, et al.
@@ -100,7 +101,6 @@
 \AtEveryBibitem{\clearfield{address}}   
 \AtEveryBibitem{\clearfield{month}} 
 \AtEveryBibitem{\clearfield{isbn}} 
-
 
 \usepackage{blindtext}  %generates lorem impsum latin blind text
 \usepackage[nodayofweek,level]{datetime}

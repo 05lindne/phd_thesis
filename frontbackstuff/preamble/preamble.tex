@@ -6,9 +6,10 @@
 
 % \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
 \usepackage[pagebackref=true,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
+\usepackage{etex}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage{caption}
+\usepackage[format=plain,labelfont=bf]{caption}
 \usepackage{lineno}	% allows line numbering: \linenumbers
 \usepackage{setspace}	% allows line spacing: \singlespacing,\onehalfspacing,\doublespacing
 \usepackage{graphicx}
@@ -41,17 +42,19 @@
 \usepackage{float}
 
 \usepackage[showframe,headheight=15pt, margin=2.2cm,includehead,includefoot]{geometry}% Set margin sizes, put in showframe to show the frames on document
-\usepackage[textwidth=0.75in]{todonotes}
+\usepackage[textwidth=0.75in, disable]{todonotes}
 \presetkeys{todonotes}{fancyline}{}
 
 \geometry{bindingoffset=1cm}
 
-
-\hypersetup{%
-  pdftitle=PhD Thesis,
-  pdfauthor=Sarah Lindner,
-  colorlinks=false,
-  pdfborderstyle={/S/U/W 3}}
+  \hypersetup{
+    colorlinks=false, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+    breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
+    plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+    hypertexnames=true, pdfhighlight=/O,%
+    pdfauthor={Sarah Lindner }, pdftitle={Towards~Integrated~Single-Photon~Sources~Using~the~Silicon~Vacancy~Center~in~Nanodiamonds}, pdfcreator={pdflatex},%
+  pdfborderstyle={/S/U/W 3},%
+  }
 
 % \setlength{\headheight}{13.7pt}%make the header size higher (e.g. if superscripts used in header)
 
@@ -68,6 +71,15 @@
 
 \usepackage{epigraph}
 \usepackage{etoolbox}
+
+%table of contents options
+\usepackage{tocbibind}
+
+%beautify font
+%\usepackage{lmodern}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+\SetTracking{encoding={*}, shape=sc}{10}
+\usepackage{titlesec}
 
 \usepackage{tikz}
 \usetikzlibrary{spy}

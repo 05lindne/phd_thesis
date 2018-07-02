@@ -1,12 +1,12 @@
 %!TEX root = ../../main.tex
 
-
+\usepackage{scrhack}			%supresses a useless KOMA script warning
 \KOMAoptions{paper=a4,twoside,fontsize=12pt,BCOR=12mm}
 \KOMAoptions{headinclude=false,footinclude=false}
 \KOMAoptions{headsepline=true}
 \KOMAoptions{open=right}
-
-
+\addtokomafont{pageheadfoot}{\linespread{1}\selectfont}
+\usepackage[utf8]{inputenc}
 
 % \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
 \usepackage[pagebackref=false,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
@@ -41,7 +41,6 @@
 % \usepackage{showframe}
 
 \usepackage{booktabs}% to use \toprule, \bottomrule in table
-\usepackage{backref}
 \usepackage[inline]{enumitem} % inline option which implements inline versions of the standard lists using starred versions of the basic list environments.
 \usepackage{float}
 
@@ -69,6 +68,39 @@
 %\usepackage[nomarkers,nofiglist,figuresonly]{endfloat} %put all figures to the end of document
 
 % \reversemarginpar
+
+
+\PassOptionsToPackage{
+  backend=biber,
+  language=auto,
+  % style=ieee, %
+  %style=numeric-comp,%
+  % style=authoryear-comp, % Author 1999, 2010
+  sorting=nyt, % name, year, title
+  maxbibnames=3, % default: 3, et al.
+  % backref=true,%
+  natbib=true, % natbib compatibility mode (\citep and \citet still work)
+  url=false,
+  isbn=false,
+  doi=false,
+  eprint=false,
+  %location=false,
+  %series=false,
+  %issue_date=false,
+  %edition=false,
+  %language=false
+}{biblatex}
+\usepackage{biblatex}
+\AtEveryBibitem{\clearlist{language}} % clears language
+\AtEveryBibitem{\clearfield{note}}    % clears notes
+\AtEveryBibitem{\clearfield{doi}}   
+\AtEveryBibitem{\clearfield{location}}   
+\AtEveryBibitem{\clearfield{edition}}   
+\AtEveryBibitem{\clearfield{series}}   
+\AtEveryBibitem{\clearfield{address}}   
+\AtEveryBibitem{\clearfield{month}} 
+\AtEveryBibitem{\clearfield{isbn}} 
+
 
 \usepackage{blindtext}  %generates lorem impsum latin blind text
 \usepackage[nodayofweek,level]{datetime}
@@ -122,3 +154,4 @@
 \Frefformat{plain}{\fancyrefsubsubseclabelprefix}{%
 \subsubsecname\fancyrefdefaultspacing#1\@\xspace
 }%
+

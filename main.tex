@@ -1,11 +1,13 @@
-\documentclass{scrbook}
-% \documentclass[draft]{scrbook}
+% \documentclass{scrbook}
+\documentclass[draft]{scrbook}
 
 \input{./frontbackstuff/preamble/preamble}
 \input{./frontbackstuff/commands/commands_physics}
 \input{./frontbackstuff/commands/commands}
 
 \makeindex
+
+\addbibresource{./frontbackstuff/bibliography/library.bib}
 
 \begin{document}
 
@@ -41,6 +43,6 @@
 		\input{./chapters/results/coupling/coupling_vcsel}
 		\input{./chapters/results/coupling/coupling_antenna}
 		\input{./chapters/conclusion/conclusion}
-		\include{./frontbackstuff/bibliography/bibliography}
-
+		\input{./frontbackstuff/bibliography/bibliography}
+		
 \end{document}

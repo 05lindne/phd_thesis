@@ -1,14 +1,17 @@
 %!TEX root = ../../main.tex
 
 
-%advice: in linux, put new style files into something like /usr/share/texmf/tex/latex and then run ``texhash''
+\KOMAoptions{paper=a4,twoside,fontsize=12pt,BCOR=12mm}
+\KOMAoptions{headinclude=false,footinclude=false}
+\KOMAoptions{headsepline=true}
+\KOMAoptions{open=right}
+
 
 
 % \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
-\usepackage[pagebackref=true,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
+\usepackage[pagebackref=false,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
 \usepackage{etex}
 \usepackage[T1]{fontenc}
-\usepackage{lmodern}
 \usepackage[format=plain,labelfont=bf]{caption}
 \usepackage{lineno}	% allows line numbering: \linenumbers
 \usepackage{setspace}	% allows line spacing: \singlespacing,\onehalfspacing,\doublespacing
@@ -76,7 +79,7 @@
 \usepackage{tocbibind}
 
 %beautify font
-%\usepackage{lmodern}
+\usepackage{lmodern}
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \SetTracking{encoding={*}, shape=sc}{10}
 \usepackage{titlesec}

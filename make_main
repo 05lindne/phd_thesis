@@ -1,5 +1,17 @@
 #!/bin/bash
 
+rm main.aux
+rm main.bcf
+rm main.blg
+rm main.idx
+rm main.lof
+rm main.log
+rm main.lot
+rm main.out
+rm main.run.xml
+rm main.tdo
+rm main.toc
+
 pdflatex main.tex
 # bibtex main
 biber main

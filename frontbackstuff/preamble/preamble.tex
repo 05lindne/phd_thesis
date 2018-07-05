@@ -1,81 +1,57 @@
 %!TEX root = ../../main.tex
 
+\usepackage{etex} 
 \usepackage{scrhack}			%supresses a useless KOMA script warning
 \KOMAoptions{paper=a4,twoside,fontsize=12pt,BCOR=12mm}
 \KOMAoptions{headinclude=false,footinclude=false}
 \KOMAoptions{headsepline=true}
 \KOMAoptions{open=right}
 \addtokomafont{pageheadfoot}{\linespread{1}\selectfont}
-\usepackage[utf8]{inputenc}
 
-% \usepackage{newclude}	% for the option \include*{...}, to prevent pagebreak between consecutive sections saved in two different files. (reimplementation of \include and \includeonly -> http://www.ctan.org/pkg/newclude)
-\usepackage{breakurl}
-\usepackage[pagebackref=false,plainpages=false,pdfpagelabels,breaklinks=true]{hyperref}
-\usepackage{etex}
-\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[german,english]{babel}
+
+%table of contents options
+\usepackage{tocbibind}
+
+
 \usepackage[format=plain,labelfont=bf]{caption}
-\usepackage{lineno}	% allows line numbering: \linenumbers
-\usepackage{setspace}	% allows line spacing: \singlespacing,\onehalfspacing,\doublespacing
+\usepackage{subcaption}
 \usepackage{graphicx}
-% \usepackage{minipage}
 \usepackage{color}
-\usepackage{makeidx}
-\usepackage{fancyhdr}	%options for headers and footers
-\usepackage[ngerman,english]{babel}
+\usepackage{tikz}
+\usetikzlibrary{spy}
+
+\DeclareGraphicsExtensions{.eps,.png,.pdf}
+
+
 \usepackage{mathtools}%extention to amsmath; loads amsmath;
-\usepackage{xspace}% when used in newcommand, space is only inserted, if not followed by dot, comma... Must be written at the LAST spot within the braces of a newcommand!!!
-\usepackage{parskip}
-\usepackage[singlelinecheck=false, aboveskip=-3pt]{subcaption}% use this package if subfigures are wanted, contains newest implementation of subfigures
-\usepackage{cleveref}%supports cref to reference multiple things in a row and to automatically write into the text what object is referenced to(http://get-software.net/macros/latex/contrib/cleveref/cleveref.pdf)
-\usepackage[plain]{fancyref}%usage: \Fref{type:title} or \Fref{type:title}, gets information about kind of referenced stuff and writes name&number
-\fancyrefchangeprefix{\fancyrefchaplabelprefix}{ch}
-\usepackage{textcomp}
 \usepackage{gensymb}%for units
 \usepackage{siunitx}
 \DeclareSIUnit\inch{in}
-\usepackage[autostyle,english=american]{csquotes}
 \usepackage{chemformula}
 \usepackage{physics}
-\usepackage{mdframed} % Add easy frames to paragraphs
 
-% \usepackage{showlabels}
-% \usepackage{showframe}
-
-\usepackage{booktabs}% to use \toprule, \bottomrule in table
-\usepackage[inline]{enumitem} % inline option which implements inline versions of the standard lists using starred versions of the basic list environments.
-\usepackage{float}
-
-\usepackage[showframe,headheight=15pt, margin=2.2cm,includehead,includefoot]{geometry}% Set margin sizes, put in showframe to show the frames on document
-\usepackage[textwidth=0.75in, disable]{todonotes}
-\presetkeys{todonotes}{fancyline}{}
-
-\geometry{bindingoffset=1cm}
-
-  \hypersetup{
-    colorlinks=false, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
-    breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
-    plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
-    hypertexnames=true, pdfhighlight=/O,%
-    pdfauthor={Sarah Lindner }, pdftitle={Towards~Integrated~Single-Photon~Sources~Using~the~Silicon~Vacancy~Center~in~Nanodiamonds}, pdfcreator={pdflatex},%
-  pdfborderstyle={/S/U/W 3},%
-  }
-
-% \setlength{\headheight}{13.7pt}%make the header size higher (e.g. if superscripts used in header)
-
-\DeclareGraphicsExtensions{.eps}
-
-% \pagestyle{fancy}
-
-%\usepackage[nomarkers,nofiglist,figuresonly]{endfloat} %put all figures to the end of document
-
-% \reversemarginpar
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=false, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
+plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+hypertexnames=true, pdfhighlight=/O,%
+pdfauthor={Sarah Lindner }, pdftitle={Towards~Integrated~Single-Photon~Sources~Using~the~Silicon~Vacancy~Center~in~Nanodiamonds}, pdfcreator={pdflatex},%
+pdfborderstyle={/S/U/W 3},%
+}
 
 
+\usepackage[autostyle]{csquotes}
+
+
+% bibliography
 \PassOptionsToPackage{
   backend=biber,
   language=auto,
-  % style=ieee, %
-  style=numeric,%
+  style=ieee, %
+  % style=numeric,%
   % style=authoryear-comp, % Author 1999, 2010
   sorting=nyt, % name, year, title
   maxbibnames=3, % default: 3, et al.
@@ -92,6 +68,9 @@
   %language=false
 }{biblatex}
 \usepackage{biblatex}
+\usepackage{cleveref}
+\usepackage[plain]{fancyref}
+
 \AtEveryBibitem{\clearlist{language}} % clears language
 \AtEveryBibitem{\clearfield{note}}    % clears notes
 \AtEveryBibitem{\clearfield{doi}}   
@@ -102,56 +81,41 @@
 \AtEveryBibitem{\clearfield{month}} 
 \AtEveryBibitem{\clearfield{isbn}} 
 
-\usepackage{blindtext}  %generates lorem impsum latin blind text
-\usepackage[nodayofweek,level]{datetime}
 
-\usepackage{epigraph}
-\usepackage{etoolbox}
+%footnotes
+\usepackage[bottom,marginal]{footmisc}
+\usepackage{fnpct}
 
-%table of contents options
-\usepackage{tocbibind}
 
 %beautify font
 \usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{xspace}
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \SetTracking{encoding={*}, shape=sc}{10}
 \usepackage{titlesec}
 
-\usepackage{tikz}
-\usetikzlibrary{spy}
+%helpers
+\usepackage{float}
+\usepackage{tabularx,booktabs}
+\usepackage[inline]{enumitem}
+\usepackage{todonotes}
+\usepackage[nodayofweek,level]{datetime}
+\usepackage{xspace}%
 
-\setlength\epigraphwidth{\linewidth}
-\setlength\epigraphrule{0pt}
-\renewcommand{\epigraphflush}{center}
 
-% adding relevant code to use "subfig" as a valid prefix to make \Fref{subfig::*} identical to \Fref{fig::*}
-\newcommand*{\fancyrefsubfiglabelprefix}{subfig}
-\newcommand*{\subfigname}{Figure}
-\newcommand*{\Frefsubfigname}{Figure}
-\frefformat{plain}{\fancyrefsubfiglabelprefix}{%
-\Frefsubfigname\fancyrefdefaultspacing#1\@\xspace
-}%
-\Frefformat{plain}{\fancyrefsubfiglabelprefix}{%
-\subfigname\fancyrefdefaultspacing#1\@\xspace
-}%
+%misc stuff
+\usepackage{blindtext} 				%generates lorem ipsum
+\usepackage{showframe}				%shows the invisible frames around the text for layouting
+\usepackage{mdframed} 				% Add easy frames to paragraphs
+\usepackage{lineno}					% allows line numbering: \linenumbers
+\usepackage{epigraph}				% opening quotes for chapters
+\usepackage{parskip}
 
-\newcommand*{\fancyrefsubseclabelprefix}{subsec}
-\newcommand*{\subsecname}{Section}
-\newcommand*{\Frefsubsecname}{Section}
-\frefformat{plain}{\fancyrefsubseclabelprefix}{%
-\Frefsubsecname\fancyrefdefaultspacing#1\@\xspace
-}%
-\Frefformat{plain}{\fancyrefsubseclabelprefix}{%
-\subsecname\fancyrefdefaultspacing#1\@\xspace
-}%
 
-\newcommand*{\fancyrefsubsubseclabelprefix}{subsubsec}
-\newcommand*{\subsubsecname}{Section}
-\newcommand*{\Frefsubsubsecname}{Section}
-\frefformat{plain}{\fancyrefsubsubseclabelprefix}{%
-\Frefsubsubsecname\fancyrefdefaultspacing#1\@\xspace
-}%
-\Frefformat{plain}{\fancyrefsubsubseclabelprefix}{%
-\subsubsecname\fancyrefdefaultspacing#1\@\xspace
-}%
 
+% \usepackage{breakurl}
+
+
+
+ 

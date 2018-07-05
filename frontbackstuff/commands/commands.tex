@@ -43,3 +43,42 @@
 \newcommand*{\majorkeyword}[1]{{#1}\index{#1|boldindex }\xspace}%Print the page number of the most important appearence of a keyword in bold face.
 
 \newcommand*{\majorindex}[1]{\index{#1|boldindex }\xspace}
+
+\fancyrefchangeprefix{\fancyrefchaplabelprefix}{ch}
+
+% adding relevant code to use "subfig" as a valid prefix to make \Fref{subfig::*} identical to \Fref{fig::*}
+\newcommand*{\fancyrefsubfiglabelprefix}{subfig}
+\newcommand*{\subfigname}{Figure}
+\newcommand*{\Frefsubfigname}{Figure}
+\frefformat{plain}{\fancyrefsubfiglabelprefix}{%
+\Frefsubfigname\fancyrefdefaultspacing#1\@\xspace
+}%
+\Frefformat{plain}{\fancyrefsubfiglabelprefix}{%
+\subfigname\fancyrefdefaultspacing#1\@\xspace
+}%
+
+\newcommand*{\fancyrefsubseclabelprefix}{subsec}
+\newcommand*{\subsecname}{Section}
+\newcommand*{\Frefsubsecname}{Section}
+\frefformat{plain}{\fancyrefsubseclabelprefix}{%
+\Frefsubsecname\fancyrefdefaultspacing#1\@\xspace
+}%
+\Frefformat{plain}{\fancyrefsubseclabelprefix}{%
+\subsecname\fancyrefdefaultspacing#1\@\xspace
+}%
+
+\newcommand*{\fancyrefsubsubseclabelprefix}{subsubsec}
+\newcommand*{\subsubsecname}{Section}
+\newcommand*{\Frefsubsubsecname}{Section}
+\frefformat{plain}{\fancyrefsubsubseclabelprefix}{%
+\Frefsubsubsecname\fancyrefdefaultspacing#1\@\xspace
+}%
+\Frefformat{plain}{\fancyrefsubsubseclabelprefix}{%
+\subsubsecname\fancyrefdefaultspacing#1\@\xspace
+}%
+
+
+\setlength\epigraphwidth{\linewidth}
+\setlength\epigraphrule{0pt}
+\renewcommand{\epigraphflush}{center}
+

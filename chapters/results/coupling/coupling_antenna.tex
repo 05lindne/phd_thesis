@@ -27,13 +27,13 @@
 				\label{fig::double_bowtie_antenna_schematic}
 		\end{figure}
 
-		This antenna design utilizes a symmetric arrangement of four identical triangle-shaped blocks, separated by a small gap. This setup allows \LSP modes, associated with individual blocks, to couple with each other, resulting in the formation of an intense hot-spot in the center area \cite{ghenuche2008spectroscopic}, see \Fref{fig:double_bow_tie_hotspot}. The actual electromagnetic response of a double bowtie nano-antenna depends on its physical design parameters such as gap size, material used, geometry and size. Furthermore, properties of incident light such as \wl and polarization determine antenna operation.
+		This antenna design utilizes a symmetric arrangement of four identical triangle-shaped blocks, separated by a small gap. This setup allows \LSP modes, associated with individual blocks, to couple with each other, resulting in the formation of an intense hot-spot in the center area \cite{ghenuche2008spectroscopic}, see \Fref{fig::double_bow_tie_hotspot}. The actual electromagnetic response of a double bowtie nano-antenna depends on its physical design parameters such as gap size, material used, geometry and size. Furthermore, properties of incident light such as \wl and polarization determine antenna operation.
 
 		\begin{figure}[thp]
 				\centering
 				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/antenna_fdtd_simulation_field.png}}
-				\label{fig::double_bow_tie_hotspot}
 				\caption[Hot-spot of a double bowtie antenna]{Simulation result of the electric field map of a gold double bowtie nano-antenna \cite{rahbany2016towards, Rahbany2015, rahbany2016towards}. The structure has gap of $d = \SI{150}{nm}$, a side length of $L = \SI{2}{\micro\meter}$ and a thickness of $S = \SI{60}{nm}$. The center of the antenna exhibits an area of pronounced focus, the so-called hot-spot.}
+				\label{fig::double_bow_tie_hotspot}
 		\end{figure}
 
 
@@ -130,7 +130,7 @@
 			The \nds used for the approach of coupling ensembles of \sivs to an antenna were wet-milled from a \CVD diamond film\footnote{wet-milling performed by \muzha, diamond film grown by group of \williams}.
 			The solution of \nds exhibiting a median size of \SI{100}{nm} was spin-coated on an iridium substrate treated with Piranha etch (sample of type \insituH).
 			To ensure that a preselected nanodiamond exhibiting preferred optical properties can reliably be located, the iridium substrate was engraved with reference cross markers produced by a focused ion beam after the spin-coating process.
-			After spin-coating, the sample was placed in an oven for \SI{3}{\hour} at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon. See \Fref{ch::nanodiamonds} for more information.
+			After spin-coating, the sample was placed in an oven for \SI{3}{\hour} at \SI{450}{\celsius} to oxidize the surface and remove any residual graphite and amorphous carbon. See \Fref{ch::fabrication_nanodiamonds} for more information.
 			\\
 			% position
 			To determine the position of \nds on the original substrate, first a scan with a commercial \lsm (LSM) was performed as described in \Fref{subsec::position}.
@@ -253,7 +253,7 @@
 			These images suffices to locate the \nd with sufficient precision to measure PL spectra.
 			The PL spectrum of the ensemble of \sivs in the \nd is shown in \Fref{subfig::spectrum_antenna_nd_multiple}. It can be seen that at \SI{738}{\nm} a major peak is present, almost exactly at the same \wl than the \siv \zpl, \i.e.\ \SI{739}{\nm}. The additional minor peak at \SI{726}{\nm} is attributed to the antenna resonance mode. We remark that, any damage sustained through electron radiation during the \pp process is likely not sufficient to invalidate the \nd. This is expected as a large ensemble of \sivs can easily lose several emitters without any noticeable difference in the optical properties. Needless to say, the exact opposite is true for \nds with very few hosted \sivs making them risky to work with.
 			\\
-			We verified successful coupling of the ensemble of \sivs to the antenna by combining experimental and numerical results. In particular, we convolve the experimental PL spectrum of the \nd measured before placing it in the nano-antenna, see \Fref{subfig::spectrum_nd_multiple},  with the intensity spectrum of the nano-antenna obtained by means of simulations given in \Fref{fig::spectrum_antenna_nd_multiple}.
+			We verified successful coupling of the ensemble of \sivs to the antenna by combining experimental and numerical results. In particular, we convolve the experimental PL spectrum of the \nd measured before placing it in the nano-antenna, see \Fref{subfig::spectrum_nd_multiple},  with the intensity spectrum of the nano-antenna obtained by means of simulations given in \Fref{subfig::spectrum_antenna_nd_multiple}.
 			The result of the convolution is the spectrum given in \Fref{subfig::antenna_convolution}. The agreement with the measured spectrum in \Fref{subfig::spectrum_antenna_nd_multiple} is almost perfect, indicating successful coupling of emitters and antenna. At the same time we confirm that the minor peak in \Fref{subfig::spectrum_antenna_nd_multiple} is indeed due to the antenna resonance.
 
 			\begin{figure}[htp]

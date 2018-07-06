@@ -161,11 +161,47 @@
 		\\
 		In the spectra of \vl, we do not observe a typical \siv sideband feature at \SI{64}{meV}, attributed to a local vibration of the \si atom, frequently much stronger than the  \SI{42}{meV} sideband peak.
 		A possible explanation is, that the lattice mode at \SIrange{37}{43}{meV} is so strong that the local vibrational mode at \SI{64}{meV} cannot be separated from the tail of the lattice mode.
-		\\
+		% \\
+		% \todo{beginning new}For further investigations, we plotted the \ZPL  of \vl with multiple peaks.
+		% We found that two Lorentzian curves fit the peak best.
+		% \Fref{fig::sideband_multfit} shows histograms of the distribution of the \cw and the \lw of the fitted peaks.
+		% Keep in mind that two of the peaks sum up to the peak visible as a \ZPL and the third peak is the sideband peak which we attribute to the lattice mode at about \SI{43}{meV}.
+		% We found that the \lw of the sideband peak exhibits values up to \SI{20}{nm}.
+		% This broad width is an indicator, that the local vibrational mode might indeed be outpowered by the more intense lattice mode.
+		% However, it is not very easy to find spectra where the sideband peak is pronounced and isolated enough to make proper statistics.
+		% The original \ZPL is split up in two peaks, one with a median \cwl of \SI{738}{nm} (\SI{1680}{\meV}) and a median \lw of \SI{4.5}{nm}  and the other with a median \cwl of \SI{742}{nm} (\SI{1671}{\meV}) and a median \lw of \SI{8}{nm}.
+		% It could be that this is an indication for another sideband peak with a shift of \SI{9}{\meV}.
+		% \todo{end new}
+		% \\
+		% \begin{figure}[tp]
+		% 	\begin{subfigure}[t]{ 0.49\linewidth}
+		% 		\centering
+		% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/histo_multi_sidebands_position25bins.pdf}}
+		% 		\caption{}
+		% 		\label{subfig::sb_multfit_pos}
+		% 	\end{subfigure}
+		% 	\hfill
+		% 	\begin{subfigure}[t]{ 0.49\linewidth}
+		% 		\centering
+		% 		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/histo_multi_sidebands_width_25bins.pdf}}
+		% 		\caption{}
+		% 		\label{subfig::sb_multfit_width}
+		% 	\end{subfigure}
+		% 	\caption{}
+		% 	\label{fig::sideband_multfit}
+		% \end{figure}
+		% \\
 		In \hl we observe many spectra which exhibit several peaks within the spectral range of our detection range between \SIrange{710}{900}{nm}.
 		The challenge arises to unequivocally distinguish between peaks stemming from a phonon sideband and peaks stemming from shifted, less intense \siv \ZPLs.
 
-		Interestingly, we assert a tendency for peaks to accumulate at a shift of around \SIlist{43;64;150;175}{meV}. This pattern in the \psb of \hl is consistent with side band shifts reported in \cite{Sternschulte1994,Zaitsev2000, Neu2011}.
+		Interestingly, we assert a tendency for peaks to accumulate at a shift of around \SIlist{43;64;150;175}{meV}, as shown in \Fref{fig::multiple_sb_peaks}. This pattern in the \psb of \hl is consistent with side band shifts reported in \cite{Sternschulte1994,Zaitsev2000, Neu2011}.
+
+		\begin{figure}[htp]
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/statistics_only_multiple_sb_zpl_vs_distance_5meVbars_modes_edit.png}}
+			\caption{This plots shows sideband peaks attributed to different \ZPL \cwls, with respect to the sideband peak's shift. The \ZPL \cwl is visualized on the x-axis, the respective sideband peak shifts on the y-axis. Therefore, data points aligned on a vertical line belong to the same spectrum. For better visibility, all data points of one spectrum are colored in the same color. Areas shaded in grey represent an accumulation of sideband shifts. The green lines indicate \SI{43}{meV} and\SI{64}{meV}.}
+			\label{fig::multiple_sb_peaks}
+		\end{figure}
 
 		The possibility exists, that some these peaks believed to be \psbs are actually shifted \ZPLs stemming from other \sivs. To address this question, we perform \pl measurements at cryogenic temperatures.
 
@@ -175,29 +211,29 @@
 			\begin{figure}[htp]
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\caption{}
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25Mox_fit_spe_scan_xy-08x11y19_297uW_t180.pdf}}
+					\caption{}
 					\label{subfig::roomtep1}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\caption{}
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/cryo_Spektrum68_edit.png}}
+					\caption{}
 					\label{subfig::cryo1}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\caption{}
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Ir25M_rt_to_cryo_84_fit_spe_scan_xy-35x10y12_300uW_t120.pdf}}
+					\caption{}
 					\label{subfig::roomtep2}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\caption{}
 					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/cryo_Spektrum84_edit.png}}
+					\caption{}
 					\label{subfig::cryo2}
 				\end{subfigure}
 				\caption[Spectra of \nds at cryogenic temperatures]{Comparison of spectra taken at room-temperature (l.h.s) and at cryogenic temperatures (r.h.s). At low temperatures a multitude of lines is revealed indicating several \sivs embedded in a strained lattice neighborhood.}

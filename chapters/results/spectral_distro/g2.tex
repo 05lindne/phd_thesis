@@ -58,7 +58,6 @@
 		For this, the emitter is excited by a pulsed laser (PiL069XSM from Advanced Laser Diode Systems A.L.S. GmbH) produces short optical pulses of less than \SI{50}{\ps} at a maximum repetition rate of \SI{80}{\mega\hertz} and a wavelength of \SI{685}{\nm} \cite{Vaigu2017}. 
 		The measured time intervals between the optical pulse and the detected \fl yields the exponentially decaying lifetime of the excited state.
 		The lifetime of the emitter is the time interval after which the number of $N_0$ excited emitters decreases to $N_0/e$.
-		\\
 		
 		\begin{figure}[!htb]
 			\centering
@@ -74,6 +73,14 @@
 			\caption{Saturation measurement of emitter \embroad.}
 			\label{fig::sat_Ir8}
 		\end{figure}
+
+		An important characteristic of \spps is their photon count rate at saturation. The count rate $I(P)$ as a function of the excitation power $P$ is given by
+		% 
+		\begin{equation}
+			I(P) = I_{\infty} \frac{P}{P + P_{sat}} + c_b P.
+		\end{equation}
+
+		Here $I_{\infty}$ refers to the maximal photon count rate, while the saturation power is denoted by $P_{sat}$. These two quantities are parameters determined by fitting count rates $I(P)$ measured at different excitation powers $P$. The added term $c_b P$ takes into account the linear increase of background fluorescence from the diamond host material at higher excitation powers. When background effects are negligible, this term can be omitted.
 
 		\Fref{fig::sat_Ir8} depicts the saturation curve of \embroad.
 		The saturation count-rate amounts to \SI[separate-uncertainty]{340\pm20}{cps} at a saturation power of \SI[separate-uncertainty]{1.0\pm0.1}{mW}.

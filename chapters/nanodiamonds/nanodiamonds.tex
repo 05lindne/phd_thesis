@@ -94,19 +94,19 @@
 
 	\begin{table}[htp]
 		\centering
-		\caption[Samples grown with diamondoid seeds]{Summary of the samples grown on diamondoid seed crystals.} \label{tab::diamondiods}
-			\begin{tabular}{llll}
+			\begin{tabularx}{\linewidth}{@{} X *3l @{}}
 			\toprule
-			Sample name & Seed crystals & Methane conc. & \Si source \\
+			Sample & Seed crystals & Methane conc. & \Si source \\
 			\midrule
-			160211\_E & Mercapto adamentane in cyclohexane & 1\% & \ch{SiO2} \\
-			160211\_F & Cyclohexane                        & 1\% & \ch{SiO2} \\
-			160212\_C & Cyclohexane                        & 3\% & \ch{Si}        \\
-			160212\_D & Adamentane in cyclohexane          & 3\% & \ch{SiO2} \\
-			160212\_E & Mercapto adamentane in cyclohexane & 3\% & \ch{SiOs} \\
-			160212\_F & Cyclohexane                        & 3\% & \ch{SiO2}\\
+			160211\_E & Mercapto adamentane in cyclohexane & \SI{1}{\percent} & \ch{SiO2} \\
+			160211\_F & Cyclohexane                        & \SI{1}{\percent} & \ch{SiO2} \\
+			160212\_C & Cyclohexane                        & \SI{3}{\percent} & \ch{Si}        \\
+			160212\_D & Adamentane in cyclohexane          & \SI{3}{\percent} & \ch{SiO2} \\
+			160212\_E & Mercapto adamentane in cyclohexane & \SI{3}{\percent} & \ch{SiOs} \\
+			160212\_F & Cyclohexane                        & \SI{3}{\percent} & \ch{SiO2}\\
 			\bottomrule
-			\end{tabular}
+			\end{tabularx}
+			\caption[Samples grown with diamondoid seeds]{Summary of the samples grown on diamondoid seed crystals.} \label{tab::diamondiods}
 	\end{table}
 
 \section[Wet-Milling]{Wet-Milled Nanodiamonds}\label{sec::wet_milled_nds}
@@ -311,27 +311,28 @@
 
 	 \section[Samples List]{Listing of Investigated Samples}
 
-		 \begin{table}[H]
+		\begin{table}[H]
 			 \centering
-			 \caption[Listing of investigated wet-milled samples]{Listing of investigated wet-milled samples. While this is a subset of all the samples investigated throughout the work of this thesis, these samples are the most thoroughly investigated ones. They are the basis for the results reported in \Fref{ch::distribution}. The first column indicates the names of the samples, the second the mean diameter of the \nds, and the third designates how the \si was incorporated into the diamond.} \label{tab::samplenames}
-				 \begin{tabular}{llll}
+
+				\begin{tabularx}{\linewidth}{@{} *3l X @{}}
 				 \toprule
 				 Sample name & Size & Si incorporation & Post-processing \\
 				 \midrule
 				 \hphtimpfortyfive & \SI{45}{nm} & \textit{implanted} & oxidized in air at \SI{450}{\celsius}\\ \hline
-				 \hphtimpeighty & \SI{80}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum for \SI{1}{\hour} at \SI{1000}{\celsius}\\ and at \SI{900}{\celsius} for \SI{3}{\hour}\end{tabular}\\ \hline
+				 \hphtimpeighty & \SI{80}{nm} & \textit{in-situ} &annealed in vacuum for \SI{1}{\hour} at \SI{1000}{\celsius} and at \SI{900}{\celsius} for \SI{3}{\hour}\\ \hline
 				 \hphtimptwosixty & \SI{260}{nm} & \textit{in-situ} & oxidized in air at \SI{450}{\celsius}\\ \hline
-				 \insituF & \SI{50}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline
-				 \insituS & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline
-				 \insituSn & \SI{70}{nm} & \textit{in-situ} &  \begin{tabular}[c]{@{}l@{}}no post-processing \\ subset of \insituS \end{tabular}\\ \hline
-				 \insituSo & \SI{70}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}oxidized in air at \SI{450}{\celsius} \\ subset of \insituS \end{tabular}\\ \hline
-				 \insituH & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}series of individual samples \\ with diverse post-processing steps\end{tabular}\\ \hline
-				 \insituHao & \SI{100}{nm} & \textit{in-situ} & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{900}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius} \\ subset of \insituH \end{tabular}\\ \hline
-				 \implantedTao & \SI{250}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{900}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline
-				 \milltwofortyann & \SI{40}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{1200}{\celsius}, \\  consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline
-				 \milltwofiftyno & \SI{50}{nm} & implanted & oxidized in air at \SI{450}{\celsius}\\ \hline
-				 \milltwotwofortyann & \SI{240}{nm} & implanted & \begin{tabular}[c]{@{}l@{}}annealed in vacuum at \SI{1200}{\celsius}, \\ consecutively oxidized in air at \SI{450}{\celsius}\end{tabular}\\ \hline
-				 \milltwotwosixtyno & \SI{260}{nm} & implanted & oxidized in air at \SI{450}{\celsius}\\
+				 \insituF & \SI{50}{nm} & \textit{in-situ} &series of individual samples with diverse post-processing steps\\ \hline
+				 \insituS & \SI{70}{nm} & \textit{in-situ} &series of individual samples with diverse post-processing steps\\ \hline
+				 \insituSn & \SI{70}{nm} & \textit{in-situ} & no post-processing, subset of \insituS \\ \hline
+				 \insituSo & \SI{70}{nm} & \textit{in-situ} &oxidized in air at \SI{450}{\celsius}, subset of \insituS \\ \hline
+				 \insituH & \SI{100}{nm} & \textit{in-situ} &series of individual samples with diverse post-processing steps\\ \hline
+				 \insituHao & \SI{100}{nm} & \textit{in-situ} &annealed in vacuum at \SI{900}{\celsius}, consecutively oxidized in air at \SI{450}{\celsius}, subset of \insituH \\ \hline
+				 \implantedTao & \SI{250}{nm} &  \textit{implanted}  &annealed in vacuum at \SI{900}{\celsius}, consecutively oxidized in air at \SI{450}{\celsius}\\ \hline
+				 \milltwofortyann & \SI{40}{nm} &  \textit{implanted}  &annealed in vacuum at \SI{1200}{\celsius}, consecutively oxidized in air at \SI{450}{\celsius}\\ \hline
+				 \milltwofiftyno & \SI{50}{nm} &  \textit{implanted}  & oxidized in air at \SI{450}{\celsius}\\ \hline
+				 \milltwotwofortyann & \SI{240}{nm} &  \textit{implanted}  &annealed in vacuum at \SI{1200}{\celsius}, consecutively oxidized in air at \SI{450}{\celsius}\\ \hline
+				 \milltwotwosixtyno & \SI{260}{nm} &  \textit{implanted}  & oxidized in air at \SI{450}{\celsius}\\
 				 \bottomrule
-				 \end{tabular}
-\end{table}
+				 \end{tabularx}
+				 \caption[Listing of investigated wet-milled samples]{Listing of investigated wet-milled samples. While this is a subset of all the samples investigated throughout the work of this thesis, these samples are the most thoroughly investigated ones. They are the basis for the results reported in \Fref{ch::distribution}. The first column indicates the names of the samples, the second the mean diameter of the \nds, and the third designates how the \si was incorporated into the diamond.} \label{tab::samplenames}
+		\end{table}

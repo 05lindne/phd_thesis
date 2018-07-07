@@ -52,7 +52,7 @@
 	  mounted inside a Thermo Scientific\texttrademark{} Helios NanoLab\texttrademark{} DualBeam\texttrademark{} microscope. This device combines a \fib and an electron microscope.
 		The bent nano-manipulator tip can bee seen in \Fref{fig::nanomanipulator_image} has $3$ degrees of freedom: up/down and left/right both in an arc up to \SI{240}{\degree}, and \SI{12}{\milli\metre} in/out.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 				\centering
 				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/nanomanipulator_image_arrows.png}}
 				\caption[Nano-manipulator in a SEM setup]{Image of the nano-manipulator mounted in the FIB. The arrows indicate the degrees of freedom of motion of the nano-manipulator. The custom made workbench is situated in the middle of the picture. On top of it, there is a \SI{1}{\centi\meter\squared} substrate with coated \nds, the nano-manipulator tip pointing to the middle of it. Behind it, there is the target \vcsel. Perpendicular to the workbench, the objective of the electron microscope can be seen. The angled cone perpendicular to the top edge of the image is the objective of the \fib.}
@@ -62,17 +62,17 @@
 		Before using the nano-manipulator, its tip was ``sharpened'' with a focused ion beam by etching away tungsten with gallium ions. Its final radius of curvature amounts to \SI{100}{\nano\meter}. The sharpening enables the pick-up of \nds of a size suitable for use with photonic structures.
 		In \Fref{subfig::nanomanipulator_tip} two sharpened tips are shown.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/Tip2_140826_03.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/Tip2_140826_03.png}}
 				\caption{}
 				\label{subfig::nanomanipulator_tip}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/M05-13_140826_05.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/M05-13_140826_05.png}}
 				\caption{}
 				\label{subfig::nanomanipulator_tip_bent}
 			\end{subfigure}
@@ -84,17 +84,17 @@
 		Using the confocal setup detailed in \Fref{ch::pl_setup} we identified \nds containing \sivs suitable for the use in photonic structures. However, to actually move those \nds to a target photonic structure the SEM setup described in the previous section must be used. This implies that after substrates containing suitable \nds are mounted in the SEM setup, the same \nds must be located on the substrate in order for the nano-manipulator to address them correctly.
 		To facilitate this and help locate relevant \nds, $\SI{10}{\micro\meter\squared}$ cross markers with a nominal depth of \SI{40}{\nm} were milled into the \ir coating of the \si substrate using the \fib prior to spin-coating the substrate with \nd solution. The markers were arranged in a regular $11 \times 11$ grid covering an area of $\SI{0.5}{\milli\meter} \times \SI{0.5}{\milli\meter}$. \Fref{subfig::cross_markers} illustrates a sample array. Typically three arrays of markers were milled per substrate used.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/M09-13_mitte_131209_01.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = \oneimagewide]{./pics/M09-13_mitte_131209_01.png}}
 				\caption{}
 				\label{subfig::cross_markers}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/114-02_2APD.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = \oneimagewide]{./pics/114-02_2APD.png}}
 				\caption{}
 				\label{subfig::cross_marker_whitelightscan}
 			\end{subfigure}
@@ -108,17 +108,17 @@
 
 		To mitigate this problem, a more efficient method consists of scanning the substrate first using a commercial \lsm. The \lsm is a confocal microscope where the focus of a laser can be used to obtain the height of a structure. When scanning an array of cross markers a gray-scale image is obtained, where the gray value corresponds to the height deviation of a structure. As a result, both the crosses with a nominal depth of \SI{40}{\nm} and the \nds themselves are revealed as darker shades of gray. In contrast to the previous method, information on the size and isolation of \nds is accessible. After scanning the substrate with the \lsm, it is inserted into the confocal setup. While observing the surface with a CCD camera, a specific cross marker is chosen as the starting point for a \fl scan. Comparing the \lsm image and a \fl scan, fluorescent dots of the \fl scan can be attributed to \nds in the \lsm scan. \Fref{subfig::cross_laser_scan_1} and \Fref{subfig::pp_pl_scan_1} illustrate the process.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/M05-13_structure3_stitch_crop_area.jpg}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = \oneimagewide]{./pics/M05-13_structure3_stitch_crop_area.jpg}}
 				\caption{}
 				\label{subfig::cross_laser_scan_1}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, height = 0.7\textwidth]{./pics/scan_xy-32_2APD_mum_noscale.png}}
+				\testbox{\includegraphics[trim = 0 20 70 50,  clip= true, height = \oneimagewide]{./pics/scan_xy-32_2APD_mum_noscale.png}}
 				\caption{}
 				\label{subfig::pp_pl_scan_1}
 			\end{subfigure}
@@ -130,9 +130,9 @@
 
 			The \pp process aims to transfer a select \nd between two substrates using the tip mounted inside a \sem. The advantage of using the SEM tip as a nano-manipulator lies in the fact that the progress of the manipulation process can be visualized directly, allowing for a better control of the operation. \Fref{fig::pp_sketch} illustrates the process.
 
-			\begin{figure}[htp]
+			\begin{figure}[!htb]
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/pp_sketch.pdf}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/pp_sketch.pdf}}
 				\caption{Sketch of the \pp process}
 				\label{fig::pp_sketch}
 			\end{figure}
@@ -152,17 +152,17 @@
 	Either way, with patience it is possible to place a \nd in a target position within a precision of a few nanometers.
 	\\
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/pick_colored.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = \oneimagewide]{./pics/pick_colored.png}}
 			\caption{}
 			\label{subfig::pick_antenna_sem_intro}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.7\textwidth]{./pics/Ir27M_mitte_213_151111_26_colored.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = \oneimagewide]{./pics/Ir27M_mitte_213_151111_26_colored.png}}
 			\caption{}
 			\label{subfig::transfer_antenna_sem_intro}
 		\end{subfigure}

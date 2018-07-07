@@ -15,9 +15,9 @@
 		% britney = http://britneyspears.ac/physics/vcsels/vcsels.htm
 		A \vcsel is a type of semi-conductor laser diode \cite{melngailis1965longitudinal, ibaraki1984pulsed}. \Fref{fig::vcsel_sketch} illustrates a common design consisting of a $p$-layer on top and a $n$-layer at the bottom separated by a so-called active area. When a current is applied across the device, charge carriers migrate towards the active region. Holes act as charge carriers in the $p$ region, whilst electrons carry charge in the $n$-region. The material properties of the active region is chosen such that when electrons and holes spontaneously recombine, a photon is emitted in the process. Electron-hole pairs can also dissipated via the creation of phonons leading to losses in the form of heat. To define the region for recombination to occur and to control the optical properties of the device, additional thin layers of semi-conducting material can be introduced in the active area. These result in the formation of quantum wells with associated energy levels and resulting preferred transitions with well-defined energies for the recombination of electrons and holes.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/vcsel_sketch.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/vcsel_sketch.png}}
 			\caption[Sketch of a \vcsel]{Illustration of a \VCSEL laser diode \cite{Weidenfeld}. When a current is applied across the device via contacts (yellow), holes and electrons migrate from the $p$-region (blue, top) and the $n$-region (blue, bottom) towards the active region (purple+green, center) where they recombine emitting photons. A quantum well is inserted in the active region, shaping the recombination process. $p$-region and $n$-region are acting as DBRs forming the resonator of the laser. When enough photons are gained by via stimulated emission, a laser beam emerges from the $p$-region after passing an oxide aperture.}
 			\label{fig::vcsel_sketch}
 		\end{figure}
@@ -38,17 +38,17 @@
 
 	To conduct our research, we received an array of red AlGaInP-based oxide-confined \VCSELs from \michler. The array includes three individually operable \VCSELs, two of which, labeled \BmFour and \BmTwo were used in our experiments, see \Fref{subfig::vcsel_sem_big_overview}.
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/M05-13_PP_194_140926_13.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/M05-13_PP_194_140926_13.png}}
 			\caption{}
 			\label{subfig::vcsel_sem_big_overview}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/M05-13_PP_194_140926_14.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/M05-13_PP_194_140926_14.png}}
 			\caption{}
 			\label{subfig::vcsel_sem_detail}
 		\end{subfigure}
@@ -62,21 +62,21 @@
 	As a first step towards using \VCSELs to excite \ccs, we characterized the behavior of \BmFour. To this end we operated it at currents of
 	\SI{1.5}{\mA} and \SI{3}{\mA} and recorded the resulting lasing \wl. The emission spectra showed that the emitted \cw laser light to be around \SI{655}{\nm} in wavelength for both currents, see \Fref{subfig::vcsel_output_wavelength}. Previous research within the authors group recorded \siv intensity maxima at excitation \wls of \SI{720}{\nm} and \SI{680}{\nm} \cite{ElensMasterThesis}, aligning reasonably well with the output \wl of \BmFour.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/vcsel_output_wavelength.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/vcsel_output_wavelength.png}}
 				\caption{}
 				\label{subfig::vcsel_output_wavelength}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/vcsel_output_power.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/vcsel_output_power.png}}
 				\caption{}
 				\label{subfig::vcsel_output_power}
 			\end{subfigure}
-			\caption[Emission spectra and optical power of \BmFour]{(a) Emission spectrum of \BmFour at two different currents. (b) Optical output power and voltage of \BmFour in dependence of input current. \todo[inline]{add citation}.}
+			\caption[Emission spectra and optical power of \BmFour]{(a) Emission spectrum of \BmFour at two different currents. (b) Optical output power and voltage of \BmFour in dependence of input current. \todo[inline]{add citation for figures}.}
 		\end{figure}
 
 	The optical output power of \BmFour as a function of the current applied is given in \Fref{subfig::vcsel_output_power}. In addition, the resulting voltages are shown. It can be seen that the maximum power of $\approx \SI{0.6}{\mW}$ is reached for moderate currents of $\approx \SI{4.5}{\mA}$. While the available optical powers are small comparable to using a conventional laser, low powers are sufficient for initial explorations.
@@ -90,17 +90,17 @@
 
 	As a first check, we scanned the \VCSEL surface in an attempt to detect the activity of the introduced \siv. \Fref{subfig::vcsel_confocal_laser_excitation_with_diamond} shows the \siv as a bright dot in the aperture of \BmFour. For comparison, a \Vcsel without coupled \siv exhibits solely background counts which is shown in \Fref{subfig::confocal_laser_excitation_without_diamond}.
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/scan_xy-15_APD2_circle.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/scan_xy-15_APD2_circle.png}}
 			\caption{}
 			\label{subfig::vcsel_confocal_laser_excitation_with_diamond}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/scan_xy-01_APD2.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/scan_xy-01_APD2.png}}
 			\caption{}
 			\label{subfig::confocal_laser_excitation_without_diamond}
 		\end{subfigure}
@@ -110,17 +110,17 @@
 	The spectrum of the \siv in the transferred \nd was investigated before and after the \pp process. \Fref{fig::spectrum_vcsel_diamond} shows that the original spectrum before \nd transfer exhibits one dominant line at \SI{746.0}{nm}, denoted line $A$. Furthermore, two minor peaks can be seen. The lower \wl peak is denoted as line $B$. Interestingly, after the \pp process, a different picture emerges shown in \Fref{fig::spectrum_vcsel_diamond}. The once dominant line $A$ is strongly reduced. The new dominant feature is line $B$. Note that the count rate of line $B$ remained the same before and after \pp.
 
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/field330_scanxy06_x19y15_34uW_t30_2_fit_lines.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/field330_scanxy06_x19y15_34uW_t30_2_fit_lines.pdf}}
 			\caption{}
 			\label{subfig::spectrum_diamond_for_vcsel_before_pp}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[t]{ 0.49\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/spe_scan_xy-25_300uW_t60_700-800nm_lines.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/spe_scan_xy-25_300uW_t60_700-800nm_lines.png}}
 			\caption{}
 			\label{subfig::spectrum_vcsel_confocal_excitation_with_diamond}
 		\end{subfigure}
@@ -136,17 +136,17 @@
 	For comparison, we scanned both the surface of \BmFour including a \nd as well as \BmTwo without a \nd. A bandpass filter allowing light between \SIrange{730}{750}{\nm} to pass was used.
 	This filter window suppresses the \VCSEL laser line at \SI{655}{\nm} while leaving the \siv emission nearly unchanged. The results of the two scans are given in \Fref{fig::vcsel_excitation}, where the bright areas correspond to the circular \VCSEL output regions. It can be seen that no difference in brightness can be established between a \VCSEL with and without a \nd containing a \siv.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/scan_xy-16_APD2.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/scan_xy-16_APD2.png}}
 				\caption{}
 				\label{subfig::vcsel_excitation_with_diamond}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{ 0.49\linewidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/scan_xy-02_APD2.png}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/scan_xy-02_APD2.png}}
 				\caption{}
 				\label{subfig::vcsel_excitation_without_diamond}
 			\end{subfigure}
@@ -157,17 +157,17 @@
 
 		To further investigate we conduct spectroscopic measurements. Since the position of the \nd in \BmFour is known, we measure the spectrum of light originating from this position. A second spectrum is obtained from \BmTwo measuring the corresponding position without a \nd present. \Fref{fig::vcsel_spectra} reports the results. Again no meaningful difference between the two \VCSELs can be established. The lack of any distinct lines in the spectrum taken for \BmFour{} which can be attributed to \siv emission is striking.
 
-			\begin{figure}[htp]
+			\begin{figure}[!htb]
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/spe_VCSEL_excitation_diamond_5.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/spe_VCSEL_excitation_diamond_5.pdf}}
 					\caption{}
 					\label{subfig::spectrum_vcsel_excitation_with_diamond}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}[t]{ 0.49\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.8\textwidth]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/spe_VCSEL_excitation_diamond_Bm2.pdf}}
 					\caption{}
 					\label{subfig::spectrum_vcsel_excitation_without_diamond}
 				\end{subfigure}
@@ -178,7 +178,7 @@
 		To explain the observation, the following considerations are reasonable: The \siv is excited by the \VCSELs laser and thus emitting single photons which are passing through the filter window. The same is true for photons stemming from \VCSEL \sb emission. Given that the emission from the \sb of \BmFour dwarfs the single photon emission of its \siv, the obtained results are reasonable.
 		To confirm we examine the reflectivity of the DBR of \BmFour. \Fref{fig::dbr_vcsel} illustrates that the DBR exhibits imperfect reflexivity in the wavelength region relevant for \siv emission. As a result, relevant \sb emissions of \BmFour are not sufficiently suppressed to allow for \siv emission to be detected. This in turn means that our initial attempt to realize a hybrid-integrated \sps by coupling an \siv to a \VCSELs is thwarted by large \sb emissions of the latter.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/dbr_VCSEL_only_blue.pdf}}
 			\caption[Reflectivity of \BmFour]{Reflectivity of the \dbr (DBR) of \BmFour \cite{Weidenfeld2012}, and a spectrum of the \siv measured during \VCSEL excitation for comparison. The reflectivity of the DBR and the VCSEL emission spectra are depicted with different scales. The shape of the measurement of the \siv during \VCSEL operation is reminiscent of the shape of the DBR reflectivity. The spectrum of the \siv is not visible. As the emission from the \siv is small compared to the intensity of the laser \sb in the same wavelength regime, the \sivs emission is not.}

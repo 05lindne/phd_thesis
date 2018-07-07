@@ -2,12 +2,6 @@
 
 \section{Photoluminescence spectra} \label{sec::spectra}
 
-\begin{remark}
-
-	Noch ein paar Bilder einfuegen, die zeigen, wie verschieden die Spektren sein koennen
-
-\end{remark}
-
 	To identify \nds containing \sivs, we performed confocal scans of the samples.
 	To reduce bias in the measurements, not only the brightest spots of the confocal scans are investigated, but also those which barely exceed \bkg fluorescence.
 	\sivs are further investigated by measuring \pl (PL) spectra, single photon statistics and photo-stability.
@@ -20,9 +14,9 @@
 	Both spectra from \nds containing single and multiple \sivs are taken into account.
 	In \Fref{fig::bimodal_distr} the \lw for each measured \ZPL is plotted against its \cwl.
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\linewidth]{./pics/distro_histo_sarah.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/distro_histo_sarah.pdf}}
 			\caption[Spectral distribution of \siv \ZPLs]{Distribution of the \ZPL \cwl versus the \lw of the \ZPL of the investigated \sivs in milled \nds containing \textit{in-situ} incorporated \sivs for samples \insituF, \insituS, \insituH{}. The data separates into a horizontal (\hl) and a vertical (\vl) cluster. The bold black cross marks the position of an ideal \siv in unstrained bulk diamond \cite{Arend2016a}. The red triangles indicate emitters with an anti-bunching dip in the \gtz measurement. Upwards pointing triangles represent blinking emitters (fluorescence intermittency), while triangles pointing down represent non-blinking emitters (see \Fref{subsec::photostab}).}
 			\label{fig::bimodal_distr}
 	\end{figure}
@@ -39,16 +33,16 @@
 	\Fref{subfig::embroad} shows a spectrum of a single emitter of \vl (denoted \embroad) with a ZPL \lw of \SI{6.4}{nm} and a \cwl of \SI{740.8}{nm}.
 	For comparison, the room temperature ZPL of \sivs in unstrained bulk diamond exhibits a \lw of \SIrange{4}{5}{nm} and a \cwl of \SI{737.2}{nm} marked with a black cross in \Fref{fig::bimodal_distr} \cite{Arend2016a,Dietrich2014}.
 
-	\begin{figure}[htp]
-		\begin{subfigure}[tp]{0.45\linewidth}
+	\begin{figure}[!htb]
+		\begin{subfigure}{0.5\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0 , clip = true, width = \linewidth]{./pics/Ir8_Spektrum_8_notitle.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0 , clip = true, width = \pairplotwide]{./pics/Ir8_Spektrum_8_notitle.pdf}}
 			\caption{}\label{subfig::emnarrow}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[tp]{0.45\linewidth}
+		\begin{subfigure}{0.5\linewidth}
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip = true, width = \linewidth]{./pics/Ir8_scan_xy05_199uW_t30_notitle.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip = true, width = \pairplotwide]{./pics/Ir8_scan_xy05_199uW_t30_notitle.pdf}}
 			\caption{}\label{subfig::embroad}
 		\end{subfigure}
 		\caption[Sample \siv \pl spectra for \vl and \hl]{Representative photoluminescence spectra of sample \insituHao measured at room temperature. (a) Spectrum of \hl of \Fref{fig::bimodal_distr}, denoted \emnarrow. (b) Spectrum of \vl of \Fref{fig::bimodal_distr}, denoted \embroad. The red lines are Lorentzian fits to the peaks.}
@@ -71,10 +65,10 @@
 	The results are presented in \Fref{fig::bimodal_distr_compare}.
 
 
-	\begin{figure}[htp]
+	\begin{figure}[!htb]
 		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/distro_alldata_three_colors_legend.pdf}}
-		\caption[Comparison of obtained \siv \lws with available data sources]{Comparison of the distribution of the \lw vs. the center wavelength of the ZPL of the investigated \sivs in milled \nds (samples \insituF, \insituS, \insituH) with data measured on sample \implantedTao (implanted with \Si); with data measured in our group on CVD \nds produced by M. Schreck \cite{Neu2011b}; with data measured on \nds reported by J. Benedikter in \cite{Benedikter2017a}; and with data measured in CVD diamonds by E. Neu in a filter window between \SIlist{730; 750}{nm} \cite{Neu2012}. Black symbols represent emitters exhibiting a dip in the \gtz function, indicating a single or very few \sivs}
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/distro_alldata_three_colors_legend.pdf}}
+		\caption[Comparison of \siv \lws with available data sources]{Comparison of the distribution of the \lw vs. the center wavelength of the ZPL of the investigated \sivs in milled \nds (samples \insituF, \insituS, \insituH) with data measured on sample \implantedTao (implanted with \Si); with data measured in our group on CVD \nds produced by M. Schreck \cite{Neu2011b}; with data measured on \nds reported by J. Benedikter in \cite{Benedikter2017a}; and with data measured in CVD diamonds by E. Neu in a filter window between \SIlist{730; 750}{nm} \cite{Neu2012}. Black symbols represent emitters exhibiting a dip in the \gtz function, indicating a single or very few \sivs}
 		\label{fig::bimodal_distr_compare}
 	\end{figure}
 
@@ -101,16 +95,16 @@
 	At the same time, much more data exhibit a \cwl bigger than the ideal \siv.
 	This asymmetry suggests that a red-shift of the \ZPL of an \siv is significantly more likely than a blue-shift.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\begin{subfigure}{.5\textwidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width=0.9\linewidth]{./pics/paper_inset_line_statistics_nofit.pdf}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width=\pairplotwide]{./pics/paper_inset_line_statistics_nofit.pdf}}
 				\caption{}
 				\label{subfig::distro_inset1}
 			\end{subfigure}
 			\begin{subfigure}{.5\textwidth}
 				\centering
-				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width=0.9\linewidth]{./pics/paper_line_statistics_regression.pdf}}
+				\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width=\pairplotwide]{./pics/paper_line_statistics_regression.pdf}}
 				\caption{}
 				\label{subfig::distro_inset2}
 			\end{subfigure}
@@ -125,9 +119,9 @@
 	The shift of the  \ZPL is modeled in dependence of pressure in the diamond lattice both for hydrostatic stress and for uniaxial stress.
 	\Fref{fig::stress_pressure} illustrates that the assumption stated in \Fref{subsec::raman_strain}, namely that the strain in the \nds is due to hydrostatic and uniaxial stress, corresponds well with the measured \ZPL shifts in \vl.
 
-		\begin{figure}[htp]
+		\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/adam_gali_big_labels.pdf}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.6\linewidth]{./pics/adam_gali_big_labels.pdf}}
 			\caption[Calculated dependence between \siv \ZPL and lattice pressure]{Calculations of the wavelength of the \siv \ZPL in dependence of pressure. Markers: calculated pressure with PBE functional; Lines: linear fits to the calculated points, the shaded area around the lines representing the one sigma (68\%) confidence interval. Yellow: hydrostatic pressure; other colors: uniaxial pressure, for different orientations. All calculations are performed with a PBE functional. Hydrostatic-type pressure causes a moderate blue shift whereas uniaxial strain causes larger redshift with different magnitudes depending on the direction of the strain}
 			\label{fig::stress_pressure}
 		\end{figure}

@@ -8,7 +8,7 @@
 		The final configuration is denoted sp$^1$ where two out of four valence electrons enter $\sigma$ orbitals. Here $\sigma$ bonds are formed directed along the x-axis. The remaining two electrons participate in p$\pi$ orbitals in the y and z directions.
 		Strong directional $\sigma$ bonds give rise to the extreme physical properties of carbon in its diamond form. Graphite is characterized by strong intra-layer $\sigma$ bonding and weak van der Waals bonding across different layers \cite{Robertson2002}.
 
-		\begin{figure}[htb]
+		\begin{figure}[!htb]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/c_bonds_axis.png}}
 			\caption[Carbon hybridizations]{The sp$^3$, sp$^2$, sp$^1$ hybridized bonding of carbon \cite{Robertson1986}.}
@@ -108,16 +108,16 @@
 				\item Big \Nds: \label{item::raman_implanted} Raman measurements are carried out on the implanted sample \implantedTao. For this sample, diamond particles are large enough to yield sufficient intensities on single \nds.
 			\end{enumerate}
 
-			\begin{figure}
-				\begin{subfigure}[htp]{0.45\linewidth}
+			\begin{figure}[!htp]
+				\begin{subfigure}{0.5\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0 , clip = true, width = \linewidth]{./pics/Ir25_spectrum_scan_xy-05x6y8_4000uW_t60_wavenumber_fit.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0 , clip = true, width = \pairplotwide]{./pics/Ir25_spectrum_scan_xy-05x6y8_4000uW_t60_wavenumber_fit.pdf}}
 					\caption{}\label{subfig::raman_no}
 				\end{subfigure}
 				\hfill
-				\begin{subfigure}[tp]{0.45\linewidth}
+				\begin{subfigure}{0.5\linewidth}
 					\centering
-					\testbox{\includegraphics[trim = 0 0 0 0,  clip = true, width = \linewidth]{./pics/Ir_22_spe_scan_xy-02x7y7_550-600nm_t240_wavenumber_fit.pdf}}
+					\testbox{\includegraphics[trim = 0 0 0 0,  clip = true, width = \pairplotwide]{./pics/Ir_22_spe_scan_xy-02x7y7_550-600nm_t240_wavenumber_fit.pdf}}
 					\caption{}\label{subfig::raman_ox}
 				\end{subfigure}
 				\caption[Raman spectrum of a single \nd]{Raman measurements, black: data, red: fit. (a) Raman measurement before oxidation, sample \insituS. The diamond Raman peak is situated at \SI{1338}{\per\centi\meter}. The broad feature around \SI{1580}{\per\centi\meter} corresponds to the graphite G-band. (b) Raman measurement after oxidation, sample \insituSo. The G-band has vanished, indicating removal of graphite and amorphous sp$^2$ hybridized carbon.}
@@ -138,6 +138,7 @@
 				While the G-band peak is present in every measurement performed on a non-oxidized sample, it is not present in any of the oxidized samples (\Fref{subfig::raman_ox}), indicating successful removal of sp$^2$ hybridized carbon and surface graphite.
 
 			\subsection{Defect Concentration}\label{subsec::raman_defect_concentration}
+				
 				Several effects impact the first order diamond Raman line:
 				\begin{enumerate*}
 					\item defects in the diamond lattice,
@@ -190,27 +191,24 @@
 				\\
 				We have repeated this visual assessment of crystal quality for a range of different \nds with identical results. This supports the conclusion that all of our \nds are polycrystalline specimen.
 
-				\begin{figure}[htp]
+				\begin{figure}[!htb]
 					\begin{subfigure}[t]{ 0.49\linewidth}
 						\centering
+						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 6cm]{./pics/AM060-II-k4-2.png}}
 						\caption{}
-						\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/AM060-II-k4-2.png}}
 						\label{subfig::tem_crystal}
 					\end{subfigure}
 					\hfill
 					\begin{subfigure}[t]{ 0.49\linewidth}
 						\centering
-						\caption{}
-						\label{subfig::tem_boundary}
-
 						\begin{tikzpicture}
 							\begin{scope}[spy using outlines={rectangle,red,magnification=2.5,size=2.5cm}]
-							\node{\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \textwidth]{./pics/AM060-II-k1-3.png}}};
-							\spy on (1.1,3) in node (a) [left] at (3.8,-2.5);
+							\node{\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 6cm]{./pics/AM060-II-k1-3.png}}};
+							\spy on (1.0,2) in node (a) [left] at (2.7,-1.5);
 							\end{scope}
 						\end{tikzpicture}
-
-
+						\caption{}
+						\label{subfig::tem_boundary}
 					\end{subfigure}
 					\caption[\TEM imaging of a single \nd]{Transmission electron microscopy (TEM) pictures of sample \insituH. (a) Image of a single \nd particle revealing a complex crystal structure. (b) Close-up image a diamond particle. The vertical line is a crystal boundary, to the left and right the parallel layers of one crystalline region can be seen. For better visibility, the inset shows a magnification of the area indicated by a red box. The different orientations of the crystal lattice layers is visible.}
 					\label{fig::tem}

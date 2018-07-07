@@ -25,9 +25,9 @@ Folgende Erklaerungen fehlen noch:
   Diamond is a metastable modification of carbon which is stable under normal pressure at room temperature \cite{Bundy1989}. Carbon atoms form strong sp$^3$-bonds with each other in a tetrahedral arrangement of neighboring atoms. For an extensive introduction of carbon bonds refer to \Fref{ch::crystal_quality}. The resulting sp$^3$-hybridized lattice is of exceptional mechanical stability, making diamond the hardest known material \cite{telling2000theoretical}.
   The crystal structure can also be interpreted as a face-centered cubic (fcc) lattice with two carbon atoms in the primitive Bravais cell, situated at $(0,0,0) \ a$ and $ (\frac{1}{4}, \frac{1}{4}, \frac{1}{4}) \ a$ with $a = \SI{3.567}{\angstrom}$ denoting the lattice constant \cite{Saotome1998}. \Fref{fig::diamond_lattice} illustrates the structure.
 
-  \begin{figure}[htbp]
+  \begin{figure}[!htb]
 		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/diamond_lattice.png}}
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/diamond_lattice.png}}
 		\caption[Face-centered cubic diamond lattice]{Face-centered cubic diamond lattice. Note the tetrahedral arrangements of carbon atoms \cite{demtroder2000experimentalphysik}.}
 		\label{fig::diamond_lattice}
 	\end{figure}
@@ -36,17 +36,17 @@ Folgende Erklaerungen fehlen noch:
 
   A property of diamond, detrimental to some optical applications, is its large refractive index with values of $2.49$ at \SI{360}{\nm} and $2.4$ at \SI{800}{\nm} respectively \cite{Zaitsev2001}. Thus, a portion of the light escaping from the diamond is reflected back into it, effectively reducing the efficiency of light extraction, see \Fref{subfig::diamond_refraction_bulk}. If \nds smaller than the \wl of the light to be collected are used, internal reflection is suppressed and the extraction efficiency can be increased \cite{Beveratos2001} as illustrated in \Fref{subfig::diamond_refraction_nd}. As a result, the quantum yield defined as the ratio between the number of photons emitted by the \siv to the number of photons absorbed by the diamond is enhanced.
 
-  \begin{figure}[thbp]
+  \begin{figure}[!htb]
     \begin{subfigure}[t]{ 0.49\linewidth}
       \centering
-      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/diamond_refraction.png}}
+      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/diamond_refraction.png}}
       \caption{}
       \label{subfig::diamond_refraction_bulk}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{ 0.49\linewidth}
       \centering
-      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/nanodiamond_-small-14626.png}}
+      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/nanodiamond_-small-14626.png}}
       \caption{}
       \label{subfig::diamond_refraction_nd}
     \end{subfigure}
@@ -113,9 +113,9 @@ Folgende Erklaerungen fehlen noch:
 
   A \sivc is formed in a diamond lattice by substituting two carbon atoms by a silicon atom and a nearby empty lattice site respectively. The silicon atom occupies its energetically optimal position by sitting in-between two lattice sites. This is called ``split-vacancy'' configuration and induces a $D_{3d}$ symmetry with the two vacancies and the impurity aligned along the $\langle 111 \rangle$ diamond axis \cite{Goss2007}, see \Fref{fig::siv_lattice}.
 
-  \begin{figure}[htbp]
+  \begin{figure}[!htb]
 		\centering
-		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/siv_lattice.png}}
+		\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/siv_lattice.png}}
 		\caption[Split-vacancy configuration for \sivs in diamond]{Crystal structure of the \siv embedded into the diamond lattice: The silicon atom (blue sphere) sits in between two vacant lattice sites (white spheres) forming a ``split-vacancy'' configuration aligned along the $\langle 111 \rangle$ crystallographic axis (yellow line). Figure reproduced with permission from \cite{Riedrich-moller2014}.}
 		\label{fig::siv_lattice}
 	\end{figure}
@@ -135,9 +135,9 @@ Folgende Erklaerungen fehlen noch:
     Fluorescence is directly linked to the electronic structure of the \siv, see \Fref{fig::above_resonant_excitation}. It follows that photoluminescence spectroscopy can be used to study it using a laser to optically excite the \siv. In the context of this thesis, optical above-resonant excitation is the method of choice, in particular, when used in conjunction with a confocal photoluminescence setup which will be discussed in \Fref{ch::pl_setup}.
     If the excitation energy exceeds the energy of the lowest excited state, electrons are promoted to higher electronic and vibrational states. Conveniently, these states relax rapidly towards the lowest exited state in non-radiative processes \cite{Gali2013}. Once the lowest excited state is reached, a florescent transition to one of the ground state levels can follow \todo{Insert explanation of saturation and decay rate}. It has been shown that above-resonant excitation is feasible for excitation energies ranging from \SIrange{1.75}{2.55}{\eV} \todo{Insert wavelengths in addition to energies} \cite{iakoubovskii2001optical, Iakoubovskii2000, Rossi1997}. If the excitation energy is chosen too high, however, the \siv is ionized. This is unfavorable, since electrons escaping to the diamond conduction band do no longer induce fluorescence. Ionization may be reversed if an \siv manages to capture a free electron from the conduction band. This charge state conversion is believed to be linked to fluorescence intermittence, describing ``blinking'' \sivs \cite{Muller2011, Siyushev2009}.
 
-    \begin{figure}[htbp]
+    \begin{figure}[!htb]
       \centering
-      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/above_resonant_excitation.png}}
+      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/above_resonant_excitation.png}}
       \caption[Band gap of \sivs hosted in diamond]{Simplified picture of the generous \SI{5.5}{\eV} band gap of diamond with discrete states induced by the presence of \sivs. The \siv ground state is situated \SI{2.05}{\eV} below the diamond conduction band. The lowest excited state sits \SI{1.68}{\eV} above the ground state with the \zpl transition in red connecting the two. Above-resonant optical excitation is indicated in orange. Figure courtesy of \cite{BeckerMasterThesis}.}
       \label{fig::above_resonant_excitation}
     \end{figure}
@@ -177,9 +177,9 @@ Folgende Erklaerungen fehlen noch:
 
    where $S$ is referred to as Huang-Rhys factor.
 
-   \begin{figure}[htbp]
+   \begin{figure}[!htb]
      \centering
-     \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.3\textwidth]{./pics/huang_rhys_model.png}}
+     \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/huang_rhys_model.png}}
      \caption[Huang-Rhys model of vibrational transitions]{Huang-Rhys model of the vibrational transitions in the Frank-Condon picture: The excited state $\mathcal{K}_{{}^{3}E}(q)$ is shifted by $\delta q$ with respect to the ground state potential $\mathcal{K}_{{}^{3}A_{2}}(q)$. The recombination originating at $\delta q$ marks the most probable transition (thick black arrow) from the fundamental ${}^{3}E$ vibrational level to one of the vibrational levels of the ${}^{3}A_{2}$ ground state followed by non-radiative transitions to the equilibrium position $q = 0$. The number of vibrational quanta involved in an optical transition are determined by the Huang-Rhys factor $S$. The excitation reverses the process. Optical transitions occur between states with identical values of $q$ and are shown as vertical black arrows. Non-radiative transitions change the value of $q$ and are shown as angled gray arrows. Figure and caption reproduced with permission \cite{Riedrich-moller2014}.}
      \label{fig::huang_rhys_model}
    \end{figure}
@@ -198,16 +198,16 @@ Folgende Erklaerungen fehlen noch:
 
    For \sivs hosted in polycrystalline diamonds the Huang-Rhys factors have been determined to be very small ranging from \SIrange{0.08}{0.24}{} \cite{Duligall2006,Yuan2002,Nothaft2012}. As a result the \zpl as the most probable transition dominates the luminescence spectrum making \sivs excellent narrow-band emitters. \Fref{fig::spectral_features} illustrates the stark difference between the \zpl and the \psb. In contrast, $S=3.74$ has been established for nitrogen vacancy centers \cite{Davies1981}. A electron-phonon coupling of this magnitude concentrates almost all emission into the \psb and leaves the \zpl strongly suppressed.
 
-   \begin{figure}[thbp]
+   \begin{figure}[!htb]
  		\begin{subfigure}[t]{ 0.49\linewidth}
  			\centering
- 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/siv_zpl.png}}
+ 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_zpl.png}}
  			\caption{}
  		\end{subfigure}
  		\hfill
  		\begin{subfigure}[t]{ 0.49\linewidth}
  			\centering
- 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.7\textwidth]{./pics/siv_sideband.png}}
+ 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_sideband.png}}
  			\caption{}
  		\end{subfigure}
  		\caption[Fluorescence spectra of \sivs at room temperature]{(a) The narrow \zpl dominates the luminescence spectrum. (b) Low intensity \psb shows distinct vibrational transitions. Figure reproduced with permission \cite{Riedrich-moller2014}.}
@@ -225,16 +225,16 @@ Folgende Erklaerungen fehlen noch:
 
     We close this chapter with a short discussion of the luminescence spectra of \sivs at cryogenic temperatures. Naturally as temperatures approach absolute-zero the \psb must disappear since phonon creation ceases. If ensembles of \sivs are cooled below $\approx$ \SI{110}{\kelvin} a fine structure is revealed \cite{neu2013low}. It includes up to $12$ different lines with intensities proportional to the natural abundance of the three stable isotopes of silicon ${}^{28}Si, {}^{29}Si, {}^{30}Si$ \cite{Clark1995}. Each isotope is associated with $4$ lines attributed to doublet levels of ground and excited states which are split by \SI{0.2}{\milli\eV} and \SI{1.07}{\milli\eV} respectively \cite{Rogers2014, Hepp2014, Clark1995}. The splitting itself is believed to be a result of spin-orbit coupling with a weak contribution of the dynamic Jahn-Teller effect \cite{Hepp2014}. Initial results were based on ensembles of \sivs, however, recently the splitting was detected for isolated \sivs as well \cite{Dietrich2014}. \Fref{fig::cryogenic_spectra} shows exemplary spectra representative for ensembles and single \siv at cryogenic temperatures.
 
-    \begin{figure}[thbp]
+    \begin{figure}[!htb]
   		\begin{subfigure}[t]{ 0.49\linewidth}
   			\centering
-  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.6\textwidth]{./pics/cryogenic_ensemble.png}}
+  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.65\linewidth]{./pics/cryogenic_ensemble.png}}
   			\caption{}
   		\end{subfigure}
   		\hfill
   		\begin{subfigure}[t]{ 0.49\linewidth}
   			\centering
-  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.6\textwidth]{./pics/cryogenic_siv.png}}
+  			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, height = 0.65\linewidth]{./pics/cryogenic_siv.png}}
   			\caption{}
   		\end{subfigure}
   		\caption[Fluorescence spectra of \sivs at low temperature]{(a) Fluorescence spectrum of an ensemble of \sivs at \SI{10}{\kelvin}. $12$ peaks can be seen, $4$ for each stable isotope of silicon \cite{Clark1995}. (b) Fluorescence spectrum of an isolated \siv at \SI{15}{\kelvin}. $4$ peaks can be seen, $2$ for the ground state and $2$ for the excited state. Figure reproduced from \cite{Riedrich-moller2014}.}

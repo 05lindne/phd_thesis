@@ -9,9 +9,9 @@
 
 		When studying \sivs experimentally, two capabilities are key: Exciting \sivs into emitting fluorescent light using a laser and the ability to register resulting \siv fluorescence. A confocal setup elegantly supports both requirements. Confocal microscopy uses an objective to focus a laser onto a small volume of a sample which can be used to excite \sivs in a controlled fashion. As the luminescence light returning from the emitter is in the same focus as the excitation laser light, it is effectively collected by the objective, thus the designation ``confocal". For an overview of confocal microscopy we refer the reader to \cite{webb1996confocal}.
 
-		\begin{figure}[htb]
+		\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/confocal_setup_small.eps}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.6\linewidth]{./pics/confocal_setup_small.eps}}
 			\caption[Confocal microscopy setup]{Confocal microscopy setup. An excitation laser beam (red) leaves an optical fiber and is directed towards a glass plate. The glass plate reflects $\approx \SI{10}{\percent}$ of the incoming beam towards an objective after which is focused onto the sample. The same objective collects the resulting fluorescent light and redirects it towards the glass plate where $\approx \SI{90}{\percent}$ of the light is allowed to pass. The passing \fl light is fed into an optical fiber which connects to the detection part of the setup. A flip mirror can be engaged to bring a CCD camera into the setup in case a white light source is used to illuminate the sample.}
 			\label{fig::confocal_setup}
 		\end{figure}
@@ -52,9 +52,9 @@
 		Thus \nds and other features on the substrate are made visible.
 		The resolution of this configuration of the setup is limited by \todo[fancyline]{optical diffraction, shadows}.
 
-		\begin{figure}[htb]
+		\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/hbt_spectrometer.eps}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.6\linewidth]{./pics/hbt_spectrometer.eps}}
 			\caption[Spectrometer and HBT setup]{Spectrometer and HBT interferometer. Fluorescent light arrives via an optical fiber and is directed towards a flip mirror. The mirror directs the beam either towards a 50:50 beam splitter (BS) into the APDs of the HBT setup, or into a grating spectrometer.}
 			\label{fig::hbt_spectrometer}
 		\end{figure}
@@ -100,9 +100,9 @@
 		For a two-level system $\gt(\tau)$ can be interpreted as the probability of detecting two photons separated by a time interval $\tau$.
 		The physical intuition behind this definition is as follows: The detection of a fluorescent photon emitted from a quantum system is the result of an excited electron relaxing back to its ground state. To emit a consecutive single photon, an additional electron must first be promoted to an exited state, a process which takes a certain amount of time, see \Fref{ch::sivs}. If $\gt(\tau) \neq 0$ in the limit of $\tau \to 0$ a system is capable of emitting several photons simultaneously. This is known as photon bunching and is typical for classical light sources. In contrast, $\gt(\tau) \to 0$ for $\tau \to 0$ is an indication that no two photons can be detected simultaneously. This property is termed photon anti-bunching and is a defining characteristic of non-classical light sources such as \sps. The last important type are coherent photons, as for instance produced via stimulated emission. \Fref{fig::g2_illustration} shows how the \gt function distinguishes these three types. For an in-dept review of the intensity auto-correlation function we refer the reader to \cite{Neu2012, Fox2006}.
 
-		\begin{figure}[htb]
+		\begin{figure}[!htb]
 			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\textwidth]{./pics/g2_function_illustration.png}}
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.6\linewidth]{./pics/g2_function_illustration.png}}
 			\caption[Sketch of typical \gt functions]{Intensity autocorrelation function for coherent, bunched, and anti-bunched light sources. Figure and caption reproduced from \cite{rahbany2016towards}.}
 			\label{fig::g2_illustration}
 		\end{figure}

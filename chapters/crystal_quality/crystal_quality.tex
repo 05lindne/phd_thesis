@@ -105,7 +105,7 @@
 			To overcome this problem we pursue two different approaches:
 			\begin{enumerate}[label=\alph*),ref=\alph*)]
 				\item \Nd Clusters: \label{item::raman_gband} Collective measurements are carried out at several areas on the sample \insituS. Since this sample is densely covered with \nds, collective measurements of clusters of \nds (\Fref{subfig::raman_no}) achieve higher signal intensities.
-				\item Big \Nds: \label{item::raman_implanted} Raman measurements are carried out on the implanted sample \implantedTao. For this sample, diamond particles are large enough to yield sufficient intensities on single \nds.
+				\item Large \Nds: \label{item::raman_implanted} Raman measurements are carried out on the implanted sample \implantedTao. For this sample, diamond particles are large enough to yield sufficient intensities on single \nds.
 			\end{enumerate}
 
 			\begin{figure}[!htp]
@@ -147,32 +147,45 @@
 				\end{enumerate*}
 				In the measurement on \nd clusters the width of the diamond Raman peak of sample \insituS varies between \SIlist{15; 30}{\per\centi\meter} without \ox treatment, but is only \SIrange{9}{11}{\per\centi\meter} after the \ox process.
 				A possible reason for this change of the width is improved crystal quality \cite{Prawer2004}.
-				In the measurement on big \nds we measured a Raman line at \SI[separate-uncertainty]{1308+-5}{\per\centi\meter} (denoted line R1) which exhibits a broad \lw of \SI[separate-uncertainty]{25+-5}{\per\centi\meter}.
-				One plausible explanation for both the position and the \lw of the Raman line are defects in the diamond lattice\cite{Prawer2004}.
+				In the measurement on large \nds we measured a Raman line at \SI[separate-uncertainty]{1308+-5}{\per\centi\meter} (denoted line R1) which exhibits a broad \lw of \SI[separate-uncertainty]{25+-5}{\per\centi\meter}.
+				One plausible explanation for both the position and the \lw of the Raman line are defects in the diamond lattice \cite{Prawer2004}.
 
 			\subsection{Lattice Strain}\label{subsec::raman_strain}
 
-				We investigated how strain in the diamond lattice manifests itself in both measurements on \nd clusters and on big \nds.
+				We investigated how strain in the diamond lattice manifests itself in both measurements on \nd clusters and on large \nds.
 				In the Raman measurement on \nd clusters, the position of the diamond Raman peak is the same for oxidized (\insituSo) and non-oxidized (\insituSn) samples, indicating that oxidation does not affect strain in the diamond.
 				However, the Raman shift of both non-oxidized and oxidized samples amounts to \SI[separate-uncertainty]{1338+-5}{\per\centi\meter}, as compared to the literature value of \SI{1332.5}{\per\centi\meter} of pristine diamond \cite{Zaitsev2001} (given uncertainties are governed by spectrometer resolution).
 				This shift indicates the presence of strain in the diamond particles.
 				\\
-				Performing the Raman measurement on big \nds we found one diamond Raman line at \SI[separate-uncertainty]{1308+-5}{\per\centi\meter} (line R1), one at \SI[separate-uncertainty]{1345+-5}{\per\centi\meter} (line R2) and one at \SI[separate-uncertainty]{1348+-5}{\per\centi\meter} (line R3), indicating a broad distribution of strain among the individual diamond particles (uncertainties governed by spectrometer resolution).
+				Performing Raman measurements on large \nds we find diamond Raman lines at \SI[separate-uncertainty]{1308+-5}{\per\centi\meter} (line R1), at \SI[separate-uncertainty]{1345+-5}{\per\centi\meter} (line R2) and at \SI[separate-uncertainty]{1348+-5}{\per\centi\meter} (line R3), indicating a broad distribution of strain among the individual diamond particles (uncertainties governed by spectrometer resolution).
 				Only line R1 can be explained with a high defect concentration in the diamond lattice due to its shift to smaller \wl.
-				However, a more consistent model which explains all occurring shifts is the presence of strain in the diamond nano particles.
-				From the \lws in the measurement on big \nds, the strain in the diamond is calculated using the equation for hydrostatic pressure \cite{Prawer2004} given by
-				% 
+				\todo{determine differences to paper and resolve. Active text is from paper, commented from thesis.}
+% 
+				% However, a more consistent model which explains all occurring shifts is the presence of strain in the diamond nano particles.
+				% From the \lws in the measurement on large \nds, the strain in the diamond is calculated using the equation for hydrostatic pressure \cite{Prawer2004} given by
+				% % 
+				% \begin{equation}
+				% 	\omega(P)=\omega_0+a_1P+a_2P^2,
+				% \end{equation}
+
+				% where $\omega_0=\SI{1332.5}{\per\centi\meter}$, $a_1=\SI{2.83}{\per\centi\meter\per\giga\pascal}$ and $a_2=\SI{-3.65e-3}{\per\centi\meter\per\giga\pascal}$.
+				% The calculation yields a pressure in the investigated diamonds of \SI{-8.56}{\giga\pascal} tensile stress and \SIlist{4.26;5.50}{\giga\pascal} compressive stress.
+				% Pressure uncertainties due to the Raman line measurements are smaller than one Pascal and are therefore neglected.
+				% Under hydrostatic pressure, the triply degenerate first order Raman peak remains degenerate, while under uniaxial and more complex stress configurations (biaxial stress, shear stress etc.) mode splitting occurs \cite{Prawer2004}.
+				% As mentioned above, we observe broad \lws up to \SI[separate-uncertainty]{25+-5}{\per\centi\meter}.
+				% The broad \lws of the Raman lines may be attributed to uniaxial strain, as mode splitting manifests itself in a broadening of the peak due to limited spectrometer resolution.
+				% Therefore, we conclude that both hydrostatic and uniaxial strain is present in the \nds.
+% 
+				However, a more consistent model which explains all occurring shifts is the presence of strain/stress in the diamond nanoparticles. The Raman shift $\Delta \nu$ in the presence of compressive and tensile stress is given by \cite{Widmann2016,Liscia2013a}: 
+% 
 				\begin{equation}
-					\omega(P)=\omega_0+a_1P+a_2P^2,
+					\Delta \nu = \frac{p}{0.34},
 				\end{equation}
 
-				where $\omega_0=\SI{1332.5}{\per\centi\meter}$, $a_1=\SI{2.83}{\per\centi\meter\per\giga\pascal}$ and $a_2=\SI{-3.65e-3}{\per\centi\meter\per\giga\pascal}$.
-				The calculation yields a pressure in the investigated diamonds of \SI{-8.56}{\giga\pascal} tensile stress and \SIlist{4.26;5.50}{\giga\pascal} compressive stress.
-				Pressure uncertainties due to the Raman line measurements are smaller than one Pascal and are therefore neglected.
-				Under hydrostatic pressure, the triply degenerate first order Raman peak remains degenerate, while under uniaxial and more complex stress configurations (biaxial stress, shear stress etc.) mode splitting occurs \cite{Prawer2004}.
-				As mentioned above, we observe broad \lws up to \SI[separate-uncertainty]{25+-5}{\per\centi\meter}.
+				where the Raman shift $\Delta\nu$ is given in \SI{}{\per\centi\meter} and the stress $p$ in \SI{}{\giga\pascal}. 
+
+				The calculation yields a pressure range from \SI[separate-uncertainty]{-8.33+-1.7}{\giga\pascal} tensile stress to \SI[separate-uncertainty]{5.27+-1.7}{\giga\pascal} compressive stress. Whereas under hydrostatic pressure the triply degenerate first order Raman peak remains degenerate, under uniaxial and more complex stress configurations (biaxial stress, shear stress etc.) mode splitting occurs \cite{Prawer2004}. As mentioned above, we observe broad \lws up to \SI[separate-uncertainty]{25+-5}{\per\centi\meter}.
 				The broad \lws of the Raman lines may be attributed to uniaxial strain, as mode splitting manifests itself in a broadening of the peak due to limited spectrometer resolution.
-				Therefore, we conclude that both hydrostatic and uniaxial strain is present in the \nds.
 
 		\section{Transmission Electron Microscopy}{\label{sec::tem}}
 
@@ -187,7 +200,7 @@
 				Furthermore, their diameter must not exceed a certain value, since the \TEM electron beam must be able to permeate the material for imaging.
 				Samples of type \insituH mostly comprised of \nds fulfilling these requirements, was investigated by \schmauch.
 				\\
-				In \Fref{subfig::tem_crystal} a \TEM image of a single \nd is shown. A complex crystal formation deviating from single crystal diamond structure is visible. A higher resolution detail is given in \Fref{subfig::tem_boundary}. The image clearly shows different crystal orientations, asserting that the \nd particle is not a single crystal diamond. As a result, the imaged \nd is of reduced crystal quality.
+				In \Fref{subfig::tem_crystal} a \TEM image of a single \nd is shown. A complex crystal formation deviating from single crystal diamond structure is visible. A higher resolution detail is given in \Fref{subfig::tem_boundary}. The image clearly shows different crystal orientations, asserting that the \nd particle is not a single crystal diamond. Within the nanodiamond, several sharp lines are visible. These lines are edges of crystal boundaries and grain boundaries, introducing strain in the diamond lattice. We remark at this point that some studies suggest the possibility that \sivs are created with a higher probability at grain boundaries and morphological defects of the crystal \cite{bray2016localization, zapol2001tight}.
 				\\
 				We have repeated this visual assessment of crystal quality for a range of different \nds with identical results. This supports the conclusion that all of our \nds are polycrystalline specimen.
 

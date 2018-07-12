@@ -2,7 +2,11 @@
 
 \section{Photoluminescence spectra} \label{sec::spectra}
 
-	To identify \nds containing \sivs, we performed confocal scans of the samples, see \Fref{fig::scans}.
+	To identify \nds containing \sivs, we performed confocal scans of the samples, see \Fref{fig::scans}. 
+	To reduce bias in the measurements, not only the brightest spots of the confocal scans are investigated, but also those which barely exceed \bkg fluorescence.
+	\sivs are further investigated by measuring \pl (PL) spectra, single photon statistics and photo-stability.
+	As discussed in \Fref{ch::sivs}, the typical luminescence spectrum of an \siv is composed of a prominent \zpl peak and weak sidebands.
+	Investigations of both are reported independently in the following paragraphs.
 
 	\begin{figure}[!htb]
 		\begin{subfigure}{ 0.49\linewidth}
@@ -22,13 +26,7 @@
 		\label{fig::scans}
 	\end{figure}
 
-	To reduce bias in the measurements, not only the brightest spots of the confocal scans are investigated, but also those which barely exceed \bkg fluorescence.
-	\sivs are further investigated by measuring \pl (PL) spectra, single photon statistics and photo-stability.
-	As discussed in \Fref{ch::sivs}, the typical luminescence spectrum of an \siv is composed of a prominent \zpl peak and weak sidebands.
-	Investigations of both are reported independently in the following paragraphs.
-
-
-	\FloatBarrier
+	\FloatBarrier	
 
 \subsection{\Zpl}\label{subsec::zpl}
 
@@ -92,7 +90,7 @@
 	\end{figure}
 
 	What immediately strikes the eye is a pattern that to our knowledge has not been reported to date:
-	The observed \ZPLs partition into two groups, denoted a horizontal lobe (\hl) and a vertical lobe (\vl). The two lobes are separated by a gap, i.e.\ a region with a pronounced lack of data points.
+	The observed \ZPLs partition into two groups, denoted a horizontal cluster (\hl) and a vertical cluster (\vl). The two clusters are separated by a gap, i.e.\ a region with a pronounced lack of data points.
 	Single emitters are identified both in \hl and \vl, marked as red triangles in \Fref{fig::bimodal_distr}. Further details on single emitters are given in section \Fref{subsec::g2}.
 	\\
 	The two groups are defined by their characteristic \cwls and \lws:
@@ -124,12 +122,12 @@
 	The \db factor for \emnarrow amounts to \num[separate-uncertainty]{0.81(1)} (given uncertainty due to fit).
 	This \db factor corresponds to a \hr factor $S =- \ln{(DW)}$ \cite{Walker1979} of \num[separate-uncertainty]{0.21(1)}, which is in good agreement with the values reported in \cite{Neu2011b}.
 	The error is mainly due to background corrections.
-	When zooming in onto the spectrum of \embroad we do not find distinct sidebands peaks, i.e.\ almost all emission for this emitter is alloted to the \ZPL.
+	When zooming in onto the spectrum of \embroad we do not find distinct sidebands peaks, i.e.\ almost all emission for this emitter is focused into the \ZPL.
 	Considering resolution limits of the spectrometer, dark-counts and fluorescence background, we evaluate the \db factor to be larger than \num[separate-uncertainty]{0.97}.
 	It is the largest \db factor amongst all our milled \sivs.
 	The two mentioned \db factors should not be interpreted as single representative emitters for the respective groups, they rather serve as an orientation of the spread of the \db factors of both groups.
 	It has to be pointed out, that we did not find any systematic difference of the \db factor between \hl and \vl.
-	\\
+	
 	To provide context for the novel findings presented in \Fref{fig::bimodal_distr}, we compare our results to various earlier findings.
 	Furthermore, we discuss an additional comparison to an investigated control sample fabricated using \si implantation.
 	The results are presented in \Fref{fig::bimodal_distr_compare}.
@@ -146,18 +144,18 @@
 	Samples for which previous data has been taken are:
 	\begin{enumerate}
 		\item \nds produced by \basd (BASD) of polycrystalline \CVD diamond films (blue rings in \Fref{fig::bimodal_distr_compare} \cite{Neu2011a}; data taken from \cite{Benedikter2017a}).
-		\item \label{item::elke_cvd}\nds produced directly via a \CVD process with \textit{in-situ} incorporated \sivs; measured in a spectral filter window of \SIrange{730}{750}{nm} (blue squares in \Fref{fig::bimodal_distr_compare}; data reused from \cite{Neu2012} with permission).
-		\item \nds produced in the same manner as the \CVD sample in \ref{item::elke_cvd} (blue downwards pointing triangles in \Fref{fig::bimodal_distr_compare}; produced by M. Schreck \cite{Neu2011b}; spectroscopic measurement performed with setup described in \Fref{sec::confocal}).
+		\item \label{item::elke_cvd}\nds produced by heteroepitaxial \CVD growth on \ir substrates with \textit{in-situ} incorporated \sivs; measured in a spectral filter window of \SIrange{730}{750}{nm} (blue squares in \Fref{fig::bimodal_distr_compare}; data reused from \cite{Neu2012} with permission).
+		\item \nds produced in the same manner as in \ref{item::elke_cvd} (blue downwards pointing triangles in \Fref{fig::bimodal_distr_compare}; produced by M. Schreck \cite{Neu2011b}; spectroscopic measurement performed with setup described in \Fref{sec::confocal}).
 	\end{enumerate}
 	
 	All previous data from different \nd material fit nicely with the \ZPL distribution presented in \Fref{fig::bimodal_distr_compare}, confirming the findings of \Fref{fig::bimodal_distr}.
 	\\
 	We verify that the observed luminescent defects are indeed \si related by performing control experiments with \si implanted samples (sample \implantedTao).
-	By doing so we rule out the possibility that the two lobes in the distribution are a result of artifacts.
+	By doing so we rule out the possibility that the two clusters in the distribution are a result of artifacts.
 	Such artifacts include other elements incorporated into the \nds during the growth process: Residue from previous processes performed in the diamond growth chamber or material from chamber parts may be incorporated during \nd growth.
 	\Fref{fig::bimodal_distr_compare} shows that the implanted \sivs cover roughly the same spectral range as the \textit{in-situ} incorporated centers from around \SIrange{720}{820}{nm} as the \textit{in-situ} incorporated centers.
 	This correlation provides strong evidence for the \si related origin of the defects.
-	\\
+	
 	% In the next paragraphs, the \ZPL distribution will be discussed in further detail.
 	To provide a theoretical interpretation, the \ZPL \cwl shift is investigated in further detail and compared to results from density functional calculations.
 	Zooming in to \vl (\Fref{subfig::distro_inset1}) it becomes clear that only six of the measured data points in \vl are situated at a shorter \cwl than the point attributed to an ideal \siv in unstrained bulk material.

@@ -2,10 +2,6 @@ Hi Sarah,
 
 ganz kurze Rückmeldung: ich hatte jetzt keine Zeit für eine ausführliche Lektüre, da mein Programm zeitlich eng getaktet war und ist. Der Aufbau ist prinzipiell OK, die Auswahl des Inhalts ebenfalls. Ein paar Dinge sind mir beim Überfliegn aufgefallen:
 
-Fig. 2.4 stimmt so nicht! Der Grundzustand des SiV liegt an der Valenzbandkante (Adam Galis Arbeiten, siehe Christians und Jonas' Dissertationen)
-
-S. 28: Diskussion des Huang Rhys Modells: die Zustände, die dort genannt werden (3E, 3A2) sind NV-Zustände!!
-
 S. 29: warum soll ein PSB bei T=0 verschwinden? Hier werden doch Photonen emittiert. Tatsächlich ändert sich der Debye Waller Faktor nur wenig wenn man zu tiefen Temp geht.
 
 Die Zusammenfassung liest sich ein wenig hölzern, da viele Details wiedergegeben werden. Hier eventuell den etwas größeren Überblick geben. Was an dieser Stelle vielleicht ein bisschen fehlt (aber evtl habve ich das übersehen) ist eine Einordnung in den aktuellen Stand der Wissenschaft.

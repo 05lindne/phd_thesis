@@ -9,7 +9,7 @@
   A classification of diamond with respect to defects and impurities as well as crystallinities serves as a preparation for the introduction of methods to synthesize diamonds containing \sivs presented in \Fref{ch::fabrication_nanodiamonds}.
   Finally, we discuss \sivs in detail and focus on their most important optical properties which make them ideal candidates for realizing reliable \spss at room temperature.
   In particular, we zoom in on the key features of its luminescence spectrum, the \zpl and the \psb.
-  Our discussion partially follows the presentation in \cite{Riedrich-moller2014, Neu2012, BeckerMasterThesis, Steinmetz2011}.
+  Our discussion partially follows the presentation in \cite{Riedrich-moller2014, Neu2012, Becker2014dissertation, Steinmetz2011,Hepp2014dissertation}.
 
 \section{Diamond as a host lattice}
 
@@ -123,14 +123,14 @@
 
     The \sivc as a quasi-atomic system is capable of absorbing and emitting light. When a ground state electron absorbs a photon of appropriate energy, it is promoted to a discrete higher-energy excited state located within the band gap of the diamond host matrix. Reversing this excitation relaxes the electron back down to the ground state while emitting a so-called fluorescent photon, accounting for the energy difference between excited and ground state. This transition is ``spin-allowed", limiting the life-times of excited states to nanoseconds and thus promoting rapid relaxation and associated fluorescence \cite{Gali2013}.
 
-    Fluorescence is directly linked to the electronic structure of the \siv. A qualitative depiction of the most important electronic states is given in \Fref{fig::term_scheme_siv}, a comprehensive discussion is found in \cite{Gali2013, Hepp2014dissertation, Becker2014dissertation}.
-    Since optical transitions are associated with well-defined energies it follows that photoluminescence spectroscopy can be used to study them using a laser to optically excite the \siv. In the context of this thesis, optical above-resonant excitation is the method of choice, in particular, when used in conjunction with a confocal photoluminescence setup which will be discussed in \Fref{ch::pl_setup}.
-    If the excitation energy exceeds the energy of the lowest excited state, electrons are promoted to higher electronic and vibrational states. Conveniently, these states relax rapidly towards the lowest exited state in non-radiative processes \cite{Gali2013}. Once the lowest excited state is reached, a florescent transition to one of the ground state levels can follow. It has been shown that above-resonant excitation is feasible for excitation energies ranging from \SIrange{1.75}{2.55}{\eV} (about \SIrange{480}{700}{\nm}) \cite{iakoubovskii2001optical, Iakoubovskii2000, Rossi1997}. If the excitation energy is chosen too high, however, the \siv is ionized. This is unfavorable, since electrons escaping to the diamond conduction band do no longer induce fluorescence. Ionization may be reversed if an \siv manages to capture a free electron from the conduction band. This charge state conversion is believed to be linked to fluorescence intermittence, describing ``blinking'' \sivs \cite{Muller2011, Siyushev2009}.
+    Fluorescence is directly linked to the electronic structure of the \siv. A qualitative depiction of its most important electronic states is given in \Fref{fig::term_scheme_siv}, a comprehensive discussion is found in \cite{Gali2013, Hepp2014dissertation, Becker2014dissertation}.
+    Since optical transitions are associated with well-defined energies it follows that photoluminescence spectroscopy is suitable to study them using a laser to optically excite the \siv. In the context of this thesis, optical above-resonant excitation is the method of choice, in particular, when used in conjunction with a confocal photoluminescence setup which will be discussed in \Fref{ch::pl_setup}.
+    If the excitation energy exceeds the energy of the lowest excited state, electrons are promoted to higher electronic and vibrational states. Conveniently, these states relax rapidly towards the lowest exited state in non-radiative processes \cite{Gali2013}. Once the lowest excited state is reached, a fluorescent transition to one of the ground state levels can follow. It has been shown that above-resonant excitation is feasible for excitation energies ranging from \SIrange{1.75}{2.55}{\eV} (about \SIrange{480}{700}{\nm}) \cite{iakoubovskii2001optical, Iakoubovskii2000, Rossi1997}. If the excitation energy is chosen too high, however, the \siv is ionized. This is unfavorable, since electrons escaping to the diamond conduction band do no longer induce fluorescence. Ionization may be reversed if an \siv manages to capture a free electron from the conduction band. This charge state conversion is believed to be linked to fluorescence intermittence, describing ``blinking'' \sivs \cite{Muller2011, Siyushev2009}.
 
     \begin{figure}[!htb]
       \centering
       \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.4\linewidth]{./pics/term_scheme_siv.png}}
-      \caption[Electronic structure of \sivs hosted in diamond]{Electronic structure of \sivs in \nd according to Gali and Maze \cite{Gali2013}. The energy of the optical transition from the ${}^{2}E_{u, SiV}$ excited state to the ${}^{2}E_{g, SiV}$ ground state (thick red arrow) is calculated to be \SI{1.72}{\eV}. It is in approximate agreement with the experimentally observed value of \SI{1.68}{\eV} (\SI{738}{\nm}). Additional long-lived shelving states ${}^{2}E_{g, VBM}$ and ${}^{2}A_{1g, VBM}$ can be reached from  ${}^{2}E_{u, SiV}$ via a non-radiative transition (orange arrow) and parity-forbidden transitions (thin red arrows).}
+      \caption[Electronic structure of \sivs hosted in diamond]{Electronic structure of \sivs in \nd according to Gali and Maze \cite{Gali2013}. The energy of the optical transition from the ${}^{2}E_{u, SiV}$ excited state to the ${}^{2}E_{g, SiV}$ ground state (thick red arrow) is calculated to be \SI{1.72}{\eV}. It is in approximate agreement with the experimentally observed value of \SI{1.68}{\eV} (\SI{738}{\nm}). Additional long-lived shelving states ${}^{2}E_{g, VBM}$ and ${}^{2}A_{1g, VBM}$ can be reached from  ${}^{2}E_{u, SiV}$ via a non-radiative transition (orange arrow) and parity-forbidden transitions (thin red arrows). Figure courtesy of \cite{Hepp2014dissertation}.}
       \label{fig::term_scheme_siv}
     \end{figure}
 
@@ -140,71 +140,59 @@
 
     When a \cc is excited, its charge distribution changes. As a result, the equilibrium positions of all particles involved in the \cc shift leading to slight changes in \cc geometry. Naturally, the combined changes of charge distribution and geometry of the \cc also affect the positions of surrounding atoms of the host lattice. Similarly, if the exited state relaxes back to the ground state, the process occurs in reverse. Thus, due to differing atomic arrangements for ground and exited states, the periodic emission and absorption of photons is accompanied by lattice vibrations, i.e.\ phonons. In other words, the electron-phonon interaction couples the motion of the lattice and electronic transitions of a color center \cite{Davies1981, Zaitsev2000}.
 
-    The Huang-Rhys model allows us to discuss the electron-phonon interaction in \sivs in more detail.
-    We remark at this point, that our discussion based on the Huang-Rhys model assumes that only one vibrational mode couples to the \cc which is a strong assumption. In general it is believed that in a solid state host matrix a discrimination between the modes of the undisturbed lattice and quasi-local impurity-induced modes is appropriate \cite{Zaitsev2000, Feng1993b, Solin1970}. Furthermore, various mechanical properties such as stress in the lattice are reported to affect phonon energies \cite{Grimsditch1978}. In addition, electron-phonon interactions and thus \psb features are believed to depend strongly on various local properties of \ccs \cite{Sternschulte1994, Huttner1995}. Thus it is possible to encounter complex varying \psb features from one \siv to the next. For a more detailed discussion of these effects we refer the reader to \cite{Neu2012, Riedrich-moller2014} and references therein.
+    We now given a more detailed discussion of the electron-phonon interaction in \sivs. Here we assume that only one dominant vibrational mode couples to the \cc which is a strong assumption. In general it is believed that in a solid state host matrix a discrimination between the modes of the undisturbed lattice and quasi-local impurity-induced modes is appropriate \cite{Zaitsev2000, Feng1993b, Solin1970}. Furthermore, various mechanical properties such as stress in the lattice are reported to affect phonon energies \cite{Grimsditch1978}. In addition, electron-phonon interactions and thus \psb features are believed to depend strongly on various local properties of \ccs \cite{Sternschulte1994, Huttner1995}. Thus it is possible to encounter complex varying \psb features from one \siv to the next. For a more detailed discussion of these effects we refer the reader to \cite{Neu2012, Riedrich-moller2014} and references therein.
 
-    Our discussion of the Huang-Rhys model follows the presentation in \cite{doherty2013nitrogen}. The model assumes in its simplest form that vibrational modes can be viewed as oscillations of nuclei between their equilibrium coordinates $q$ associated with the electronic states \cite{Riedrich-moller2014}. Let $\mathcal{K}_{{}^{3}A_{2}}(q)$ and $\mathcal{K}_{{}^{3}E}(q)$ denote the harmonic potentials of the ground and excited states respectively:
-
-    \begin{align}
-      \mathcal{K}_{{}^{3}A_{2}}(q) & = \frac{1}{2} \Omega^2 q^2 \\
-      \mathcal{K}_{{}^{3}E}(q) & = C_{{}^{3}E} + aq + \frac{1}{2} (\Omega^2 + b)q^2 \\
-       & = C_{{}^{3}E} - C_R + \frac{1}{2} (\Omega^2 + b)(q - \delta q)^2.
-    \end{align}
-
-    It follows that the vibrational modes of ground and exited states are given as harmonic states with discrete energies $\hbar \Omega (\nu + 2)$ as well as $\hbar \sqrt{\Omega + b} (\nu + 2)$ respectively, where $\nu$ denotes the occupation number and $\Omega$ the frequency.
-    Further, let $aq$ denote the linear nuclear displacement of the excited state configuration with respect to the ground state equilibrium where $q = 0$ holds.
-    The quadratic term $bq^2$ refers to the vibrational frequency shift due to a redistribution of charge between the electronic states.
-    Given the linear and quadratic electron-phonon coupling strengths $a$ and $b$, the equilibrium displacement of the ${}^{3}E$ state can be obtained as:
-% 
+    Our discussion follows the argumentation of Davies \cite{Davies1981} assuming that vibrational modes can be viewed as oscillations of nuclei between their equilibrium coordinates associated with the electronic states. As a result the electronic ground state energy can be written as a harmonic oscillator potential as:
+    % 
     \begin{equation}
-      \delta q = \frac{-a}{\Omega^2 + b },
+      V_g = \frac{1}{2} m \omega^2 Q^2 ,
     \end{equation}
 
-    while the relaxation energy reads \cite{doherty2013nitrogen}:
-% 
+    where $\omega$ denotes the frequency of the mode, $m$ is the mass and $Q$ the displacement from equilibrium. The excited state potential likewise can be written as
+    % 
     \begin{equation}
-      C_R = \frac{a^2}{2 (\Omega^2 + b)} = \hbar S \sqrt{\Omega + b},
+      V_e = V_0 + aQ + \frac{1}{2} m \omega^2 Q^2 + bQ^2 .
     \end{equation}
 
+    Here $V_0$ denotes the purely electronic energy. The term $aq$ denotes the linear nuclear displacement of the excited state configuration with respect to the ground state equilibrium where $Q = 0$ holds.
+    The quadratic term $b Q^2$ refers to the vibrational frequency shift due to a redistribution of charge between the electronic states. \Fref{fig::harmonic_model} illustrates ground and excited state potentials $V_g$ and $V_e$ and how they are displaced from each other.
 
-   where $S$ is referred to as Huang-Rhys factor.
-
-   \begin{figure}[!htb]
+    \begin{figure}[!htb]
      \centering
-     \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/huang_rhys_model.png}}
-     \caption[Huang-Rhys model of vibrational transitions]{Huang-Rhys model of the vibrational transitions in the Frank-Condon picture: The excited state $\mathcal{K}_{{}^{3}E}(q)$ is shifted by $\delta q$ with respect to the ground state potential $\mathcal{K}_{{}^{3}A_{2}}(q)$. The recombination originating at $\delta q$ marks the most probable transition (thick black arrow) from the fundamental ${}^{3}E$ vibrational level to one of the vibrational levels of the ${}^{3}A_{2}$ ground state followed by non-radiative transitions to the equilibrium position $q = 0$. The number of vibrational quanta involved in an optical transition are determined by the Huang-Rhys factor $S$. The excitation reverses the process. Optical transitions occur between states with identical values of $q$ and are shown as vertical black arrows. Non-radiative transitions change the value of $q$ and are shown as angled gray arrows. Figure and caption reproduced with permission \cite{Riedrich-moller2014}.}
-     \label{fig::huang_rhys_model}
-   \end{figure}
+     \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/vibrational_model.png}}
+     \caption[Electron-phonon coupling approximated]{Electron phonon coupling approximated using harmonic oscillator potentials for the vibrational modes $n$ in the ground and $n'$ in the excited state. After an excitation to a higher lying vibrational state (yellow arrow), the color center quickly relaxes to the vibrational state $n' = 0$, from where it decays to the ground state via the emission of a photon (red arrow). The most probable transition is the one with the highest overlap between vibrational eigenfunctions ($n' = 0 \to n = 3$). Figure and caption reproduced from \cite{Hepp2014dissertation}.}
+     \label{fig::harmonic_model}
+    \end{figure}
 
-   To reason about the probabilities of various transitions between different vibrational levels associated with ground and excited states, the Franck-Condon principle can be applied \cite{condon1947franck}. It states that transitions between electronic states become more probable if origin and destination states have vibrational levels with similar energy. This implies that the most probable transitions occur between states requiring no change of nuclei positions. \Fref{fig::huang_rhys_model} illustrates the application of the principle for the Huang-Rhys model.
+    Grey shaded functions illustrate eigenfunctions of the harmonic oscillator associated with vibrational states. Their quantum numbers are denoted $n$ and $n'$ for ground and excited state respectively. If $n = n'$ for a transition between ground and exited state, vibrational modes do not change signaling a \zpl transition. Note that according to the Frank-Condon principle \cite{condon1947franck} absorption and emission of photons and resulting changes in the electronic distributions are much faster than the vibrations of the surrounding nuclei. Thus optical transitions in \Fref{fig::harmonic_model} occur vertically. 
 
-   We find that the most probable optical relaxation from an ${}^{3}E$ excited state back to an ${}^{3}A_{2}$ ground state originates from the fundamental vibrational ${}^{3}E$ state, \i.e.\ the lowest-energy excited state. This state is shifted by $\delta q$ with respect to the ground state, indicating that the energetically optimal nuclei positions differ from their ground state equilibrium positions. The most probable destination for the electronic relaxation process is a higher vibrational level of the ${}^{3}A_{2}$ ground state with similar nuclei positions. From there, electron-phonon interactions continue the relaxation process down to the fundamental vibrational level of the ground state. This non-radiative process allows nuclei to return to their original ground state equilibrium positions.
-   The process of exciting the system from the ground state, proceeds in reverse. The most probable optical excitation promotes an electron from the fundamental ${}^{3}A_{2}$ ground state to a higher vibrational level of the ${}^{3}E$ excited state. The optical transition is such that nuclei positions do not change. Note that optical transitions are faster than vibrational transitions since they do not require a change in positions of massive nuclei. Once in the higher vibrational excited state, electron-phonon interactions mediate a transition down to the fundamental ${}^{3}E$ excited state with an associated change in nuclei positions. From there the relaxation-excitation cycle and its induced periodic changes in nuclei positions repeats.
+    In \Fref{fig::harmonic_model} an electron is excited from vibrational level $n=0$ of the ground state to a higher vibrational level $n'= 2$ of the excited state. From there it quickly relaxes down to the vibrational state $n' = 0$ in a non-radiative process. In contrast, the following transition from $n'=0$ to $n=3$ occurs via the emission of a photon. In the Condon approximation the most probable optical transition maximizes the overlap between the vibrational eigenfunctions of source and destination states. Such a transition is shifted with respect to the \ZPL and is associated with the \psb. The observed red-shift of the \psb is directly tied to the phonon energy with higher order sidebands showing multiples of this energy.
 
-   As discussed, transitions involving phonons mostly originate from the fundamental vibrational level of excited electronic states and end in higher vibrational states of the electronic ground state. Photons emitted during the relaxation process are associated with the \psb of the \siv.
-   The observed red-shift of the \psb is directly tied to the phonon energy with higher order sidebands showing multiples of this energy. Note that the Huang-Rhys factor $S$ can be interpreted as an indicator of the most probable optical transition involving photons. Thus, it can be used to quantify the strength of the electron-phonon interactions in \sivs. A small value of $S$ indicates a weak electron-phonon coupling resulting in negligible \psb emissions. If no phonons are involved, the entire emission is concentrated in the \zpl. Conversely, a large value of $S$ indicates extensive electron-phonon interactions, leading to a pronounced \psb and a weaker \zpl. This dependence is naturally described by
-% 
-   \begin{equation}
-     S = -\ln{\frac{I_{ZPL}}{I_{ZPL} + I_{PSB}}}.
-   \end{equation}
+    Given the fact that optical transitions are vertical in the Frank-Condon scheme, the displacement between ground and exited state potentials determines the probability for \psbs to occur. The displacement in turn is proportional to the linear electron-phonon coupling. A measure suitable to quantify this coupling is the Huang-Rhys factor $S$ given by
+     % 
+     \begin{equation}
+        S = -\ln{\frac{I_{ZPL}}{I_{ZPL} + I_{PSB}}} ,
+     \end{equation}
 
-   For \sivs hosted in polycrystalline diamonds the Huang-Rhys factors have been determined to be very small ranging from \SIrange{0.08}{0.24}{} \cite{Duligall2006,Yuan2002,Nothaft2012}. As a result the \zpl as the most probable transition dominates the luminescence spectrum making \sivs excellent narrow-band emitters. \Fref{fig::spectral_features} illustrates the stark difference between the \zpl and the \psb. In contrast, $S=3.74$ has been established for nitrogen vacancy centers \cite{Davies1981}. A electron-phonon coupling of this magnitude concentrates almost all emission into the \psb and leaves the \zpl strongly suppressed.
+    where $I_{ZPL}$ and $I_{PSB}$ are the intensities of the \ZPL and the \psb respectively. Note that $S$ can be interpreted as an indicator of the most probable optical transition involving photons. A small value of $S$ indicates a weak linear electron-phonon coupling resulting in negligible \psb emissions. If no phonons are involved, the entire emission is concentrated in the \zpl. Conversely, a large value of $S$ indicates extensive electron-phonon interactions, leading to a pronounced \psb and a weaker \zpl.
 
-   \begin{figure}[!htb]
- 		\begin{subfigure}[t]{ 0.49\linewidth}
- 			\centering
- 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_zpl.png}}
- 			\caption{}
- 		\end{subfigure}
- 		\hfill
- 		\begin{subfigure}[t]{ 0.49\linewidth}
- 			\centering
- 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_sideband.png}}
- 			\caption{}
- 		\end{subfigure}
- 		\caption[Fluorescence spectra of \sivs at room temperature]{(a) The narrow \zpl dominates the luminescence spectrum. (b) Low intensity \psb shows distinct vibrational transitions. Figure reproduced with permission \cite{Riedrich-moller2014}.}
- 		\label{fig::spectral_features}
- 	\end{figure}
+    For \sivs hosted in polycrystalline diamonds the Huang-Rhys factors have been determined to be very small ranging from \SIrange{0.08}{0.24}{} \cite{Duligall2006,Yuan2002,Nothaft2012}. As a result the \zpl as the most probable transition dominates the luminescence spectrum making \sivs excellent narrow-band emitters. \Fref{fig::spectral_features} illustrates the stark difference between the \zpl and the \psb. In contrast, $S=3.74$ has been established for nitrogen vacancy centers \cite{Davies1981}. A electron-phonon coupling of this magnitude concentrates almost all emission into the \psb and leaves the \zpl strongly suppressed.
+
+     \begin{figure}[!htb]
+   		\begin{subfigure}[t]{ 0.49\linewidth}
+   			\centering
+   			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_zpl.png}}
+   			\caption{}
+   		\end{subfigure}
+   		\hfill
+   		\begin{subfigure}[t]{ 0.49\linewidth}
+   			\centering
+   			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_sideband.png}}
+   			\caption{}
+   		\end{subfigure}
+   		\caption[Fluorescence spectra of \sivs at room temperature]{(a) The narrow \zpl dominates the luminescence spectrum. (b) Low intensity \psb shows distinct vibrational transitions. Figure reproduced with permission \cite{Riedrich-moller2014}.}
+   		\label{fig::spectral_features}
+   	 \end{figure}
 
 
    As an alternative measure for the electron-phonon coupling the Debeye-Waller factor can be used. It is closely related to the Huang-Rhys factor $S$ and defined as
@@ -214,6 +202,88 @@
    \end{equation}
 
     which can be interpreted as the fraction of total photons that are emitted into the \zpl.
+
+
+
+
+
+    
+%     The Huang-Rhys model allows us to discuss the electron-phonon interaction in \sivs in more detail.
+%     We remark at this point, that our discussion based on the Huang-Rhys model assumes that only one vibrational mode couples to the \cc which is a strong assumption. In general it is believed that in a solid state host matrix a discrimination between the modes of the undisturbed lattice and quasi-local impurity-induced modes is appropriate \cite{Zaitsev2000, Feng1993b, Solin1970}. Furthermore, various mechanical properties such as stress in the lattice are reported to affect phonon energies \cite{Grimsditch1978}. In addition, electron-phonon interactions and thus \psb features are believed to depend strongly on various local properties of \ccs \cite{Sternschulte1994, Huttner1995}. Thus it is possible to encounter complex varying \psb features from one \siv to the next. For a more detailed discussion of these effects we refer the reader to \cite{Neu2012, Riedrich-moller2014} and references therein.
+
+%     Our discussion of the Huang-Rhys model follows the presentation in \cite{doherty2013nitrogen}. The model assumes in its simplest form that vibrational modes can be viewed as oscillations of nuclei between their equilibrium coordinates $q$ associated with the electronic states \cite{Riedrich-moller2014}. Let $\mathcal{K}_{{}^{3}A_{2}}(q)$ and $\mathcal{K}_{{}^{3}E}(q)$ denote the harmonic potentials of the ground and excited states respectively:
+
+%     \begin{align}
+%       \mathcal{K}_{{}^{3}A_{2}}(q) & = \frac{1}{2} \Omega^2 q^2 \\
+%       \mathcal{K}_{{}^{3}E}(q) & = C_{{}^{3}E} + aq + \frac{1}{2} (\Omega^2 + b)q^2 \\
+%        & = C_{{}^{3}E} - C_R + \frac{1}{2} (\Omega^2 + b)(q - \delta q)^2.
+%     \end{align}
+
+%     It follows that the vibrational modes of ground and exited states are given as harmonic states with discrete energies $\hbar \Omega (\nu + 2)$ as well as $\hbar \sqrt{\Omega + b} (\nu + 2)$ respectively, where $\nu$ denotes the occupation number and $\Omega$ the frequency.
+%     Further, let $aq$ denote the linear nuclear displacement of the excited state configuration with respect to the ground state equilibrium where $q = 0$ holds.
+%     The quadratic term $bq^2$ refers to the vibrational frequency shift due to a redistribution of charge between the electronic states.
+%     Given the linear and quadratic electron-phonon coupling strengths $a$ and $b$, the equilibrium displacement of the ${}^{3}E$ state can be obtained as:
+% % 
+%     \begin{equation}
+%       \delta q = \frac{-a}{\Omega^2 + b },
+%     \end{equation}
+
+%     while the relaxation energy reads \cite{doherty2013nitrogen}:
+% % 
+%     \begin{equation}
+%       C_R = \frac{a^2}{2 (\Omega^2 + b)} = \hbar S \sqrt{\Omega + b},
+%     \end{equation}
+
+
+%    where $S$ is referred to as Huang-Rhys factor.
+
+%    \begin{figure}[!htb]
+%      \centering
+%      \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \twoimageswide]{./pics/huang_rhys_model.png}}
+%      \caption[Huang-Rhys model of vibrational transitions]{Huang-Rhys model of the vibrational transitions in the Frank-Condon picture: The excited state $\mathcal{K}_{{}^{3}E}(q)$ is shifted by $\delta q$ with respect to the ground state potential $\mathcal{K}_{{}^{3}A_{2}}(q)$. The recombination originating at $\delta q$ marks the most probable transition (thick black arrow) from the fundamental ${}^{3}E$ vibrational level to one of the vibrational levels of the ${}^{3}A_{2}$ ground state followed by non-radiative transitions to the equilibrium position $q = 0$. The number of vibrational quanta involved in an optical transition are determined by the Huang-Rhys factor $S$. The excitation reverses the process. Optical transitions occur between states with identical values of $q$ and are shown as vertical black arrows. Non-radiative transitions change the value of $q$ and are shown as angled gray arrows. Figure and caption reproduced with permission \cite{Riedrich-moller2014}.}
+%      \label{fig::huang_rhys_model}
+%    \end{figure}
+
+%    To reason about the probabilities of various transitions between different vibrational levels associated with ground and excited states, the Franck-Condon principle can be applied \cite{condon1947franck}. It states that transitions between electronic states become more probable if origin and destination states have vibrational levels with similar energy. This implies that the most probable transitions occur between states requiring no change of nuclei positions. \Fref{fig::huang_rhys_model} illustrates the application of the principle for the Huang-Rhys model.
+
+%    We find that the most probable optical relaxation from an ${}^{3}E$ excited state back to an ${}^{3}A_{2}$ ground state originates from the fundamental vibrational ${}^{3}E$ state, \i.e.\ the lowest-energy excited state. This state is shifted by $\delta q$ with respect to the ground state, indicating that the energetically optimal nuclei positions differ from their ground state equilibrium positions. The most probable destination for the electronic relaxation process is a higher vibrational level of the ${}^{3}A_{2}$ ground state with similar nuclei positions. From there, electron-phonon interactions continue the relaxation process down to the fundamental vibrational level of the ground state. This non-radiative process allows nuclei to return to their original ground state equilibrium positions.
+%    The process of exciting the system from the ground state, proceeds in reverse. The most probable optical excitation promotes an electron from the fundamental ${}^{3}A_{2}$ ground state to a higher vibrational level of the ${}^{3}E$ excited state. The optical transition is such that nuclei positions do not change. Note that optical transitions are faster than vibrational transitions since they do not require a change in positions of massive nuclei. Once in the higher vibrational excited state, electron-phonon interactions mediate a transition down to the fundamental ${}^{3}E$ excited state with an associated change in nuclei positions. From there the relaxation-excitation cycle and its induced periodic changes in nuclei positions repeats.
+
+%    As discussed, transitions involving phonons mostly originate from the fundamental vibrational level of excited electronic states and end in higher vibrational states of the electronic ground state. Photons emitted during the relaxation process are associated with the \psb of the \siv.
+%    The observed red-shift of the \psb is directly tied to the phonon energy with higher order sidebands showing multiples of this energy. Note that the Huang-Rhys factor $S$ can be interpreted as an indicator of the most probable optical transition involving photons. Thus, it can be used to quantify the strength of the electron-phonon interactions in \sivs. A small value of $S$ indicates a weak electron-phonon coupling resulting in negligible \psb emissions. If no phonons are involved, the entire emission is concentrated in the \zpl. Conversely, a large value of $S$ indicates extensive electron-phonon interactions, leading to a pronounced \psb and a weaker \zpl. This dependence is naturally described by
+% % 
+%    \begin{equation}
+%      S = -\ln{\frac{I_{ZPL}}{I_{ZPL} + I_{PSB}}}.
+%    \end{equation}
+
+%    For \sivs hosted in polycrystalline diamonds the Huang-Rhys factors have been determined to be very small ranging from \SIrange{0.08}{0.24}{} \cite{Duligall2006,Yuan2002,Nothaft2012}. As a result the \zpl as the most probable transition dominates the luminescence spectrum making \sivs excellent narrow-band emitters. \Fref{fig::spectral_features} illustrates the stark difference between the \zpl and the \psb. In contrast, $S=3.74$ has been established for nitrogen vacancy centers \cite{Davies1981}. A electron-phonon coupling of this magnitude concentrates almost all emission into the \psb and leaves the \zpl strongly suppressed.
+
+%    \begin{figure}[!htb]
+%     \begin{subfigure}[t]{ 0.49\linewidth}
+%       \centering
+%       \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_zpl.png}}
+%       \caption{}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[t]{ 0.49\linewidth}
+%       \centering
+%       \testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \pairplotwide]{./pics/siv_sideband.png}}
+%       \caption{}
+%     \end{subfigure}
+%     \caption[Fluorescence spectra of \sivs at room temperature]{(a) The narrow \zpl dominates the luminescence spectrum. (b) Low intensity \psb shows distinct vibrational transitions. Figure reproduced with permission \cite{Riedrich-moller2014}.}
+%     \label{fig::spectral_features}
+%   \end{figure}
+
+
+%    As an alternative measure for the electron-phonon coupling the Debeye-Waller factor can be used. It is closely related to the Huang-Rhys factor $S$ and defined as
+% % 
+%    \begin{equation}
+%      D_w = e^{-S} = \frac{I_{ZPL}}{I_{ZPL} + I_{PSB}},
+%    \end{equation}
+
+%     which can be interpreted as the fraction of total photons that are emitted into the \zpl.
+
+
 
     We close this chapter with a short discussion of the luminescence spectra of \sivs at cryogenic temperatures. Naturally as temperatures approach absolute-zero the \psb must disappear since phonon creation ceases. If ensembles of \sivs are cooled below $\approx$ \SI{110}{\kelvin} a fine structure is revealed \cite{neu2013low}. It includes up to $12$ different lines with intensities proportional to the natural abundance of the three stable isotopes of silicon ${}^{28}Si, {}^{29}Si, {}^{30}Si$ \cite{Clark1995}. Each isotope is associated with $4$ lines attributed to doublet levels of ground and excited states which are split by \SI{0.2}{\milli\eV} and \SI{1.07}{\milli\eV} respectively \cite{Rogers2014, Hepp2014, Clark1995}. The splitting itself is believed to be a result of spin-orbit coupling with a weak contribution of the dynamic Jahn-Teller effect \cite{Hepp2014}. Initial results were based on ensembles of \sivs, however, recently the splitting was detected for isolated \sivs as well \cite{Dietrich2014}. \Fref{fig::cryogenic_spectra} shows exemplary spectra representative for ensembles and single \siv at cryogenic temperatures.
 

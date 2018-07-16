@@ -30,14 +30,15 @@
 		The outlet of the laser is a pigtail fiber.
 		The laser light is out-coupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
-		After this cleanup filter, the excitation beam hits a \SI{}{\milli\meter} glass plate (fabricator Halle Germany \todo[fancyline]{thickness}) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
+		After this cleanup filter, the excitation beam hits a \SI{2}{\milli\meter} glass plate (fabricator Bernhard Halle Nachfl.Germany) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
 		\\
 		The collected light follows the detection beam path depicted in dark red in \Fref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
 		Removing the flip mirror behind the beamsplitter from the path directs light towards a \smf (Thorlabs SM600) connecting the confocal setup with either the spectrometer or the \hbt setup. Prior to focusing light into the \smf using an aspheric lens, a long-pass filter is deployed to eliminate residual excitation light and ambient light.
 		The filter is chosen with a cutoff \wl of \SI{710}{\nm} or \SI{720}{\nm}.
-		Besides the obvious purpose of guiding the \pl light to the spectrometer and the \HBT setup for spectroscopic investigations, it severs another crucial purpose. Namely, diameter of about \SI{4.3}{\micro\meter} acts as a pinhole to reject \pl light from depths outside of the focal plane \cite{Santori2010}.
-		For this axis the resolution amounts to \todo[fancyline]{resolution value}, in the plane of the sample it is \todo[fancyline]{resolution value}.
+		Besides the obvious purpose of guiding the \pl light to the spectrometer and the \HBT setup for spectroscopic investigations, it serves another crucial purpose. 
+		Namely, the core diameter of about \SI{4.3}{\micro\meter} acts as a pinhole to reject \pl light from depths outside of the focal plane \cite{Santori2010}.
+		For this axis parallel to the beampath the resolution amounts to about \SI{2}{\micro\meter}, in the plane of the sample it is substantially higher with about \SI{0.4}{\micro\meter}.
 
 		We remark that the glass plate in used \Fref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
 

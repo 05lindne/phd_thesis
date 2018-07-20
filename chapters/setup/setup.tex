@@ -24,14 +24,14 @@
 		The translation stage is moved by two stepper motors (Newport MVP25XL) enabling the sample to be translated horizontally, i.e.\ in the $x-y$ plane.
 		Above the horizontal stage, the objective is fixed to another stage which in turn is mounted to a vertical breadboard.
 		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$ axis, \i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
-		\\
+
 		The bright red color in the sketch in \Fref{fig::confocal_setup} represents the path of the excitation laser beam.
 		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) emitting at a \wl of \SI{660}{\nano\meter}.
 		The outlet of the laser is a pigtail fiber.
 		The laser light is out-coupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
 		After this cleanup filter, the excitation beam hits a \SI{2}{\milli\meter} glass plate (fabricator Bernhard Halle Nachfl.Germany) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
-		\\
+
 		The collected light follows the detection beam path depicted in dark red in \Fref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
 		Removing the flip mirror behind the beamsplitter from the path directs light towards a \smf (Thorlabs SM600) connecting the confocal setup with either the spectrometer or the \hbt setup. Prior to focusing light into the \smf using an aspheric lens, a long-pass filter is deployed to eliminate residual excitation light and ambient light.
@@ -131,16 +131,16 @@
 		Therefore, it is possible to find single emitters, which are not spatially separated enough to be separated by the spatial resolution of the setup.
 		In particular, emitters can be individually investigated if their \ZPLs exhibit wavelengths which are spectrally well separated.
 		Band-pass filters suited for the respective wavelengths are used to selectively investigate light associated with distinct \ZPLs.
-		\\
+
 		When the \APD fires, it outputs a digital TTL (transistor-transistor logic compatible) signal.
 		The arrival times of the signals, so-called time-tags, are recorded with a time-tag unit (produced by dotfast-consulting) with a temporal resolution of \SI{78.125}{\pico\second}.
 		The timing uncertainty of the photon detection process introduces variations of the digital signal's time-tag from the actual detection time.
 		This is called timing jitter and adversely affects the recorded time-tags and consequently the value of $\gtz$. In the past it has been shown to significantly obfuscate the detection of anti-bunching behavior in \sps and thus relevant corrections need to be taken into account \cite{Neu2012, Riedrich-moller2014}.
-		\\
+
 		As stated earlier, the time delay between two consecutive photons is necessary for the reconstruction of the \gtf.
 		The time delays are fed into a histogram which is then fitted to receive the continuous \gtf.
 		As a suitable fit function a numerical convolution between the $\gt(\tau)$ derived for a three-level system and detector timing jitter can be used \cite{Neu2012b, Neu2012, Riedrich-moller2014}.
-		\\
+
 		In the \HBT{}-setup the arrival time of photons are recorded with two APDs, each of which keeping a list of arrival times as raw data.
 		To get a single array of arrival times of the photons, which can then be binned to obtain the \gtf, the arrays of time-tags of the two \APDs have to be correlated.
 		For that, the time difference between each entry in one array and all consecutive time-tags in the other array are determined and binned according to the timing resolution of the time-tag unit.

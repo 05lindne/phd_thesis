@@ -23,14 +23,14 @@
 		It is oriented by an aluminum angle adjustable via a manual rotation stage.
 		The translation stage is moved by two stepper motors (Newport MVP25XL) enabling the sample to be translated horizontally, i.e.\ in the $x-y$ plane.
 		Above the horizontal stage, the objective is fixed to another stage which in turn is mounted to a vertical breadboard.
-		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$ axis, \i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
+		In this way, the vertical distance between the sample and the objective can be controlled. As a result the focus of the laser can be adjusted along the $z$-axis, i.e.\ the optical axis, allowing to implement a full three-axis scan of samples.
 
 		The bright red color in the sketch in \Fref{fig::confocal_setup} represents the path of the excitation laser beam.
 		The sample is excited with a continuous wave diode laser (Sch\"after-Kirchhoff, 58FCM) emitting at a \wl of \SI{660}{\nano\meter}.
 		The outlet of the laser is a pigtail fiber.
 		The laser light is out-coupled and collimated by an aspheric lens.
 		To suppress sideband emission from the laser, a \SI{660}{\nm} bandpass filter with a filter window of \SI{10}{\nm} is used.
-		After this cleanup filter, the excitation beam hits a \SI{2}{\milli\meter} glass plate (fabricator Bernhard Halle Nachfl.Germany) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
+		After this cleanup filter, the excitation beam hits a \SI{2}{\milli\meter} glass plate (fabricator Bernhard Halle Nachfl. Germany) redirecting the beam. It is then focused onto the sample by a $100 \times$ microscope objective (Olympus, LMPlanFLN) with a numerical aperture of $0.8$.
 
 		The collected light follows the detection beam path depicted in dark red in \Fref{fig::confocal_setup}.
 		Both the excitation light reflected from the sample surface and the \fl from the color centers pass through the glass plate.
@@ -40,38 +40,38 @@
 		Namely, the core diameter of about \SI{4.3}{\micro\meter} acts as a pinhole to reject \pl light from depths outside of the focal plane \cite{Santori2010}.
 		For this axis parallel to the beampath the resolution amounts to about \SI{2}{\micro\meter}, in the plane of the sample it is substantially higher with about \SI{0.4}{\micro\meter}.
 
-		We remark that the glass plate in used \Fref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (DRLP692). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
+		We remark that the glass plate in used \Fref{fig::confocal_setup} has a high transmission of $\approx \SI{90}{\percent}$. This leads to a high collection efficiency of \fl light at the cost of excitation efficiency since most of the exciting light is not being redirected towards the sample. In contrast to that, certain use cases such as saturation measurements require high excitation intensities. To realize these the glass plate may be replaced by a dichroic mirror (692 Omega Optical DRLP). A dichroic mirror spectrally separates excitation light from \pl light as it selectively transmits and reflects light as a function of its wavelength.
 
-		In general, if high excitation setting is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs to the point of bleaching and can also cause fluorescent intermittence of \sivs, i.e.\ blinking, as an unwanted side-effect see \Fref{ch::sivs}.
+		In general, if high excitation setting is required we opt for a dichroic mirror, otherwise working with the glass plate at lower excitation is the default. This is advised since high intensities carry the danger of damaging \sivs to the point of bleaching and can also cause fluorescent intermittence of \sivs, i.e.\ blinking, as an unwanted side-effect, see \Fref{ch::sivs}.
 
 	\section[Surface Imaging]{Optical Imaging of The Sample Surface} \label{sec::methods_optical}
 
 		The setup introduced in the previous section can be modified to investigate the sample surface before starting fluorescence measurements.
 		For this purpose, the sample is directly illuminated at a flat angle from outside the objective with white light from a halogen lamp, see the white light source in \Fref{fig::confocal_setup}.
-		The flip mirror behind the glass plate is brought into an upright position to guide the light towards a CCD camera.
+		The flip mirror behind the glass plate is brought into the beam path to guide the light towards a CCD camera.
 		The scattered light from the sample surface is collected by the objective and the surface is imaged on the CCD chip.
 		Thus \nds and other features on the substrate are made visible.
 		Factors limiting the quality of the image are not only the resolution of the confocal setup, but also shadows due to the incident angle of the white light source.
 
-		\begin{figure}[!htb]
-			\centering
-			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.6\linewidth]{./pics/hbt_spectrometer.eps}}
-			\caption[Spectrometer and HBT setup]{Spectrometer and HBT interferometer. Fluorescent light arrives via an optical fiber and is directed towards a flip mirror. The mirror directs the beam either towards a 50:50 beam splitter (BS) into the APDs of the HBT setup, or into a grating spectrometer.}
-			\label{fig::hbt_spectrometer}
-		\end{figure}
-
 		In chapter \Fref{ch::coupling} we introduce applications of \sivs in \nds, for which knowing the precise positions of specific \nds is crucial.
 		Therefore, cross markers are milled into the surface of the substrate on which the \nds are situated.
 		These markers of a size of \SI{10}{\micro\meter} can easily be recognized by optical imaging and can thus be used as landmarks for the purpose of indexing individual \sivs.
-		The starting point for a scan of an area of interest on the sample is fixed while navigating with the optical image.
-		After flipping the flip mirror, light is directed towards the detection part of the setup enabling systematic scans of the sample.
+		The starting point for a scan of an area of interest on the sample is determined by navigating with the optical image.
+		After flipping the flip mirror out of the beam path, light is directed towards the detection part of the setup enabling systematic scans of the sample.
 
 	\section{Spectrometer} \label{sec::methods_spectrometer}
 
 		\Fref{fig::hbt_spectrometer} displays the detection part of the setup.
-		The \fl arrives via a pigtail fiber connecting the confocal setup with the detection setup and is out-coupled with an aspheric lens.
+		The \fl arrives via a single-mode fiber connecting the confocal setup with the detection setup and is out-coupled with an aspheric lens.
 		A flip mirror is employed to direct the light either to a grating spectrometer or the \hbt setup.
 		The optical spectrum of a light source gives insight to the optically active constituents and therefore bears information about the emitter.
+
+		\begin{figure}[!htb]
+			\centering
+			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = 0.5\linewidth]{./pics/hbt_spectrometer.eps}}
+			\caption[Spectrometer and HBT setup]{Spectrometer and HBT interferometer. Fluorescent light arrives via an optical fiber and is directed towards a flip mirror. The mirror directs the beam either towards a 50:50 beam splitter (BS) into the APDs of the HBT setup, or into a grating spectrometer.}
+			\label{fig::hbt_spectrometer}
+		\end{figure}
 
 		As mentioned before, the \fl from the \sivs is investigated with the grating spectrometer (Princeton Instruments Acton2500i).
 		The incident beam passes through an entrance slit, is then scattered on the grating where the light is spectrally divided and finally hits a detector, imaging the entrance slit on the detector surface.
@@ -80,16 +80,15 @@
 		and features three gratings: \SI[per-mode=symbol]{600}{\lines\per\mm}, \SI[per-mode=symbol]{1200}{\lines\per\mm}, and \SI[per-mode=symbol]{1800}{\lines\per\mm}.
 		These gratings are mounted on a turret, allowing easy swapping of gratings between measurements.
 
-		With the spectrometer's step-and-glue function which is implemented in the spectrometer software (WinSpec) it is possible, to record several spectra over a wide \wl range which are then stitched together.
-		It is therefore possible to combine a larger \wl range with a higher resolution.
+		With the spectrometer's step-and-glue function which is implemented in the spectrometer software (WinSpec) it is possible to record several spectra over a wide \wl range which are then stitched together.
+		It is therefore the spectra are combine to a larger \wl range with a higher resolution.
 		For most measurements the grating with \SI[per-mode=symbol]{600}{\lines\per\mm} was used.
 		The resolution of the spectrometer using the \SI{600}{\lines\per\mm} is \SI{0.13}{nm} at \SI{738}{nm} and the accuracy amounts to \num{\pm0.4} as stated by the manufacturer.
-		This resolution suffices for the measurements presented in this work.
 
 	\section{\HBT Setup}\label{sec::methods_hbt}
 
 		A \HBT setup is used to establish the intensity autocorrelation function (\gt function) of an emitter \cite{brown1956correlation, brown1956test}.
-		In this work, the \gtf is used to assert the non-classical behavior of a \pl source, \i.e.\ characterize its behavior as a single photon emitter.
+		In this work, the \gtf is used to assert the non-classical behavior of a \pl source, i.e.\ characterize its properties as a single photon emitter.
 		In the photon number representation, it is defined as follows:
 		%
 		\begin{equation}
@@ -99,7 +98,7 @@
 		Here, $N(t)$ denotes the number of photons at a certain time $t$, $N(t+\tau)$ denotes the number of photon at a time interval $\tau$ later than $t$.
 		The angular brackets $\mean{}$ denote temporal averaging.
 		For a two-level system $\gt(\tau)$ can be interpreted as the probability of detecting two photons separated by a time interval $\tau$.
-		The physical intuition behind this definition is as follows: The detection of a fluorescent photon emitted from a quantum system is the result of an excited electron relaxing back to its ground state. To emit a consecutive single photon, an additional electron must first be promoted to an exited state, a process which takes a certain amount of time, see \Fref{ch::sivs}. If $\gt(\tau) \neq 0$ in the limit of $\tau \to 0$ a system is capable of emitting several photons simultaneously. This is known as photon bunching and is typical for classical light sources. In contrast, $\gt(\tau) \to 0$ for $\tau \to 0$ is an indication that no two photons can be detected simultaneously. This property is termed photon anti-bunching and is a defining characteristic of non-classical light sources such as \sps. The last important type are coherent photons, as for instance produced via stimulated emission. \Fref{fig::g2_illustration} shows how the \gt function distinguishes these three types. For an in-dept review of the intensity auto-correlation function we refer the reader to \cite{Neu2012, Fox2006}.
+		The physical intuition behind this definition is as follows: The detection of a fluorescent photon emitted from a quantum system is the result of an excited electron relaxing back to its ground state. To emit a consecutive single photon, an additional electron must first be promoted to an exited state, a process which takes a certain amount of time, see \Fref{ch::sivs}. If $\gt(\tau) > 1$ in the limit of $\tau \to 0$ a system is capable of emitting several photons simultaneously. This is known as photon bunching and is typical for classical light sources. In contrast, $\gt(\tau) < 0$ for $\tau \to 0$ is an indication that no two photons can be detected simultaneously. This property is termed photon anti-bunching and is a defining characteristic of non-classical light sources such as \sps. The last important type are coherent (random) photons, as for instance produced via stimulated emission, for these  $\gt(\tau) = 1$ for $\tau \to 0$ holds. \Fref{fig::g2_illustration} shows how the \gt function distinguishes these three types. For an in-depth review of the intensity auto-correlation function we refer the reader to \cite{Neu2012, Fox2006}.
 
 		\begin{figure}[!htb]
 			\centering
@@ -107,7 +106,6 @@
 			\caption[Sketch of typical \gt functions]{Intensity autocorrelation function for coherent, bunched, and anti-bunched light sources. Figure and caption reproduced from \cite{rahbany2016towards}.}
 			\label{fig::g2_illustration}
 		\end{figure}
-
 
 		The aim of the \hbt setup is to record the time delay between two consecutive photons as a prerequisite to compute $\gtz$.
 		A sketch of the \hbt setup is shown in \Fref{fig::hbt_spectrometer}.
@@ -127,10 +125,7 @@
 		First, they limit optical crosstalk between the \apds.
 		The detection process in an \apd produces light due to recombination of charge carriers.
 		Crosstalk between two \apds occurs, if one of the photons produced by recombination in one \apd escapes and is detected in the other one \cite{Younger2009}.
-		Second, the band-pass filters serve to reduce \bkg during the \gt measurement process or to spectrally separate emission from several emitters.
-		Therefore, it is possible to find single emitters, which are not spatially separated enough to be separated by the spatial resolution of the setup.
-		In particular, emitters can be individually investigated if their \ZPLs exhibit wavelengths which are spectrally well separated.
-		Band-pass filters suited for the respective wavelengths are used to selectively investigate light associated with distinct \ZPLs.
+		Second, the band-pass filters serve to reduce \bkg during the \gt measurement process.
 
 		When the \APD fires, it outputs a digital TTL (transistor-transistor logic compatible) signal.
 		The arrival times of the signals, so-called time-tags, are recorded with a time-tag unit (produced by dotfast-consulting) with a temporal resolution of \SI{78.125}{\pico\second}.
@@ -139,9 +134,9 @@
 
 		As stated earlier, the time delay between two consecutive photons is necessary for the reconstruction of the \gtf.
 		The time delays are fed into a histogram which is then fitted to receive the continuous \gtf.
-		As a suitable fit function a numerical convolution between the $\gt(\tau)$ derived for a three-level system and detector timing jitter can be used \cite{Neu2012b, Neu2012, Riedrich-moller2014}.
+		As a suitable fit function a numerical convolution between the $\gt(\tau)$ derived for a three-level system and detector timing jitter is used \cite{Neu2012b, Neu2012, Riedrich-moller2014}.
 
-		In the \HBT{}-setup the arrival time of photons are recorded with two APDs, each of which keeping a list of arrival times as raw data.
-		To get a single array of arrival times of the photons, which can then be binned to obtain the \gtf, the arrays of time-tags of the two \APDs have to be correlated.
+		In the \HBT setup the arrival time of photons are recorded with two APDs, each of which keeps a list of arrival times as raw data.
+		To get a single array of arrival times of the photons, the arrays of time-tags of the two \APDs have to be correlated. Subsequently they are binned to obtain the \gtf.
 		For that, the time difference between each entry in one array and all consecutive time-tags in the other array are determined and binned according to the timing resolution of the time-tag unit.
-		After normalizing and fitting these data, \gtz can be obtained determining whether a emitter characterizes as a \sps.
+		After normalizing and fitting these data, the \gtf is obtained, determining whether an emitter qualifies as a \sps.

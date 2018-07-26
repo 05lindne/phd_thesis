@@ -18,7 +18,8 @@
 		In this thesis we perform measurements of \sivs hosted in \nds produced by various means \Fref{ch::fabrication_nanodiamonds}.
 		In this context we use the term quality as a measure of how close diamond crystals are to their pristine form.
 		The presence of lattice imperfections such as additional vacancies, lattice strain, impurities or the inclusion of graphite or amorphous carbon is known to adversely affect crystal quality \cite{Zaitsev2001,Prawer2004,Orwa2000}.
-		
+
+		If contaminations are present on the surface of \nds they can absorb a fraction of the \fl emitted from within the diamond. Thus they reduce the quantum yield of \sivs. 
 		Surface contamination like graphite and amorphous sp$^2$ hybridized carbon atoms manifest themselves as additional peaks in the Raman spectrum.
 		Strain in the diamond lattice broadens the first order Raman peak and causes it to shift to higher or smaller wavenumbers.
 		Similarly, high concentrations of lattice defects cause additional peaks, a broadening of the first order Raman peak and a shift towards smaller wavenumbers.
@@ -42,21 +43,19 @@
 				sp$^2$ bonds, carbon interstitials and vacancies disrupt the metastable equilibrium of the diamond phase.
 				Hence, there is a tendency for damaged diamond to ``tip over" to the thermodynamically stable form of carbon, i.e.\ graphite.
 				
-				At temperatures above about \SI{500}{\celsius}, vacancies in the diamond lattice become mobile and diffuse towards the surface\cite{Dresselhaus1992} disrupting the pristine diamond surface, causing surface contamination.
+				At temperatures above about \SI{500}{\celsius}, vacancies in the diamond lattice become mobile and diffuse towards the surface \cite{Dresselhaus1992}, disrupting the pristine diamond surface, causing surface contamination.
 				Literature suggests, that annealing at \SI{900}{\celsius} for \SI{1}{\hour} is sufficient to remove most of the damage following implantations.
 				To reduce the damage in the diamond lattice even further, we anneal the implanted diamonds at \SIrange{900}{1200}{\celsius} for \SIrange{3}{6}{h} in vacuum (\SI{e-6}{Pa}).
 				
-				The surface of the \nds is contaminated with graphite and amorphous sp$^2$ hybridized carbon. In particular, for milled diamonds additional contaminations are commonly introduced by the milling process due to mechanical abrasions. To remove these, we apply oxidation in an oven under ambient air at a temperature of \SI{450}{\celsius} for \SIrange{3}{6}{h}.
+				The surface of the \nds is contaminated with graphite and amorphous sp$^2$ hybridized carbon. In particular, for milled diamonds contaminations are commonly introduced by the milling process due to mechanical abrasions. To remove these, we apply oxidation in an oven under ambient air at a temperature of \SI{450}{\celsius} for \SIrange{3}{6}{h}.
 
 			\subsection{Surface Treatment With Gas And Plasma}\label{subsec::plasma}
 
 				% Cardiff
-				If contaminations are present on the surface of \nds they can absorb a fraction of the \fl emitted from within the diamond. Thus they reduce the quantum yield of \sivs. We want to explore the possibility of reducing the detrimental effects of surface contaminations via various surface treatments with different gases.
-				
+				We want to explore the possibility of reducing the detrimental effects of surface contaminations via various surface treatments with different gases.
 				In particular, we treated our \nds with hydrogen (\ch{H2}), oxygen (\ch{O2}), ozone (\ch{O3}) both at room temperature and at  \SI{500}{\celsius}. Alternatively, we apply a \ch{H2} plasma\footnote{performed by \williams}.
 				
 				Unfortunately, the only samples that yielded spectra with measurable \ZPLs were the ones treated with \ch{H2}. However, we did not observe any luminescence enhancement.
-				
 				For all other treatments, we found that \nds either did not show any luminescence or immediately bleached upon excitation. Bleaching occurs even when using a continuous wave \SI{660}{nm} laser at low excitation powers of \SI{200}{\micro\watt}. While we cannot say for sure why this the case, we suspect that the treatments favor \siv ionization. Since this approach did not seem fruitful, we did not pursue it further.
 				
 						% C-Schalen
@@ -82,9 +81,10 @@
 			The Raman shift is typically referenced in wavenumbers and given by
 			% 
 			\begin{equation}
-				\Delta \omega = \left( \frac{1}{\lambda_{ex}}-\frac{1}{\lambda_R}\right).
+				\Delta \omega = \left( \frac{1}{\lambda_{ex}}-\frac{1}{\lambda_R}\right) ,
 			\end{equation}
 
+			where $\lambda_{ex}$ denotes the excitation \wl and $\lambda_R$ the \cwl of the Raman peak.
 			As every solid exhibits characteristic phonon modes tied to the properties of its lattice structure, Raman spectroscopy can be used to characterize diamond.
 			Raman measurements of \nds give insight into the issues of surface contamination, lattice strain and defect concentration:
 			Surface contamination like graphite and amorphous sp$^2$ hybridized carbon atoms cause additional peaks in the Raman spectrum.
@@ -94,7 +94,7 @@
 			For Raman measurements the setup described in \Fref{sec::confocal} is used.
 			As excitation light source, a \SI{532}{nm} continuous wave diode laser operating in single mode is used (Integrated Optics\textregistered Matchbox Laser 0532L-41B).
 			It provides single frequency mode laser light, a prerequisite for Raman investigations.
-			The beamsplitter is a dichroic mirror (DRLP645), the laser light is additionally blocked out with a \SI{532}{\nm} notch filter in the detection path in front of the single mode fiber replacing the usual long pass filter.
+			The beamsplitter is a dichroic mirror (Omega Optical 645DRLP), the laser light is additionally blocked out with a \SI{532}{\nm} notch filter in the detection path in front of the single mode fiber replacing the usual long pass filter.
 			With these adaptations, the combination of the confocal unit and the spectrometer serves as a Raman spectrometer.
 			As the diamond Raman line is very narrow, the \SI[per-mode=symbol]{600}{\lines\per\mm} grating does not offer sufficient resolution and is only used for a coarse approach. Detailed measurements are realized using \SI[per-mode=symbol]{1200}{\lines\per\mm} and \SI[per-mode=symbol]{1800}{\lines\per\mm} gratings.
 			
@@ -102,7 +102,7 @@
 			Since the size of single \nds is on the order of tens of nanometers, low signal intensities can become an issue when taking Raman measurements.
 			To overcome this problem we pursue two different approaches:
 			\begin{enumerate}[label=\alph*),ref=\alph*)]
-				\item \Nd Clusters: \label{item::raman_gband} Collective measurements are carried out at several areas on the sample \insituS. Since this sample is densely covered with \nds, collective measurements of clusters of \nds (\Fref{subfig::raman_no}) achieve higher signal intensities.
+				\item \Nd Clusters: \label{item::raman_gband} Collective measurements are carried out at several areas on the sample \insituS. Since this sample is densely covered with \nds, collective measurements of clusters of \nds achieve higher signal intensities, see \Fref{subfig::raman_no}.
 				\item Large \Nds: \label{item::raman_implanted} Raman measurements are carried out on the implanted sample \implantedTao. For this sample, diamond particles are large enough to yield sufficient intensities on single \nds.
 			\end{enumerate}
 
@@ -187,8 +187,8 @@
 
 		\section{Transmission Electron Microscopy}{\label{sec::tem}}
 
-			Transmission electron microscopy (\TEM, also sometimes conventional transmission electron microscopy or CTEM) is a microscopy technique in which a beam of electrons is transmitted through a specimen to form an image. The specimen is most often an ultra-thin section less than \SI{100}{\nm} thick or a suspension on a grid. An image is formed through the interaction of the electrons with the sample as the beam is transmitted through the specimen.
-			Since electrons have higher de Broglie wavelengths than photons, a higher resolution is obtainable, allowing the surface of \nds to be resolved. Thus, the crystallinity of single \nds can be studied directly.
+			Transmission electron microscopy (\TEM, also sometimes conventional transmission electron microscopy or CTEM) is a microscopy technique in which a beam of electrons is transmitted through a sample to form an image. The sample is most often an ultra-thin section less than \SI{100}{\nm} thick or a suspension on a grid. An image is formed through the interaction of the electrons with the sample as the beam is transmitted through the sample.
+			Since electrons have higher de Broglie wavelengths than photons, a high resolution is obtainable, allowing the surface of \nds to be resolved. Thus, the crystallinity of single \nds can be studied directly.
 
 			\subsection{Crystallinity and Grain Boundaries}\label{subsec::tem_crystal}
 
@@ -199,7 +199,7 @@
 				
 				In \Fref{subfig::tem_crystal} a \TEM image of a single \nd is shown. A complex crystal formation deviating from single crystal diamond structure is visible. A higher resolution detail is given in \Fref{subfig::tem_boundary}. The image clearly shows different crystal orientations, asserting that the \nd particle is not a single crystal diamond. Within the nanodiamond, several sharp lines are visible. These lines are edges of crystal boundaries and grain boundaries, introducing strain in the diamond lattice. We remark at this point that some studies suggest the possibility that \sivs are created with a higher probability at grain boundaries and morphological defects of the crystal \cite{bray2016localization, zapol2001tight}.
 				
-				We have repeated this visual assessment of crystal quality for a range of different \nds with identical results. This supports the conclusion that all of our \nds are polycrystalline specimen.
+				We repeated this visual assessment of crystal quality for a range of different \nds with identical results. This supports the conclusion that our \nds are polycrystalline.
 
 				\begin{figure}[!htb]
 					\begin{subfigure}{ 0.49\linewidth}
@@ -220,6 +220,6 @@
 						\caption{}
 						\label{subfig::tem_boundary}
 					\end{subfigure}
-					\caption[\TEM imaging of a single \nd]{Transmission electron microscopy (TEM) pictures of sample \insituH. (a) Image of a single \nd particle revealing a complex crystal structure. (b) Close-up image a diamond particle. The vertical line is a crystal boundary, to the left and right the parallel layers of one crystalline region can be seen. For better visibility, the inset shows a magnification of the area indicated by a red box. The different orientations of the crystal lattice layers is visible.}
+					\caption[\TEM imaging of a single \nd]{Transmission electron microscopy (TEM) pictures of sample \insituH. (a) Image of a single \nd particle revealing a complex crystal structure. (b) Close-up image of a diamond particle. The vertical line is a crystal boundary, to the left and right the parallel layers of one crystalline region can be seen. For better visibility, the inset shows a magnification of the area indicated by a red box. The different orientations of the crystal lattice layers are visible.}
 					\label{fig::tem}
 				\end{figure}

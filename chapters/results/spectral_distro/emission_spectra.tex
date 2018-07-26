@@ -4,7 +4,7 @@
 
 	To identify \nds containing \sivs, we performed confocal scans of the samples, see \Fref{fig::scans}. 
 	To reduce bias in the measurements, not only the brightest spots of the confocal scans are investigated, but also those which barely exceed \bkg fluorescence.
-	\sivs are further investigated by measuring \pl (PL) spectra, single photon statistics and photo-stability.
+	\sivs are further investigated by measuring \pl (PL) spectra, single photon statistics and photostability.
 	As discussed in \Fref{ch::sivs}, the typical luminescence spectrum of an \siv is composed of a prominent \zpl peak and weak sidebands.
 	Investigations of both are reported independently in the following paragraphs.
 
@@ -22,7 +22,7 @@
 			\caption{}
 			\label{subfig::scan_2}
 		\end{subfigure}
-		\caption[Confocal \pl scans]{\Pl scans measured in the confocal setup. (a) depicts an overview of a size of $\SI{50}{\micro\meter}\times\SI{50}{\micro\meter}$, The bright yellow dot is emitter \embroad introduced in this chapter. Also several of the not so intense emitter visible as light blue spots were investigated. (b) Shows a detail scan of a size of $\SI{8}{\micro\meter}\times\SI{7.5}{\micro\meter}$ of \embroad.}
+		\caption[Confocal \pl scans]{\Pl scans measured in the confocal setup. (a) depicts an overview of a size of $\SI{50}{\micro\meter}\times\SI{50}{\micro\meter}$. The bright yellow dot is \embroad introduced in this chapter. Also several of the not so intense emitter visible as light blue spots were investigated. (b) Shows a detail scan of a size of $\SI{8}{\micro\meter}\times\SI{7.5}{\micro\meter}$ of \embroad.}
 		\label{fig::scans}
 	\end{figure}
 
@@ -80,8 +80,6 @@
 		\label{fig::various_spectra}
 	\end{figure}
 
-	In \Fref{fig::bimodal_distr} the \lw for each measured \ZPL is plotted against its \cwl.
-
 	\begin{figure}[!htb]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/distro_histo_sarah.pdf}}
@@ -89,13 +87,14 @@
 			\label{fig::bimodal_distr}
 	\end{figure}
 
+	In \Fref{fig::bimodal_distr} the \lw for each measured \ZPL is plotted against its \cwl.
 	What immediately strikes the eye is a pattern that to our knowledge has not been reported to date:
-	The observed \ZPLs partition into two groups, denoted a horizontal cluster (\hl) and a vertical cluster (\vl). The two clusters are separated by a gap, i.e.\ a region with a pronounced lack of data points.
+	The observed \ZPLs partition into two groups, a horizontal cluster (\hl) and a vertical cluster (\vl). The two clusters are separated by a gap, i.e.\ a region with a pronounced lack of data points.
 	Single emitters are identified both in \hl and \vl, marked as red triangles in \Fref{fig::bimodal_distr}. Further details on single emitters are given in section \Fref{subsec::g2}.
-	
-		The two groups are defined by their characteristic \cwls and \lws:
+	The two groups are defined by their characteristic \cwls and \lws:
 	In \hl very prominent \ZPL peaks are found showing \lws in the range of \SIrange{1}{5}{nm} and \cwls in the range of \SIrange{715}{835}{nm}.
-	\Fref{subfig::emnarrow} shows a representative spectrum of a single emitter in \hl (denoted \emnarrow), exhibiting a \ZPL line width of \SI{1.4}{nm} and a \cwl of \SI{726.5}{nm}.
+
+	\Fref{subfig::emnarrow} shows a representative spectrum of a single emitter in \hl (denoted \emnarrow), exhibiting a \ZPL \lw of \SI{1.4}{nm} and a \cwl of \SI{726.5}{nm}.
 	In contrast, in \vl, the spectra exhibit broader \ZPL \lws of approximately \SI{5}{nm} up to \SI{18}{nm}.
 	Their \ZPL \cwls, however, are distributed within the very narrow range of \SIrange{738}{741}{nm}.
 	\Fref{subfig::embroad} shows a spectrum of a single emitter of \vl (denoted \embroad) with a ZPL \lw of \SI{6.4}{nm} and a \cwl of \SI{740.8}{nm}.
@@ -119,7 +118,7 @@
 
 	To determine how much the \ZPLs contribute to the total observed emission of \emnarrow and \embroad, we determine the \db factors for both.
 	The \db factor is defined by $DW = I_{ZPL}/I_{TOT}$ and is therefore suited as a measure for sideband intensity.
-	The \db factor for \emnarrow amounts to \num[separate-uncertainty]{0.81(1)} (given uncertainty due to fit).
+	The \db factor for \emnarrow amounts to \num[separate-uncertainty]{0.81(1)}.
 	This \db factor corresponds to a \hr factor $S =- \ln{(DW)}$ \cite{Walker1979} of \num[separate-uncertainty]{0.21(1)}, which is in good agreement with the values reported in \cite{Neu2011b}.
 	The error is mainly due to background corrections.
 	When zooming in onto the spectrum of \embroad we do not find distinct sidebands peaks, i.e.\ almost all emission for this emitter is focused into the \ZPL.
@@ -150,7 +149,7 @@
 	
 	All previous data from different \nd material fit nicely with the \ZPL distribution presented in \Fref{fig::bimodal_distr_compare}, confirming the findings of \Fref{fig::bimodal_distr}.
 	
-		We verify that the observed luminescent defects are indeed \si related by performing control experiments with \si implanted samples (sample \implantedTao).
+	We verify that the observed luminescent defects are indeed \si related by performing control experiments with \si implanted samples (\implantedTao).
 	By doing so we rule out the possibility that the two clusters in the distribution are a result of artifacts.
 	Such artifacts include other elements incorporated into the \nds during the growth process: Residue from previous processes performed in the diamond growth chamber or material from chamber parts may be incorporated during \nd growth.
 	\Fref{fig::bimodal_distr_compare} shows that the implanted \sivs cover roughly the same spectral range as the \textit{in-situ} incorporated centers from around \SIrange{720}{820}{nm} as the \textit{in-situ} incorporated centers.
@@ -160,7 +159,7 @@
 	To provide a theoretical interpretation, the \ZPL \cwl shift is investigated in further detail and compared to results from density functional calculations.
 	Zooming in to \vl (\Fref{subfig::distro_inset1}) it becomes clear that only six of the measured data points in \vl are situated at a shorter \cwl than the point attributed to an ideal \siv in unstrained bulk material.
 	The the shortest wavelength shift is at \SI{729.9}{nm}.
-	At the same time, much more data exhibit a \cwl bigger than the ideal \siv.
+	At the same time, much more data exhibit a \cwl larger than the ideal \siv.
 	This asymmetry suggests that a red-shift of the \ZPL of an \siv is significantly more likely than a blue-shift.
 
 		\begin{figure}[!htb]
@@ -176,7 +175,7 @@
 				\caption{}
 				\label{subfig::distro_inset2}
 			\end{subfigure}
-			\caption[Zoom-in onto \sivs of the \vl]{(a) A zoom into \vl. While many data points exhibit higher \cwls (i.e. a redshift) than the ideal \siv in bulk, only few exhibit shorter \cwls (i.e. a blue-shift). (b) Zooming further into \vl, a clear trend of broader \ZPL \lws for larger \ZPL center shifts is visible. The line in a linear regression to all data points between \SIlist{737;741}{\nano\meter} which exhibit a \lw bigger than \SI{4}{\nano\meter}.}
+			\caption[Zoom-in onto \sivs of the \vl]{(a) A zoom into \vl. While many data points exhibit larger \cwls (i.e.\ a redshift) than the ideal \siv in bulk, only few exhibit shorter \cwls (i.e. a blue-shift). (b) Zooming further into \vl, a clear trend of broader \ZPL \lws for larger \ZPL center shifts is visible. The line is a linear regression to all data points between \SIlist{737;741}{\nano\meter} which exhibit a \lw bigger than \SI{4}{\nano\meter}.}
 			\label{fig::bimodal_distr_zoom}
 		\end{figure}
 
@@ -211,13 +210,13 @@
 	% On the other hand, we have to assume that \hl is comprised of modified \sivs, the structure of which is currently unclear.
 	
 	
-	Several mechanisms contribute to the \cwl shift, predominantly hydrostatic- and material strain.
+	Several mechanisms contribute to the \cwl shift, pre\-dominantly hydro\-static and material strain.
 	As discussed in \Fref{subsec::raman_strain}, we measured the Raman shift of samples \insituS and \implantedTao.
 	These measurements indicate strain in the diamond lattice in the range of \SIrange{-8.33}{5.27}{\giga\pascal}.
 	In the following, we first discuss the stress/strain shift mechanisms for the \siv before we compare theoretically derived strain shift coefficients to the mentioned range of \ZPL shifts.
 
 	To gain insight into the strain mechanism for \sivs in diamond, we perform ab initio Kohn-Sham density functional theory (DFT) calculations on the strain \ZPL shift coupling parameters. 
-	The unstrained model of the negatively charged \sivc (SiV$^{-}$) in bulk diamond is constructed starting from a $512$ atom pristine diamond simple cubic supercell within the $\Gamma$ point approximation. 
+	The unstrained model of the negatively charged \sivc (SiV$^{-}$) in bulk diamond is constructed starting from a $512$ atom pristine diamond simple cubic supercell within the $\Gamma$ point approximation. Here the $\Gamma$ point refers to the center of the Brillouin zone.
 	The $\Gamma$ point sampling of the Brillouin zone has proven to be adequate for defects in $512$-atom supercells \cite{deak2014formation,kaviani2014proper} providing a sufficiently converged charge density. 
 	The SiV$^{-}$ defect has $S=1$ and it is found to have $D_{3d}$ symmetry with an axis oriented along  $\langle 111 \rangle$ \cite{Goss2007}. 
 	Standard projector augmented-wave (PAW) formalism together with plane waves are applied, as implemented in the Vienna Ab initio Simulation Package (VASP) code \cite{kresse1993ab,kresse1996efficiency,kresse1996efficient,kresse1999ultrasoft}. The geometry optimization is carried out within the constructed supercell by using the Perdew-Burke-Ernzerhof (PBE) DFT functional \cite{perdew1996generalized}. A \SI{420}{\eV} cutoff is applied for the wave function expansion and a \SI{1260}{\eV} cutoff for the charge density. The geometry of the defect is optimized until the forces were lower than \SI{d-6}{\eV\per\angstrom}. The $D_{3d}$ symmetry is preserved for both the ground state and the excited state after relaxation.
@@ -234,7 +233,7 @@
 
 	The strain on the defect structure is simulated by applying a compression to the supercell along a well defined direction. The strained supercells are obtained by compressions along $\langle 100 \rangle$, $\langle 110 \rangle$ and $\langle 111 \rangle$. We also study the configuration produced by a hydrostatic pressure, which consists in subjecting the cell to the same compression along the three directions. After introducing the strain along the directions, the ZPL energies were calculated for each strained supercell. Finally, we obtained data points on the calculated \ZPL energies vs. the applied strain. These \ZPL energies correspond to the optical transition between the lower branch levels of the ${}^{2}E_{u}$ and ${}^{2}E_{g}$ doublets. We note that additional calculations were performed for the  $\langle 100 \rangle$ and  $\langle 110 \rangle$ strained supercells by using the screened, range-separated, non-local hybrid density functional of Heyd-Scuseria-Ernzerhof (HSE06) \cite{heyd2003hybrid,krukau2006influence} and we found good agreement with the PBE values.
 
-	Nudged elastic band (NEB) calculations \cite{henkelman2000climbing} by HSE06 were performed in order to calculate the energy barriers in the ground state in strained supercells. The barrier energies between the $C_{2h}$ configurations stayed under \SI{10.0}{\meV} which implies small change in the adiabatic potential energy surface around the $D_{3d}$ symmetry upon the applied strain. As a consequence, the Ham reduction factor in strained \siv will minutely change with respect to that of unstrained \siv \cite{thiering2018ab}. This suggests that the observed \ZPL shifts upon stress are directly strain related, and the contribution of the change of the effective spin-orbit to the \ZPL shifts is minor.
+	Nudged elastic band (NEB) calculations \cite{henkelman2000climbing} by HSE06 were performed in order to calculate the energy barriers in the ground state in strained supercells. The barrier energies between the $C_{2h}$ configurations stayed under \SI{10.0}{\meV} which implies small change in the adiabatic potential energy surface around the $D_{3d}$ symmetry upon the applied strain. As a consequence, the Ham reduction factor in a strained \siv will minutely change with respect to that of an unstrained \siv \cite{thiering2018ab}. This suggests that the observed \ZPL shifts upon stress are directly strain related, and the contribution of the change of the effective spin-orbit coupling to the \ZPL shifts is minor.
 
 	\begin{figure}[!htb]
 		\centering
@@ -243,7 +242,7 @@
 		\label{fig::stress_pressure}
 	\end{figure}
 
-	The data points in \Fref{fig::stress_pressure} show \ZPL \cwl shifts calculated with the method outlined above. For comparison with experimentally determined stress data the strain values of the theoretical calculation were converted into stress assuming a simplified model where diamond is approximated as isotropic linear elastic material. In this case stress $\sigma$ is related to strain $\epsilon$ via Young’s modulus as
+	The data points in \Fref{fig::stress_pressure} show \ZPL \cwl shifts calculated with the method outlined above. For comparison with experimentally determined stress data the strain values of the theoretical calculation were converted into stress assuming a simplified model where diamond is approximated as an isotropic linear elastic material. In this case stress $\sigma$ is related to strain $\epsilon$ via Young’s modulus as
 % 
 	\begin{equation}
 		\sigma = E \epsilon .

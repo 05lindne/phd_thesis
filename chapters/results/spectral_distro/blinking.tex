@@ -24,15 +24,12 @@
 			\label{fig::blink}
 		\end{figure}
 
-		The photon count time trace of emitter \emnarrow is shown in \Fref{fig::blink}.
-		In the overview picture (\Fref{subfig::blink_long}), a few blinking dips can be seen with time intervals of up to a few minutes.
+		The photon count time trace of \emnarrow is shown in \Fref{fig::blink}.
+		In the overview picture (\Fref{subfig::blink_long}), a few blinking dips can be seen exhibiting time intervals of up to a few minutes.
 		The fact that the count rate never drops down to the dark count rate lets us assume, that there are at least two \sivs present, one exhibiting fluorescence intermittence and one exhibiting a stable emission.
 		When zooming in, shorter time intervals are observable (\Fref{subfig::blink_short}).
-		The time intervals range from a few tens of milliseconds up to a few seconds with a few outliers exhibiting very long time intervals up to a few hundred seconds.
+		The time intervals range from a few tens of milliseconds up to a few seconds with a few outliers exhibiting very long time intervals up to a few tens of seconds.
 		
-		The bright and dark times exhibit different probability distribution functions and with that, different characteristic time constants.
-		In \Fref{fig::fit_blink_distr} the time intervals of the emitter are shown as small vertical dashed red lines and solid blue lines for the bright and dark state respectively.
-
 		\begin{figure}[!htb]
 			\centering
 			\testbox{\includegraphics[trim = 0 0 0 0,  clip= true, width = \oneimagewide]{./pics/retention_no_histo_xlim2_5.pdf}}
@@ -40,13 +37,15 @@
 			\label{fig::fit_blink_distr}
 		\end{figure}
 
+		The bright and dark times exhibit different probability distribution functions and with that, different characteristic time constants.
+		In \Fref{fig::fit_blink_distr} the time intervals of the emitter are shown as small vertical dashed red lines and solid blue lines for the bright and dark state respectively.
 		Outliers with very long time intervals are ommited here.
 		The dashed lines are kernel density estimators of the distribution of the respective time intervals.
 		This implies that every data point is represented with a Gaussian function and the resulting functions are added up to model the whole data.
 		The red solid line is an exponential fit of the distribution of time intervals in the bright state.
 		The high p-value of \num{0.92} confirms the goodness of the fit.
 		The median time interval in the bright state obtained by the exponential fit amounts to \SI[separate-uncertainty]{0.09}{s}.
-		While other literature on solid state quantum emitters reports an exponential probability distribution for both time intervals in bright and dark states\cite{Bradac2010,Berhane2017}, we found a log-normal probability distribution for the time interval in the dark state.
+		While other literature on solid state quantum emitters reports an exponential probability distribution for both time intervals in bright and dark states \cite{Bradac2010,Berhane2017}, we found a log-normal probability distribution for the time interval in the dark state.
 		The solid blue line in \Fref{fig::fit_blink_distr} is a log-normal fit of the distribution of the time intervals in the dark state.
 		A Kolomogorov-Smirnov test yields a p-value of \num{0.77} for the log-normal fit and is by far the best model to describe the data distribution.
 		For comparison: The p-value of an exponential fit amounts to \num{0.36}.
@@ -57,11 +56,11 @@
 		Measurements of blinking time intervals in \cite{Jantzen2016} and \cite{Neu2012a} report time intervals between about \SIrange{0.03}{1}{s}, and \SI{0.1}{s} to \SI{2}{min}, respectively.
 		These findings are in good agreement with our measurements.
 		
-		In general, excitation and emission process is mediated by charge separation (i.e.\ excitons).
+		In general, excitation and emission processes are mediated by charge separation (i.e.\ excitons).
 		If an electron or hole is localized far enough that there is sufficiently negligible overlap with the wave function of the remaining carrier, blinking occurs \cite{Efros2016}.
 		We explain the observed blinking as a manifestation of the local crystal disorder due to dislocations and impurities which act as a trap for the excited electron and therefore switch the emitter to the dark state.
 		The capture of the electron of the exciton by traps due to local crystal disorders may inhibit recombination and therefore induce the dark state \cite{Bradac2010}.
-		The assumption that dislocations and impurities are responsible for blinking emitters is in agreement with our findings reported in \ref{ch::crystal_quality}.
+		The assumption that dislocations and impurities are responsible for blinking emitters is in agreement with our findings reported in \Fref{ch::crystal_quality}.
 		
 		Research of blinking rhodamine molecules confirms power law distributed bright state times and log-normal distributed dark state times \cite{Wong2013}.
 		The log-normal distribution is explained by a Gaussian distribution of activation barriers of the electron transfer to trap states in the surrounding material \cite{Albery1985}.
